@@ -53,7 +53,8 @@
                 <tr>
                     <td style="padding-bottom:300px"><%=Resources.UIResource.BodyMessager%></td>                
                     <td>
-                        <cc1:Editor runat="server" ID="InputBodyMessager" style="width: 600px; height: 400px"></cc1:Editor>
+                        <%--<cc1:Editor runat="server" ID="InputBodyMessager" style="width: 600px; height: 400px"></cc1:Editor>--%>
+                        <div><textarea runat="server" ID="InputBodyMessager" style="width: 600px; height:400px"></textarea></div>  
                     </td>
                 </tr>
                 

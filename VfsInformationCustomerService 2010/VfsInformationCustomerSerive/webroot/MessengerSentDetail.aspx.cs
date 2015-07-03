@@ -66,7 +66,7 @@ public partial class MessengerSentDetail : System.Web.UI.Page
             this.inputSuject.Value = messageContentSent.Subject;
             this.InputBodyContentType.Text = messageContentSent.BodyContentType;
             this.InputBodyEncoding.Value = messageContentSent.BodyEncoding;
-            this.InputBodyMessager.Text = messageContentSent.BodyMessage;
+            this.InputBodyMessager.Value = messageContentSent.BodyMessage;
         }
     }
 

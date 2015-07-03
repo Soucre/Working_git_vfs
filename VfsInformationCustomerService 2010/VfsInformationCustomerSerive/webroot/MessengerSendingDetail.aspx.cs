@@ -85,7 +85,7 @@ public partial class MessageContentDetail : System.Web.UI.Page
             this.inputSuject.Value = messageContent.Subject;
             this.InputBodyContentType.Text = messageContent.BodyContentType;
             this.InputBodyEncoding.Value = messageContent.BodyEncoding;
-            this.InputBodyMessager.Text = messageContent.BodyMessage;
+            this.InputBodyMessager.Value = messageContent.BodyMessage;
         }
     }
     protected void buttonSave_ServerClick(object ob, EventArgs e)
@@ -113,7 +113,7 @@ public partial class MessageContentDetail : System.Web.UI.Page
             messageContent.Subject = this.inputSuject.Value;
             messageContent.BodyContentType = this.InputBodyContentType.Text;
             messageContent.BodyEncoding = this.InputBodyEncoding.Value;
-            messageContent.BodyMessage = this.InputBodyMessager.Text;
+            messageContent.BodyMessage = this.InputBodyMessager.Value;
         }
         if (this.action == "modify")
         {

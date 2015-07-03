@@ -76,45 +76,39 @@
             
                 <br />
                   <div  class="createmesseng_div">   
-                    <table class="widthForTable">            
-                        <tr>
-                            <td>
-                                <table>
-                                    <asp:Repeater ID="RepeaterDataTab1" runat="server" >
-                                        <HeaderTemplate>
-                                            <tr onmouseover="this.className='highlight'" onmouseout="this.className='normal'">
-                                                <td><input type="checkbox" id="checkAll" onclick="CheckAllForNewsList(this);"/></td>
-                                                <td style="width:100px"><a runat="server" onserverclick="SortCustomerIdListtab1" href="#"><b><%=Resources.UIResource.CustomerIdList%></b></a><a><%#GetOrderDirectionIndicatorTab1("CustomerId")%></a></td>                                    
-                                                <td style="width:250px"><a runat="server" onserverclick="SortCustomerNameTab1" href="#"><b><%=Resources.UIResource.CustomerNameList%></b></a><a><%#GetOrderDirectionIndicatorTab1("CustomerNameViet")%></a></td>
-                                                <td style="width:100px"><a runat="server" onserverclick="SortDOBTab1" href="#"><b><%=Resources.UIResource.DobList%></b></a><a><%#GetOrderDirectionIndicatorTab1("Dob")%></a></td>                                   
-                                                <td style="width:100px"><a runat="server" onserverclick="SortMobileTab1" href="#"><b><%=Resources.UIResource.Mobile1List%></b></a><a><%#GetOrderDirectionIndicatorTab1("Mobile")%></a></td>                                   
-                                                <td style="width:210px"><a runat="server" onserverclick="SortEmailTab1" href="#"><b><%=Resources.UIResource.EmailList%></b></a><a><%#GetOrderDirectionIndicatorTab1("Email")%></a></td>                                    
-                                            </tr>
-                                        </HeaderTemplate>   
-                                        <ItemTemplate>
-                                            <tr onmouseover="this.className='highlight'" onmouseout="this.className='normal'">
-                                                <td><input id="selectedItem" name="selectedItem" type="checkbox" value="<%#Eval("CustomerId")%>" onclick="SingleCheckForNewsList(this);"/></td>
-                                                <td><%#Eval("CustomerId")%></td>
-                                                <td><%#Eval("CustomerNameViet")%> </a></td>
-                                                <td><%#ConverFormat(Eval("Dob"))%></td>
-                                                <td><%#Eval("Mobile") %></td>
-                                                <td><%#Eval("Email")%></td>                                                                                                      
-                                            </tr>
-                                        </ItemTemplate>
-                                        <AlternatingItemTemplate> 
-                                            <tr onmouseover="this.className='highlight'" onmouseout="this.className='normal'">
-                                            <td><input id="selectedItem" name="selectedItem" type="checkbox" value="<%#Eval("CustomerId")%>" onclick="SingleCheckForNewsList(this);"/></td>
-                                               <td><%#Eval("CustomerId")%></td>
-                                                <td><%#Eval("CustomerNameViet")%> </a></td>
-                                                <td><%#ConverFormat(Eval("Dob"))%></td>
-                                                <td><%#Eval("Mobile") %></td>
-                                                <td><%#Eval("Email")%></td>                                                                                                     
-                                            </tr>
-                                        </AlternatingItemTemplate>                    
-                                    </asp:Repeater>
-                                </table>
-                            </td>                
-                        </tr>
+                    <table class="widthForTable"> 
+                        <asp:Repeater ID="RepeaterDataTab1" runat="server" >
+                            <HeaderTemplate>
+                                <tr onmouseover="this.className='highlight'" onmouseout="this.className='normal'">
+                                    <td style="width:20px"><input type="checkbox" id="checkAll" onclick="CheckAllForNewsList(this);"/></td>
+                                    <td style="width:100px"><a runat="server" onserverclick="SortCustomerIdListtab1" href="#"><b><%=Resources.UIResource.CustomerIdList%></b></a><a><%#GetOrderDirectionIndicatorTab1("CustomerId")%></a></td>                                    
+                                    <td style="width:250px"><a runat="server" onserverclick="SortCustomerNameTab1" href="#"><b><%=Resources.UIResource.CustomerNameList%></b></a><a><%#GetOrderDirectionIndicatorTab1("CustomerNameViet")%></a></td>
+                                    <td style="width:100px"><a runat="server" onserverclick="SortDOBTab1" href="#"><b><%=Resources.UIResource.DobList%></b></a><a><%#GetOrderDirectionIndicatorTab1("Dob")%></a></td>                                   
+                                    <td style="width:100px"><a runat="server" onserverclick="SortMobileTab1" href="#"><b><%=Resources.UIResource.Mobile1List%></b></a><a><%#GetOrderDirectionIndicatorTab1("Mobile")%></a></td>                                   
+                                    <td style="width:210px"><a runat="server" onserverclick="SortEmailTab1" href="#"><b><%=Resources.UIResource.EmailList%></b></a><a><%#GetOrderDirectionIndicatorTab1("Email")%></a></td>                                    
+                                </tr>
+                            </HeaderTemplate>   
+                            <ItemTemplate>
+                                <tr onmouseover="this.className='highlight'" onmouseout="this.className='normal'">
+                                    <td><input id="selectedItem" name="selectedItem" type="checkbox" value="<%#Eval("CustomerId")%>" onclick="SingleCheckForNewsList(this);"/></td>
+                                    <td><%#Eval("CustomerId")%></td>
+                                    <td><%#Eval("CustomerNameViet")%> </a></td>
+                                    <td><%#ConverFormat(Eval("Dob"))%></td>
+                                    <td><%#Eval("Mobile") %></td>
+                                    <td><%#Eval("Email")%></td>                                                                                                      
+                                </tr>
+                            </ItemTemplate>
+                            <AlternatingItemTemplate> 
+                                <tr onmouseover="this.className='highlight'" onmouseout="this.className='normal'">
+                                <td><input id="selectedItem" name="selectedItem" type="checkbox" value="<%#Eval("CustomerId")%>" onclick="SingleCheckForNewsList(this);"/></td>
+                                    <td><%#Eval("CustomerId")%></td>
+                                    <td><%#Eval("CustomerNameViet")%> </a></td>
+                                    <td><%#ConverFormat(Eval("Dob"))%></td>
+                                    <td><%#Eval("Mobile") %></td>
+                                    <td><%#Eval("Email")%></td>                                                                                                     
+                                </tr>
+                            </AlternatingItemTemplate>                    
+                        </asp:Repeater>                               
                     </table>
                 </div>
                 

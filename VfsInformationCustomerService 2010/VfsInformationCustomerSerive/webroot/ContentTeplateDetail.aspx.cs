@@ -60,7 +60,7 @@ public partial class ContentTeplateDetail : System.Web.UI.Page
             this.inputSuject.Value = contentTemplate.Subject;
             this.InputBodyContentType.SelectedValue = contentTemplate.BodyContentType;
             this.InputBodyEncoding.Value = contentTemplate.BodyEncoding;
-            this.InputBodyMessager.Text = HttpUtility.HtmlDecode(contentTemplate.BodyMessage);
+            this.InputBodyMessager.Value = HttpUtility.HtmlDecode(contentTemplate.BodyMessage);
             this.LoadAttachement(contentTemplate.ContentTemplateID);
         }
     }
@@ -125,13 +125,13 @@ public partial class ContentTeplateDetail : System.Web.UI.Page
             this.lableInfor.Visible = true;
             return;
         }
-        if (VfsCustomerService.Utility.HtmlRemoval.StripTagsRegexCompiled(this.InputBodyMessager.Text).Length > 320 && this.LoadServiceType.SelectedValue == "2")
+        if (VfsCustomerService.Utility.HtmlRemoval.StripTagsRegexCompiled(this.InputBodyMessager.Value).Length > 320 && this.LoadServiceType.SelectedValue == "2")
         {
             this.errorCheckMaxleng.InnerHtml = Resources.UIResource.LabelCheckmaxleng;
             this.lableInfor.Visible = false;
             return;
         }
-        if (ImportService.CheckParamaterDuplication(InputBodyMessager.Text.Trim()) == true)
+        if (ImportService.CheckParamaterDuplication(InputBodyMessager.Value.Trim()) == true)
         {
             this.errorCheckMaxleng.InnerHtml = Resources.UIResource.DuplicatedParameter;
             this.lableInfor.Visible = false;
@@ -157,11 +157,11 @@ public partial class ContentTeplateDetail : System.Web.UI.Page
 
             if (InputBodyContentType.SelectedValue == "HTML" || contentTemplate.ServiceTypeID == 1)
             {
-                contentTemplate.BodyMessage = HttpUtility.HtmlDecode(InputBodyMessager.Text);
+                contentTemplate.BodyMessage = HttpUtility.HtmlDecode(InputBodyMessager.Value);
             }
             else
             {
-                contentTemplate.BodyMessage = VfsCustomerService.Utility.HtmlRemoval.StripTagsRegexCompiled(InputBodyMessager.Text);
+                contentTemplate.BodyMessage = VfsCustomerService.Utility.HtmlRemoval.StripTagsRegexCompiled(InputBodyMessager.Value);
             }
         }
         if (this.action == "modify")

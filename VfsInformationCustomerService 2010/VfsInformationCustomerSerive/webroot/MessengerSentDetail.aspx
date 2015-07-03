@@ -6,7 +6,7 @@
     </div>  
     <table class="widthForTable">      
             <tr>
-                <td class="widthtd"><%=Resources.UIResource.ChooseServiceType%><span class="inforError">(*)</span></td>
+                <td style="width:90px"><%=Resources.UIResource.ChooseServiceType%><span class="inforError">(*)</span></td>
                 <td><asp:DropDownList Width="150px" ID="LoadServiceType" runat="server"></asp:DropDownList></td>
             </tr>
             <tr>
@@ -43,7 +43,7 @@
                 </tr>
             <tr>
                 <td><%=Resources.UIResource.BodyMessager%></td>     
-                <td><cc1:Editor runat="server" ID="InputBodyMessager" style="width: 268px"></cc1:Editor></td>
+                <td><textarea runat="server" ID="InputBodyMessager" style="width: 268px"></textarea></td>  
             </tr>            
     </table>
 </asp:Content>

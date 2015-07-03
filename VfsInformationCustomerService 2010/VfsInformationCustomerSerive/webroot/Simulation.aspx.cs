@@ -54,7 +54,7 @@ public partial class CustomerService_Simulation : System.Web.UI.Page
        this.GetContentTemplate();
        if (contentTemplate != null)
        {
-           this.InputBodyMessager.Text = contentTemplate.BodyMessage;
+           this.InputBodyMessager.Value = contentTemplate.BodyMessage;
            this.serviceTypeInput.Value = ServiceTypeService.GetServiceType(contentTemplate.ServiceTypeID).ServiceTypeDescription;
            this.LoadAttachement(contentTemplate.ContentTemplateID);
        }

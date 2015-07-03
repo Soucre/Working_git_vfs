@@ -24,6 +24,7 @@
     <div><label for="contentTemplateAttchementDropDownList"><%=Resources.UIResource.Attachement %></label></div>
     <div><asp:ListBox runat="server" ID="contentTemplateAttchementDropDownList"></asp:ListBox></div>
     <div><label for="InputBodyMessager"><%=Resources.UIResource.BodyMessager%></label></div>
-    <div><cc1:Editor runat="server" ID="InputBodyMessager" readonly="readonly"></cc1:Editor></div>    
+    <%--<div><cc1:Editor runat="server" ID="InputBodyMessager" readonly="readonly"></cc1:Editor></div>    --%>
+    <div><textarea runat="server" ID="InputBodyMessager" readonly="readonly" style="width: 100%; height:350px"></textarea></div>  
 </asp:Content>
 

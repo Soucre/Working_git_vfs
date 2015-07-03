@@ -1,10 +1,11 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="MessengerSendingDetail.aspx.cs" Inherits="MessageContentDetail" %>
-<%@ Register Assembly="Jiffycms.Net.Toolkit" Namespace="Jiffycms.Net.Toolkit" TagPrefix="cc1" %>
+<%--<%@ Register Assembly="Jiffycms.Net.Toolkit" Namespace="Jiffycms.Net.Toolkit" TagPrefix="cc1" %>--%>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" Runat="Server">
-<div><input class="button" id="ButtonSave" runat="server" type="button" value="Lưu" onserverclick="buttonSave_ServerClick" />
+<div>
+    <input class="button" id="ButtonSave" runat="server" type="button" value="Lưu" onserverclick="buttonSave_ServerClick" />
          <input class="button" id="ButtonDelete" runat="server" type="button" onclick="confirmAction(event,'Bạn muốn xóa loại dịch vụ này ra khỏi hệ thống ?');" onserverclick="ButtonDelete_onserverclick" />
          <input class="button" id="ButtonCallBack" runat="server" type="button"  onserverclick="ButtonCallBack_onserverclick" />
-    </div>  
+</div>  
     <table class="widthForTable">      
             <tr>
                 <td class="widthtd"><%=Resources.UIResource.ChooseServiceType%></td>
@@ -44,7 +45,9 @@
                 </tr>
             <tr>
                 <td><%=Resources.UIResource.BodyMessager%></td>     
-                <td><cc1:Editor runat="server" ID="InputBodyMessager" style="width: 268px"></cc1:Editor></td>
+                <%--<td><cc1:Editor runat="server" ID="InputBodyMessager" style="width: 268px"></cc1:Editor></td>--%>
+                
+                <td><textarea runat="server" ID="InputBodyMessager" style="width: 268px"></textarea></td>  
             </tr>            
     </table>
 </asp:Content>
