@@ -1,0 +1,14 @@
+D:\Working\VfsInformationCustomerService\Entities\obj\Release\ResolveAssemblyReference.cache
+D:\Working\VfsInformationCustomerService\Entities\obj\Release\Vfs.WebCrawler.Entities.dll
+D:\Working\VfsInformationCustomerService\Components\Vfs.WebCrawler.Entities.dll
+D:\Working\VfsInformationCustomerService\Components\Vfs.WebCrawler.Entities.pdb
+D:\Working\VfsInformationCustomerService\Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\VfsInformationCustomerService\Entities\obj\Debug\Vfs.WebCrawler.Entities.dll
+D:\Working\VfsInformationCustomerService\Entities\obj\Debug\Vfs.WebCrawler.Entities.pdb
+E:\Working\VfsInformationCustomerService\Components\Vfs.WebCrawler.Entities.dll
+E:\Working\VfsInformationCustomerService\Entities\obj\Debug\ResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService\Entities\obj\Debug\Vfs.WebCrawler.Entities.dll
+E:\Working\VfsInformationCustomerService\Entities\obj\Debug\Vfs.WebCrawler.Entities.pdb
+E:\Working\VfsInformationCustomerService\Entities\obj\Release\ResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService\Entities\obj\Release\Vfs.WebCrawler.Entities.dll
+E:\Working\VfsInformationCustomerService\Components\Vfs.WebCrawler.Entities.pdb

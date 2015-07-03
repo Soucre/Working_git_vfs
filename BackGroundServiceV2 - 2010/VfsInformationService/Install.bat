@@ -1,0 +1,3 @@
+InstallUtil D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+net start VfsInformationServiceV2
+PAUSE

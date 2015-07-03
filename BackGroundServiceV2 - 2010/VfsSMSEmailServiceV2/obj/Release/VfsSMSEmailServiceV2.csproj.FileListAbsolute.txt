@@ -1,0 +1,129 @@
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe.config
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\CoreSecurityService.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\HtmlAgilityPack.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\log4net.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Entities.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Business.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Entities.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Entities.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\CoreSecurityService.Entities.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\LumenWorks.Framework.IO.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Data.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Entities.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Entities.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Data.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Entities.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Business.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\CoreSecurityService.Data.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Business.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\CoreSecurityService.Entities.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Data.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\obj\Release\ResolveAssemblyReference.cache
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.InformationService.resources
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.ServiceInstaller.resources
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.csproj.GenerateResource.Cache
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.exe
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe.config
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.application
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Business.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Data.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Destination.Business.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Destination.Data.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Destination.Entities.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Entities.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Business.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Data.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Entities.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Business.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Data.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Entities.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\office.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\LumenWorks.Framework.IO.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Microsoft.Vbe.Interop.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\TemplateEngine.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Interop.Excel.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Business.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Entities.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Entities.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\office.xml
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Data.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Data.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Destination.Data.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Business.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Destination.Entities.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Destination.Business.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Business.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Data.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Entities.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Release\ResolveAssemblyReference.cache
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.InformationService.resources
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.ServiceInstaller.resources
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.csproj.GenerateResource.Cache
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.application
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.exe
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe.config
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.application
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Business.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Destination.Business.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Destination.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Destination.Entities.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Entities.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Business.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Entities.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Business.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Entities.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\TemplateEngine.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Interop.Excel.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\LumenWorks.Framework.IO.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\office.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Microsoft.Vbe.Interop.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Business.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Data.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Destination.Business.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Destination.Data.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Destination.Entities.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Vfs.WebCrawler.Entities.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Business.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Data.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsCustomerService.Entities.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Business.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Data.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\VfsInformationService.Entities.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Release\office.xml
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.csprojResolveAssemblyReference.cache
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.InformationService.resources
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.ServiceInstaller.resources
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.csproj.GenerateResource.Cache
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.application
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.exe
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Release\VfsSMSEmailServiceV2.pdb

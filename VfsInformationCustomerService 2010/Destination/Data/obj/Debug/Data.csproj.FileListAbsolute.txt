@@ -1,0 +1,21 @@
+E:\Working\VfsInformationCustomerService - converted to 2010\Components\Vfs.WebCrawler.Destination.Data.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Components\Vfs.WebCrawler.Destination.Data.pdb
+E:\Working\VfsInformationCustomerService - converted to 2010\Destination\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService - converted to 2010\Destination\Data\obj\Debug\Vfs.WebCrawler.Destination.Data.SR.resources
+E:\Working\VfsInformationCustomerService - converted to 2010\Destination\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+E:\Working\VfsInformationCustomerService - converted to 2010\Destination\Data\obj\Debug\Vfs.WebCrawler.Destination.Data.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Destination\Data\obj\Debug\Vfs.WebCrawler.Destination.Data.pdb
+E:\Working\VfsInformationCustomerService 2010\Components\Vfs.WebCrawler.Destination.Data.dll
+E:\Working\VfsInformationCustomerService 2010\Components\Vfs.WebCrawler.Destination.Data.pdb
+E:\Working\VfsInformationCustomerService 2010\Destination\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService 2010\Destination\Data\obj\Debug\Vfs.WebCrawler.Destination.Data.SR.resources
+E:\Working\VfsInformationCustomerService 2010\Destination\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+E:\Working\VfsInformationCustomerService 2010\Destination\Data\obj\Debug\Vfs.WebCrawler.Destination.Data.dll
+E:\Working\VfsInformationCustomerService 2010\Destination\Data\obj\Debug\Vfs.WebCrawler.Destination.Data.pdb
+F:\Working\VfsInformationCustomerService 2010\Components\Vfs.WebCrawler.Destination.Data.dll
+F:\Working\VfsInformationCustomerService 2010\Components\Vfs.WebCrawler.Destination.Data.pdb
+F:\Working\VfsInformationCustomerService 2010\Destination\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+F:\Working\VfsInformationCustomerService 2010\Destination\Data\obj\Debug\Vfs.WebCrawler.Destination.Data.SR.resources
+F:\Working\VfsInformationCustomerService 2010\Destination\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+F:\Working\VfsInformationCustomerService 2010\Destination\Data\obj\Debug\Vfs.WebCrawler.Destination.Data.dll
+F:\Working\VfsInformationCustomerService 2010\Destination\Data\obj\Debug\Vfs.WebCrawler.Destination.Data.pdb

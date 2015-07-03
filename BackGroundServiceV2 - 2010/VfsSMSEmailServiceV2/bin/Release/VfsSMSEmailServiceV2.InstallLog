@@ -1,0 +1,299 @@
+﻿Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Installing service VfsSMSEmailServiceV2...
+Service VfsSMSEmailServiceV2 has been successfully installed.
+Creating EventLog source VfsSMSEmailServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Installing service VfsSMSEmailServiceV2...
+Creating EventLog source VfsSMSEmailServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Restoring event log to previous state for source VfsSMSEmailServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+Service VfsSMSEmailServiceV2 was successfully removed from the system.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Warning: The source VfsSMSEmailServiceV2 is not registered on the local machine.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Warning: The source VfsSMSEmailServiceV2 is not registered on the local machine.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Installing service VfsSMSEmailServiceV2...
+Service VfsSMSEmailServiceV2 has been successfully installed.
+Creating EventLog source VfsSMSEmailServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+Service VfsSMSEmailServiceV2 was successfully removed from the system.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Installing service VfsSMSEmailServiceV2...
+Service VfsSMSEmailServiceV2 has been successfully installed.
+Creating EventLog source VfsSMSEmailServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+Service VfsSMSEmailServiceV2 was successfully removed from the system.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Installing service VfsSMSEmailServiceV2...
+Service VfsSMSEmailServiceV2 has been successfully installed.
+Creating EventLog source VfsSMSEmailServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+Service VfsSMSEmailServiceV2 was successfully removed from the system.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Installing service VfsSMSEmailServiceV2...
+Service VfsSMSEmailServiceV2 has been successfully installed.
+Creating EventLog source VfsSMSEmailServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+Service VfsSMSEmailServiceV2 was successfully removed from the system.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Installing service VfsSMSEmailServiceV2...
+Service VfsSMSEmailServiceV2 has been successfully installed.
+Creating EventLog source VfsSMSEmailServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+Service VfsSMSEmailServiceV2 was successfully removed from the system.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Installing service VfsSMSEmailServiceV2...
+Service VfsSMSEmailServiceV2 has been successfully installed.
+Creating EventLog source VfsSMSEmailServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+Service VfsSMSEmailServiceV2 was successfully removed from the system.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Installing service VfsSMSEmailServiceV2...
+Service VfsSMSEmailServiceV2 has been successfully installed.
+Creating EventLog source VfsSMSEmailServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+Service VfsSMSEmailServiceV2 was successfully removed from the system.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Installing service VfsSMSEmailServiceV2...
+Service VfsSMSEmailServiceV2 has been successfully installed.
+Creating EventLog source VfsSMSEmailServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+Service VfsSMSEmailServiceV2 was successfully removed from the system.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Warning: The source VfsSMSEmailServiceV2 is not registered on the local machine.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Installing service VfsSMSEmailServiceV2...
+Service VfsSMSEmailServiceV2 has been successfully installed.
+Creating EventLog source VfsSMSEmailServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+Service VfsSMSEmailServiceV2 was successfully removed from the system.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Installing service VfsSMSEmailServiceV2...
+Service VfsSMSEmailServiceV2 has been successfully installed.
+Creating EventLog source VfsSMSEmailServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+Service VfsSMSEmailServiceV2 was successfully removed from the system.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Warning: The source VfsSMSEmailServiceV2 is not registered on the local machine.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Release\VfsSMSEmailServiceV2.InstallLog
+Removing EventLog source VfsSMSEmailServiceV2.
+Warning: The source VfsSMSEmailServiceV2 is not registered on the local machine.
+Service VfsSMSEmailServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.

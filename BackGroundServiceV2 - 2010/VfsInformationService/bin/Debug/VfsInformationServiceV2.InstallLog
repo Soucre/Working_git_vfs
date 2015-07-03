@@ -1,0 +1,319 @@
+﻿Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.

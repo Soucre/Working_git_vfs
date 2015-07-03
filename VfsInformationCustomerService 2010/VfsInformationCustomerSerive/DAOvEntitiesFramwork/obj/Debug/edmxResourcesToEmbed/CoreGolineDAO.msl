@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DolPhin_ModelStoreContainer" CdmEntityContainer="DolPhin_Entities">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="DolPhin_Model.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="InvestorId" ColumnName="InvestorId" />
+          <ScalarProperty Name="BranchCode" ColumnName="BranchCode" />
+          <ScalarProperty Name="UnitCode" ColumnName="UnitCode" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="PersonalType" ColumnName="PersonalType" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="OpenDate" ColumnName="OpenDate" />
+          <ScalarProperty Name="IdentityCardType" ColumnName="IdentityCardType" />
+          <ScalarProperty Name="IdentityCardNo" ColumnName="IdentityCardNo" />
+          <ScalarProperty Name="IdentityCardIssueDate" ColumnName="IdentityCardIssueDate" />
+          <ScalarProperty Name="IdentityCardIssueBy" ColumnName="IdentityCardIssueBy" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="UserNameCreate" ColumnName="UserNameCreate" />
+          <ScalarProperty Name="NationalityName" ColumnName="NationalityName" />
+          <ScalarProperty Name="ContractNo" ColumnName="ContractNo" />
+          <ScalarProperty Name="BalanceType" ColumnName="BalanceType" />
+          <ScalarProperty Name="SecuritiesType" ColumnName="SecuritiesType" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Flag" ColumnName="Flag" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="HasProxy" ColumnName="HasProxy" />
+          <ScalarProperty Name="IntroducedUser" ColumnName="IntroducedUser" />
+          <ScalarProperty Name="CaredUser" ColumnName="CaredUser" />
+          <ScalarProperty Name="IntroduceCustomerId" ColumnName="IntroduceCustomerId" />
+          <ScalarProperty Name="ClosedDate" ColumnName="ClosedDate" />
+          <ScalarProperty Name="MasterAccountId" ColumnName="MasterAccountId" />
+          <ScalarProperty Name="CustomerGroupId" ColumnName="CustomerGroupId" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="DepositType" ColumnName="DepositType" />
+          <ScalarProperty Name="InfoChannelId" ColumnName="InfoChannelId" />
+          <ScalarProperty Name="ExternalIntroduceCustomerId" ColumnName="ExternalIntroduceCustomerId" />
+          <ScalarProperty Name="Name2" ColumnName="Name2" />
+          <ScalarProperty Name="TradingStatus" ColumnName="TradingStatus" />
+          <ScalarProperty Name="IntroducedUserType" ColumnName="IntroducedUserType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

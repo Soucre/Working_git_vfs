@@ -1,0 +1,21 @@
+E:\Working\VfsInformationCustomerService - converted to 2010\Components\CoreSecurityService.Business.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Components\CoreSecurityService.Business.pdb
+E:\Working\VfsInformationCustomerService - converted to 2010\CoreSecurityService\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService - converted to 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.SR.resources
+E:\Working\VfsInformationCustomerService - converted to 2010\CoreSecurityService\Business\obj\Debug\Business.csproj.GenerateResource.Cache
+E:\Working\VfsInformationCustomerService - converted to 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.pdb
+E:\Working\VfsInformationCustomerService 2010\Components\CoreSecurityService.Business.dll
+E:\Working\VfsInformationCustomerService 2010\Components\CoreSecurityService.Business.pdb
+E:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.SR.resources
+E:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\Business.csproj.GenerateResource.Cache
+E:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.dll
+E:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.pdb
+F:\Working\VfsInformationCustomerService 2010\Components\CoreSecurityService.Business.dll
+F:\Working\VfsInformationCustomerService 2010\Components\CoreSecurityService.Business.pdb
+F:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+F:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.SR.resources
+F:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\Business.csproj.GenerateResource.Cache
+F:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.dll
+F:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.pdb

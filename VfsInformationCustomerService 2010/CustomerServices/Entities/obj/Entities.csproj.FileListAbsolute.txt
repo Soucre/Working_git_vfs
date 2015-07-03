@@ -1,0 +1,16 @@
+D:\Working\VfsInformationCustomerService\CustomerServices\Entities\bin\Release\VfsCustomerService.Entities.dll
+D:\Working\VfsInformationCustomerService\CustomerServices\Entities\obj\Release\ResolveAssemblyReference.cache
+D:\Working\VfsInformationCustomerService\CustomerServices\Entities\obj\Release\VfsCustomerService.Entities.dll
+D:\Working\VfsInformationCustomerService\Components\VfsCustomerService.Entities.dll
+D:\Working\VfsInformationCustomerService\Components\VfsCustomerService.Entities.pdb
+D:\Working\VfsInformationCustomerService\CustomerServices\Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\VfsInformationCustomerService\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.dll
+D:\Working\VfsInformationCustomerService\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.pdb
+E:\Working\VfsInformationCustomerService\Components\VfsCustomerService.Entities.dll
+E:\Working\VfsInformationCustomerService\Components\VfsCustomerService.Entities.pdb
+E:\Working\VfsInformationCustomerService\CustomerServices\Entities\obj\Debug\ResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.dll
+E:\Working\VfsInformationCustomerService\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.pdb
+E:\Working\VfsInformationCustomerService\CustomerServices\Entities\bin\Release\VfsCustomerService.Entities.dll
+E:\Working\VfsInformationCustomerService\CustomerServices\Entities\obj\Release\ResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService\CustomerServices\Entities\obj\Release\VfsCustomerService.Entities.dll

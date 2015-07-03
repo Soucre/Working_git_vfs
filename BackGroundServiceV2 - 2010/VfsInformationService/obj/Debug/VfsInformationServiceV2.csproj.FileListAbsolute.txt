@@ -1,0 +1,173 @@
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe.config
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationServiceV2.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\HtmlAgilityPack.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\log4net.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Vfs.WebCrawler.Business.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Vfs.WebCrawler.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Business.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Entities.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Vfs.WebCrawler.Entities.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsCustomerService.Business.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsCustomerService.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsCustomerService.Entities.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationService.Business.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationService.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationService.Entities.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\office.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\LumenWorks.Framework.IO.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\TemplateEngine.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Interop.Excel.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsCustomerService.Entities.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationService.Entities.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\office.xml
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Vfs.WebCrawler.Data.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationService.Data.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsCustomerService.Data.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Data.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsCustomerService.Business.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Entities.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Vfs.WebCrawler.Business.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Business.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\VfsInformationService.Business.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Debug\Vfs.WebCrawler.Entities.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\obj\Debug\VfsInformationService.ServiceInstaller.resources
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\obj\Debug\VfsInformationServiceV2.csproj.GenerateResource.Cache
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\obj\Debug\VfsInformationServiceV2.exe
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\obj\Debug\VfsInformationServiceV2.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\obj\Debug\ResolveAssemblyReference.cache
+E:\Working\BackGroundServiceV2\VfsInformationService\obj\Debug\VfsInformationService.ServiceInstaller.resources
+E:\Working\BackGroundServiceV2\VfsInformationService\obj\Debug\VfsInformationServiceV2.csproj.GenerateResource.Cache
+E:\Working\BackGroundServiceV2\VfsInformationService\obj\Debug\VfsInformationServiceV2.exe
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe.config
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsInformationServiceV2.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Vfs.WebCrawler.Business.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Vfs.WebCrawler.Data.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Business.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Data.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Entities.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Vfs.WebCrawler.Entities.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsCustomerService.Business.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsCustomerService.Data.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsCustomerService.Entities.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsInformationService.Business.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsInformationService.Data.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsInformationService.Entities.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\office.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\LumenWorks.Framework.IO.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\TemplateEngine.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Interop.Excel.dll
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsCustomerService.Entities.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsInformationService.Entities.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\office.xml
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Vfs.WebCrawler.Data.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsInformationService.Data.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsCustomerService.Data.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Data.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsCustomerService.Business.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Entities.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Vfs.WebCrawler.Business.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Business.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\VfsInformationService.Business.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\bin\Debug\Vfs.WebCrawler.Entities.pdb
+E:\Working\BackGroundServiceV2\VfsInformationService\obj\Debug\VfsInformationServiceV2.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe.config
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsInformationServiceV2.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Vfs.WebCrawler.Business.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Vfs.WebCrawler.Data.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Business.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Data.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Entities.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Vfs.WebCrawler.Entities.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsCustomerService.Business.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsCustomerService.Data.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsCustomerService.Entities.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsInformationService.Business.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsInformationService.Data.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsInformationService.Entities.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\LumenWorks.Framework.IO.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Interop.Excel.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\TemplateEngine.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\office.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Vfs.WebCrawler.Business.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Vfs.WebCrawler.Data.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Business.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Data.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Entities.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\Vfs.WebCrawler.Entities.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsCustomerService.Business.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsCustomerService.Data.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsCustomerService.Entities.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsInformationService.Business.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsInformationService.Data.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsInformationService.Entities.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\office.xml
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\obj\Debug\VfsInformationServiceV2.csprojResolveAssemblyReference.cache
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\obj\Debug\VfsInformationService.ServiceInstaller.resources
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\obj\Debug\VfsInformationServiceV2.csproj.GenerateResource.Cache
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\obj\Debug\VfsInformationServiceV2.exe
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\obj\Debug\VfsInformationServiceV2.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\bin\Debug\VfsInformationServiceV2.application
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\obj\Debug\VfsInformationServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2 - Copy\VfsInformationService\obj\Debug\VfsInformationServiceV2.application
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe.config
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\obj\Debug\VfsInformationServiceV2.exe
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\obj\Debug\VfsInformationServiceV2.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsInformationServiceV2.application
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsInformationServiceV2.exe
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsInformationServiceV2.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Vfs.WebCrawler.Business.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Vfs.WebCrawler.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Business.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Entities.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Vfs.WebCrawler.Entities.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsCustomerService.Business.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsCustomerService.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsCustomerService.Entities.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsInformationService.Business.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsInformationService.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsInformationService.Entities.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\LumenWorks.Framework.IO.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Interop.Excel.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\TemplateEngine.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\office.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Vfs.WebCrawler.Business.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Vfs.WebCrawler.Data.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Business.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Data.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Vfs.WebCrawler.Destination.Entities.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\Vfs.WebCrawler.Entities.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsCustomerService.Business.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsCustomerService.Data.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsCustomerService.Entities.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsInformationService.Business.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsInformationService.Data.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\VfsInformationService.Entities.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\bin\Debug\office.xml
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\obj\Debug\VfsInformationServiceV2.csprojResolveAssemblyReference.cache
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\obj\Debug\VfsInformationService.ServiceInstaller.resources
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\obj\Debug\VfsInformationServiceV2.csproj.GenerateResource.Cache
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\obj\Debug\VfsInformationServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2 - 2010\VfsInformationService\obj\Debug\VfsInformationServiceV2.application
+F:\Working_Git\workingViFS\BackGroundServiceV2 - 2010\VfsInformationService\obj\Debug\VfsInformationServiceV2.csprojResolveAssemblyReference.cache
+F:\Working_Git\workingViFS\BackGroundServiceV2 - 2010\VfsInformationService\obj\Debug\VfsInformationService.ServiceInstaller.resources
+F:\Working_Git\workingViFS\BackGroundServiceV2 - 2010\VfsInformationService\obj\Debug\VfsInformationServiceV2.csproj.GenerateResource.Cache
+F:\Working_Git\workingViFS\BackGroundServiceV2 - 2010\VfsInformationService\obj\Debug\VfsInformationServiceV2.exe.manifest
+F:\Working_Git\workingViFS\BackGroundServiceV2 - 2010\VfsInformationService\obj\Debug\VfsInformationServiceV2.exe
+F:\Working_Git\workingViFS\BackGroundServiceV2 - 2010\VfsInformationService\obj\Debug\VfsInformationServiceV2.pdb

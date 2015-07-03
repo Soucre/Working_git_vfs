@@ -1,0 +1,7 @@
+..\Components\Vfs.WebCrawler.Business.dll
+..\Components\Vfs.WebCrawler.Business.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Vfs.WebCrawler.Business.SR.resources
+obj\Debug\Business.csproj.GenerateResource.Cache
+obj\Debug\Vfs.WebCrawler.Business.dll
+obj\Debug\Vfs.WebCrawler.Business.pdb

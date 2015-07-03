@@ -1,0 +1,12 @@
+E:\Working\VfsInformationCustomerService - converted to 2010\Components\VfsCustomerService.Entities.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Components\VfsCustomerService.Entities.pdb
+E:\Working\VfsInformationCustomerService - converted to 2010\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.pdb
+E:\Working\VfsInformationCustomerService 2010\Components\VfsCustomerService.Entities.dll
+E:\Working\VfsInformationCustomerService 2010\Components\VfsCustomerService.Entities.pdb
+E:\Working\VfsInformationCustomerService 2010\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.dll
+E:\Working\VfsInformationCustomerService 2010\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.pdb
+F:\Working\VfsInformationCustomerService 2010\Components\VfsCustomerService.Entities.dll
+F:\Working\VfsInformationCustomerService 2010\Components\VfsCustomerService.Entities.pdb
+F:\Working\VfsInformationCustomerService 2010\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.dll
+F:\Working\VfsInformationCustomerService 2010\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.pdb

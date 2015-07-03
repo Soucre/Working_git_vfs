@@ -1,0 +1,3 @@
+InstallUtil VfsInformationServiceV2.exe
+net start VfsInformationServiceV2
+PAUSE

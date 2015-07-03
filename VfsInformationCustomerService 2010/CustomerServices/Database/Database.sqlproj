@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">10.0</VisualStudioVersion>
+    <PostConversionRemoveFromScc>
+    </PostConversionRemoveFromScc>
+    <PostConversionAddToScc>
+    </PostConversionAddToScc>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <PostUpgradeAddToSCC>;E:\Working\VfsInformationCustomerService - converted to 2010\CustomerServices\Database\Database.dbproj;E:\Working\VfsInformationCustomerService - converted to 2010\CustomerServices\Database\Connections.txt;E:\Working\VfsInformationCustomerService - converted to 2010\CustomerServices\Database\Scripts\Post-Deployment\Script.PostDeployment.sql;E:\Working\VfsInformationCustomerService - converted to 2010\CustomerServices\Database\Scripts\Pre-Deployment\Script.PreDeployment.sql</PostUpgradeAddToSCC>
+    <SccProvider>
+    </SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProjectName>
+    </SccProjectName>
+    <PreviousProjectVersion>4.0</PreviousProjectVersion>
+    <UpgradedFromDBP>True</UpgradedFromDBP>
+    <Name>Database</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.0</ProjectVersion>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql100DatabaseSchemaProvider</DSP>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <ShowWizard>False</ShowWizard>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <IncludeSchemaNameInFileName>False</IncludeSchemaNameInFileName>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <LoadSqlClrTypes>True</LoadSqlClrTypes>
+    <ValidateCasingOnIdentifiers>False</ValidateCasingOnIdentifiers>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{bad2447b-3ef1-47c0-b2e8-6d8c6a46ce1d}</ProjectGuid>
+    <GenerateDatabaseFile>False</GenerateDatabaseFile>
+    <GenerateCreateScript>False</GenerateCreateScript>
+    <DefaultSchema>dbo</DefaultSchema>
+    <TargetLanguage>CS</TargetLanguage>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <AnsiNullDefault>True</AnsiNullDefault>
+    <AnsiNulls>True</AnsiNulls>
+    <AnsiPadding>True</AnsiPadding>
+    <AnsiWarnings>True</AnsiWarnings>
+    <ArithAbort>True</ArithAbort>
+    <ConcatNullYieldsNull>True</ConcatNullYieldsNull>
+    <QuotedIdentifier>True</QuotedIdentifier>
+    <NumericRoundAbort>False</NumericRoundAbort>
+    <RecursiveTriggersEnabled>False</RecursiveTriggersEnabled>
+    <DatabaseState>ONLINE</DatabaseState>
+    <UpdateOptions>READ_WRITE</UpdateOptions>
+    <CloseCursorOnCommitEnabled>False</CloseCursorOnCommitEnabled>
+    <DefaultCursor>LOCAL</DefaultCursor>
+    <AutoClose>False</AutoClose>
+    <AutoCreateStatistics>True</AutoCreateStatistics>
+    <AutoShrink>False</AutoShrink>
+    <AutoUpdateStatistics>True</AutoUpdateStatistics>
+    <TornPageDetection>False</TornPageDetection>
+    <DatabaseAccess>MULTI_USER</DatabaseAccess>
+    <Recovery>FULL</Recovery>
+    <EnableFullTextSearch>True</EnableFullTextSearch>
+    <DatabaseChaining>False</DatabaseChaining>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+    <Trustworthy>False</Trustworthy>
+    <AutoUpdateStatisticsAsynchronously>False</AutoUpdateStatisticsAsynchronously>
+    <PageVerify>NONE</PageVerify>
+    <ServiceBrokerOption>DisableBroker</ServiceBrokerOption>
+    <DateCorrelationOptimizationOn>False</DateCorrelationOptimizationOn>
+    <Parameterization>SIMPLE</Parameterization>
+    <AllowSnapshotIsolation>False</AllowSnapshotIsolation>
+    <ReadCommittedSnapshot>False</ReadCommittedSnapshot>
+    <VardecimalStorageFormatOn>True</VardecimalStorageFormatOn>
+    <SupplementalLoggingOn>False</SupplementalLoggingOn>
+    <DefaultFileStreamFilegroup />
+    <IsChangeTrackingOn>False</IsChangeTrackingOn>
+    <IsChangeTrackingAutoCleanupOn>True</IsChangeTrackingAutoCleanupOn>
+    <ChangeTrackingRetentionPeriod>2</ChangeTrackingRetentionPeriod>
+    <ChangeTrackingRetentionUnit>Days</ChangeTrackingRetentionUnit>
+    <IsEncryptionOn>False</IsEncryptionOn>
+    <IsBrokerPriorityHonored>False</IsBrokerPriorityHonored>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>.\sql\release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TargetDatabase>
+    </TargetDatabase>
+    <TreatTSqlWarningsAsErrors>False</TreatTSqlWarningsAsErrors>
+    <SuppressTSqlWarnings />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>.\sql\debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TargetDatabase>
+    </TargetDatabase>
+    <TreatTSqlWarningsAsErrors>False</TreatTSqlWarningsAsErrors>
+    <SuppressTSqlWarnings />
+  </PropertyGroup>
+  <!--Import the settings-->
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Scripts" />
+    <Folder Include="Scripts\Pre-Deployment" />
+    <Folder Include="Scripts\Post-Deployment" />
+    <Folder Include="Data Generation Plans" />
+    <Folder Include="Schema Comparisons" />
+    <Folder Include="SP scripts\NewWebsite" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Schema Objects" />
+    <Folder Include="Schema Objects\Schemas" />
+    <Folder Include="Schema Objects\Schemas\dbo" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Defaults" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Functions" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Rules" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Types" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Types\User Defined Data Types" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Types\User Defined Types CLR" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Types\User Defined Table Types" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Types\XML Schema Collections" />
+    <Folder Include="Schema Objects\Schemas\dbo\Service Broker" />
+    <Folder Include="Schema Objects\Schemas\dbo\Service Broker\Queues" />
+    <Folder Include="Schema Objects\Schemas\dbo\Synonyms" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Constraints" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Indexes" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Keys" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Triggers" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Statistics" />
+    <Folder Include="Schema Objects\Schemas\dbo\Views" />
+    <Folder Include="Schema Objects\Schemas\dbo\Views\Indexes" />
+    <Folder Include="Schema Objects\Schemas\dbo\Views\Triggers" />
+    <Folder Include="Schema Objects\Schemas\dbo\Views\Statistics" />
+    <Folder Include="Schema Objects\Database Level Objects" />
+    <Folder Include="Schema Objects\Database Level Objects\Assemblies" />
+    <Folder Include="Schema Objects\Database Level Objects\Database Triggers" />
+    <Folder Include="Schema Objects\Database Level Objects\Security" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Schemas" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Users" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Certificates" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Asymmetric Keys" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Master Keys" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Signatures" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Symmetric Keys" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Database Encryption Keys" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Database Audit Specification" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Roles" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Roles\Application Roles" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Roles\Database Roles" />
+    <Folder Include="Schema Objects\Database Level Objects\Service Broker" />
+    <Folder Include="Schema Objects\Database Level Objects\Service Broker\Broker Priorities" />
+    <Folder Include="Schema Objects\Database Level Objects\Service Broker\Contracts" />
+    <Folder Include="Schema Objects\Database Level Objects\Service Broker\Event Notifications" />
+    <Folder Include="Schema Objects\Database Level Objects\Service Broker\Message Types" />
+    <Folder Include="Schema Objects\Database Level Objects\Service Broker\Remote Service Binding" />
+    <Folder Include="Schema Objects\Database Level Objects\Service Broker\Routes" />
+    <Folder Include="Schema Objects\Database Level Objects\Service Broker\Services" />
+    <Folder Include="Schema Objects\Database Level Objects\Storage" />
+    <Folder Include="Schema Objects\Database Level Objects\Storage\Full Text Stoplists" />
+    <Folder Include="Schema Objects\Database Level Objects\Storage\Filegroups" />
+    <Folder Include="Schema Objects\Database Level Objects\Storage\Files" />
+    <Folder Include="Schema Objects\Database Level Objects\Storage\Full Text Catalogs" />
+    <Folder Include="Schema Objects\Database Level Objects\Storage\Partition Functions" />
+    <Folder Include="Schema Objects\Database Level Objects\Storage\Partition Schemes" />
+    <Folder Include="Create Database Scripts" />
+    <Folder Include="Job scripts" />
+    <Folder Include="Release Change Scripts" />
+    <Folder Include="SP scripts" />
+    <Folder Include="SP scripts\BirthdayMessageLog" />
+    <Folder Include="SP scripts\ContentParameter" />
+    <Folder Include="SP scripts\ContentTemplate" />
+    <Folder Include="SP scripts\ContentTemplateAttachement" />
+    <Folder Include="SP scripts\Customer" />
+    <Folder Include="SP scripts\CustomerType" />
+    <Folder Include="SP scripts\ExtensionMessage" />
+    <Folder Include="SP scripts\ExtensionMessageLog" />
+    <Folder Include="SP scripts\IncomingMessageContent" />
+    <Folder Include="SP scripts\IncomingMessageContentSent" />
+    <Folder Include="SP scripts\MessageCommand" />
+    <Folder Include="SP scripts\MessageContent" />
+    <Folder Include="SP scripts\MessageContentAttachement" />
+    <Folder Include="SP scripts\MessageContentSent" />
+    <Folder Include="SP scripts\MessageContentSentAttachement" />
+    <Folder Include="SP scripts\RelatedMessagelog" />
+    <Folder Include="SP scripts\ServiceType" />
+    <Folder Include="SP scripts\Synchronize" />
+    <Folder Include="Table changing scripts" />
+    <Folder Include="Triggers" />
+    <Folder Include="UDF Scripts" />
+    <Folder Include="View scripts" />
+    <Folder Include="Properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connections.txt" />
+    <None Include="Create Database Scripts\AllStoredProcedures.sql" />
+    <None Include="SP scripts\BirthdayMessageLog\spBirthdayMessageLogDelete.sql" />
+    <None Include="SP scripts\BirthdayMessageLog\spBirthdayMessageLogGet.sql" />
+    <None Include="SP scripts\BirthdayMessageLog\spBirthdayMessageLogGetByDate.sql" />
+    <None Include="SP scripts\BirthdayMessageLog\spBirthdayMessageLogGetList.sql" />
+    <None Include="SP scripts\BirthdayMessageLog\spBirthdayMessageLogInsert.sql" />
+    <None Include="SP scripts\BirthdayMessageLog\spBirthdayMessageLogUpdate.sql" />
+    <None Include="SP scripts\ContentParameter\spContentParameterDelete.sql" />
+    <None Include="SP scripts\ContentParameter\spContentParameterGet.sql" />
+    <None Include="SP scripts\ContentParameter\spContentParameterGetList.sql" />
+    <None Include="SP scripts\ContentParameter\spContentParameterInsert.sql" />
+    <None Include="SP scripts\ContentParameter\spContentParameterUpdate.sql" />
+    <None Include="SP scripts\ContentTemplate\spContentTemplateDelete.sql" />
+    <None Include="SP scripts\ContentTemplate\spContentTemplateGet.sql" />
+    <None Include="SP scripts\ContentTemplate\spContentTemplateGetList.sql" />
+    <None Include="SP scripts\ContentTemplate\spContentTemplateInsert.sql" />
+    <None Include="SP scripts\ContentTemplate\spContentTemplateUpdate.sql" />
+    <None Include="SP scripts\ContentTemplate\spExistContentTemplateByContentTemplate.sql" />
+    <None Include="SP scripts\ContentTemplate\spServiceTypeForContentTemplate.sql" />
+    <None Include="SP scripts\ContentTemplateAttachement\spContentTemplateAttachementDelete.sql" />
+    <None Include="SP scripts\ContentTemplateAttachement\spContentTemplateAttachementGet.sql" />
+    <None Include="SP scripts\ContentTemplateAttachement\spContentTemplateAttachementGetList.sql" />
+    <None Include="SP scripts\ContentTemplateAttachement\spContentTemplateAttachementGetListByContentTemplateID.sql" />
+    <None Include="SP scripts\ContentTemplateAttachement\spContentTemplateAttachementInsert.sql" />
+    <None Include="SP scripts\ContentTemplateAttachement\spContentTemplateAttachementUpdate.sql" />
+    <None Include="SP scripts\ContentTemplateAttachement\spContentTemplateByContentTemplateAttachement.sql" />
+    <None Include="SP scripts\Customer\spCustomerDelete.sql" />
+    <None Include="SP scripts\Customer\spCustomerGet.sql" />
+    <None Include="SP scripts\Customer\spCustomerGetList.sql" />
+    <None Include="SP scripts\Customer\spCustomerGetListByBirthDay.sql" />
+    <None Include="SP scripts\Customer\spCustomerGetListReceiveMsg.sql" />
+    <None Include="SP scripts\Customer\spCustomerInsert.sql" />
+    <None Include="SP scripts\Customer\spCustomerUpdate.sql" />
+    <None Include="SP scripts\CustomerType\spCustomerTypeDelete.sql" />
+    <None Include="SP scripts\CustomerType\spCustomerTypeGet.sql" />
+    <None Include="SP scripts\CustomerType\spCustomerTypeGetList.sql" />
+    <None Include="SP scripts\CustomerType\spCustomerTypeInsert.sql" />
+    <None Include="SP scripts\CustomerType\spCustomerTypeUpdate.sql" />
+    <None Include="SP scripts\ExtensionMessage\spExtensionMessageDelete.sql" />
+    <None Include="SP scripts\ExtensionMessage\spExtensionMessageGet.sql" />
+    <None Include="SP scripts\ExtensionMessage\spExtensionMessageGetList.sql" />
+    <None Include="SP scripts\ExtensionMessage\spExtensionMessageGetListByTitle.sql" />
+    <None Include="SP scripts\ExtensionMessage\spExtensionMessageInsert.sql" />
+    <None Include="SP scripts\ExtensionMessage\spExtensionMessageUpdate.sql" />
+    <None Include="SP scripts\ExtensionMessageLog\spExtensionMessageLogDelete.sql" />
+    <None Include="SP scripts\ExtensionMessageLog\spExtensionMessageLogGet.sql" />
+    <None Include="SP scripts\ExtensionMessageLog\spExtensionMessageLogGetList.sql" />
+    <None Include="SP scripts\ExtensionMessageLog\spExtensionMessageLogInsert.sql" />
+    <None Include="SP scripts\ExtensionMessageLog\spExtensionMessageLogUpdate.sql" />
+    <None Include="SP scripts\IncomingMessageContent\spIncomingMessageContentDelete.sql" />
+    <None Include="SP scripts\IncomingMessageContent\spIncomingMessageContentGet.sql" />
+    <None Include="SP scripts\IncomingMessageContent\spIncomingMessageContentGetList.sql" />
+    <None Include="SP scripts\IncomingMessageContent\spIncomingMessageContentInsert.sql" />
+    <None Include="SP scripts\IncomingMessageContent\spIncomingMessageContentUpdate.sql" />
+    <None Include="SP scripts\IncomingMessageContentSent\spIncomingMessageContentSentDelete.sql" />
+    <None Include="SP scripts\IncomingMessageContentSent\spIncomingMessageContentSentGet.sql" />
+    <None Include="SP scripts\IncomingMessageContentSent\spIncomingMessageContentSentGetList.sql" />
+    <None Include="SP scripts\IncomingMessageContentSent\spIncomingMessageContentSentInsert.sql" />
+    <None Include="SP scripts\IncomingMessageContentSent\spIncomingMessageContentSentUpdate.sql" />
+    <None Include="SP scripts\MessageCommand\spMessageCommandDelete.sql" />
+    <None Include="SP scripts\MessageCommand\spMessageCommandGet.sql" />
+    <None Include="SP scripts\MessageCommand\spMessageCommandGetList.sql" />
+    <None Include="SP scripts\MessageCommand\spMessageCommandInsert.sql" />
+    <None Include="SP scripts\MessageCommand\spMessageCommandUpdate.sql" />
+    <None Include="SP scripts\MessageContent\spContentTemplateForMessageContent.sql" />
+    <None Include="SP scripts\MessageContent\spMessageContentDelete.sql" />
+    <None Include="SP scripts\MessageContent\spMessageContentDeleteYear.sql" />
+    <None Include="SP scripts\MessageContent\spMessageContentGet.sql" />
+    <None Include="SP scripts\MessageContent\spMessageContentGetIDAndDate.sql" />
+    <None Include="SP scripts\MessageContent\spMessageContentGetList.sql" />
+    <None Include="SP scripts\MessageContent\spMessageContentGetListByServiceType.sql" />
+    <None Include="SP scripts\MessageContent\spMessageContentGetListByStatus.sql" />
+    <None Include="SP scripts\MessageContent\spMessageContentGetListFilterByServiceTypeID.sql" />
+    <None Include="SP scripts\MessageContent\spMessageContentInsert.sql" />
+    <None Include="SP scripts\MessageContent\spMessageContentUpdate.sql" />
+    <None Include="SP scripts\MessageContentAttachement\spMessageContentAttachementDelete.sql" />
+    <None Include="SP scripts\MessageContentAttachement\spMessageContentAttachementDeleteByMessageContent.sql" />
+    <None Include="SP scripts\MessageContentAttachement\spMessageContentAttachementGet.sql" />
+    <None Include="SP scripts\MessageContentAttachement\spMessageContentAttachementGetList.sql" />
+    <None Include="SP scripts\MessageContentAttachement\spMessageContentAttachementGetListByMessageContentID.sql" />
+    <None Include="SP scripts\MessageContentAttachement\spMessageContentAttachementInsert.sql" />
+    <None Include="SP scripts\MessageContentAttachement\spMessageContentAttachementUpdate.sql" />
+    <None Include="SP scripts\MessageContentAttachement\spMessageContentForMessageContentAttachement.sql" />
+    <None Include="SP scripts\MessageContentSent\spContentTemplateForMessageContentSent.sql" />
+    <None Include="SP scripts\MessageContentSent\spExistServiceTypeIdForMessageContent.sql" />
+    <None Include="SP scripts\MessageContentSent\spMessageContentForMessageContentSent.sql" />
+    <None Include="SP scripts\MessageContentSent\spMessageContentSentDelete.sql" />
+    <None Include="SP scripts\MessageContentSent\spMessageContentSentGet.sql" />
+    <None Include="SP scripts\MessageContentSent\spMessageContentSentGetList.sql" />
+    <None Include="SP scripts\MessageContentSent\spMessageContentSentGetListFilterByServiceTypeID.sql" />
+    <None Include="SP scripts\MessageContentSent\spMessageContentSentInsert.sql" />
+    <None Include="SP scripts\MessageContentSent\spMessageContentSentUpdate.sql" />
+    <None Include="SP scripts\MessageContentSent\spServiceTypeForMessageContentSent.sql" />
+    <None Include="SP scripts\MessageContentSentAttachement\spMessageContentSentAttachementDelete.sql" />
+    <None Include="SP scripts\MessageContentSentAttachement\spMessageContentSentAttachementGet.sql" />
+    <None Include="SP scripts\MessageContentSentAttachement\spMessageContentSentAttachementGetList.sql" />
+    <None Include="SP scripts\MessageContentSentAttachement\spMessageContentSentAttachementInsert.sql" />
+    <None Include="SP scripts\MessageContentSentAttachement\spMessageContentSentAttachementUpdate.sql" />
+    <None Include="SP scripts\RelatedMessagelog\spRelatedMessagelogDelete.sql" />
+    <None Include="SP scripts\RelatedMessagelog\spRelatedMessagelogGet.sql" />
+    <None Include="SP scripts\RelatedMessagelog\spRelatedMessagelogGetList.sql" />
+    <None Include="SP scripts\RelatedMessagelog\spRelatedMessagelogInsert.sql" />
+    <None Include="SP scripts\RelatedMessagelog\spRelatedMessagelogUpdate.sql" />
+    <None Include="SP scripts\ServiceType\spExistServiceTypeIdForServiceType.sql" />
+    <None Include="SP scripts\ServiceType\spServiceTypeDelete.sql" />
+    <None Include="SP scripts\ServiceType\spServiceTypeGet.sql" />
+    <None Include="SP scripts\ServiceType\spServiceTypeGetList.sql" />
+    <None Include="SP scripts\ServiceType\spServiceTypeInsert.sql" />
+    <None Include="SP scripts\ServiceType\spServiceTypeUpdate.sql" />
+    <None Include="SP scripts\Synchronize\spCustomersGetListSearch.sql" />
+    <None Include="Triggers\trMessageContentAfterDelete.sql" />
+    <None Include="SP scripts\NewWebsite\spstock_NewsGetListByStockCode.sql">
+      <SubType>NotInBuild</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BuildContributorArgument Include="OutDir=$(OutDir)" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug.publish.xml" />
+    <None Include="Release.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="Scripts\Pre-Deployment\Script.PreDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Post-Deployment\Script.PostDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Permissions.sql" />
+  </ItemGroup>
+</Project>

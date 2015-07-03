@@ -1,0 +1,5 @@
+..\..\Components\VfsCustomerService.Entities.dll
+..\..\Components\VfsCustomerService.Entities.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VfsCustomerService.Entities.dll
+obj\Debug\VfsCustomerService.Entities.pdb

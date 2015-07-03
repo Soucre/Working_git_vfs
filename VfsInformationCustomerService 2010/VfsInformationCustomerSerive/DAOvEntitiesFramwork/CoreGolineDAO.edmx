@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DolPhin_Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="InvestorId" />
+          </Key>
+          <Property Name="InvestorId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BranchCode" Type="smallint" Nullable="false" />
+          <Property Name="UnitCode" Type="smallint" Nullable="false" />
+          <Property Name="CustomerId" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="Type" Type="tinyint" Nullable="false" />
+          <Property Name="PersonalType" Type="tinyint" Nullable="false" />
+          <Property Name="Birthday" Type="datetime" Nullable="false" />
+          <Property Name="OpenDate" Type="smalldatetime" Nullable="false" />
+          <Property Name="IdentityCardType" Type="tinyint" Nullable="false" />
+          <Property Name="IdentityCardNo" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="IdentityCardIssueDate" Type="smalldatetime" Nullable="false" />
+          <Property Name="IdentityCardIssueBy" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Address" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="UserNameCreate" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="NationalityName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ContractNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="BalanceType" Type="tinyint" Nullable="false" />
+          <Property Name="SecuritiesType" Type="tinyint" Nullable="false" />
+          <Property Name="Status" Type="tinyint" Nullable="false" />
+          <Property Name="Sex" Type="tinyint" Nullable="false" />
+          <Property Name="Flag" Type="varchar" MaxLength="2" Nullable="false" />
+          <Property Name="Tel" Type="varchar" MaxLength="50" />
+          <Property Name="Mobile" Type="varchar" MaxLength="50" />
+          <Property Name="Email" Type="varchar" MaxLength="50" />
+          <Property Name="HasProxy" Type="bit" Nullable="false" />
+          <Property Name="IntroducedUser" Type="varchar" MaxLength="20" />
+          <Property Name="CaredUser" Type="varchar" MaxLength="20" />
+          <Property Name="IntroduceCustomerId" Type="varchar" MaxLength="10" />
+          <Property Name="ClosedDate" Type="smalldatetime" />
+          <Property Name="MasterAccountId" Type="int" Nullable="false" />
+          <Property Name="CustomerGroupId" Type="int" Nullable="false" />
+          <Property Name="Notes" Type="ntext" />
+          <Property Name="DepositType" Type="tinyint" Nullable="false" />
+          <Property Name="InfoChannelId" Type="int" Nullable="false" />
+          <Property Name="ExternalIntroduceCustomerId" Type="varchar" MaxLength="10" />
+          <Property Name="Name2" Type="varchar" MaxLength="200" />
+          <Property Name="TradingStatus" Type="bit" />
+          <Property Name="IntroducedUserType" Type="varchar" MaxLength="1" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="DolPhin_ModelStoreContainer">
+          <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DolPhin_Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="InvestorId" />
+          </Key>
+          <Property Name="InvestorId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BranchCode" Type="Int16" Nullable="false" />
+          <Property Name="UnitCode" Type="Int16" Nullable="false" />
+          <Property Name="CustomerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Type" Type="Byte" Nullable="false" />
+          <Property Name="PersonalType" Type="Byte" Nullable="false" />
+          <Property Name="Birthday" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="OpenDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="IdentityCardType" Type="Byte" Nullable="false" />
+          <Property Name="IdentityCardNo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IdentityCardIssueDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="IdentityCardIssueBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Address" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UserNameCreate" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NationalityName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ContractNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="BalanceType" Type="Byte" Nullable="false" />
+          <Property Name="SecuritiesType" Type="Byte" Nullable="false" />
+          <Property Name="Status" Type="Byte" Nullable="false" />
+          <Property Name="Sex" Type="Byte" Nullable="false" />
+          <Property Name="Flag" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Tel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="HasProxy" Type="Boolean" Nullable="false" />
+          <Property Name="IntroducedUser" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CaredUser" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="IntroduceCustomerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ClosedDate" Type="DateTime" Precision="0" />
+          <Property Name="MasterAccountId" Type="Int32" Nullable="false" />
+          <Property Name="CustomerGroupId" Type="Int32" Nullable="false" />
+          <Property Name="Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="DepositType" Type="Byte" Nullable="false" />
+          <Property Name="InfoChannelId" Type="Int32" Nullable="false" />
+          <Property Name="ExternalIntroduceCustomerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Name2" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="TradingStatus" Type="Boolean" />
+          <Property Name="IntroducedUserType" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="DolPhin_Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Customers" EntityType="Self.Customer" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DolPhin_ModelStoreContainer" CdmEntityContainer="DolPhin_Entities">
+          <EntitySetMapping Name="Customers">
+            <EntityTypeMapping TypeName="DolPhin_Model.Customer">
+              <MappingFragment StoreEntitySet="Customer">
+                <ScalarProperty Name="InvestorId" ColumnName="InvestorId" />
+                <ScalarProperty Name="BranchCode" ColumnName="BranchCode" />
+                <ScalarProperty Name="UnitCode" ColumnName="UnitCode" />
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="PersonalType" ColumnName="PersonalType" />
+                <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+                <ScalarProperty Name="OpenDate" ColumnName="OpenDate" />
+                <ScalarProperty Name="IdentityCardType" ColumnName="IdentityCardType" />
+                <ScalarProperty Name="IdentityCardNo" ColumnName="IdentityCardNo" />
+                <ScalarProperty Name="IdentityCardIssueDate" ColumnName="IdentityCardIssueDate" />
+                <ScalarProperty Name="IdentityCardIssueBy" ColumnName="IdentityCardIssueBy" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="UserNameCreate" ColumnName="UserNameCreate" />
+                <ScalarProperty Name="NationalityName" ColumnName="NationalityName" />
+                <ScalarProperty Name="ContractNo" ColumnName="ContractNo" />
+                <ScalarProperty Name="BalanceType" ColumnName="BalanceType" />
+                <ScalarProperty Name="SecuritiesType" ColumnName="SecuritiesType" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Sex" ColumnName="Sex" />
+                <ScalarProperty Name="Flag" ColumnName="Flag" />
+                <ScalarProperty Name="Tel" ColumnName="Tel" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="HasProxy" ColumnName="HasProxy" />
+                <ScalarProperty Name="IntroducedUser" ColumnName="IntroducedUser" />
+                <ScalarProperty Name="CaredUser" ColumnName="CaredUser" />
+                <ScalarProperty Name="IntroduceCustomerId" ColumnName="IntroduceCustomerId" />
+                <ScalarProperty Name="ClosedDate" ColumnName="ClosedDate" />
+                <ScalarProperty Name="MasterAccountId" ColumnName="MasterAccountId" />
+                <ScalarProperty Name="CustomerGroupId" ColumnName="CustomerGroupId" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="DepositType" ColumnName="DepositType" />
+                <ScalarProperty Name="InfoChannelId" ColumnName="InfoChannelId" />
+                <ScalarProperty Name="ExternalIntroduceCustomerId" ColumnName="ExternalIntroduceCustomerId" />
+                <ScalarProperty Name="Name2" ColumnName="Name2" />
+                <ScalarProperty Name="TradingStatus" ColumnName="TradingStatus" />
+                <ScalarProperty Name="IntroducedUserType" ColumnName="IntroducedUserType" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

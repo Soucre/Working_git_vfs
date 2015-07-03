@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VfsCustomerServiceModelStoreContainer" CdmEntityContainer="CustomerServiceDBEntities">
+    <EntitySetMapping Name="ContentParameters">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.ContentParameter">
+        <MappingFragment StoreEntitySet="ContentParameter">
+          <ScalarProperty Name="ContentParameterID" ColumnName="ContentParameterID" />
+          <ScalarProperty Name="ContentParameterName" ColumnName="ContentParameterName" />
+          <ScalarProperty Name="ContentParameterDescription" ColumnName="ContentParameterDescription" />
+          <ScalarProperty Name="ContentParameterValue" ColumnName="ContentParameterValue" />
+          <ScalarProperty Name="ContentParameterActive" ColumnName="ContentParameterActive" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContentTemplates">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.ContentTemplate">
+        <MappingFragment StoreEntitySet="ContentTemplate">
+          <ScalarProperty Name="ContentTemplateID" ColumnName="ContentTemplateID" />
+          <ScalarProperty Name="ServiceTypeID" ColumnName="ServiceTypeID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Sender" ColumnName="Sender" />
+          <ScalarProperty Name="Receiver" ColumnName="Receiver" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="BodyContentType" ColumnName="BodyContentType" />
+          <ScalarProperty Name="BodyEncoding" ColumnName="BodyEncoding" />
+          <ScalarProperty Name="BodyMessage" ColumnName="BodyMessage" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContentTemplateAttachements">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.ContentTemplateAttachement">
+        <MappingFragment StoreEntitySet="ContentTemplateAttachement">
+          <ScalarProperty Name="ContentTemplateAttachementID" ColumnName="ContentTemplateAttachementID" />
+          <ScalarProperty Name="AttachementDocument" ColumnName="AttachementDocument" />
+          <ScalarProperty Name="AttachementDescription" ColumnName="AttachementDescription" />
+          <ScalarProperty Name="ContentTemplateID" ColumnName="ContentTemplateID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="BranchCode" ColumnName="BranchCode" />
+          <ScalarProperty Name="ContractNumber" ColumnName="ContractNumber" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="BrokerId" ColumnName="BrokerId" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="CustomerNameViet" ColumnName="CustomerNameViet" />
+          <ScalarProperty Name="CustomerType" ColumnName="CustomerType" />
+          <ScalarProperty Name="DomesticForeign" ColumnName="DomesticForeign" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="SignatureImage1" ColumnName="SignatureImage1" />
+          <ScalarProperty Name="SignatureImage2" ColumnName="SignatureImage2" />
+          <ScalarProperty Name="OpenDate" ColumnName="OpenDate" />
+          <ScalarProperty Name="CloseDate" ColumnName="CloseDate" />
+          <ScalarProperty Name="CardType" ColumnName="CardType" />
+          <ScalarProperty Name="CardIdentity" ColumnName="CardIdentity" />
+          <ScalarProperty Name="CardDate" ColumnName="CardDate" />
+          <ScalarProperty Name="CardIssuer" ColumnName="CardIssuer" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="AddressViet" ColumnName="AddressViet" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Mobile2" ColumnName="Mobile2" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="UserCreate" ColumnName="UserCreate" />
+          <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+          <ScalarProperty Name="UserModify" ColumnName="UserModify" />
+          <ScalarProperty Name="DateModify" ColumnName="DateModify" />
+          <ScalarProperty Name="ProxyStatus" ColumnName="ProxyStatus" />
+          <ScalarProperty Name="AccountStatus" ColumnName="AccountStatus" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="WorkingAddress" ColumnName="WorkingAddress" />
+          <ScalarProperty Name="UserIntroduce" ColumnName="UserIntroduce" />
+          <ScalarProperty Name="AttitudePoint" ColumnName="AttitudePoint" />
+          <ScalarProperty Name="DepositPoint" ColumnName="DepositPoint" />
+          <ScalarProperty Name="ActionPoint" ColumnName="ActionPoint" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="TaxCode" ColumnName="TaxCode" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="OrderType" ColumnName="OrderType" />
+          <ScalarProperty Name="ReceiveReport" ColumnName="ReceiveReport" />
+          <ScalarProperty Name="ReceiveReportBy" ColumnName="ReceiveReportBy" />
+          <ScalarProperty Name="MarriageStatus" ColumnName="MarriageStatus" />
+          <ScalarProperty Name="KnowledgeLevel" ColumnName="KnowledgeLevel" />
+          <ScalarProperty Name="Job" ColumnName="Job" />
+          <ScalarProperty Name="OfficeFunction" ColumnName="OfficeFunction" />
+          <ScalarProperty Name="OfficeTel" ColumnName="OfficeTel" />
+          <ScalarProperty Name="OfficeFax" ColumnName="OfficeFax" />
+          <ScalarProperty Name="HusbandWifeName" ColumnName="HusbandWifeName" />
+          <ScalarProperty Name="HusbandWifeCardNumber" ColumnName="HusbandWifeCardNumber" />
+          <ScalarProperty Name="HusbandWifeCardDate" ColumnName="HusbandWifeCardDate" />
+          <ScalarProperty Name="HusbandWifeCardLocation" ColumnName="HusbandWifeCardLocation" />
+          <ScalarProperty Name="HusbandWifeTel" ColumnName="HusbandWifeTel" />
+          <ScalarProperty Name="HusbandWifeEmail" ColumnName="HusbandWifeEmail" />
+          <ScalarProperty Name="JoinStockMarket" ColumnName="JoinStockMarket" />
+          <ScalarProperty Name="InvestKnowledge" ColumnName="InvestKnowledge" />
+          <ScalarProperty Name="InvestedIn" ColumnName="InvestedIn" />
+          <ScalarProperty Name="InvestTarget" ColumnName="InvestTarget" />
+          <ScalarProperty Name="RiskAccepted" ColumnName="RiskAccepted" />
+          <ScalarProperty Name="InvestFund" ColumnName="InvestFund" />
+          <ScalarProperty Name="DelegatePersonName" ColumnName="DelegatePersonName" />
+          <ScalarProperty Name="DelegatePersonFunction" ColumnName="DelegatePersonFunction" />
+          <ScalarProperty Name="DelegatePersonCardNumber" ColumnName="DelegatePersonCardNumber" />
+          <ScalarProperty Name="DelegateCardDate" ColumnName="DelegateCardDate" />
+          <ScalarProperty Name="DelegateCardLocation" ColumnName="DelegateCardLocation" />
+          <ScalarProperty Name="DelegatePersonTel" ColumnName="DelegatePersonTel" />
+          <ScalarProperty Name="DelegatePersonEmail" ColumnName="DelegatePersonEmail" />
+          <ScalarProperty Name="ChiefAccountancyName" ColumnName="ChiefAccountancyName" />
+          <ScalarProperty Name="ChiefAccountancyCI" ColumnName="ChiefAccountancyCI" />
+          <ScalarProperty Name="ChiefAccountancyCD" ColumnName="ChiefAccountancyCD" />
+          <ScalarProperty Name="ChiefAccountancyIssuer" ColumnName="ChiefAccountancyIssuer" />
+          <ScalarProperty Name="ChiefAccountancySign1" ColumnName="ChiefAccountancySign1" />
+          <ScalarProperty Name="ChiefAccountancySign2" ColumnName="ChiefAccountancySign2" />
+          <ScalarProperty Name="CaProxyName" ColumnName="CaProxyName" />
+          <ScalarProperty Name="CaProxyCI" ColumnName="CaProxyCI" />
+          <ScalarProperty Name="CaProxyCD" ColumnName="CaProxyCD" />
+          <ScalarProperty Name="CaProxyIssuer" ColumnName="CaProxyIssuer" />
+          <ScalarProperty Name="CaProxySign1" ColumnName="CaProxySign1" />
+          <ScalarProperty Name="CaProxySign2" ColumnName="CaProxySign2" />
+          <ScalarProperty Name="CompanySign1" ColumnName="CompanySign1" />
+          <ScalarProperty Name="CompanySign2" ColumnName="CompanySign2" />
+          <ScalarProperty Name="TradeCode" ColumnName="TradeCode" />
+          <ScalarProperty Name="CustomerAccount" ColumnName="CustomerAccount" />
+          <ScalarProperty Name="MobileSms" ColumnName="MobileSms" />
+          <ScalarProperty Name="IsHere" ColumnName="IsHere" />
+          <ScalarProperty Name="MoneyDepositeNumber" ColumnName="MoneyDepositeNumber" />
+          <ScalarProperty Name="MoneyDepositeLocation" ColumnName="MoneyDepositeLocation" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="PublicCompanyManage" ColumnName="PublicCompanyManage" />
+          <ScalarProperty Name="PublicCompanyHolder" ColumnName="PublicCompanyHolder" />
+          <ScalarProperty Name="ParentCompanyName" ColumnName="ParentCompanyName" />
+          <ScalarProperty Name="ParentCompanyAddress" ColumnName="ParentCompanyAddress" />
+          <ScalarProperty Name="ParentCompanyEmail" ColumnName="ParentCompanyEmail" />
+          <ScalarProperty Name="ParentCompanyTel" ColumnName="ParentCompanyTel" />
+          <ScalarProperty Name="PostType" ColumnName="PostType" />
+          <ScalarProperty Name="ReOpenDate" ColumnName="ReOpenDate" />
+          <ScalarProperty Name="UserTakeCared" ColumnName="UserTakeCared" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="SendYN" ColumnName="SendYN" />
+          <ScalarProperty Name="ReceiveRelatedStockEmail" ColumnName="ReceiveRelatedStockEmail" />
+          <ScalarProperty Name="ReceiveRelatedStockSms" ColumnName="ReceiveRelatedStockSms" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerTypes">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.CustomerType">
+        <MappingFragment StoreEntitySet="CustomerType">
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExtensionMessages">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.ExtensionMessage">
+        <MappingFragment StoreEntitySet="ExtensionMessage">
+          <ScalarProperty Name="ExtensionMessageID" ColumnName="ExtensionMessageID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExtensionMessageLogs">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.ExtensionMessageLog">
+        <MappingFragment StoreEntitySet="ExtensionMessageLog">
+          <ScalarProperty Name="ExtensionMessageLogID" ColumnName="ExtensionMessageLogID" />
+          <ScalarProperty Name="ExtensionMessageID" ColumnName="ExtensionMessageID" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IncomingMessageContents">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.IncomingMessageContent">
+        <MappingFragment StoreEntitySet="IncomingMessageContent">
+          <ScalarProperty Name="IncomingMessageContentID" ColumnName="IncomingMessageContentID" />
+          <ScalarProperty Name="ServiceTypeID" ColumnName="ServiceTypeID" />
+          <ScalarProperty Name="Sender" ColumnName="Sender" />
+          <ScalarProperty Name="Receiver" ColumnName="Receiver" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="BodyContentType" ColumnName="BodyContentType" />
+          <ScalarProperty Name="BodyEncoding" ColumnName="BodyEncoding" />
+          <ScalarProperty Name="BodyMessage" ColumnName="BodyMessage" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="CommandCode" ColumnName="CommandCode" />
+          <ScalarProperty Name="Request" ColumnName="Request" />
+          <ScalarProperty Name="MoID" ColumnName="MoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IncomingMessageContentSents">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.IncomingMessageContentSent">
+        <MappingFragment StoreEntitySet="IncomingMessageContentSent">
+          <ScalarProperty Name="IncomingMessageContentSentID" ColumnName="IncomingMessageContentSentID" />
+          <ScalarProperty Name="IncomingMessageContentID" ColumnName="IncomingMessageContentID" />
+          <ScalarProperty Name="ServiceTypeID" ColumnName="ServiceTypeID" />
+          <ScalarProperty Name="Sender" ColumnName="Sender" />
+          <ScalarProperty Name="Receiver" ColumnName="Receiver" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="BodyContentType" ColumnName="BodyContentType" />
+          <ScalarProperty Name="BodyEncoding" ColumnName="BodyEncoding" />
+          <ScalarProperty Name="BodyMessage" ColumnName="BodyMessage" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="CommandCode" ColumnName="CommandCode" />
+          <ScalarProperty Name="Request" ColumnName="Request" />
+          <ScalarProperty Name="MoID" ColumnName="MoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MessageCommands">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.MessageCommand">
+        <MappingFragment StoreEntitySet="MessageCommand">
+          <ScalarProperty Name="MessageCommandID" ColumnName="MessageCommandID" />
+          <ScalarProperty Name="MessageContentID" ColumnName="MessageContentID" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ProcessedDateTime" ColumnName="ProcessedDateTime" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MessageContents">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.MessageContent">
+        <MappingFragment StoreEntitySet="MessageContent">
+          <ScalarProperty Name="MessageContentID" ColumnName="MessageContentID" />
+          <ScalarProperty Name="ContentTemplateID" ColumnName="ContentTemplateID" />
+          <ScalarProperty Name="ServiceTypeID" ColumnName="ServiceTypeID" />
+          <ScalarProperty Name="Sender" ColumnName="Sender" />
+          <ScalarProperty Name="Receiver" ColumnName="Receiver" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="BodyContentType" ColumnName="BodyContentType" />
+          <ScalarProperty Name="BodyEncoding" ColumnName="BodyEncoding" />
+          <ScalarProperty Name="BodyMessage" ColumnName="BodyMessage" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="CommandCode" ColumnName="CommandCode" />
+          <ScalarProperty Name="Request" ColumnName="Request" />
+          <ScalarProperty Name="MoID" ColumnName="MoID" />
+          <ScalarProperty Name="ChargeYN" ColumnName="ChargeYN" />
+          <ScalarProperty Name="TotalMessages" ColumnName="TotalMessages" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MessageContentAttachements">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.MessageContentAttachement">
+        <MappingFragment StoreEntitySet="MessageContentAttachement">
+          <ScalarProperty Name="MessageContentAttachementID" ColumnName="MessageContentAttachementID" />
+          <ScalarProperty Name="AttachementDocument" ColumnName="AttachementDocument" />
+          <ScalarProperty Name="AttachementDescription" ColumnName="AttachementDescription" />
+          <ScalarProperty Name="MessageContentID" ColumnName="MessageContentID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MessageContentSents">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.MessageContentSent">
+        <MappingFragment StoreEntitySet="MessageContentSent">
+          <ScalarProperty Name="MessageContentID" ColumnName="MessageContentID" />
+          <ScalarProperty Name="ContentTemplateID" ColumnName="ContentTemplateID" />
+          <ScalarProperty Name="ServiceTypeID" ColumnName="ServiceTypeID" />
+          <ScalarProperty Name="Sender" ColumnName="Sender" />
+          <ScalarProperty Name="Receiver" ColumnName="Receiver" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="BodyContentType" ColumnName="BodyContentType" />
+          <ScalarProperty Name="BodyEncoding" ColumnName="BodyEncoding" />
+          <ScalarProperty Name="BodyMessage" ColumnName="BodyMessage" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="MessageContentSentID" ColumnName="MessageContentSentID" />
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="CommandCode" ColumnName="CommandCode" />
+          <ScalarProperty Name="Request" ColumnName="Request" />
+          <ScalarProperty Name="MoID" ColumnName="MoID" />
+          <ScalarProperty Name="ChargeYN" ColumnName="ChargeYN" />
+          <ScalarProperty Name="TotalMessages" ColumnName="TotalMessages" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MessageContentSentAttachements">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.MessageContentSentAttachement">
+        <MappingFragment StoreEntitySet="MessageContentSentAttachement">
+          <ScalarProperty Name="MessageContentSentAttachementID" ColumnName="MessageContentSentAttachementID" />
+          <ScalarProperty Name="AttachementDocument" ColumnName="AttachementDocument" />
+          <ScalarProperty Name="AttachementDescription" ColumnName="AttachementDescription" />
+          <ScalarProperty Name="MessageContentID" ColumnName="MessageContentID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceTypes">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.ServiceType">
+        <MappingFragment StoreEntitySet="ServiceType">
+          <ScalarProperty Name="ServiceTypeID" ColumnName="ServiceTypeID" />
+          <ScalarProperty Name="ServiceTypeDescription" ColumnName="ServiceTypeDescription" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

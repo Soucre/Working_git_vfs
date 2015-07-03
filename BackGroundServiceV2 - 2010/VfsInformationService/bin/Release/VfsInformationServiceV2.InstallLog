@@ -1,0 +1,1842 @@
+﻿Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Rolling back assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Restoring event log to previous state for source VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Warning: The source VfsInformationServiceV2 is not registered on the local machine.
+Service VfsInformationServiceV2 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.
+Installing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Installing service VfsInformationServiceV2...
+Service VfsInformationServiceV2 has been successfully installed.
+Creating EventLog source VfsInformationServiceV2 in log Application...
+Committing assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Uninstalling assembly 'D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.exe
+   logfile = D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsInformationService\bin\Release\VfsInformationServiceV2.InstallLog
+Removing EventLog source VfsInformationServiceV2.
+Service VfsInformationServiceV2 is being removed from the system...
+Service VfsInformationServiceV2 was successfully removed from the system.
+Attempt to stop service VfsInformationServiceV2.

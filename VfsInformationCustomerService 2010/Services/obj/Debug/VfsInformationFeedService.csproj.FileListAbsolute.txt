@@ -1,0 +1,87 @@
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\VfsInformationFeedService.exe.config
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\VfsInformationFeedService.exe
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\VfsInformationFeedService.pdb
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\HtmlAgilityPack.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\Interop.SHDocVw.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\log4net.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\Vfs.WebCrawler.Business.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\Vfs.WebCrawler.Data.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\Vfs.WebCrawler.Entities.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\VfsCustomerService.Business.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\VfsCustomerService.Data.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\VfsCustomerService.Entities.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\LumenWorks.Framework.IO.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\Vfs.WebCrawler.Business.pdb
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\Vfs.WebCrawler.Data.pdb
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\Vfs.WebCrawler.Entities.pdb
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\VfsCustomerService.Business.pdb
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\VfsCustomerService.Data.pdb
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\bin\Debug\VfsCustomerService.Entities.pdb
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\obj\Debug\VfsInformationFeedService.csprojResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\obj\Debug\VfsInformationFeedService.InformationFeedService.resources
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\obj\Debug\VfsInformationFeedService.ServiceInstaller.resources
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\obj\Debug\VfsInformationFeedService.csproj.GenerateResource.Cache
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\obj\Debug\VfsInformationFeedService.exe
+E:\Working\VfsInformationCustomerService - converted to 2010\Services\obj\Debug\VfsInformationFeedService.pdb
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsInformationFeedService.exe.config
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsInformationFeedService.exe
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsInformationFeedService.pdb
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\HtmlAgilityPack.dll
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Interop.SHDocVw.dll
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\log4net.dll
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Vfs.WebCrawler.Business.dll
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Vfs.WebCrawler.Data.dll
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Vfs.WebCrawler.Entities.dll
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsCustomerService.Business.dll
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsCustomerService.Data.dll
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsCustomerService.Entities.dll
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\LumenWorks.Framework.IO.dll
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Vfs.WebCrawler.Business.pdb
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Vfs.WebCrawler.Data.pdb
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Vfs.WebCrawler.Entities.pdb
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsCustomerService.Business.pdb
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsCustomerService.Data.pdb
+E:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsCustomerService.Entities.pdb
+E:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.csprojResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.InformationFeedService.resources
+E:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.ServiceInstaller.resources
+E:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.csproj.GenerateResource.Cache
+E:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.exe
+E:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.pdb
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsInformationFeedService.exe.config
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsInformationFeedService.exe
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsInformationFeedService.pdb
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\HtmlAgilityPack.dll
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Interop.SHDocVw.dll
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\log4net.dll
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Vfs.WebCrawler.Business.dll
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Vfs.WebCrawler.Data.dll
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Vfs.WebCrawler.Entities.dll
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsCustomerService.Business.dll
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsCustomerService.Data.dll
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsCustomerService.Entities.dll
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\LumenWorks.Framework.IO.dll
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Vfs.WebCrawler.Business.pdb
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Vfs.WebCrawler.Data.pdb
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\Vfs.WebCrawler.Entities.pdb
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsCustomerService.Business.pdb
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsCustomerService.Data.pdb
+F:\Working\VfsInformationCustomerService 2010\Services\bin\Debug\VfsCustomerService.Entities.pdb
+F:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.csprojResolveAssemblyReference.cache
+F:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.InformationFeedService.resources
+F:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.ServiceInstaller.resources
+F:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.csproj.GenerateResource.Cache
+F:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.exe
+F:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.pdb

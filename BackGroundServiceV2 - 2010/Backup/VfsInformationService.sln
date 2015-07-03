@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VfsInformationServiceV2", "VfsInformationService\VfsInformationServiceV2.csproj", "{A2792257-92E3-4DFE-A58F-728C0603CF42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VfsSMSEmailServiceV2", "VfsSMSEmailServiceV2\VfsSMSEmailServiceV2.csproj", "{CE4BFA5A-551A-4A1F-B4CB-A8464A2A1247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{148DF32E-F277-47AA-8AE0-BE06B57EFE74}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = VfsInformationService\\VfsInformationServiceV2.csproj
+		SccProjectName1 = \u0022$/MSTechnology/BackGroundServiceV2/VfsInformationService/VfsInformationService\u0022,\u0020LRABAAAA
+		SccLocalPath1 = VfsInformationService
+		SccProjectUniqueName2 = VfsSMSEmailServiceV2\\VfsSMSEmailServiceV2.csproj
+		SccProjectName2 = \u0022$/MSTechnology/BackGroundServiceV2/VfsInformationService/VfsSMSEmailServiceV2\u0022,\u0020NBBBAAAA
+		SccLocalPath2 = VfsSMSEmailServiceV2
+		SccProjectUniqueName3 = UnitTest\\UnitTest.csproj
+		SccProjectName3 = \u0022$/MSTechnology/BackGroundServiceV2/VfsInformationService/UnitTest\u0022,\u0020SJABAAAA
+		SccLocalPath3 = UnitTest
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2792257-92E3-4DFE-A58F-728C0603CF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2792257-92E3-4DFE-A58F-728C0603CF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2792257-92E3-4DFE-A58F-728C0603CF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2792257-92E3-4DFE-A58F-728C0603CF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE4BFA5A-551A-4A1F-B4CB-A8464A2A1247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE4BFA5A-551A-4A1F-B4CB-A8464A2A1247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE4BFA5A-551A-4A1F-B4CB-A8464A2A1247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE4BFA5A-551A-4A1F-B4CB-A8464A2A1247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{148DF32E-F277-47AA-8AE0-BE06B57EFE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148DF32E-F277-47AA-8AE0-BE06B57EFE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148DF32E-F277-47AA-8AE0-BE06B57EFE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148DF32E-F277-47AA-8AE0-BE06B57EFE74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

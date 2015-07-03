@@ -1,0 +1,8 @@
+..\..\Components\VfsCustomerService.Business.dll.config
+..\..\Components\VfsCustomerService.Business.dll
+..\..\Components\VfsCustomerService.Business.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VfsCustomerService.Business.SR.resources
+obj\Debug\Business.csproj.GenerateResource.Cache
+obj\Debug\VfsCustomerService.Business.dll
+obj\Debug\VfsCustomerService.Business.pdb

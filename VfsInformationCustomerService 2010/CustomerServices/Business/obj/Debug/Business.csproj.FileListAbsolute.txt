@@ -1,0 +1,32 @@
+E:\Working\VfsInformationCustomerService - converted to 2010\Components\VfsCustomerService.Business.dll.config
+E:\Working\VfsInformationCustomerService - converted to 2010\Components\VfsCustomerService.Business.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\Components\VfsCustomerService.Business.pdb
+E:\Working\VfsInformationCustomerService - converted to 2010\CustomerServices\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService - converted to 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.SR.resources
+E:\Working\VfsInformationCustomerService - converted to 2010\CustomerServices\Business\obj\Debug\Business.csproj.GenerateResource.Cache
+E:\Working\VfsInformationCustomerService - converted to 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.dll
+E:\Working\VfsInformationCustomerService - converted to 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.pdb
+E:\Working\VfsInformationCustomerService 2010\Components\VfsCustomerService.Business.dll.config
+E:\Working\VfsInformationCustomerService 2010\Components\VfsCustomerService.Business.dll
+E:\Working\VfsInformationCustomerService 2010\Components\VfsCustomerService.Business.pdb
+E:\Working\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.SR.resources
+E:\Working\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\Business.csproj.GenerateResource.Cache
+E:\Working\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.dll
+E:\Working\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.pdb
+F:\Working\VfsInformationCustomerService 2010\Components\VfsCustomerService.Business.dll.config
+F:\Working\VfsInformationCustomerService 2010\Components\VfsCustomerService.Business.dll
+F:\Working\VfsInformationCustomerService 2010\Components\VfsCustomerService.Business.pdb
+F:\Working\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+F:\Working\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.SR.resources
+F:\Working\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\Business.csproj.GenerateResource.Cache
+F:\Working\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.dll
+F:\Working\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.pdb
+F:\Working_Git\workingViFS\VfsInformationCustomerService 2010\Components\VfsCustomerService.Business.dll.config
+F:\Working_Git\workingViFS\VfsInformationCustomerService 2010\Components\VfsCustomerService.Business.dll
+F:\Working_Git\workingViFS\VfsInformationCustomerService 2010\Components\VfsCustomerService.Business.pdb
+F:\Working_Git\workingViFS\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.SR.resources
+F:\Working_Git\workingViFS\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\Business.csproj.GenerateResource.Cache
+F:\Working_Git\workingViFS\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.dll
+F:\Working_Git\workingViFS\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.pdb
+F:\Working_Git\workingViFS\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache

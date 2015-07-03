@@ -1,0 +1,5 @@
+..\Components\Vfs.WebCrawler.Entities.dll
+..\Components\Vfs.WebCrawler.Entities.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Vfs.WebCrawler.Entities.dll
+obj\Debug\Vfs.WebCrawler.Entities.pdb

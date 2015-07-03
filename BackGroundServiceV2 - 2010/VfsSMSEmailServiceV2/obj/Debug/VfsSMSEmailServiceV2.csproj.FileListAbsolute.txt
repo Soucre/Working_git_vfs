@@ -1,0 +1,228 @@
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe.config
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\CoreSecurityService.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\HtmlAgilityPack.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\log4net.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Entities.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Business.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Entities.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Entities.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\CoreSecurityService.Entities.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\LumenWorks.Framework.IO.dll
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Data.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Entities.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Entities.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Data.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Entities.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Business.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\CoreSecurityService.Data.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Business.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\CoreSecurityService.Entities.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Data.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.InformationService.resources
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.ServiceInstaller.resources
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.csproj.GenerateResource.Cache
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.exe
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.pdb
+D:\Working\VfsInformationCustomerSerive\Servicesv2\VfsInformationService\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Business.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe.config
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Debug\ResolveAssemblyReference.cache
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.InformationService.resources
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.ServiceInstaller.resources
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.csproj.GenerateResource.Cache
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.exe
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Business.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Data.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Business.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Data.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Entities.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Entities.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Business.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Data.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Entities.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Business.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Data.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Entities.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\office.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\LumenWorks.Framework.IO.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\TemplateEngine.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Interop.Excel.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Business.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Entities.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Entities.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\office.xml
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Data.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Data.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Data.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Business.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Entities.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Business.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Business.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Data.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Entities.pdb
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.application
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.application
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe.config
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.exe
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.application
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Business.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Data.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Business.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Data.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Entities.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Entities.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Business.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Data.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Entities.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Business.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Data.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Entities.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\LumenWorks.Framework.IO.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Interop.Excel.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\TemplateEngine.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\office.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Business.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Data.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Business.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Data.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Entities.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Entities.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Business.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Data.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Entities.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Business.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Data.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Entities.pdb
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\bin\Debug\office.xml
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.csprojResolveAssemblyReference.cache
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.InformationService.resources
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.ServiceInstaller.resources
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.csproj.GenerateResource.Cache
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2 - Copy\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.application
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe.config
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.application
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Business.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Business.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Entities.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Entities.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Business.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Entities.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Business.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Entities.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\LumenWorks.Framework.IO.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Interop.Excel.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\TemplateEngine.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\office.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Business.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Data.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Business.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Data.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Entities.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Entities.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Business.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Data.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Entities.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Business.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Data.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Entities.pdb
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\office.xml
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.InformationService.resources
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.ServiceInstaller.resources
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.csproj.GenerateResource.Cache
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.exe.manifest
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.application
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.exe
+E:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.pdb
+F:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe.config
+F:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.exe
+F:\Working\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.pdb
+F:\Working_Git\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe.config
+F:\Working_Git\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.exe
+F:\Working_Git\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe.config
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.exe
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe.manifest
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.application
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.exe
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsSMSEmailServiceV2.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Business.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Data.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Business.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Data.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Entities.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Entities.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Data.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Entities.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Business.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Data.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Entities.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\TemplateEngine.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Interop.Excel.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\LumenWorks.Framework.IO.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\office.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Business.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Data.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Business.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Data.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Destination.Entities.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Vfs.WebCrawler.Entities.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Business.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Data.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsCustomerService.Entities.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Business.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Data.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\VfsInformationService.Entities.pdb
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\bin\Debug\office.xml
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.csprojResolveAssemblyReference.cache
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.InformationService.resources
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.ServiceInstaller.resources
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.csproj.GenerateResource.Cache
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.exe.manifest
+E:\workingViFS\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV2\obj\Debug\VfsSMSEmailServiceV2.application

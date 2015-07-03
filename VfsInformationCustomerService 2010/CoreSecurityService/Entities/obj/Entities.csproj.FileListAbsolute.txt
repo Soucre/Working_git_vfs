@@ -1,0 +1,16 @@
+D:\Working\VfsInformationCustomerService\CoreSecurityService\Entities\bin\Release\CoreSecurityService.Entities.dll
+D:\Working\VfsInformationCustomerService\CoreSecurityService\Entities\obj\Release\ResolveAssemblyReference.cache
+D:\Working\VfsInformationCustomerService\CoreSecurityService\Entities\obj\Release\CoreSecurityService.Entities.dll
+D:\Working\VfsInformationCustomerService\Components\CoreSecurityService.Entities.dll
+D:\Working\VfsInformationCustomerService\Components\CoreSecurityService.Entities.pdb
+D:\Working\VfsInformationCustomerService\CoreSecurityService\Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\VfsInformationCustomerService\CoreSecurityService\Entities\obj\Debug\CoreSecurityService.Entities.dll
+D:\Working\VfsInformationCustomerService\CoreSecurityService\Entities\obj\Debug\CoreSecurityService.Entities.pdb
+E:\Working\VfsInformationCustomerService\Components\CoreSecurityService.Entities.dll
+E:\Working\VfsInformationCustomerService\Components\CoreSecurityService.Entities.pdb
+E:\Working\VfsInformationCustomerService\CoreSecurityService\Entities\obj\Debug\ResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService\CoreSecurityService\Entities\obj\Debug\CoreSecurityService.Entities.dll
+E:\Working\VfsInformationCustomerService\CoreSecurityService\Entities\obj\Debug\CoreSecurityService.Entities.pdb
+E:\Working\VfsInformationCustomerService\CoreSecurityService\Entities\bin\Release\CoreSecurityService.Entities.dll
+E:\Working\VfsInformationCustomerService\CoreSecurityService\Entities\obj\Release\ResolveAssemblyReference.cache
+E:\Working\VfsInformationCustomerService\CoreSecurityService\Entities\obj\Release\CoreSecurityService.Entities.dll
