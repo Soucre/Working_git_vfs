@@ -254,8 +254,9 @@
 			                <p><a href="#">QUẢN LÝ KHÁCH HÀNG</a></p>
 			                <p class="subtext">QUẢN LÝ KHÁCH HÀNG</p>
 		                </li>	
-                        <li class="blue"><p><a href="#">Nhóm khách hàng</a></p></li>	
-                       <li class="blue"><p><a href="#">Chi tiết nhóm</a></p></li>	
+                        <li class="blue"><p><a href="CustomerGroup.aspx">Nhóm khách hàng</a></p></li>	
+                       <li class="blue"><p><a href="GroupDetail.aspx">Chi tiết nhóm</a></p></li>
+                       <li class="blue"><p><a href="MessegeGroup.aspx">Gửi tin theo nhóm</a></p></li>	
                        <%--Menu 2--%>
 		                <li class="green" style="margin-top:1px">
 			                <p><a href="#">Dịch vụ gửi tin</a></p>
