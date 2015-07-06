@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VfsCustomerServiceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ContentParameter">
+    <Key>
+      <PropertyRef Name="ContentParameterID" />
+    </Key>
+    <Property Name="ContentParameterID" Type="int" Nullable="false" />
+    <Property Name="ContentParameterName" Type="nvarchar" MaxLength="127" />
+    <Property Name="ContentParameterDescription" Type="nvarchar" MaxLength="127" />
+    <Property Name="ContentParameterValue" Type="nvarchar" MaxLength="255" />
+    <Property Name="ContentParameterActive" Type="nvarchar" MaxLength="1" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ContentTemplate">
+    <Key>
+      <PropertyRef Name="ContentTemplateID" />
+    </Key>
+    <Property Name="ContentTemplateID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceTypeID" Type="int" />
+    <Property Name="Description" Type="nvarchar" MaxLength="400" Nullable="false" />
+    <Property Name="Sender" Type="nvarchar" MaxLength="127" Nullable="false" />
+    <Property Name="Receiver" Type="nvarchar" MaxLength="127" Nullable="false" />
+    <Property Name="Subject" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="BodyContentType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BodyEncoding" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="BodyMessage" Type="ntext" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ContentTemplateAttachement">
+    <Key>
+      <PropertyRef Name="ContentTemplateAttachementID" />
+    </Key>
+    <Property Name="ContentTemplateAttachementID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AttachementDocument" Type="nvarchar" MaxLength="1024" />
+    <Property Name="AttachementDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="ContentTemplateID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="BranchCode" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="ContractNumber" Type="varchar" MaxLength="20" />
+    <Property Name="CustomerId" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="BrokerId" Type="int" Nullable="false" />
+    <Property Name="CustomerName" Type="varchar" MaxLength="100" />
+    <Property Name="CustomerNameViet" Type="nvarchar" MaxLength="100" />
+    <Property Name="CustomerType" Type="char" MaxLength="1" />
+    <Property Name="DomesticForeign" Type="char" MaxLength="1" />
+    <Property Name="Dob" Type="smalldatetime" />
+    <Property Name="Sex" Type="char" MaxLength="1" />
+    <Property Name="SignatureImage1" Type="image" />
+    <Property Name="SignatureImage2" Type="image" />
+    <Property Name="OpenDate" Type="smalldatetime" />
+    <Property Name="CloseDate" Type="smalldatetime" />
+    <Property Name="CardType" Type="int" Nullable="false" />
+    <Property Name="CardIdentity" Type="varchar" MaxLength="20" />
+    <Property Name="CardDate" Type="smalldatetime" />
+    <Property Name="CardIssuer" Type="varchar" MaxLength="200" />
+    <Property Name="Address" Type="varchar" MaxLength="200" />
+    <Property Name="AddressViet" Type="nvarchar" MaxLength="200" />
+    <Property Name="Tel" Type="varchar" MaxLength="20" />
+    <Property Name="Fax" Type="varchar" MaxLength="20" />
+    <Property Name="Mobile" Type="varchar" MaxLength="20" />
+    <Property Name="Mobile2" Type="varchar" MaxLength="20" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="UserCreate" Type="int" />
+    <Property Name="DateCreate" Type="smalldatetime" />
+    <Property Name="UserModify" Type="int" />
+    <Property Name="DateModify" Type="smalldatetime" />
+    <Property Name="ProxyStatus" Type="bit" />
+    <Property Name="AccountStatus" Type="char" MaxLength="1" />
+    <Property Name="Notes" Type="nvarchar" MaxLength="250" />
+    <Property Name="WorkingAddress" Type="nvarchar" MaxLength="200" />
+    <Property Name="UserIntroduce" Type="int" />
+    <Property Name="AttitudePoint" Type="int" />
+    <Property Name="DepositPoint" Type="int" />
+    <Property Name="ActionPoint" Type="int" />
+    <Property Name="Country" Type="varchar" MaxLength="50" />
+    <Property Name="Website" Type="nvarchar" MaxLength="200" />
+    <Property Name="TaxCode" Type="varchar" MaxLength="50" />
+    <Property Name="AccountType" Type="char" MaxLength="2" />
+    <Property Name="OrderType" Type="char" MaxLength="3" />
+    <Property Name="ReceiveReport" Type="char" MaxLength="2" />
+    <Property Name="ReceiveReportBy" Type="char" MaxLength="2" />
+    <Property Name="MarriageStatus" Type="char" MaxLength="1" />
+    <Property Name="KnowledgeLevel" Type="char" MaxLength="1" />
+    <Property Name="Job" Type="char" MaxLength="1" />
+    <Property Name="OfficeFunction" Type="nvarchar" MaxLength="50" />
+    <Property Name="OfficeTel" Type="varchar" MaxLength="20" />
+    <Property Name="OfficeFax" Type="varchar" MaxLength="20" />
+    <Property Name="HusbandWifeName" Type="nvarchar" MaxLength="100" />
+    <Property Name="HusbandWifeCardNumber" Type="varchar" MaxLength="20" />
+    <Property Name="HusbandWifeCardDate" Type="smalldatetime" />
+    <Property Name="HusbandWifeCardLocation" Type="nvarchar" MaxLength="150" />
+    <Property Name="HusbandWifeTel" Type="nvarchar" MaxLength="50" />
+    <Property Name="HusbandWifeEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="JoinStockMarket" Type="varchar" MaxLength="4" />
+    <Property Name="InvestKnowledge" Type="char" MaxLength="1" />
+    <Property Name="InvestedIn" Type="char" MaxLength="5" />
+    <Property Name="InvestTarget" Type="char" MaxLength="1" />
+    <Property Name="RiskAccepted" Type="char" MaxLength="1" />
+    <Property Name="InvestFund" Type="char" MaxLength="1" />
+    <Property Name="DelegatePersonName" Type="nvarchar" MaxLength="100" />
+    <Property Name="DelegatePersonFunction" Type="nvarchar" MaxLength="50" />
+    <Property Name="DelegatePersonCardNumber" Type="varchar" MaxLength="20" />
+    <Property Name="DelegateCardDate" Type="smalldatetime" />
+    <Property Name="DelegateCardLocation" Type="nvarchar" MaxLength="50" />
+    <Property Name="DelegatePersonTel" Type="varchar" MaxLength="20" />
+    <Property Name="DelegatePersonEmail" Type="nvarchar" MaxLength="100" />
+    <Property Name="ChiefAccountancyName" Type="nvarchar" MaxLength="100" />
+    <Property Name="ChiefAccountancyCI" Type="varchar" MaxLength="20" />
+    <Property Name="ChiefAccountancyCD" Type="smalldatetime" />
+    <Property Name="ChiefAccountancyIssuer" Type="varchar" MaxLength="20" />
+    <Property Name="ChiefAccountancySign1" Type="image" />
+    <Property Name="ChiefAccountancySign2" Type="image" />
+    <Property Name="CaProxyName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CaProxyCI" Type="varchar" MaxLength="20" />
+    <Property Name="CaProxyCD" Type="smalldatetime" />
+    <Property Name="CaProxyIssuer" Type="varchar" MaxLength="20" />
+    <Property Name="CaProxySign1" Type="image" />
+    <Property Name="CaProxySign2" Type="image" />
+    <Property Name="CompanySign1" Type="image" />
+    <Property Name="CompanySign2" Type="image" />
+    <Property Name="TradeCode" Type="varchar" MaxLength="30" />
+    <Property Name="CustomerAccount" Type="int" Nullable="false" />
+    <Property Name="MobileSms" Type="varchar" MaxLength="20" />
+    <Property Name="IsHere" Type="bit" Nullable="false" />
+    <Property Name="MoneyDepositeNumber" Type="varchar" MaxLength="50" />
+    <Property Name="MoneyDepositeLocation" Type="nvarchar" MaxLength="200" />
+    <Property Name="DepartmentId" Type="int" />
+    <Property Name="PublicCompanyManage" Type="ntext" />
+    <Property Name="PublicCompanyHolder" Type="ntext" />
+    <Property Name="ParentCompanyName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ParentCompanyAddress" Type="nvarchar" MaxLength="100" />
+    <Property Name="ParentCompanyEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="ParentCompanyTel" Type="varchar" MaxLength="20" />
+    <Property Name="PostType" Type="smallint" Nullable="false" />
+    <Property Name="ReOpenDate" Type="smalldatetime" />
+    <Property Name="UserTakeCared" Type="int" />
+    <Property Name="TypeID" Type="int" />
+    <Property Name="SendYN" Type="nvarchar" MaxLength="1" />
+    <Property Name="ReceiveRelatedStockEmail" Type="nvarchar" MaxLength="1" />
+    <Property Name="ReceiveRelatedStockSms" Type="nvarchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="CustomerType">
+    <Key>
+      <PropertyRef Name="TypeID" />
+    </Key>
+    <Property Name="TypeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ExtensionMessage">
+    <Key>
+      <PropertyRef Name="ExtensionMessageID" />
+    </Key>
+    <Property Name="ExtensionMessageID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Content" Type="nvarchar" MaxLength="1024" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ExtensionMessageLog">
+    <Key>
+      <PropertyRef Name="ExtensionMessageLogID" />
+    </Key>
+    <Property Name="ExtensionMessageLogID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ExtensionMessageID" Type="bigint" Nullable="false" />
+    <Property Name="CustomerId" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GroupCustomer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GroupName" Type="nvarchar" MaxLength="256" />
+    <Property Name="UserLoginId" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GroupDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GroupCustomerId" Type="int" Nullable="false" />
+    <Property Name="CustomerId" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="IncomingMessageContent">
+    <Key>
+      <PropertyRef Name="IncomingMessageContentID" />
+    </Key>
+    <Property Name="IncomingMessageContentID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceTypeID" Type="int" />
+    <Property Name="Sender" Type="nvarchar" MaxLength="127" Nullable="false" />
+    <Property Name="Receiver" Type="nvarchar" MaxLength="127" />
+    <Property Name="Subject" Type="nvarchar" MaxLength="255" />
+    <Property Name="BodyContentType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BodyEncoding" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="BodyMessage" Type="ntext" Nullable="false" />
+    <Property Name="Status" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="ServiceID" Type="nvarchar" MaxLength="10" />
+    <Property Name="CommandCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Request" Type="nvarchar" MaxLength="20" />
+    <Property Name="MoID" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="IncomingMessageContentSent">
+    <Key>
+      <PropertyRef Name="IncomingMessageContentSentID" />
+    </Key>
+    <Property Name="IncomingMessageContentSentID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IncomingMessageContentID" Type="bigint" />
+    <Property Name="ServiceTypeID" Type="int" />
+    <Property Name="Sender" Type="nvarchar" MaxLength="127" Nullable="false" />
+    <Property Name="Receiver" Type="nvarchar" MaxLength="127" />
+    <Property Name="Subject" Type="nvarchar" MaxLength="255" />
+    <Property Name="BodyContentType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BodyEncoding" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="BodyMessage" Type="ntext" Nullable="false" />
+    <Property Name="Status" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="ServiceID" Type="nvarchar" MaxLength="10" />
+    <Property Name="CommandCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Request" Type="nvarchar" MaxLength="20" />
+    <Property Name="MoID" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="MessageCommand">
+    <Key>
+      <PropertyRef Name="MessageCommandID" />
+    </Key>
+    <Property Name="MessageCommandID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MessageContentID" Type="int" Nullable="false" />
+    <Property Name="Status" Type="int" />
+    <Property Name="ProcessedDateTime" Type="datetime" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="MessageContent">
+    <Key>
+      <PropertyRef Name="MessageContentID" />
+    </Key>
+    <Property Name="MessageContentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContentTemplateID" Type="int" />
+    <Property Name="ServiceTypeID" Type="int" />
+    <Property Name="Sender" Type="nvarchar" MaxLength="127" Nullable="false" />
+    <Property Name="Receiver" Type="nvarchar" MaxLength="127" Nullable="false" />
+    <Property Name="Subject" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="BodyContentType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BodyEncoding" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="BodyMessage" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="Status" Type="int" />
+    <Property Name="ServiceID" Type="nvarchar" MaxLength="10" />
+    <Property Name="CommandCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Request" Type="nvarchar" MaxLength="20" />
+    <Property Name="MoID" Type="nvarchar" MaxLength="20" />
+    <Property Name="ChargeYN" Type="nvarchar" MaxLength="1" />
+    <Property Name="TotalMessages" Type="smallint" />
+  </EntityType>
+  <EntityType Name="MessageContentAttachement">
+    <Key>
+      <PropertyRef Name="MessageContentAttachementID" />
+    </Key>
+    <Property Name="MessageContentAttachementID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AttachementDocument" Type="nvarchar" MaxLength="1024" />
+    <Property Name="AttachementDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="MessageContentID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="MessageContentSent">
+    <Key>
+      <PropertyRef Name="MessageContentSentID" />
+    </Key>
+    <Property Name="MessageContentID" Type="int" Nullable="false" />
+    <Property Name="ContentTemplateID" Type="int" />
+    <Property Name="ServiceTypeID" Type="int" />
+    <Property Name="Sender" Type="nvarchar" MaxLength="127" Nullable="false" />
+    <Property Name="Receiver" Type="nvarchar" MaxLength="127" Nullable="false" />
+    <Property Name="Subject" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="BodyContentType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BodyEncoding" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="BodyMessage" Type="ntext" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="MessageContentSentID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceID" Type="nvarchar" MaxLength="10" />
+    <Property Name="CommandCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Request" Type="nvarchar" MaxLength="20" />
+    <Property Name="MoID" Type="nvarchar" MaxLength="20" />
+    <Property Name="ChargeYN" Type="nvarchar" MaxLength="1" />
+    <Property Name="TotalMessages" Type="smallint" />
+  </EntityType>
+  <EntityType Name="MessageContentSentAttachement">
+    <Key>
+      <PropertyRef Name="MessageContentSentAttachementID" />
+    </Key>
+    <Property Name="MessageContentSentAttachementID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AttachementDocument" Type="nvarchar" MaxLength="1024" />
+    <Property Name="AttachementDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="MessageContentID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ServiceType">
+    <Key>
+      <PropertyRef Name="ServiceTypeID" />
+    </Key>
+    <Property Name="ServiceTypeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceTypeDescription" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="UserLogin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="ContentTemplate_ServiceTypeID_Fk">
+    <End Role="ServiceType" Type="Self.ServiceType" Multiplicity="0..1" />
+    <End Role="ContentTemplate" Type="Self.ContentTemplate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiceType">
+        <PropertyRef Name="ServiceTypeID" />
+      </Principal>
+      <Dependent Role="ContentTemplate">
+        <PropertyRef Name="ServiceTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ContentTemplateAttachement_ContentTemplateID_Fk">
+    <End Role="ContentTemplate" Type="Self.ContentTemplate" Multiplicity="0..1" />
+    <End Role="ContentTemplateAttachement" Type="Self.ContentTemplateAttachement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ContentTemplate">
+        <PropertyRef Name="ContentTemplateID" />
+      </Principal>
+      <Dependent Role="ContentTemplateAttachement">
+        <PropertyRef Name="ContentTemplateID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Customer_TypeID_Fk">
+    <End Role="CustomerType" Type="Self.CustomerType" Multiplicity="0..1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CustomerType">
+        <PropertyRef Name="TypeID" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="TypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Customer_GroupDetail">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="GroupDetail" Type="Self.GroupDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerId" />
+      </Principal>
+      <Dependent Role="GroupDetail">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GroupCustomer_GroupDetail">
+    <End Role="GroupCustomer" Type="Self.GroupCustomer" Multiplicity="1" />
+    <End Role="GroupDetail" Type="Self.GroupDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GroupCustomer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GroupDetail">
+        <PropertyRef Name="GroupCustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GroupCustomer_UserLogin">
+    <End Role="UserLogin" Type="Self.UserLogin" Multiplicity="1" />
+    <End Role="GroupCustomer" Type="Self.GroupCustomer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserLogin">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GroupCustomer">
+        <PropertyRef Name="UserLoginId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="IncomingMessageContent_ServiceTypeID_Fk">
+    <End Role="ServiceType" Type="Self.ServiceType" Multiplicity="0..1" />
+    <End Role="IncomingMessageContent" Type="Self.IncomingMessageContent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiceType">
+        <PropertyRef Name="ServiceTypeID" />
+      </Principal>
+      <Dependent Role="IncomingMessageContent">
+        <PropertyRef Name="ServiceTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="IncomingMessageContentSent_ServiceTypeID_Fk">
+    <End Role="ServiceType" Type="Self.ServiceType" Multiplicity="0..1" />
+    <End Role="IncomingMessageContentSent" Type="Self.IncomingMessageContentSent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiceType">
+        <PropertyRef Name="ServiceTypeID" />
+      </Principal>
+      <Dependent Role="IncomingMessageContentSent">
+        <PropertyRef Name="ServiceTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MessageCommand_MessageContentID_Fk">
+    <End Role="MessageContent" Type="Self.MessageContent" Multiplicity="1" />
+    <End Role="MessageCommand" Type="Self.MessageCommand" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MessageContent">
+        <PropertyRef Name="MessageContentID" />
+      </Principal>
+      <Dependent Role="MessageCommand">
+        <PropertyRef Name="MessageContentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MessageContentAttachement_MessageContentID_Fk">
+    <End Role="MessageContent" Type="Self.MessageContent" Multiplicity="0..1" />
+    <End Role="MessageContentAttachement" Type="Self.MessageContentAttachement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MessageContent">
+        <PropertyRef Name="MessageContentID" />
+      </Principal>
+      <Dependent Role="MessageContentAttachement">
+        <PropertyRef Name="MessageContentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MessageContentSent_ContentTemplateID_Fk">
+    <End Role="ContentTemplate" Type="Self.ContentTemplate" Multiplicity="0..1" />
+    <End Role="MessageContentSent" Type="Self.MessageContentSent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ContentTemplate">
+        <PropertyRef Name="ContentTemplateID" />
+      </Principal>
+      <Dependent Role="MessageContentSent">
+        <PropertyRef Name="ContentTemplateID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MessageContentSent_ServiceTypeID_Fk">
+    <End Role="ServiceType" Type="Self.ServiceType" Multiplicity="0..1" />
+    <End Role="MessageContentSent" Type="Self.MessageContentSent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiceType">
+        <PropertyRef Name="ServiceTypeID" />
+      </Principal>
+      <Dependent Role="MessageContentSent">
+        <PropertyRef Name="ServiceTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VfsCustomerServiceModelStoreContainer">
+    <EntitySet Name="ContentParameter" EntityType="Self.ContentParameter" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ContentTemplate" EntityType="Self.ContentTemplate" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ContentTemplateAttachement" EntityType="Self.ContentTemplateAttachement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CustomerType" EntityType="Self.CustomerType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExtensionMessage" EntityType="Self.ExtensionMessage" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExtensionMessageLog" EntityType="Self.ExtensionMessageLog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GroupCustomer" EntityType="Self.GroupCustomer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GroupDetail" EntityType="Self.GroupDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="IncomingMessageContent" EntityType="Self.IncomingMessageContent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="IncomingMessageContentSent" EntityType="Self.IncomingMessageContentSent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MessageCommand" EntityType="Self.MessageCommand" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MessageContent" EntityType="Self.MessageContent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MessageContentAttachement" EntityType="Self.MessageContentAttachement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MessageContentSent" EntityType="Self.MessageContentSent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MessageContentSentAttachement" EntityType="Self.MessageContentSentAttachement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ServiceType" EntityType="Self.ServiceType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserLogin" EntityType="Self.UserLogin" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="ContentTemplate_ServiceTypeID_Fk" Association="Self.ContentTemplate_ServiceTypeID_Fk">
+      <End Role="ServiceType" EntitySet="ServiceType" />
+      <End Role="ContentTemplate" EntitySet="ContentTemplate" />
+    </AssociationSet>
+    <AssociationSet Name="ContentTemplateAttachement_ContentTemplateID_Fk" Association="Self.ContentTemplateAttachement_ContentTemplateID_Fk">
+      <End Role="ContentTemplate" EntitySet="ContentTemplate" />
+      <End Role="ContentTemplateAttachement" EntitySet="ContentTemplateAttachement" />
+    </AssociationSet>
+    <AssociationSet Name="Customer_TypeID_Fk" Association="Self.Customer_TypeID_Fk">
+      <End Role="CustomerType" EntitySet="CustomerType" />
+      <End Role="Customer" EntitySet="Customer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Customer_GroupDetail" Association="Self.FK_Customer_GroupDetail">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="GroupDetail" EntitySet="GroupDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GroupCustomer_GroupDetail" Association="Self.FK_GroupCustomer_GroupDetail">
+      <End Role="GroupCustomer" EntitySet="GroupCustomer" />
+      <End Role="GroupDetail" EntitySet="GroupDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GroupCustomer_UserLogin" Association="Self.FK_GroupCustomer_UserLogin">
+      <End Role="UserLogin" EntitySet="UserLogin" />
+      <End Role="GroupCustomer" EntitySet="GroupCustomer" />
+    </AssociationSet>
+    <AssociationSet Name="IncomingMessageContent_ServiceTypeID_Fk" Association="Self.IncomingMessageContent_ServiceTypeID_Fk">
+      <End Role="ServiceType" EntitySet="ServiceType" />
+      <End Role="IncomingMessageContent" EntitySet="IncomingMessageContent" />
+    </AssociationSet>
+    <AssociationSet Name="IncomingMessageContentSent_ServiceTypeID_Fk" Association="Self.IncomingMessageContentSent_ServiceTypeID_Fk">
+      <End Role="ServiceType" EntitySet="ServiceType" />
+      <End Role="IncomingMessageContentSent" EntitySet="IncomingMessageContentSent" />
+    </AssociationSet>
+    <AssociationSet Name="MessageCommand_MessageContentID_Fk" Association="Self.MessageCommand_MessageContentID_Fk">
+      <End Role="MessageContent" EntitySet="MessageContent" />
+      <End Role="MessageCommand" EntitySet="MessageCommand" />
+    </AssociationSet>
+    <AssociationSet Name="MessageContentAttachement_MessageContentID_Fk" Association="Self.MessageContentAttachement_MessageContentID_Fk">
+      <End Role="MessageContent" EntitySet="MessageContent" />
+      <End Role="MessageContentAttachement" EntitySet="MessageContentAttachement" />
+    </AssociationSet>
+    <AssociationSet Name="MessageContentSent_ContentTemplateID_Fk" Association="Self.MessageContentSent_ContentTemplateID_Fk">
+      <End Role="ContentTemplate" EntitySet="ContentTemplate" />
+      <End Role="MessageContentSent" EntitySet="MessageContentSent" />
+    </AssociationSet>
+    <AssociationSet Name="MessageContentSent_ServiceTypeID_Fk" Association="Self.MessageContentSent_ServiceTypeID_Fk">
+      <End Role="ServiceType" EntitySet="ServiceType" />
+      <End Role="MessageContentSent" EntitySet="MessageContentSent" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

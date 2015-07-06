@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DolPhin_Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="InvestorId" />
+    </Key>
+    <Property Name="InvestorId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BranchCode" Type="Int16" Nullable="false" />
+    <Property Name="UnitCode" Type="Int16" Nullable="false" />
+    <Property Name="CustomerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Type" Type="Byte" Nullable="false" />
+    <Property Name="PersonalType" Type="Byte" Nullable="false" />
+    <Property Name="Birthday" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="OpenDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IdentityCardType" Type="Byte" Nullable="false" />
+    <Property Name="IdentityCardNo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IdentityCardIssueDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IdentityCardIssueBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserNameCreate" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NationalityName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContractNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BalanceType" Type="Byte" Nullable="false" />
+    <Property Name="SecuritiesType" Type="Byte" Nullable="false" />
+    <Property Name="Status" Type="Byte" Nullable="false" />
+    <Property Name="Sex" Type="Byte" Nullable="false" />
+    <Property Name="Flag" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="HasProxy" Type="Boolean" Nullable="false" />
+    <Property Name="IntroducedUser" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CaredUser" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="IntroduceCustomerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ClosedDate" Type="DateTime" Precision="0" />
+    <Property Name="MasterAccountId" Type="Int32" Nullable="false" />
+    <Property Name="CustomerGroupId" Type="Int32" Nullable="false" />
+    <Property Name="Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DepositType" Type="Byte" Nullable="false" />
+    <Property Name="InfoChannelId" Type="Int32" Nullable="false" />
+    <Property Name="ExternalIntroduceCustomerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Name2" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="TradingStatus" Type="Boolean" />
+    <Property Name="IntroducedUserType" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="DolPhin_Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+  </EntityContainer>
+</Schema>

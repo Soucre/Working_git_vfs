@@ -150,11 +150,11 @@
   <ItemGroup>
     <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{3BEE1D2A-D3E8-472C-97F6-018465037AC8}</Project>
-      <Name>Entities %28Destination\Entities%29</Name>
+      <Name>Entities</Name>
     </ProjectReference>
     <ProjectReference Include="..\Data\Data.csproj">
       <Project>{8F84635A-85B1-473A-A259-480353D2DCD5}</Project>
-      <Name>Data %28Destination\Data%29</Name>
+      <Name>Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

@@ -75,10 +75,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapShot", "SnapShot\SnapSh
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.Debug = "False"
 	EndProjectSection
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "..\CoreSecurityService\Entities\Entities.csproj", "{96A3AF2F-9B88-4AEF-AFD2-25FF4DF43AD1}"
 EndProject
@@ -120,7 +116,9 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DestinationDatabase", "..\D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapShotV2", "SnapShotV2\SnapShotV2.csproj", "{648066E0-5AB4-4140-9D85-47E8A9344659}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAOvEntitiesFramwork", "DAOvEntitiesFramwork\DAOvEntitiesFramwork.csproj", "{95AA07E8-FEAB-40CF-A8D6-87F6B106F803}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAOvEntitiesFramwork_Goline", "DAOvEntitiesFramwork\DAOvEntitiesFramwork_Goline.csproj", "{95AA07E8-FEAB-40CF-A8D6-87F6B106F803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAOvEntitiesFramwork_CusServices", "DAOvEntitiesFramwork_CusServices\DAOvEntitiesFramwork_CusServices.csproj", "{3A2BECC5-C965-444C-98BE-F76438DCE74D}"
 EndProject
 Global
 	GlobalSection(SourceCodeControl) = preSolution
@@ -370,6 +368,16 @@ Global
 		{95AA07E8-FEAB-40CF-A8D6-87F6B106F803}.Release|Any CPU.Build.0 = Release|Any CPU
 		{95AA07E8-FEAB-40CF-A8D6-87F6B106F803}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{95AA07E8-FEAB-40CF-A8D6-87F6B106F803}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3A2BECC5-C965-444C-98BE-F76438DCE74D}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{3A2BECC5-C965-444C-98BE-F76438DCE74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2BECC5-C965-444C-98BE-F76438DCE74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2BECC5-C965-444C-98BE-F76438DCE74D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3A2BECC5-C965-444C-98BE-F76438DCE74D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3A2BECC5-C965-444C-98BE-F76438DCE74D}.Release|.NET.ActiveCfg = Release|Any CPU
+		{3A2BECC5-C965-444C-98BE-F76438DCE74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2BECC5-C965-444C-98BE-F76438DCE74D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2BECC5-C965-444C-98BE-F76438DCE74D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3A2BECC5-C965-444C-98BE-F76438DCE74D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
