@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\buildvfs" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="javascripts/example.js" publishTime="01/06/2014 14:16:58" />
+    <file relUrl="images/images/Report_Form_05.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="TienVaNoResult.ascx" publishTime="01/21/2014 14:14:18" />
+    <file relUrl="images/images/bg_menu_05.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="images/bg_header.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="images/images/bg_header_03.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="bin/Microsoft.Office.Interop.Excel.xml" publishTime="01/18/2011 21:08:54" />
+    <file relUrl="images/images/bg_menu_06.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="TM_TaiSanReport.aspx" publishTime="01/06/2014 14:19:46" />
+    <file relUrl="images/images/bg_menu_03.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="images/bg_menu.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="images/header.png" publishTime="01/06/2014 14:21:32" />
+    <file relUrl="Web.config" publishTime="02/27/2014 13:25:21" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="12/27/2013 10:41:32" />
+    <file relUrl="css/visualize.css" publishTime="01/06/2014 14:32:44" />
+    <file relUrl="images/ui-icons_222222_256x240.png" publishTime="01/09/2014 14:14:16" />
+    <file relUrl="images/bg_menu1.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="javascripts/jquery-ui.js" publishTime="01/09/2014 14:02:12" />
+    <file relUrl="index.html" publishTime="02/12/2014 13:46:44" />
+    <file relUrl="images/images/bg_header_01.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="VSIndex.Master" publishTime="01/16/2014 16:43:00" />
+    <file relUrl="TaiSanResult.ascx" publishTime="02/24/2014 10:29:18" />
+    <file relUrl="images/images/Report_Form_02.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="12/27/2013 10:41:32" />
+    <file relUrl="images/images/bg_header_04.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="images/images/bg_menu_01.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="images/logo.png" publishTime="01/06/2014 14:21:32" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="12/27/2013 10:41:32" />
+    <file relUrl="bin/VfsLookup.dll" publishTime="02/27/2014 13:25:12" />
+    <file relUrl="images/images/bg_menu_02.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="css/jquery-ui.css" publishTime="02/12/2014 14:31:52" />
+    <file relUrl="taisan.aspx" publishTime="02/27/2014 08:54:02" />
+    <file relUrl="images/images/Report_Form_01.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="Default.aspx" publishTime="01/06/2014 14:34:04" />
+    <file relUrl="tienvano.aspx" publishTime="02/27/2014 08:53:52" />
+    <file relUrl="bin/Microsoft.Office.Interop.Excel.dll" publishTime="01/18/2011 18:27:04" />
+    <file relUrl="bin/VfsLookup.pdb" publishTime="02/27/2014 13:25:12" />
+    <file relUrl="images/icon_calendar.png" publishTime="01/06/2014 14:21:32" />
+    <file relUrl="images/images/bg_menu_04.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="javascripts/chart.js" publishTime="01/06/2014 14:16:58" />
+    <file relUrl="bin/Microsoft.Vbe.Interop.dll" publishTime="01/18/2011 18:27:04" />
+    <file relUrl="images/images/Report_Form_04.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="javascripts/visualize.jQuery.js" publishTime="01/06/2014 14:17:02" />
+    <file relUrl="images/images/bg_menu_07.png" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="javascripts/excanvas.js" publishTime="01/06/2014 14:16:58" />
+    <file relUrl="images/icon_print.png" publishTime="01/06/2014 14:21:32" />
+    <file relUrl="images/vietfirst.png" publishTime="01/08/2014 11:34:14" />
+    <file relUrl="login.aspx" publishTime="02/26/2014 09:26:14" />
+    <file relUrl="bin/office.xml" publishTime="01/18/2011 21:08:54" />
+    <file relUrl="images/active.gif" publishTime="01/06/2014 14:21:34" />
+    <file relUrl="bin/office.dll" publishTime="01/18/2011 18:27:04" />
+    <file relUrl="css/basic.css" publishTime="01/06/2014 14:32:42" />
+    <file relUrl="javascripts/jquery-1.7.1.min.js" publishTime="01/06/2014 14:16:58" />
+    <file relUrl="images/slogan.png" publishTime="01/06/2014 14:21:32" />
+    <file relUrl="css/visualize-light.css" publishTime="01/06/2014 14:32:44" />
+    <file relUrl="css/style.css" publishTime="02/26/2014 09:26:13" />
+    <file relUrl="TM_TienNo.aspx" publishTime="01/07/2014 14:17:08" />
+    <file relUrl="images/li-parent.gif" publishTime="01/06/2014 14:21:32" />
+    <file relUrl="images/notice.png" publishTime="01/06/2014 14:21:32" />
+  </publishProfile>
+</publishData>

@@ -46,7 +46,7 @@
                 "insertdatetime media nonbreaking save table contextmenu directionality",
                 "emoticons template paste textcolor colorpicker textpattern imagetools"
             ],
-            toolbar1: "undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media | fontselect forecolor backcolor emoticons",
+            toolbar1: "undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media | fontselect fontsizeselect forecolor backcolor emoticons",
             //toolbar2: "print preview media | forecolor backcolor emoticons",
             image_advtab: true,
             templates: [
@@ -62,6 +62,7 @@
     <div id="header">
         <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
             <asp:ScriptManager runat="server" />
+            <%--<ext:ResourceManager runat="server" ></ext:ResourceManager>--%>
             <div><h2><%= Resources.UIResource.ApplicationName%></h2><%= Resources.UIResource.LoggedStatus%><asp:Literal id="LoginMessageLiteral" runat="server"></asp:Literal> | <a href="SignOut.aspx">Sign out</a> </div>
         </asp:contentplaceholder>  
     </div>
@@ -248,19 +249,18 @@
         </div>     --%>       
         <div id="left" >
             <%--Menu ở đây--%>
-            <div class="menuBar">
+            <div class="menuBar1">
                    <ul>
                         <li class="green">
 			                <p><a href="#">QUẢN LÝ KHÁCH HÀNG</a></p>
-			                <p class="subtext">QUẢN LÝ KHÁCH HÀNG</p>
+			                
 		                </li>	
                         <li class="blue"><p><a href="CustomerGroup.aspx">Nhóm khách hàng</a></p></li>	
                        <li class="blue"><p><a href="GroupDetail.aspx">Chi tiết nhóm</a></p></li>
                        <li class="blue"><p><a href="MessegeGroup.aspx">Gửi tin theo nhóm</a></p></li>	
                        <%--Menu 2--%>
 		                <li class="green" style="margin-top:1px">
-			                <p><a href="#">Dịch vụ gửi tin</a></p>
-			                <p class="subtext">The front page</p>
+			                <p><a href="#">Dịch vụ gửi tin</a></p>			                
 		                </li>		          
 		                <li class="blue"><p><a href="CustomerAccount.aspx">Khách hàng đã mở TK</a></p></li>	
                        <li class="blue"><p><a href="CustomerNoAccount.aspx">Khách hàng chưa mở TK</a></p></li>	

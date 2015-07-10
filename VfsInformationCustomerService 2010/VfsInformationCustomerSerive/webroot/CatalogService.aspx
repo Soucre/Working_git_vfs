@@ -1,8 +1,11 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="CatalogService.aspx.cs" Inherits="CustomerService_CatalogService" %>
 <%@ Register TagPrefix="cc1" Namespace="CutePager" Assembly="ASPnetPagerV2netfx2_0" %>
+<%@ Register Assembly="Ext.Net" Namespace="Ext.Net" TagPrefix="ext" %>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" Runat="Server">
     <h1><%=Resources.UIResource.CatalogService%></h1>    
-    <div><asp:Button CssClass="button" ID="InserMessage" runat="server" OnClick="InsertMessageContent_Click"  /></div>
+    <div>
+        <asp:Button CssClass="button" ID="InserMessage" runat="server" OnClick="InsertMessageContent_Click"  />           
+    </div>
     <cc1:Pager OnCommand="topPaging_Command" ShowFirstLast="true" id="topPaging" PageSize="10" runat="server">
     </cc1:Pager>    
     

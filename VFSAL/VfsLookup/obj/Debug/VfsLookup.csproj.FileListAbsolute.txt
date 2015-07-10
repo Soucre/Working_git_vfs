@@ -1,0 +1,19 @@
+D:\Documents\Visual Studio 2010\Projects\VfsLookup\VfsLookup\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2010\Projects\VfsLookup\VfsLookup\bin\VfsLookup.dll
+D:\Documents\Visual Studio 2010\Projects\VfsLookup\VfsLookup\bin\VfsLookup.pdb
+D:\Documents\Visual Studio 2010\Projects\VfsLookup\VfsLookup\obj\Debug\VfsLookup.dll
+D:\Documents\Visual Studio 2010\Projects\VfsLookup\VfsLookup\obj\Debug\VfsLookup.pdb
+E:\Working\VfsLookup\VfsLookup\bin\VfsLookup.dll
+E:\Working\VfsLookup\VfsLookup\bin\VfsLookup.pdb
+E:\Working\VfsLookup\VfsLookup\bin\Microsoft.Office.Interop.Excel.dll
+E:\Working\VfsLookup\VfsLookup\bin\office.dll
+E:\Working\VfsLookup\VfsLookup\bin\Microsoft.Vbe.Interop.dll
+E:\Working\VfsLookup\VfsLookup\bin\Microsoft.Office.Interop.Excel.xml
+E:\Working\VfsLookup\VfsLookup\bin\office.xml
+E:\Working\VfsLookup\VfsLookup\obj\Debug\VfsLookup.dll
+E:\Working\VfsLookup\VfsLookup\obj\Debug\VfsLookup.pdb
+D:\vietsol\vfs\sources\VfsLookup\VfsLookup\bin\VfsLookup.dll
+D:\vietsol\vfs\sources\VfsLookup\VfsLookup\bin\VfsLookup.pdb
+D:\vietsol\vfs\sources\VfsLookup\VfsLookup\obj\Debug\ResolveAssemblyReference.cache
+D:\vietsol\vfs\sources\VfsLookup\VfsLookup\obj\Debug\VfsLookup.dll
+D:\vietsol\vfs\sources\VfsLookup\VfsLookup\obj\Debug\VfsLookup.pdb

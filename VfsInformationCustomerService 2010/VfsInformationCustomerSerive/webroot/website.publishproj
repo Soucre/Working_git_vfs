@@ -42,9 +42,13 @@ Copyright (C) Microsoft Corporation. All rights reserved.
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAOvEntitiesFramwork\DAOvEntitiesFramwork.csproj">
+    <ProjectReference Include="..\DAOvEntitiesFramwork\DAOvEntitiesFramwork_Goline.csproj">
       <Project>{95AA07E8-FEAB-40CF-A8D6-87F6B106F803}</Project>
-      <Name>DAOvEntitiesFramwork</Name>
+      <Name>DAOvEntitiesFramwork_Goline</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAOvEntitiesFramwork_CusServices\DAOvEntitiesFramwork_CusServices.csproj">
+      <Project>{3A2BECC5-C965-444C-98BE-F76438DCE74D}</Project>
+      <Name>DAOvEntitiesFramwork_CusServices</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(_WebPublishTargetsPath)\Web\Microsoft.WebSite.Publishing.targets" />

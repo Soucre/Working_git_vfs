@@ -40,7 +40,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "webroot", "webroot", "{10C9
 		SccLocalPath = ""
 		SccProvider = ""
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		ProjectReferences = "{95aa07e8-feab-40cf-a8d6-87f6b106f803}|DAOvEntitiesFramwork.dll;"
+		ProjectReferences = "{95aa07e8-feab-40cf-a8d6-87f6b106f803}|DAOvEntitiesFramwork.dll;{3a2becc5-c965-444c-98be-f76438dce74d}|DAOvEntitiesFramwork_CusServices.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/webroot"
 		Debug.AspNetCompiler.PhysicalPath = "webroot\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\webroot\"
@@ -71,6 +71,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "..\CustomerServices\Business\Business.csproj", "{D5D986E4-55DF-4469-B6DF-5C3E9D9A8F15}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapShot", "SnapShot\SnapShot.csproj", "{2AAA2B36-5015-40FC-BD8C-114EFB24CAB2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
 	ProjectSection(WebsiteProperties) = preProject
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.Debug = "False"

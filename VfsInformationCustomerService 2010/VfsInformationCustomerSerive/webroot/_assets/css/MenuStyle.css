@@ -1,12 +1,12 @@
-﻿.menuBar ul{
+﻿.menuBar1 ul{
      display:table-caption;
 }
-.menuBar ul{
+.menuBar1 ul{
 	margin:0;
 	padding:0;
 }
 
-.menuBar li{
+.menuBar1 li{
 	width:200px;
 	height:50px;
 	float:left;
@@ -17,27 +17,27 @@
 #bodyContent #left {
     margin-top:20px;
 }
-.menuBar a{
+.menuBar1 a{
 	color:#FFF;
 	text-decoration:none;
     font-weight:bold;
 }
 
-.menuBar p{
+.menuBar1 p{
 	padding:0px 5px;
 }
-.menuBar .subtext{
+.menuBar1 .subtext{
 		padding-top:15px;
         color:#FFF;
         text-decoration:underline;
 	}
 
 /*Menu Color Classes*/
-.menuBar .green{background:#6AA63B  top left no-repeat;}
-.menuBar .yellow{background:#FBC700  top left no-repeat;}
-.menuBar .red{background:#D52100  top left no-repeat;}
-.menuBar .purple{background:#5122B4  top left no-repeat;}
-.menuBar .blue {
+.menuBar1 .green{background:#6AA63B  top left no-repeat;}
+.menuBar1 .yellow{background:#FBC700  top left no-repeat;}
+.menuBar1 .red{background:#D52100  top left no-repeat;}
+.menuBar1 .purple{background:#5122B4  top left no-repeat;}
+.menuBar1 .blue {
     background: #4C90BC top left no-repeat;
     height: 40px;
     border-top: solid 1pt #FFF;
