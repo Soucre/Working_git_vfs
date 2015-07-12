@@ -404,6 +404,7 @@
     <Content Include="Content\ThirtParty\imo.css" />
     <Content Include="Content\walt_disney\license.txt" />
     <Content Include="Content\walt_disney\waltograph.txt" />
+    <Content Include="css\style.css" />
     <Content Include="DetailTheme\css\960.css" />
     <Content Include="DetailTheme\css\facebox.css" />
     <Content Include="DetailTheme\css\fancy-button\fancy-button.css" />
@@ -1059,6 +1060,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\active.gif" />
     <Content Include="images\ajax-loader.gif" />
     <Content Include="images\bg-body.gif" />
     <Content Include="images\bg-close.gif" />
@@ -1076,6 +1078,10 @@
     <Content Include="images\bg-table-head.gif" />
     <Content Include="images\bg-table-row.gif" />
     <Content Include="images\bg-tabs.gif" />
+    <Content Include="images\bg_header.png" />
+    <Content Include="images\bg_menu.png" />
+    <Content Include="images\bg_menu1.png" />
+    <Content Include="images\header.png" />
     <Content Include="images\ico-edit.gif" />
     <Content Include="images\ico-minus.gif" />
     <Content Include="images\ico-order-down.gif" />
@@ -1088,8 +1094,28 @@
     <Content Include="images\ico-theme-1.gif" />
     <Content Include="images\ico-theme-2.gif" />
     <Content Include="images\ico-theme-3.gif" />
+    <Content Include="images\icon_calendar.png" />
+    <Content Include="images\icon_print.png" />
+    <Content Include="images\images\bg_header_01.png" />
+    <Content Include="images\images\bg_header_03.png" />
+    <Content Include="images\images\bg_header_04.png" />
+    <Content Include="images\images\bg_menu_01.png" />
+    <Content Include="images\images\bg_menu_02.png" />
+    <Content Include="images\images\bg_menu_03.png" />
+    <Content Include="images\images\bg_menu_04.png" />
+    <Content Include="images\images\bg_menu_05.png" />
+    <Content Include="images\images\bg_menu_06.png" />
+    <Content Include="images\images\bg_menu_07.png" />
+    <Content Include="images\images\Report_Form_01.png" />
+    <Content Include="images\images\Report_Form_02.png" />
+    <Content Include="images\images\Report_Form_04.png" />
+    <Content Include="images\images\Report_Form_05.png" />
     <Content Include="images\img-building.gif" />
+    <Content Include="images\li-parent.gif" />
     <Content Include="images\logo.gif" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\notice.png" />
+    <Content Include="images\slogan.png" />
     <Content Include="images\theme1\bg-button-left.gif" />
     <Content Include="images\theme1\bg-button-right.gif" />
     <Content Include="images\theme1\bg-content-title-wrapper.gif" />
@@ -1126,8 +1152,10 @@
     <Content Include="images\theme3\bg-quicksearch-title-wrapper.gif" />
     <Content Include="images\theme3\bg-quicksearch-title.gif" />
     <Content Include="images\theme3\bg-quicksearch-toggle.gif" />
+    <Content Include="images\ui-icons_222222_256x240.png" />
     <Content Include="images\ui-icons_ef8c08_256x240.png" />
     <Content Include="images\ui-icons_ffffff_256x240.png" />
+    <Content Include="images\vietfirst.png" />
     <Content Include="img\avata3.jpg" />
     <Content Include="img\avatar.jpg" />
     <Content Include="img\avatar_default.jpg" />
@@ -1328,6 +1356,8 @@
       <DependentUpon>StoxConnection.edmx</DependentUpon>
       <LastGenOutput>StoxConnection.cs</LastGenOutput>
     </Content>
+    <Content Include="images\images\Thumbs.db" />
+    <Content Include="images\Thumbs.db" />
     <None Include="Properties\PublishProfiles\KNKH.pubxml" />
     <None Include="Properties\PublishProfiles\phimhang o nha.pubxml" />
     <None Include="Properties\PublishProfiles\phimhang.pubxml" />

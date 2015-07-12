@@ -2,24 +2,85 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Khuyen nghi dau tu</title>
-    <link rel="stylesheet" href="/LoginTheme/css/screen.css" type="text/css" media="screen" title="default" />
-    <!--  jquery core -->
-    <script src="/LoginTheme/js/jquery/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <title>Công cụ phân tích đầu tư</title>    
+    <link href="~/css/style.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-2.1.1.min.js"></script>
+    <link href="~/Scripts/jquery-ui/jquery-ui.css" rel="stylesheet" />
+    @*<script type="text/javascript" src="~/Scripts/chart.js"></script>*@
+    <style media="screen">
+        .noPrint {
+            display: block;
+        }
 
-    <!-- Custom jquery scripts -->
-    <script src="/LoginTheme/js/jquery/custom_jquery.js" type="text/javascript"></script>
+        .yesPrint {
+            display: block !important;
+        }
 
-    <!-- MUST BE THE LAST SCRIPT IN <HEAD></HEAD></HEAD> png fix -->
-    <script src="/LoginTheme/js/jquery/jquery.pngFix.pack.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(document).pngFix();
-        });
-    </script>
+        .print_but_not_show {
+            display: none;
+        }
+    </style>
+    <style media="print">
+        .noPrint {
+            display: none;
+        }
+
+        .yesPrint {
+            display: block !important;
+        }
+
+        .print_but_not_show {
+            display: block !important;
+        }
+
+        .search_ck {
+            border: none;
+        }
+    </style>
 </head>
-<body id="login-bg">
+<body>
+    <div class="header noPrint">
+        <!-- <img src="images/bg_header.png" alt=""> -->
+        <div class="logo">
+            <img src="/images/logo.png">
+        </div> <!-- logo -->
+        <div class="slogan">
+            <img src="/images/slogan.png">
+        </div> <!-- slogan -->
+        <div class="login_header">
+            <ul>
+                <li><a href="http://www.vfs.com.vn/tabid/97/lien-he.aspx">Liên hệ</a></li>
+                <li>
+                    @*<asp:HyperLink ID="hlLogin" runat="server">Đăng nhập</asp:HyperLink>*@
+                    <a href="#" title="đăng nhập">Đăng nhập</a>
+                </li>
+            </ul>
+            <div class="hotline">
+                <span style="color: #bfbfbf;">Hotline: (+848) 6255 6586</span>
+            </div>
+        </div> <!-- login_header -->
 
+    </div> <!-- header -->
+
+    <div class="menu noPrint">
+        <div class="list_menu">
+            <ul>
+                <li><a target="_blank" href="/">Trang Chủ</a></li>
+                <li><a target="_blank" href="http://www.vfs.com.vn/tabid/99/gioi-thieu-vfs.aspx">Giới thiệu VFS</a></li>
+                <li><a target="_blank" href="http://www.vfs.com.vn/tabid/118/san-pham-dich-vu.aspx">Sản phẩm - Dịch vụ</a></li>
+                <li><a target="_blank" href="http://www.vfs.com.vn/tabid/409/tra-cuu-chung-khoan.aspx">Tra cứu CK</a></li>
+                <li><a target="_blank" href="http://www.vfs.com.vn/tabid/127/tin-tuc.aspx">Tin tức</a></li>
+                <li><a target="_blank" href="http://www.vfs.com.vn/tabid/153/goc-phan-tich.aspx">Góc phân tích</a></li>
+                <li><a target="_blank" href="http://www.vfs.com.vn/tabid/95/lich-thuc-hien-quyen-chung-khoan.aspx">Lịch thực hiện quyền CK</a></li>
+            </ul>
+        </div>
+        @*<div class="list_menu2">
+            <ul>
+                <li class="taisan"><a href="taisan.aspx">Báo cáo tài sản</a></li>
+                <li class="tienvano"><a href="tienvano.aspx">Báo cáo tiền và nợ</a></li>
+            </ul>
+        </div>*@
+    </div> <!-- menu -->
     @RenderBody()    
     
     @RenderSection("scripts", required: false)
