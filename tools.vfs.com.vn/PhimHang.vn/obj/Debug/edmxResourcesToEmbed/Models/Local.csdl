@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseLocal" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="KNDTLocalConnection" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Comments" EntityType="DatabaseLocal.Comment" />
+    <EntitySet Name="UserLogins" EntityType="DatabaseLocal.UserLogin" />
+    <AssociationSet Name="FK_Comments_UserLogins" Association="DatabaseLocal.FK_Comments_UserLogins">
+      <End Role="UserLogin" EntitySet="UserLogins" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+    <EntitySet Name="RecommendStocks" EntityType="DatabaseLocal.RecommendStock" />
+    <AssociationSet Name="FK_Comments_RecommendStock" Association="DatabaseLocal.FK_Comments_RecommendStock">
+      <End Role="RecommendStock" EntitySet="RecommendStocks" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RecommendStock_UserLogins" Association="DatabaseLocal.FK_RecommendStock_UserLogins">
+      <End Role="UserLogin" EntitySet="UserLogins" />
+      <End Role="RecommendStock" EntitySet="RecommendStocks" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="CommentsId" />
+    </Key>
+    <Property Name="CommentsId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Message" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="PostedBy" Type="Int32" Nullable="false" />
+    <Property Name="CommentBy" Type="Int32" Nullable="false" />
+    <Property Name="PostedDate" Type="DateTime" Nullable="false" Precision="7" />
+    <NavigationProperty Name="UserLogin" Relationship="DatabaseLocal.FK_Comments_UserLogins" FromRole="Comment" ToRole="UserLogin" />
+    <NavigationProperty Name="RecommendStock" Relationship="DatabaseLocal.FK_Comments_RecommendStock" FromRole="Comment" ToRole="RecommendStock" />
+  </EntityType>
+  <EntityType Name="UserLogin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KeyLogin" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserNameCopy" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="BirthDate" Type="DateTime" Precision="3" />
+    <Property Name="AvataImage" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="AvataCover" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="FullName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Verify" Type="Int32" Nullable="false" />
+    <Property Name="AccountType" Type="Int32" Nullable="false" />
+    <Property Name="LockAccount" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Comments" Relationship="DatabaseLocal.FK_Comments_UserLogins" FromRole="UserLogin" ToRole="Comment" />
+    <NavigationProperty Name="RecommendStocks" Relationship="DatabaseLocal.FK_RecommendStock_UserLogins" FromRole="UserLogin" ToRole="RecommendStock" />
+  </EntityType>
+  <Association Name="FK_Comments_UserLogins">
+    <End Type="DatabaseLocal.UserLogin" Role="UserLogin" Multiplicity="1" />
+    <End Type="DatabaseLocal.Comment" Role="Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserLogin">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="CommentBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="RecommendStock">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StockCode" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="TYPERecommend" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="BuyPrice" Type="Decimal" Precision="18" Scale="1" />
+    <Property Name="StockHoldingTime" Type="Int32" />
+    <Property Name="TargetSell" Type="Decimal" Precision="18" Scale="1" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PostBy" Type="Int32" />
+    <Property Name="SumComment" Type="Int32" />
+    <Property Name="CreatedModify" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ImageUrl" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Comments" Relationship="DatabaseLocal.FK_Comments_RecommendStock" FromRole="RecommendStock" ToRole="Comment" />
+    <NavigationProperty Name="UserLogin" Relationship="DatabaseLocal.FK_RecommendStock_UserLogins" FromRole="RecommendStock" ToRole="UserLogin" />
+  </EntityType>
+  <Association Name="FK_Comments_RecommendStock">
+    <End Type="DatabaseLocal.RecommendStock" Role="RecommendStock" Multiplicity="1" />
+    <End Type="DatabaseLocal.Comment" Role="Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RecommendStock">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="PostedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RecommendStock_UserLogins">
+    <End Type="DatabaseLocal.UserLogin" Role="UserLogin" Multiplicity="0..1" />
+    <End Type="DatabaseLocal.RecommendStock" Role="RecommendStock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserLogin">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RecommendStock">
+        <PropertyRef Name="PostBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

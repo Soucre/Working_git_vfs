@@ -1,0 +1,467 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>
+
+</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" /><link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="javascripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery-ui.js"></script>
+    <script type="text/javascript" src="javascripts/chart.js"></script>
+    <style media="screen">
+      .noPrint{ display: block; }
+      .yesPrint{ display: block !important; }
+      .print_but_not_show{
+	    display: none;
+      }
+    </style> 
+    <style media="print">
+      .noPrint{ display: none; }
+      .yesPrint{ display: block !important; }
+      .print_but_not_show{
+	    display: block !important;
+      }
+      .search_ck
+      {
+          border:none;
+          
+      }
+    </style>
+</head>
+<body>
+<div class="header noPrint">
+        <!-- <img src="images/bg_header.png" alt=""> -->
+        <div class="logo">
+            <img src="images/logo.png">
+        </div> <!-- logo -->
+        <div class="slogan">
+            <img src="images/slogan.png">
+        </div> <!-- slogan -->
+        <div class="login_header">
+            <ul>
+                <li><a href="http://www.vfs.com.vn/tabid/97/lien-he.aspx">Liên hệ</a></li>
+                <li>
+                    <a id="ctl00_hlLogin" href="login.aspx">Đăng nhập</a>
+                </li>
+            </ul>
+            <div class="hotline">
+                <span style="color: #bfbfbf;">Hotline: (+848) 6255 6586</span>
+            </div>
+        </div> <!-- login_header -->
+
+    </div> <!-- header -->
+    <div class="menu noPrint">
+        <div class="list_menu">
+            <ul>
+                <li><a target="_blank" href="/">Trang Chủ</a></li>
+                <li><a target="_blank"  href="http://www.vfs.com.vn/tabid/99/gioi-thieu-vfs.aspx">Giới thiệu VFS</a></li>
+                <li><a target="_blank"  href="http://www.vfs.com.vn/tabid/118/san-pham-dich-vu.aspx">Sản phẩm - Dịch vụ</a></li>
+                <li><a target="_blank"  href="http://www.vfs.com.vn/tabid/409/tra-cuu-chung-khoan.aspx">Tra cứu CK</a></li>
+                <li><a target="_blank"  href="http://www.vfs.com.vn/tabid/127/tin-tuc.aspx">Tin tức</a></li>
+                <li><a target="_blank"  href="http://www.vfs.com.vn/tabid/153/goc-phan-tich.aspx">Góc phân tích</a></li>
+                <li><a  target="_blank" href="http://www.vfs.com.vn/tabid/95/lich-thuc-hien-quyen-chung-khoan.aspx">Lịch thực hiện quyền CK</a></li>
+            </ul>
+        </div>
+         <div class="list_menu2">
+         <ul>
+                <li class="taisan"><a  href="taisan.aspx">Báo cáo tài sản</a></li>
+                <li class="tienvano"><a href="tienvano.aspx">Báo cáo tiền và nợ</a></li>
+            </ul>
+         </div>
+    </div> <!-- menu -->
+        
+<div class="title_page print_but_not_show">
+<table width="100%"><tr>
+<td style="text-align:left">Công ty cổ phần chứng khoán Nhất Việt</td>
+<td style="text-align:right">12-02-2014</td>
+</tr>
+</table>
+<div></div>
+<h1 style="margin-top:30px;">BÁO CÁO TÀI SẢN TRONG KỲ</h1>
+</div>
+    <div class="content">
+        <div class="search_ck noPrint">
+            <form method="get"class="">
+                <div class="search_left">
+                   <!--  <label>Chủ tài khoản:</label>
+                    <input type="text" class="txt_gray"> -->
+                    <label>Số tài khoản:</label>
+                    <input name="acccode" type="text" value="094K004747">
+                    <!--<select name="acccode">
+                        <=this.getAccOption(this.maTk)>
+                    </select>
+                    -->
+                    <label>Ngày đầu kỳ:</label>
+                   <input type="text" name="txtDateTn" class="datepicker1" value="01/01/2014"/>
+                    <!-- <span class="icon_calendar" ></span> -->
+                     
+                    <label>Ngày cuối kỳ:</label>
+                    <input type="text" name="txtDateDn" class="datepicker2" value="23/01/2014"/>
+                    <!-- <span class="icon_calendar" ></span> -->
+                    <select name="type">
+                        <option value="N" selected='selected'>Tách tài khoản</option>
+                        <option value="Y" >Tài khoản tổng hợp</option>
+                    </select>
+                     <input type="submit" value="Xem">
+                     <div class="clear"></div>
+                </div> <!-- search_left -->
+                </form>
+                
+        </div> <!-- search_ck -->
+            <form name="aspnetForm" method="get" action="taisan.aspx?acccode=094K004747&amp;txtDateTn=01%2f01%2f2014&amp;txtDateDn=23%2f01%2f2014&amp;type=N" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+                 <span id="ctl00_ContentPlaceHolder1_txtMessageError" style="color:Red;"></span>
+               
+ <div class="info_user">
+            <div class="info_left">
+            <table class="tbl_info_user">
+                <tr class="even">
+                    <td>
+                    <span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_lbTypeText">Tổng hợp tài khoản</span> 
+                    </td>
+
+                    <td class="red_bold"> 
+                        <span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_lbTypeCode">N</span> </td>
+                </tr>
+                 <tr class="odd">
+                    <td>Chủ tài khoản</td>
+                    <td class="bold">
+                        <span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_txtTKName">Hà Đăng Thuận</span>
+                     </td>
+                </tr>
+                 <tr class="even">
+                    <td>Số tài khoản</td>
+                    <td class="bold">
+                        <span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_txtTkMa">094K004747</span>
+                        </td>
+                </tr>
+                 <tr class="odd">
+                    <td>Ngày đầu kỳ</td>
+                    <td><span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_txtDateTn">01-01-2014</span></td>
+                </tr>
+                 <tr class="even">
+                    <td>Ngày cuối kỳ</td>
+                    <td><span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_txtDateDn">23-01-2014</span></td>
+                </tr>
+            </table>
+            </div>
+            <div class="logo_right print_but_not_show">
+                <img src="images/vietfirst.png" />
+            </div>
+        </div> <!-- info_user -->
+        <div class="content_report">
+            <div class="title_report">
+                Báo cáo tài sản trong kỳ  <span></span>
+            </div> <!-- title_report -->
+            <div class="module_content_report">
+                <table class="tbl_property table">
+                    <tr class="even">
+                        <td></td>
+                        <td class="align_left"></td>
+                        <td class="bold">Đầu kỳ</td>
+                        <td class="bold">Cuối kỳ</td>
+                    </tr>
+                     <tr class="odd">
+                        <td class="bold">1</td>
+                        <td class="align_left bold">Tài sản</td>
+                        <td class="red_bold">
+                            <span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_lbTaiSanTn">1,225,500,000</span>
+                        </td>
+                        <td class="red_bold">
+                            <span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_lbTaiSanDn">1,022,710,000</span>
+                        </td>
+                    </tr>
+                    
+                     <tr class="even">
+                        <td></td>
+                        <td class="align_left">Tiền hiện có</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    
+                     <tr class="odd">
+                        <td></td>
+                        <td class="align_left">Tiền bán chứng khoán chờ về</td>
+                        <td>0</td>
+                        <td>341,790,000</td>
+                    </tr>
+                    
+                     <tr class="even">
+                        <td></td>
+                        <td class="align_left">Chứng khoán hiện có</td>
+                        <td>1,225,500,000</td>
+                        <td>0</td>
+                    </tr>
+                    
+                     <tr class="odd">
+                        <td></td>
+                        <td class="align_left">Chứng khoán chờ về</td>
+                        <td>0</td>
+                        <td>680,920,000</td>
+                    </tr>
+                    
+                    
+                     <tr class="odd">
+                        <td class="bold">2</td>
+                        <td class="align_left bold">Nợ</td>
+                        <td class="red_bold">
+                        <span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_lbNoTn">571,252,965</span>
+                        </td>
+                        <td class="red_bold">
+                        <span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_lbNoDn">998,290,312</span>
+                        </td>
+                    </tr>
+                     
+                     <tr class="even">
+                        <td></td>
+                        <td class="align_left">Nợ ký quỹ</td>
+                        <td>571,252,965</td>
+                        <td>603,464,774</td>
+                    </tr>
+                    
+                     <tr class="odd">
+                        <td></td>
+                        <td class="align_left">Nợ ứng trước</td>
+                        <td>0</td>
+                        <td>308,825,538</td>
+                    </tr>
+                    
+                     <tr class="even">
+                        <td></td>
+                        <td class="align_left">Nợ mua quyền</td>
+                        <td>0</td>
+                        <td>86,000,000</td>
+                    </tr>
+                    
+                     <tr class="odd">
+                        <td></td>
+                        <td class="align_left">Nợ khác</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    
+                    <tr class="odd">
+                        <td class="bold">3</td>
+                        <td class="align_left bold">Tài Sản Khác</td>
+                        <td class="red_bold">
+                        <span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_lbTaiSanKhacTn">4,750,000</span>
+                        </td>
+                        <td class="red_bold">
+                        <span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_lbTaiSanKhacDn">149,650,000</span>
+                        </td>
+                    </tr>
+                     
+                     <tr class="even">
+                        <td></td>
+                        <td class="align_left">Mua đã nộp tiền</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    
+                     <tr class="odd">
+                        <td></td>
+                        <td class="align_left">Cổ phiếu thưởng trở về</td>
+                        <td>0</td>
+                        <td>144,900,000</td>
+                    </tr>
+                    
+                     <tr class="even">
+                        <td></td>
+                        <td class="align_left">Cổ tức chờ về</td>
+                        <td>4,750,000</td>
+                        <td>4,750,000</td>
+                    </tr>
+                    
+
+                     <tr class="odd">
+                        <td class="bold">4</td>
+                        <td class="align_left bold">Tài sản ròng</td>
+                        <td class="red_bold">
+                        <span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_lbTaiSanRongTn">654,247,035</span>
+                        </td>
+                        <td class="red_bold">
+                           <span id="ctl00_ContentPlaceHolder1_ctr_taisan_result_lbTaiSanRongDn">24,419,688</span>
+                        </td>
+                    </tr>
+                   
+                </table>
+                <table class="tbl_result table">
+                    <tr class="odd">
+                        <td class="bold">
+                            5
+                        </td>
+                        <td class="align_left bold">
+                            Biến động tài sản từ đầu năm
+                        </td>
+                         <td class="bold">
+                            Tài sản
+                        </td>
+                         <td class="bold">
+                            Nợ
+                        </td>
+                         <td class="bold">
+                            Tài sản ròng
+                        </td>
+                    </tr>
+                    
+                    <tr class="even">
+                        <td></td>
+                        <td class="align_left">Tháng 02-2013</td>
+                        <td>1,878,200,000</td>
+                        <td>1,151,379,567</td>
+                        <td>726,820,433</td>
+                    </tr>
+                    
+                    <tr class="odd">
+                        <td></td>
+                        <td class="align_left">Tháng 03-2013</td>
+                        <td>1,567,600,000</td>
+                        <td>793,961,637</td>
+                        <td>773,638,363</td>
+                    </tr>
+                    
+                    <tr class="even">
+                        <td></td>
+                        <td class="align_left">Tháng 04-2013</td>
+                        <td>1,035,030,000</td>
+                        <td>361,090,870</td>
+                        <td>673,939,130</td>
+                    </tr>
+                    
+                    <tr class="odd">
+                        <td></td>
+                        <td class="align_left">Tháng 05-2013</td>
+                        <td>2,073,290,000</td>
+                        <td>1,056,776,216</td>
+                        <td>1,016,513,784</td>
+                    </tr>
+                    
+                    <tr class="even">
+                        <td></td>
+                        <td class="align_left">Tháng 06-2013</td>
+                        <td>945,080,000</td>
+                        <td>429,962,236</td>
+                        <td>515,117,764</td>
+                    </tr>
+                    
+                    <tr class="odd">
+                        <td></td>
+                        <td class="align_left">Tháng 07-2013</td>
+                        <td>1,195,952,000</td>
+                        <td>529,240,621</td>
+                        <td>666,711,379</td>
+                    </tr>
+                    
+                    <tr class="even">
+                        <td></td>
+                        <td class="align_left">Tháng 08-2013</td>
+                        <td>810,200,000</td>
+                        <td>189,199,140</td>
+                        <td>621,000,860</td>
+                    </tr>
+                    
+                    <tr class="odd">
+                        <td></td>
+                        <td class="align_left">Tháng 09-2013</td>
+                        <td>1,031,821,000</td>
+                        <td>399,991,391</td>
+                        <td>631,829,609</td>
+                    </tr>
+                    
+                    <tr class="even">
+                        <td></td>
+                        <td class="align_left">Tháng 10-2013</td>
+                        <td>903,320,000</td>
+                        <td>291,956,634</td>
+                        <td>611,363,366</td>
+                    </tr>
+                    
+                    <tr class="odd">
+                        <td></td>
+                        <td class="align_left">Tháng 11-2013</td>
+                        <td>1,192,400,000</td>
+                        <td>801,054,214</td>
+                        <td>391,345,786</td>
+                    </tr>
+                    
+                    <tr class="even">
+                        <td></td>
+                        <td class="align_left">Tháng 12-2013</td>
+                        <td>1,225,500,000</td>
+                        <td>571,252,965</td>
+                        <td>654,247,035</td>
+                    </tr>
+                    
+                    <tr class="odd">
+                        <td></td>
+                        <td class="align_left">Tháng 01-2014</td>
+                        <td>1,049,110,000</td>
+                        <td>998,290,312</td>
+                        <td>50,819,688</td>
+                    </tr>
+                    
+                     
+                </table> <!-- tbl_result -->
+                <div class="chart">
+                    <div class="title_chart">
+                        Tài sản ròng
+                    </div>
+                    <canvas id="canvas" height="265" width="670"></canvas>
+                </div>
+             </div> <!-- module_content_report -->
+        </div> <!-- content_report -->
+        <div class="print noPrint" onClick="window.print();return false">
+            <a href="#">In báo cáo</a>
+        </div>
+        <script>
+
+            var data = {
+                labels: ["Tháng 02-2013","Tháng 03-2013","Tháng 04-2013","Tháng 05-2013","Tháng 06-2013","Tháng 07-2013","Tháng 08-2013","Tháng 09-2013","Tháng 10-2013","Tháng 11-2013","Tháng 12-2013","Tháng 01-2014"],
+                datasets: [
+                {
+                    strokeColor: "#4f6228",
+                    pointStrokeColor: "#fff",
+                    data: [726.820433,773,673.93913,1016.513784,515.117764,666.711379,621.00086,631.829609,611.363366,391.345786,654.247035,50.819688]
+                },
+            ]
+            }
+            var myLine = new Chart(document.getElementById("canvas").getContext("2d")).Line(data);
+        </script>
+            </form>
+    </div>
+	<script>
+	    $(".taisan").addClass("active");
+	    $(function () {
+	        $(".datepicker1").datepicker({
+	            showOn: "button",
+	            buttonImage: "images/icon_calendar.png",
+	            buttonImageOnly: true,
+	            dateFormat: "dd/mm/yy"
+	        });
+	    });
+	    $(function () {
+	        $(".datepicker2").datepicker({
+	            showOn: "button",
+	            buttonImage: "images/icon_calendar.png",
+	            buttonImageOnly: true,
+	            dateFormat: "dd/mm/yy"
+	        });
+	    });
+
+
+	    
+    </script>
+  
+</body>
+</html>
+ 
