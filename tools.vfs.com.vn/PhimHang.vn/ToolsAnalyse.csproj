@@ -405,6 +405,7 @@
     <Content Include="Content\walt_disney\license.txt" />
     <Content Include="Content\walt_disney\waltograph.txt" />
     <Content Include="css\style.css" />
+    <Content Include="css\tableStyle.css" />
     <Content Include="DetailTheme\css\960.css" />
     <Content Include="DetailTheme\css\facebox.css" />
     <Content Include="DetailTheme\css\fancy-button\fancy-button.css" />

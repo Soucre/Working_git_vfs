@@ -81,7 +81,33 @@
             </ul>
         </div>*@
     </div> <!-- menu -->
-    @RenderBody()    
+
+    <div class="clear">
+
+    </div>
+    <div class="vfs-wap-center">
+        <div class="wap-center">
+            <div class="default-center">
+                <div class="default-center-menu-left">
+                    <div class="clear-left">
+                        <ul>
+                            <li><a href="#home">Cổ tức</a></li>
+                            <li><a href="#news">Cổ phiếu</a></li>
+                            <li><a href="#contact">Danh mục khuyến nghị</a></li>
+                            <li><a href="#about">Đầu tư</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div class="default-center-menu-right">
+                    @RenderBody()                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+   
     
     @RenderSection("scripts", required: false)
 </body>

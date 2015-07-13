@@ -6,9 +6,46 @@
 @model PagedList.IPagedList<PhimHang.Models.RecommendStock>
 @using PagedList.Mvc;
 <link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+<link href="~/css/tableStyle.css" rel="stylesheet" />
+<div>
+    <table class="tg">
+        <tr>
+            <th >No</th>
+            <th >Mã CP</th>
+            <th >Giá</th>
+            <th  colspan="4">Lịch sử cổ tức</th>
+            <th  colspan="3">Tỷ suất sinh lời</th>
+            <th  colspan="2">Tiến độ thực hiện</th>
+            <th >Chi chú (thực hiện quyền)</th>
+            @*<th ></th>
+            <th ></th>
+            <th ></th>*@
+        </tr>
+        <tr>
+            <td >1</td>
+            <td ><b>AAA</b></td>
+            <td >12.3</td>
+            @*Lịch sử cổ tức*@
+            <td >2010</td>
+            <td >2011</td>
+            <td >2012</td>
+            <td >2013</td>
+            @*Tỷ suất sinh lời*@
+            <td class="fixwidth">Năm 2014 <br /> chưa chia</td>
+            <td class="fixwidth">Năm 2015 <br /> kế hoạch</td>
+            <td >Tổng cộng</td>
+            @*Tiến độ thực hiện*@
+            <td class="fixwidth">Kế hoạch <br /> doanh thu</td>
+            <td class="fixwidth">Kế hoạch <br /> thực hiện</td>
+            @*Thực hiện quyền*@
+            <td > Ngày 26/7 GDKHQ chia cổ tức 2014 và tạm ứng cổ tức 2015</td>
 
+        </tr>
+       
+    </table>
+</div>
     
-        <script type="text/javascript">
+        @*<script type="text/javascript">
             $().ready(function () {
                 $('#datetimepicker').datepicker({
                     dateFormat: 'dd/mm/yy',
@@ -20,7 +57,7 @@
 
                 });
             });
-        </script>
+        </script>*@
 
 
 
