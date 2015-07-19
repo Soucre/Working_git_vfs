@@ -269,6 +269,7 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\CommentProfileModels.cs" />
+    <Compile Include="Models\DIV.cs" />
     <Compile Include="Models\FrontUser.cs">
       <DependentUpon>OTFront.tt</DependentUpon>
     </Compile>
@@ -291,6 +292,21 @@
     </Compile>
     <Compile Include="Models\PhimHangvnHelper.cs" />
     <Compile Include="Models\RecommendationModel.cs" />
+    <Compile Include="Models\StoxDataDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StoxDataDB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StoxDataDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StoxDataDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StoxDataDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StoxDataDB.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Models\UserCustom.cs" />
     <Compile Include="Models\ValidateFileAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -1314,6 +1330,23 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>OTFront.edmx</DependentUpon>
       <LastGenOutput>OTFront.cs</LastGenOutput>
+    </Content>
+    <EntityDeploy Include="Models\StoxDataDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>StoxDataDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\StoxDataDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StoxDataDB.edmx</DependentUpon>
+      <LastGenOutput>StoxDataDB.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\StoxDataDB.edmx.diagram">
+      <DependentUpon>StoxDataDB.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\StoxDataDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StoxDataDB.edmx</DependentUpon>
+      <LastGenOutput>StoxDataDB.cs</LastGenOutput>
     </Content>
     <None Include="Properties\PublishProfiles\KNKH.pubxml" />
     <None Include="Properties\PublishProfiles\phimhang o nha.pubxml" />

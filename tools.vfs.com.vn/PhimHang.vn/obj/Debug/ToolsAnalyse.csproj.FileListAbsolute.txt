@@ -181,3 +181,4 @@ E:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\bin\Microsoft.Owin.Security.Twit
 E:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Debug\PhimHang.dll
 E:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Debug\PhimHang.pdb
+E:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Debug\ToolsAnalyse.csprojResolveAssemblyReference.cache

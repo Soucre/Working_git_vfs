@@ -3,7 +3,7 @@
     ViewBag.Title = "Công cụ phân tích chứng khoán";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@*@model PagedList.IPagedList<PhimHang.Models.RecommendStock>*@
+@model IEnumerable<PhimHang.Models.DIV>
 @using PagedList.Mvc;
 @*<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />*@
 <link href="~/css/tableStyle.css" rel="stylesheet" />
@@ -12,13 +12,13 @@
         background-color: #E17C10;
     }
 </style>
-<div>
+<div style="margin-bottom:25px">
     <table class="tg">
         <tr>
             <th rowspan="2">No</th>
             <th rowspan="2">Mã CP</th>
             <th rowspan="2">Giá</th>
-            <th  colspan="4">Lịch sử cổ tức</th>
+            <th  colspan="5">Lịch sử cổ tức</th>
             <th  colspan="3">Tỷ suất sinh lời</th>
             <th  colspan="2">Tiến độ thực hiện</th>
             <th rowspan="2" >Chi chú (thực hiện quyền)</th>           
@@ -28,10 +28,11 @@
             <th><b></b></th>
             <th></th>*@
             @*Lịch sử cổ tức*@
-            <th>2010</th>
+            <th title="Cổ tức năm 2010">2010</th>
             <th>2011</th>
             <th>2012</th>
             <th>2013</th>
+            <th>2014</th>
             @*Tỷ suất sinh lời*@
             <th class="fixwidth">Năm 2014 <br /> chưa chia</th>
             <th class="fixwidth">Năm 2015 <br /> kế hoạch</th>
@@ -43,26 +44,31 @@
             @*<th></th>*@
 
         </tr>
-        <tr>
-            <td>1</td>
-            <td><b>AAA</b></td>
-            <td>12.3</td>
-            @*Lịch sử cổ tức*@
-            <td>2010</td>
-            <td>2011</td>
-            <td>2012</td>
-            <td>2013</td>
-            @*Tỷ suất sinh lời*@
-            <td class="fixwidth">10</td>
-            <td class="fixwidth">10</td>
-            <td>20</td>
-            @*Tiến độ thực hiện*@
-            <td class="fixwidth">10</td>
-            <td class="fixwidth">10</td>
-            @*Thực hiện quyền*@
-            <td> Ngày 26/7 GDKHQ chia cổ tức 2014 và tạm ứng cổ tức 2015</td>
+        @{
+            int rownumber =0 ;
+            foreach (var item in Model)
+            {
+                rownumber +=1;
+                 <tr>
+                    <td>@rownumber</td>
+                    <td><b>@item.Stock</b></td>
+                    <td>@string.Format("{0,0:N0}", @item.Price)</td>            
+                    <td>@item.DIV2010%</td>
+                    <td>@item.DIV2011%</td>
+                    <td>@item.DIV2012%</td>
+                    <td>@item.DIV2013%</td>    
+                    <td>@item.DIV2014%</td>           
+                    <td class="fixwidth">@item.Nam2014ChuaChia% </td>
+                    <td class="fixwidth">@item.Nam2015KeHoach%</td>
+                    <td>@item.TongCong%</td>            
+                    <td class="fixwidth">@item.DoanhThuKeHoach%</td>
+                    <td class="fixwidth">10</td>            
+                    <td> Ngày 26/7 GDKHQ chia cổ tức 2014 và tạm ứng cổ tức 2015</td>
 
-        </tr>
+                </tr>
+            }
+        }
+       
 
        
     </table>
