@@ -15,12 +15,15 @@ time, mark, audio, video {
  padding: 0;
  
 }
+html{
+    height:100%;
+}
 body{
 	font-size:12px;
 	background:#f6f6f6;
 	font-family:Arial, Helvetica, sans-serif;
 	line-height:18px;
-
+min-height:100%;
 	
 }
 ul, ol {
@@ -162,12 +165,12 @@ text-transform: uppercase;
   width: 1000px;
 }
 .login{
-	background: none repeat scroll 0 0 #FFFFFF;
+	/*background: none repeat scroll 0 0 #FFFFFF;
 border: 1px solid #D8D8D8;
 border-radius: 5px;
 height: 275px;
 margin: 50px auto auto;
-width: 500px;
+width: 500px;*/
 }
 .notice{
 	background: url(../images/notice.png) no-repeat;

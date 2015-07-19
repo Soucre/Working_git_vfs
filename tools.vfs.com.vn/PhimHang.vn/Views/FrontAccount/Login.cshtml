@@ -1,0 +1,37 @@
+﻿@model PhimHang.Models.LoginViewModel
+@{
+    ViewBag.Title = "VFS login by Account Tranding Online";
+    Layout = "~/Views/Shared/_Layout_Login.cshtml";
+}
+
+<div class="login">
+    @using (Html.BeginForm("Login", "FrontAccount", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        <div class="login-screen">
+            <div class="app-title">
+                <h1>Đăng nhập</h1>
+            </div>
+            <div class="login-form">
+                <div class="control-group">
+                    @Html.TextBoxFor(m => m.UserName, new { @class = "login-field", placeholder = "username", id = "login-name" })
+                    @Html.ValidationMessageFor(m => m.UserName)
+                </div>
+                <div class="control-group">
+                    @Html.PasswordFor(m => m.Password, new { @class = "login-field", placeholder = "password", id = "login-pass" })
+                    @Html.ValidationMessageFor(m => m.Password)
+                </div>
+                <div class="control-group">
+                    @Html.CheckBoxFor(m => m.RememberMe, new { @class = "checkbox-size", id = "login-check" })
+                    <label for="login-check">Nhớ mật khẩu</label>
+                </div>
+                @*<a class="btn btn-primary btn-large btn-block" href="#">login</a>*@
+                <input type="submit" class="btn btn-primary btn-large btn-block" value="Đăng nhập" />
+                <a class="login-link" href="#">Lost your password?</a>
+
+            </div>
+        </div>
+    }
+</div>
+

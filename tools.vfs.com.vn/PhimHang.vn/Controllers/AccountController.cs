@@ -11,6 +11,8 @@ using Microsoft.Owin.Security;
 using PhimHang.Models;
 using System.IO;
 using System.Drawing;
+using System.Data.Entity;
+using System.Web.Security;
 
 namespace PhimHang.Controllers
 {
@@ -33,6 +35,7 @@ namespace PhimHang.Controllers
             UserManager.UserValidator = new UserValidator<ApplicationUser>(UserManager) { AllowOnlyAlphanumericUserNames = false };
         }
         public UserManager<ApplicationUser> UserManager { get; private set; }
+        private OFrontTEntities frontDb;
 
         //private testEntities db;// = new testEntities();
         [AllowAnonymous]
@@ -63,13 +66,19 @@ namespace PhimHang.Controllers
             if (ModelState.IsValid)
             {
                 ViewBag.ReturnUrl = returnUrl;
-                var user = await UserManager.FindAsync(model.UserName, model.Password);
-                if (user != null)
+                //change signin mothol here
+                bool signInSucess = await SignInFrontAsync(model.UserName, model.Password);
+                if (signInSucess)
                 {
-                    await SignInAsync(user, model.RememberMe);
-                    return RedirectToLocal(returnUrl); // Returun URL
-                    //eturn RedirectToAction(""); // Hieu
 
+                    var user = new ApplicationUser { UserName = model.UserName, PasswordHash = model.Password, Id = "1414daa5-52ca-40ad-97da-8060a7bf429a", SecurityStamp = "4f1c920a-9c8c-4e23-8e2b-21f2300739c9" };
+                    if (user != null)
+                    {
+                        await SignInAsync(user, model.RememberMe);
+                        return RedirectToLocal(returnUrl); // Returun URL
+                        //return RedirectToAction(""); // Hieu
+
+                    }
                 }
                 else
                 {
@@ -79,8 +88,31 @@ namespace PhimHang.Controllers
 
             // If we got this far, something failed, redisplay form
             return View(model);
+
         }
 
+        private async Task<bool> SignInFrontAsync(string userName, string passWord)
+        {
+            using (frontDb = new OFrontTEntities())
+            {
+
+                /// chuyen password sang ma hoa MD5
+                /// 
+                string passwordMD5 = Helper.MD5Hash(passWord);
+                // tim trong co so du lieu ung voi user name va password
+                var user = await frontDb.FrontUsers.FirstOrDefaultAsync(fu => fu.UserName == userName && fu.Password == passwordMD5);
+                if (user == null)
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            }
+        }
+
+        
         //
         // GET: /Account/Register
         [AllowAnonymous]
@@ -566,9 +598,18 @@ namespace PhimHang.Controllers
 
         private async Task SignInAsync(ApplicationUser user, bool isPersistent)
         {
-            AuthenticationManager.SignOut(DefaultAuthenticationTypes.ExternalCookie);
-            var identity = await UserManager.CreateIdentityAsync(user, DefaultAuthenticationTypes.ApplicationCookie);
-            AuthenticationManager.SignIn(new AuthenticationProperties() { IsPersistent = isPersistent }, identity);
+            try
+            {
+                AuthenticationManager.SignOut(DefaultAuthenticationTypes.ExternalCookie);
+                var identity = await UserManager.CreateIdentityAsync(user, DefaultAuthenticationTypes.ApplicationCookie);                
+                AuthenticationManager.SignIn(new AuthenticationProperties() { IsPersistent = isPersistent }, identity);
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
+           
         }
 
         private void AddErrors(IdentityResult result)

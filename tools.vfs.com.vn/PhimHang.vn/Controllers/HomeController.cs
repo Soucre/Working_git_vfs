@@ -12,7 +12,7 @@ using System.Data.Entity;
 
 namespace PhimHang.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class HomeController : Controller
     {
         //private KNDTLocalConnection db = new KNDTLocalConnection();        

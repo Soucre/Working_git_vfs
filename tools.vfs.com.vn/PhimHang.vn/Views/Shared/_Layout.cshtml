@@ -7,37 +7,8 @@
     <script src="~/Scripts/jquery-2.1.1.min.js"></script>
     <link href="~/Scripts/jquery-ui/jquery-ui.css" rel="stylesheet" />
     @*<script type="text/javascript" src="~/Scripts/chart.js"></script>*@
-    <link href="~/css/loginForm.css" rel="stylesheet" />
-    <style media="screen">
-        .noPrint {
-            display: block;
-        }
-
-        .yesPrint {
-            display: block !important;
-        }
-
-        .print_but_not_show {
-            display: none;
-        }
-    </style>
-    <style media="print">
-        .noPrint {
-            display: none;
-        }
-
-        .yesPrint {
-            display: block !important;
-        }
-
-        .print_but_not_show {
-            display: block !important;
-        }
-
-        .search_ck {
-            border: none;
-        }
-    </style>
+    @*<link href="~/css/loginForm.css" rel="stylesheet" />*@
+    
 </head>
 <body>
     <div class="header noPrint">
@@ -52,12 +23,17 @@
             <ul>
                 <li><a href="http://www.vfs.com.vn/tabid/97/lien-he.aspx">Liên hệ</a></li>
                 <li>
-                    @*<asp:HyperLink ID="hlLogin" runat="server">Đăng nhập</asp:HyperLink>*@
-                    <a href="#" title="đăng nhập">Đăng nhập</a>
+                    
+                    @*<a href="#" title="đăng nhập">Đăng xuất</a>*@
+                    @using (Html.BeginForm("LogOff", "FrontAccount", FormMethod.Post, new { id = "logoutForm" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <a href="javascript:document.getElementById('logoutForm').submit()"><span><i class="fa fa-sign-out"></i> Đăng xuất</span></a>
+                    }
                 </li>
             </ul>
             <div class="hotline">
-                <span style="color: #bfbfbf;">Hotline: (+848) 6255 6586</span>
+                <span style="color: #bfbfbf;">Xin Chào: @User.Identity.Name.ToUpper()</span>
             </div>
         </div> <!-- login_header -->
 
@@ -66,7 +42,7 @@
     <div class="menu noPrint">
         <div class="list_menu">
             <ul>
-                <li><a target="_blank" href="/">Trang Chủ</a></li>
+                <li><a href="/">Trang Chủ</a></li>
                 <li><a target="_blank" href="http://www.vfs.com.vn/tabid/99/gioi-thieu-vfs.aspx">Giới thiệu VFS</a></li>
                 <li><a target="_blank" href="http://www.vfs.com.vn/tabid/118/san-pham-dich-vu.aspx">Sản phẩm - Dịch vụ</a></li>
                 <li><a target="_blank" href="http://www.vfs.com.vn/tabid/409/tra-cuu-chung-khoan.aspx">Tra cứu CK</a></li>
@@ -108,7 +84,7 @@
             </div>
         </div>
     </div>
-    <div class="login">
+    @*<div class="login">
         <div class="login-screen">
             <div class="app-title">
                 <h1>Login</h1>
@@ -129,7 +105,7 @@
                 <a class="login-link" href="#">Lost your password?</a>
             </div>
         </div>
-    </div>
+    </div>*@
     
     @RenderSection("scripts", required: false)
 </body>

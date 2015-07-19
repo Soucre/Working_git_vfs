@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OTFrontModelStoreContainer" CdmEntityContainer="OFrontTEntities">
+    <EntitySetMapping Name="FrontUsers">
+      <EntityTypeMapping TypeName="OTFrontModel.FrontUser">
+        <MappingFragment StoreEntitySet="FrontUser">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="CardIdentity" ColumnName="CardIdentity" />
+          <ScalarProperty Name="RegisterDate" ColumnName="RegisterDate" />
+          <ScalarProperty Name="OpenDate" ColumnName="OpenDate" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PINCode" ColumnName="PINCode" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Retries" ColumnName="Retries" />
+          <ScalarProperty Name="IsFirstLogon" ColumnName="IsFirstLogon" />
+          <ScalarProperty Name="LastChangedPassword" ColumnName="LastChangedPassword" />
+          <ScalarProperty Name="LastAccess" ColumnName="LastAccess" />
+          <ScalarProperty Name="Ip" ColumnName="Ip" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="InvestorId" ColumnName="InvestorId" />
+          <ScalarProperty Name="ActiveTrading" ColumnName="ActiveTrading" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
