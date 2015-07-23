@@ -311,6 +311,7 @@
     <Compile Include="Models\ValidateFileAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Content Include="images\uploading.gif" />
     <Content Include="Views\FrontAccount\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -1348,6 +1349,7 @@
       <DependentUpon>StoxDataDB.edmx</DependentUpon>
       <LastGenOutput>StoxDataDB.cs</LastGenOutput>
     </Content>
+    <None Include="Properties\PublishProfiles\Co tuc.pubxml" />
     <None Include="Properties\PublishProfiles\KNKH.pubxml" />
     <None Include="Properties\PublishProfiles\phimhang o nha.pubxml" />
     <None Include="Properties\PublishProfiles\phimhang.pubxml" />

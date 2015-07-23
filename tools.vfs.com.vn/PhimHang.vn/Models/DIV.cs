@@ -29,5 +29,8 @@ namespace PhimHang.Models
 
         public double  DoanhThuKeHoach { get; set; }
 
+        public double LoiNhuanKeHoach { get; set; }
+
+        public string EventNote { get; set; }
     }
 }

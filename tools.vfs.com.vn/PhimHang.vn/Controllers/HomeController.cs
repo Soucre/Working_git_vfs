@@ -19,14 +19,18 @@ namespace PhimHang.Controllers
         private StoxDataEntities Stoxdb;      
 
         
-        public async Task<ActionResult> Index()
+        public async Task<ActionResult> Index(int row = 20)
         {
             using (Stoxdb = new StoxDataEntities())
             {
+                if (row > 60)
+                {
+                    row = 60;
+                }
                 var yearReportParameter = new SqlParameter("@YearReport", 2014);
-
+                var rowtotal = new SqlParameter("@TotalRow", row);
                 var result = await Stoxdb.Database
-                            .SqlQuery<DIV>("VFS_DIV @YearReport", yearReportParameter).ToListAsync();
+                            .SqlQuery<DIV>("VFS_DIV @YearReport,@TotalRow", yearReportParameter, rowtotal).ToListAsync();
                             
                 //int pageSize = 60;
                 //int pageNumber = 1;// (page ?? 1);

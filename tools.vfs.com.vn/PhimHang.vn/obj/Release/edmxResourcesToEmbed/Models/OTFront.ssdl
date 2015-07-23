@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OTFrontModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="FrontUser">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CardIdentity" Type="varchar" MaxLength="20" />
+    <Property Name="RegisterDate" Type="smalldatetime" />
+    <Property Name="OpenDate" Type="smalldatetime" />
+    <Property Name="Mobile" Type="varchar" MaxLength="20" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="Address" Type="nvarchar" MaxLength="500" />
+    <Property Name="Password" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="PINCode" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="Type" Type="tinyint" Nullable="false" />
+    <Property Name="Retries" Type="int" Nullable="false" />
+    <Property Name="IsFirstLogon" Type="bit" Nullable="false" />
+    <Property Name="LastChangedPassword" Type="datetime" />
+    <Property Name="LastAccess" Type="datetime" />
+    <Property Name="Ip" Type="nvarchar" MaxLength="100" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="InvestorId" Type="int" Nullable="false" />
+    <Property Name="ActiveTrading" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="OTFrontModelStoreContainer">
+    <EntitySet Name="FrontUser" EntityType="Self.FrontUser" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -30,11 +30,11 @@ namespace PhimHang.Models
 
     public class LoginViewModel
     {
-        [Required]
+        [Required(ErrorMessage="Nhập tên đăng nhập <br />")]
         [Display(Name = "User name")]
         public string UserName { get; set; }
 
-        [Required]
+        [Required(ErrorMessage="Nhập mật khẩu")]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string Password { get; set; }

@@ -28,7 +28,7 @@
     word-break:normal;
     border-color:#aaa;
     color:#fff;
-    background-color:#E17C10;
+    background-color:#0279CD;
 
 }
 .tg .tg-0ord{
@@ -38,5 +38,24 @@
 
 .fixwidth {
     width:67px;
+}
+
+.sum-row{
+    margin-bottom:10px;
+    text-align:right;
+    position:absolute;
+    width:940px;    
+    font-weight:bold;
+}
+.sum-row >span {
+    
+    padding:3px;
+    border:none;
+    background-color:#0279CD;
+    
+}
+.sum-row >span >a {
+    color:white;  
+    padding:3px 15px;
 }
 
