@@ -1,0 +1,48 @@
+﻿<xapCache source="F:\Download\DongYFullFinal\DongY\Bin\Release\DongY_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="9/19/2013 9:57:26 PM">
+  <file source="F:\Download\DongYFullFinal\DongY\obj\Release\DongY.dll" archivePath="DongY.dll" lastWriteTime="9/19/2013 9:57:23 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="7/16/2013 12:18:02 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="7/16/2013 12:18:02 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\background_320wx416h.png" archivePath="Assets\background_320wx416h.png" lastWriteTime="7/17/2013 1:41:36 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\images\par.jpg" archivePath="Assets\images\par.jpg" lastWriteTime="7/27/2013 6:54:28 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\images\par_1.jpg" archivePath="Assets\images\par_1.jpg" lastWriteTime="7/27/2013 6:54:28 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\images\par_2.jpg" archivePath="Assets\images\par_2.jpg" lastWriteTime="7/27/2013 6:54:28 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\images\par_3.jpg" archivePath="Assets\images\par_3.jpg" lastWriteTime="7/27/2013 6:54:28 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\images\par_4.jpg" archivePath="Assets\images\par_4.jpg" lastWriteTime="7/27/2013 6:54:28 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="7/16/2013 12:18:02 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="7/16/2013 12:18:02 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="7/16/2013 12:18:02 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="7/16/2013 12:18:02 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="7/16/2013 12:18:02 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\AnUongIcon.png" archivePath="Resources\AnUongIcon.png" lastWriteTime="9/4/2013 11:19:41 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="8/2/2013 4:21:58 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="8/2/2013 4:02:08 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Libs\css\phone.css" archivePath="Libs\css\phone.css" lastWriteTime="8/5/2013 10:13:04 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\backButton.png" archivePath="Resources\backButton.png" lastWriteTime="5/4/2013 6:01:56 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\background_320wx416h.png" archivePath="Resources\background_320wx416h.png" lastWriteTime="5/3/2013 4:52:38 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\bmi_icon.png" archivePath="Resources\bmi_icon.png" lastWriteTime="5/3/2013 3:38:36 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\button.png" archivePath="Resources\button.png" lastWriteTime="6/11/2013 5:25:58 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\close.png" archivePath="Resources\close.png" lastWriteTime="5/10/2013 2:37:06 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\cob_Button.png" archivePath="Resources\cob_Button.png" lastWriteTime="5/10/2013 4:37:24 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\combobox.png" archivePath="Resources\combobox.png" lastWriteTime="5/4/2013 5:11:48 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\dongy_icon.png" archivePath="Resources\dongy_icon.png" lastWriteTime="5/3/2013 5:09:32 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\email_icon.png" archivePath="Resources\email_icon.png" lastWriteTime="5/3/2013 3:36:16 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\info_icon.png" archivePath="Resources\info_icon.png" lastWriteTime="5/3/2013 3:37:50 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\kinhnguyet_icon.png" archivePath="Resources\kinhnguyet_icon.png" lastWriteTime="5/3/2013 3:34:38 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\left_arrow@2x.png" archivePath="Resources\left_arrow@2x.png" lastWriteTime="4/16/2013 4:52:08 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\left_arrow.png" archivePath="Resources\left_arrow.png" lastWriteTime="4/16/2013 4:52:08 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\navBar_Children.png" archivePath="Resources\navBar_Children.png" lastWriteTime="5/3/2013 6:00:50 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\navbar_home.png" archivePath="Resources\navbar_home.png" lastWriteTime="5/3/2013 5:36:58 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\right_arrow@2x.png" archivePath="Resources\right_arrow@2x.png" lastWriteTime="4/16/2013 4:52:08 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\right_arrow.png" archivePath="Resources\right_arrow.png" lastWriteTime="4/16/2013 4:52:08 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\Textfeild_182Wx30H.png" archivePath="Resources\Textfeild_182Wx30H.png" lastWriteTime="5/10/2013 4:21:12 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Resources\Textfeild_280Wx30H.png" archivePath="Resources\Textfeild_280Wx30H.png" lastWriteTime="5/15/2013 5:14:56 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="9/19/2013 9:57:25 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Libs\Community.CsharpSqlite.WP.dll" archivePath="Community.CsharpSqlite.WP.dll" lastWriteTime="2/26/2011 12:44:48 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="9/25/2012 1:41:02 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="3/3/2013 7:40:38 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Libs\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="7/12/2013 5:50:12 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="9/25/2012 1:41:02 AM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\logo.png" archivePath="Assets\logo.png" lastWriteTime="8/2/2013 4:06:20 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Assets\logo_Big.png" archivePath="Assets\logo_Big.png" lastWriteTime="8/2/2013 4:07:16 PM" />
+  <file source="F:\Download\DongYFullFinal\DongY\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="9/19/2013 9:57:25 PM" />
+</xapCache>

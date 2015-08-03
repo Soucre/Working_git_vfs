@@ -1,0 +1,132 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:ec="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+    x:Class="DongY.GioiThieu"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="100"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <!-- LOCALIZATION NOTE:
+            To localize the displayed strings copy their values to appropriately named
+            keys in the app's neutral language resource file (AppResources.resx) then
+            replace the hard-coded text value between the attributes' quotation marks
+            with the binding clause whose path points to that string name.
+
+            For example:
+
+                Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}"
+
+            This binding points to the template's string resource named "ApplicationTitle".
+
+            Adding supported languages in the Project Properties tab will create a
+            new resx file per language that can carry the translated values of your
+            UI strings. The binding in these examples will cause the value of the
+            attributes to be drawn from the .resx file that matches the
+            CurrentUICulture of the app at run time.
+         -->
+
+
+
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <Canvas x:Name="title_canvas" Grid.Row="0" Margin="0">
+            <Canvas.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Resources/navBar_Children.png"/>
+            </Canvas.Background>
+
+            <Button x:Name="button_back" Content="" HorizontalAlignment="Left" VerticalAlignment="Center" Height="96" Width="96">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Resources/backButton.png"/>
+                </Button.Background>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/MainPage.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <TextBlock x:Name="textblock_title_Copy" Text="GIỚI THIỆU" Foreground="#FF1F581A" TextAlignment="Center" LineHeight="0" FontSize="34" FontFamily="Segoe WP" Canvas.Left="125" RenderTransformOrigin="0.487,1.067" Canvas.Top="25" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        </Canvas>
+
+
+        <!--ContentPanel - place additional content here-->
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Assets/background_320wx416h.png"/>
+            </Grid.Background>
+
+            <!--Nội dung giới thiệu-->
+            <ScrollViewer >
+                <TextBlock 
+                    x:Name="textbox_gioiThieu" Grid.Row="0" TextWrapping="Wrap" Foreground="#FF1F581A" Margin="10">
+                    <LineBreak/>
+                    <Run FontSize="27" Text="          Lương Y"/>
+                    <Run FontSize="27" FontWeight="Bold" Text=" Nguyễn Hữu Toàn"/>
+                    <LineBreak/>
+                    <Run FontSize="24" Text="             Một đời vì y học cổ truyền"/>
+                    <LineBreak/>
+                    <LineBreak/>
+                    <Run FontSize="24" Text="Ra đời từ năm 2006 khi mạng internet chưa thực sự phát triển ở Việt Nam, website thaythuoccuaban.com do Lương y quốc gia Nguyễn Hữu Toàn sáng lập đã trở thành một địa chỉ tin cậy, uy tín cho bệnh nhân, cho những đồng nghiệp hoạt động trong lĩnh vực đông y. Chứa đựng  nhiều nội dung phong phú như: "/>
+                    <Run FontSize="24" FontWeight="Bold" Text="giới thiệu các bài thuốc gia truyền, tổng hợp hàng nghìn bài thuốc quý,  các vị thuốc, và kiến thức về các bệnh cũng như chế độ ăn uống và phòng bệnh, ngoài ra website cũng bao gồm nhiều phần mềm tiện ích như phần mềm trắc nghiệm khả năng đông y để giúp cho các thầy thuốc đông y học tập và rèn luyện khả năng y học của mình.… "/>
+                    <Run FontSize="24" Text="Ẩn chứa một kho kiến thức được cập nhật thường xuyên, và liên tục bên cạnh những tiện ích cần thiết cho người sử dụng website thaythuoccuaban.com đã thu hút hàng triệu lượt truy cập với hàng trăm ngàn lượt tư vấn trực tuyến."/>
+                    <LineBreak/>
+                    <LineBreak/>
+                    <Run FontSize="24" Text="Cùng với sự phát triển của thị trường điện thoại di động, người dùng có xu hướng lướt web từ điện thoại di động ngày càng nhiều hơn.  Nhằm đem lại những tiện ích tốt nhất cho người sử dụng, đưa website thaythuoccuaban.com đến gần hơn với người dùng, Lương y quốc gia Nguyễn Hữu Toàn đã tiếp tục phát triển phần mềm thaythuoccuaban.com phiên bản dành riêng cho điện thoại di động. Phần mềm hỗ trợ người dùng truy cập vào một trong những trang sức khỏe uy tín nhất hiện nay trong thời gian ngắn nhất, nhanh nhất, giao diện đẹp, cùng những tiện ích thông minh. Phần mềm hỗ trợ cho tất cả các loại điện thoại di động sử dụng hệ điều hành IOS,  Android, windows phone,… Phần mềm là phiên bản thaythuoccuaban.com thu nhỏ bao gồm các nội dung chính: kho kiến thức về đông y như đông y trị bệnh, chế độ ăn giúp phòng và chữa bệnh hiệu quả, … Đặc biệt phần mền còn được tích hợp tính năng tính chỉ số BMI về cân nặng chiều cao, đưa ra mức cân nặng lý tưởng cho mỗi người, "/>
+                    <Run FontSize="24" FontWeight="Bold" Text="tự động tính ngày rụng trứng giúp tăng khả năng thụ thai, sinh con trai, con gái theo ý muốn. "/>
+                    <Run FontSize="24" Text="Bên cạnh đó phần mềm còn tích hợp "/>
+                    <Run FontSize="24" FontWeight="Bold" Text="tính năng gửi mail tự động, trực tiếp tới Lương y quốc gia Nguyễn Hữu Toàn. "/>
+                    <Run FontSize="24" Text="Mọi thắc mắc về sức khỏe sẽ được Lương y quốc gia Nguyễn Hữu Toàn tư vấn, giải đáp trong vòng 24h kể từ khi gửi mail."/>
+                </TextBlock>
+            </ScrollViewer>
+            
+
+            <!--Địa chỉ 1-->
+            <TextBlock x:Name="textblock_diaChi_1" Grid.Row="1" Margin="5,0,5,0" TextWrapping="Wrap" Text="+ Cơ Sở 1: Số 481 - 482 Lô 222C Lê Hồng Phong" FontSize="20" Foreground="#FF1F581A" FontWeight="Bold" VerticalAlignment="Bottom"/>
+
+            <!--Địa chỉ 2-->
+            <TextBlock x:Name="textblock_diaChi_2" Grid.Row="2" Margin="5,0,5,0" TextWrapping="Wrap" Text="+ Cơ Sở 2: 4/172 Ngọc Hồi, Thanh Trì, Hà Nội" Foreground="#FF1F581A" FontWeight="Bold" FontSize="20" VerticalAlignment="Center"/>
+
+            <!--Button "Tư vấn"-->
+            <Button Grid.Row="3" x:Name="button_tuVan" Content="Tư Vấn: 19006834" Margin="0,0,0,0" BorderBrush="{x:Null}" Foreground="#1f581a" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.539,-1.027" Click="button_tuVan_Click_1">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Resources/button.png"/>
+                </Button.Background>
+            </Button>
+           
+
+
+        </Grid>
+
+        <!--Uncomment to see an alignment grid to help ensure your controls are
+            aligned on common boundaries.  The image has a top margin of -32px to
+            account for the System Tray. Set this to 0 (or remove the margin altogether)
+            if the System Tray is hidden.
+
+            Before shipping remove this XAML and the image itself.-->
+        <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" Grid.RowSpan="2" IsHitTestVisible="False" />-->
+    </Grid>
+
+</phone:PhoneApplicationPage>
