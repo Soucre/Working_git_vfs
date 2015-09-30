@@ -544,16 +544,16 @@ text-align: center;
     height:20px;
     width:80%;
     text-align:center;
-    background-color:#0169C2;
+    /*background-color:#0169C2;*/
     padding:8px 0px;
-    border:2px solid #FFFFFF;
+    border-top:1px solid #CCCCCC;    
 }
 .default-center-menu-left .clear-left > ul > li > a{
-    color:#FFFFFF;
+    color:#000000;
 }
-.default-center-menu-left .clear-left > ul > li:hover{
+/*.default-center-menu-left .clear-left > ul > li:hover{
     background-color:#E17C10;
-}
+}*/
 
 
 .default-center-menu-right {

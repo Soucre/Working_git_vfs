@@ -3,7 +3,8 @@ DROP PROCEDURE [dbo].VFS_DIV
 GO
 
 CREATE PROCEDURE [dbo].VFS_DIV
-@YearReport int -- test default
+@YearReport int, -- test default
+@TotalRow int
 AS 
 
 ---------------------------------------------------------
@@ -87,7 +88,7 @@ BEGIN
 	WHERE TableTemp.Ticker = #TABLETEMP.Stock 
 
 
-	Select Top 20
+	Select Top (@TotalRow)
 		Stock,
 		Price,
 		round(DIV2014,1) DIV2014,
@@ -102,11 +103,12 @@ BEGIN
 		round((CASE WHEN LoiNhuanKeHoach = 0 THEN 0 ELSE LoiNhuanTruocThue/LoiNhuanKeHoach END) * 100 ,1) as LoiNhuanKeHoach,
 		EventNote
 		
-		-- sample 
-		,CoTucKH2015,
-		DIV2014
+		------ sample 
+		--,CoTucKH2015,
+		--DIV2014
 	from #TABLETEMP
-	order by TongCong DESC
-
+	WHere ((CASE WHEN DoanhThuKeHoach = 0 THEN 0 ELSE DoanhThuLyKe/DoanhThuKeHoach END) >= 0.4)
+	And ((CASE WHEN LoiNhuanKeHoach = 0 THEN 0 ELSE LoiNhuanTruocThue/LoiNhuanKeHoach END) >= 0.4)
+	order by Nam2015KeHoach DESC
 
 END

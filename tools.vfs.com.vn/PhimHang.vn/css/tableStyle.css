@@ -1,4 +1,9 @@
-﻿.tg  {
+﻿#div-table{
+     margin: 0px 0px 25px;
+     border: solid 1px #ccc;
+}
+
+.tg  {
     border-collapse:collapse;
     border-spacing:0;
     border-color:#aaa;
@@ -12,7 +17,7 @@
     border-width:1px;
     overflow:hidden;
     word-break:normal;
-    border-color:#aaa;
+    border-color:#fff;
     color:#333;
     background-color:#fff;
 
@@ -26,9 +31,9 @@
     border-width:1px;
     overflow:hidden;
     word-break:normal;
-    border-color:#aaa;
+    border-color:#fff;
     color:#fff;
-    background-color:#0279CD;
+    background-color:#F8991D;
 
 }
 .tg .tg-0ord{
