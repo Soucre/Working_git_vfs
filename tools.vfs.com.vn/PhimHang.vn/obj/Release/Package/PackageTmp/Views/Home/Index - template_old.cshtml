@@ -1,0 +1,98 @@
+﻿@*@model IEnumerable<PhimHang.Models.RecommendStock>*@
+@{
+    ViewBag.Title = "Công cụ phân tích chứng khoán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<PhimHang.Models.DIV>
+@using PagedList.Mvc;
+@*<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />*@
+<link href="~/css/tableStyle.css" rel="stylesheet" />
+<style>
+    #menu-1 a {
+        color: rgb(245, 131, 31);
+    }
+</style>
+@*<div class="sum-row">
+    <span>@Html.ActionLink("20", "", new { row = 20 })</span>
+    <span>@Html.ActionLink("40", "", new { row = 40 })</span>
+    <span>@Html.ActionLink("60", "", new { row = 60 })</span>
+</div>*@
+<div id="div-table">
+    <table class="tg">
+        <tr>
+            <th rowspan="2">No</th>
+            <th style="width:33px" rowspan="2">Mã CP</th>
+            <th rowspan="2">Giá</th>
+            <th  colspan="5">Lịch sử cổ tức</th>
+            <th  colspan="3">Tỷ suất sinh lời</th>
+            <th  colspan="2">Tiến độ thực hiện</th>
+            <th rowspan="2" >Ghi chú (thực hiện quyền)</th>           
+        </tr>
+        <tr class="MergeTable">
+            @*<th></th>
+            <th><b></b></th>
+            <th></th>*@
+            @*Lịch sử cổ tức*@
+            <th title="Cổ tức năm 2010">2010</th>
+            <th>2011</th>
+            <th>2012</th>
+            <th>2013</th>
+            <th>2014</th>
+            @*Tỷ suất sinh lời*@
+            <th class="fixwidth">Năm 2014 <br /> chưa chia</th>
+            <th class="fixwidth">Năm 2015 <br /> kế hoạch</th>
+            <th>Tổng cộng</th>
+            @*Tiến độ thực hiện*@
+            <th class="fixwidth">Kế hoạch <br /> doanh thu</th>
+            <th class="fixwidth">Kế hoạch <br /> Lợi nhuận</th>
+            @*Thực hiện quyền*@
+            @*<th></th>*@
+
+        </tr>
+        @{
+            int rownumber =0 ;
+            foreach (var item in Model)
+            {
+                rownumber +=1;
+                 <tr style="border-color:white">
+                    <td>@rownumber</td>
+                    <td><b>@item.Stock</b></td>
+                    <td>@string.Format("{0,0:N0}", @item.Price)</td>            
+                    <td>@item.DIV2010%</td>
+                    <td>@item.DIV2011%</td>
+                    <td>@item.DIV2012%</td>
+                    <td>@item.DIV2013%</td>    
+                    <td>@item.DIV2014%</td>           
+                    <td class="fixwidth">@item.Nam2014ChuaChia% </td>
+                    <td class="fixwidth">@item.Nam2015KeHoach%</td>
+                    <td>@item.TongCong%</td>            
+                    <td class="fixwidth">@item.DoanhThuKeHoach%</td>
+                    <td class="fixwidth">@item.LoiNhuanKeHoach%</td>            
+                    <td>@(!string.IsNullOrEmpty(@item.EventNote) ? PhimHang.Models.Helper.RemoveHtmlTag(@item.EventNote) : "")</td>
+
+                </tr>
+            }
+        }
+       
+
+       
+    </table>
+</div>
+    
+        @*<script type="text/javascript">
+            $().ready(function () {
+                $('#datetimepicker').datepicker({
+                    dateFormat: 'dd/mm/yy',
+                    buttonImage: '@Url.Content("~/Content/themes/calendar.gif")',
+                    buttonImageOnly: true,
+                    showOn: 'both',
+                    //minDate: "0"
+
+
+                });
+            });
+        </script>*@
+
+
+
+

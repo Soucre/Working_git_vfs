@@ -85,7 +85,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2015 09:04:39</publishTime>
     </File>
     <File Include="bin/PhimHang.dll">
-      <publishTime>09/28/2015 16:43:00</publishTime>
+      <publishTime>09/30/2015 15:11:34</publishTime>
     </File>
     <File Include="bin/System.ComponentModel.DataAnnotations.dll">
       <publishTime>09/26/2012 03:16:08</publishTime>
@@ -525,8 +525,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="css/style.css">
       <publishTime>09/28/2015 16:33:58</publishTime>
     </File>
+    <File Include="css/stylesheet.css">
+      <publishTime>09/30/2015 15:08:25</publishTime>
+    </File>
     <File Include="css/tableStyle.css">
-      <publishTime>09/28/2015 16:12:55</publishTime>
+      <publishTime>09/30/2015 15:09:02</publishTime>
     </File>
     <File Include="DetailTheme/css/960.css">
       <publishTime>07/13/2015 09:04:25</publishTime>
@@ -3429,8 +3432,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Home/Contact.cshtml">
       <publishTime>07/13/2015 09:04:30</publishTime>
     </File>
+    <File Include="Views/Home/Index - template_old.cshtml">
+      <publishTime>09/30/2015 09:30:25</publishTime>
+    </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/28/2015 16:38:02</publishTime>
+      <publishTime>09/30/2015 16:17:53</publishTime>
     </File>
     <File Include="Views/Home/ModifyRecommend.cshtml">
       <publishTime>07/13/2015 09:04:30</publishTime>

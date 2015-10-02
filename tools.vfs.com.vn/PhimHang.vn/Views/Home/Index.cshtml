@@ -1,12 +1,13 @@
 ﻿@*@model IEnumerable<PhimHang.Models.RecommendStock>*@
 @{
-    ViewBag.Title = "Công cụ phân tích chứng khoán";
+    ViewBag.Title = "Cổ tức lãi suất cao";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model IEnumerable<PhimHang.Models.DIV>
 @using PagedList.Mvc;
 @*<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />*@
 <link href="~/css/tableStyle.css" rel="stylesheet" />
+<link href="~/css/stylesheet.css" rel="stylesheet" />
 <style>
     #menu-1 a {
         color: rgb(245, 131, 31);
@@ -18,67 +19,97 @@
     <span>@Html.ActionLink("60", "", new { row = 60 })</span>
 </div>*@
 <div id="div-table">
-    <table class="tg">
-        <tr>
-            <th rowspan="2">No</th>
-            <th style="width:33px" rowspan="2">Mã CP</th>
-            <th rowspan="2">Giá</th>
-            <th  colspan="5">Lịch sử cổ tức</th>
-            <th  colspan="3">Tỷ suất sinh lời</th>
-            <th  colspan="2">Tiến độ thực hiện</th>
-            <th rowspan="2" >Ghi chú (thực hiện quyền)</th>           
+    <table border=0 cellpadding=0 cellspacing=0 width=1248 style='border-collapse:
+ collapse;width:938px'>
+                
+        <tr height=21 style='mso-height-source:userset;height:15.75pt'>
+            
+            <td rowspan=2 class=xl86 style='border-bottom:1px solid black'>Mã</td>
+            <td rowspan=2 class=xl90 style='border-bottom:1px solid black'>
+                <span style='mso-spacerun:yes'></span>Giá<span style='mso-spacerun:yes'> </span>
+            </td>
+            <td style="width:300px" colspan=5 class=xl88>L&#7883;ch s&#7917; c&#7893; t&#7913;c</td>
+            <td style="width:250px" colspan=3 class=xl89>C&#7893; t&#7913;c ch&#432;a chia</td>
+            <td style="width:140px" colspan=2 class=xl88>Th&#7921;c hi&#7879;n KH 2015</td>
+            <td rowspan=2 class=xl90 style='border-bottom:1px solid black'>
+                <span style='mso-spacerun:yes'></span>Ghi chú<span style='mso-spacerun:yes'></span>
+            </td>
+            
         </tr>
-        <tr class="MergeTable">
-            @*<th></th>
-            <th><b></b></th>
-            <th></th>*@
-            @*Lịch sử cổ tức*@
-            <th title="Cổ tức năm 2010">2010</th>
-            <th>2011</th>
-            <th>2012</th>
-            <th>2013</th>
-            <th>2014</th>
-            @*Tỷ suất sinh lời*@
-            <th class="fixwidth">Năm 2014 <br /> chưa chia</th>
-            <th class="fixwidth">Năm 2015 <br /> kế hoạch</th>
-            <th>Tổng cộng</th>
-            @*Tiến độ thực hiện*@
-            <th class="fixwidth">Kế hoạch <br /> doanh thu</th>
-            <th class="fixwidth">Kế hoạch <br /> Lợi nhuận</th>
-            @*Thực hiện quyền*@
-            @*<th></th>*@
-
+        <tr class=xl66 height=22 style='mso-height-source:userset;height:16.5pt'>
+            
+            <td class=xl84 style='border-top:none'>2010</td>
+            <td class=xl84 style='border-top:none'>2011</td>
+            <td class=xl84 style='border-top:none'>2012</td>
+            <td class=xl84 style='border-top:none'>2013</td>
+            <td class=xl84 style='border-top:none'>2014</td>
+            <td class=xl85 style='border-top:none'>2014 còn l&#7841;i</td>
+            <td class=xl85 style='border-top:none'>KH 2015</td>
+            <td class=xl85 style='border-top:none'>DIY</td>
+            <td class=xl84 style='border-top:none'>KH DT</td>
+            <td class=xl84 style='border-top:none'>KH LN</td>
+            
         </tr>
-        @{
-            int rownumber =0 ;
-            foreach (var item in Model)
-            {
-                rownumber +=1;
-                 <tr style="border-color:white">
-                    <td>@rownumber</td>
-                    <td><b>@item.Stock</b></td>
-                    <td>@string.Format("{0,0:N0}", @item.Price)</td>            
-                    <td>@item.DIV2010%</td>
-                    <td>@item.DIV2011%</td>
-                    <td>@item.DIV2012%</td>
-                    <td>@item.DIV2013%</td>    
-                    <td>@item.DIV2014%</td>           
-                    <td class="fixwidth">@item.Nam2014ChuaChia% </td>
-                    <td class="fixwidth">@item.Nam2015KeHoach%</td>
-                    <td>@item.TongCong%</td>            
-                    <td class="fixwidth">@item.DoanhThuKeHoach%</td>
-                    <td class="fixwidth">@item.LoiNhuanKeHoach%</td>            
-                    <td>@(!string.IsNullOrEmpty(@item.EventNote) ? PhimHang.Models.Helper.RemoveHtmlTag(@item.EventNote) : "")</td>
+       @{
+           int rownumber = 0;
+           foreach (var item in Model)
+           {
+               rownumber += 1;
+               <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+            
+               
+                @if (rownumber % 2 == 0) // mau dong chan, dong le
+                {
+                        <td class=xl73 style='border-top:none'>@item.Stock</td>
+                        <td class=xl74 style='border-top:none'>
+                            <span style='mso-spacerun:yes'>
+                            </span>@string.Format("{0,0:N0}", @item.Price)
+                        </td>
+                        <td class=xl69 style='border-top:none'>@item.DIV2010%</td>
+                        <td class=xl69 style='border-top:none'>@item.DIV2011%</td>
+                        <td class=xl69 style='border-top:none'>@item.DIV2012%</td>
+                        <td class=xl69 style='border-top:none'>@item.DIV2013%</td>
+                        <td class=xl69 style='border-top:none'>@item.DIV2014%</td>
+                        <td class=xl71 style='border-top:none'>@String.Format("{0:0.0#}",@item.Nam2014ChuaChia)% </td>
+                        <td class=xl71 style='border-top:none'>@String.Format("{0:0.0#}",@item.Nam2015KeHoach)%</td>
+                        <td class=xl71 style='border-top:none'>@String.Format("{0:0.0#}",  @item.TongCong)%</td>
+                        <td class=xl69 style='border-top:none'>@String.Format("{0:0.0#}",@item.DoanhThuKeHoach)%</td>
+                        <td class=xl69 style='border-top:none'>@String.Format("{0:0.0#}",@item.LoiNhuanKeHoach)%</td>
+                    <td class=xl77 style='border-top:none'>@(!string.IsNullOrEmpty(@item.EventNote) ? PhimHang.Models.Helper.RemoveHtmlTag(@item.EventNote) : "")</td>
+                }
+                else
+                {
+                        <td class=xl73 style='border-top: none; background-color: white'>@item.Stock</td>
+                            <td class=xl74 style='border-top: none; background-color: white'>
+                                <span style='mso-spacerun:yes'>
+                                </span>@string.Format("{0,0:N0}", @item.Price)
+                        </td>
+                        <td class=xl69 style='border-top:none; background-color:white'>@item.DIV2010%</td>
+                        <td class=xl69 style='border-top: none; background-color: white'>@item.DIV2011%</td>
+                        <td class=xl69 style='border-top: none; background-color: white'>@item.DIV2012%</td>
+                        <td class=xl69 style='border-top: none; background-color: white'>@item.DIV2013%</td>
+                        <td class=xl69 style='border-top: none; background-color: white'>@item.DIV2014%</td>
+                        <td class=xl71 style='border-top: none; background-color: white'>@String.Format("{0:0.0#}",@item.Nam2014ChuaChia)% </td>
+                        <td class=xl71 style='border-top: none; background-color: white'>@String.Format("{0:0.0#}",@item.Nam2015KeHoach)%</td>
+                        <td class=xl71 style='border-top: none; background-color: white'>@String.Format("{0:0.0#}",  @item.TongCong)%</td>
+                        <td class=xl69 style='border-top: none; background-color: white'>@String.Format("{0:0.0#}",@item.DoanhThuKeHoach)%</td>
+                        <td class=xl69 style='border-top: none; background-color: white'>@String.Format("{0:0.0#}",@item.LoiNhuanKeHoach)%</td>
+                        <td class=xl77 style='border-top: none; background-color: white'>@(!string.IsNullOrEmpty(@item.EventNote) ? PhimHang.Models.Helper.RemoveHtmlTag(@item.EventNote) : "")</td>
+                }
+               
 
-                </tr>
-            }
-        }
-       
 
-       
+                
+
+            </tr>
+           }
+
+       }
+
+
     </table>
 </div>
-    
+
         @*<script type="text/javascript">
             $().ready(function () {
                 $('#datetimepicker').datepicker({
