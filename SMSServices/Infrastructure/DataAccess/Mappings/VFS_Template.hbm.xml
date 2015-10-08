@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"	namespace="Core.Domain.Model"	assembly="Core">
+  <class name="VFS_Template" table="VFS_Template" dynamic-update="true">
+    <cache usage="read-write"/>
+      <id name="Id" column="Id" type="Int32" unsaved-value="0">
+        <generator class="native" ></generator>
+      </id>
+    <property column="Content" type="String" name="Content"  length="512"/>    
+  
+  </class>
+</hibernate-mapping>

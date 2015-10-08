@@ -1,0 +1,17 @@
+D:\SMS\NHibernate101\Bussiness\bin\Debug\Bussiness.dll.config
+D:\SMS\NHibernate101\Bussiness\bin\Debug\Bussiness.dll
+D:\SMS\NHibernate101\Bussiness\bin\Debug\Bussiness.pdb
+D:\SMS\NHibernate101\Bussiness\obj\Debug\Bussiness.dll
+D:\SMS\NHibernate101\Bussiness\obj\Debug\Bussiness.pdb
+E:\Working\SMSServices\Bussiness\bin\Debug\Bussiness.dll.config
+E:\Working\SMSServices\Bussiness\bin\Debug\Bussiness.dll
+E:\Working\SMSServices\Bussiness\bin\Debug\Bussiness.pdb
+E:\Working\SMSServices\Bussiness\obj\Debug\Bussiness.dll
+E:\Working\SMSServices\Bussiness\obj\Debug\Bussiness.pdb
+E:\Working\SMSServices\Bussiness\obj\Debug\Bussiness.csprojResolveAssemblyReference.cache
+F:\Working\SMSServices\Bussiness\bin\Debug\Bussiness.dll.config
+F:\Working\SMSServices\Bussiness\bin\Debug\Bussiness.dll
+F:\Working\SMSServices\Bussiness\bin\Debug\Bussiness.pdb
+F:\Working\SMSServices\Bussiness\obj\Debug\Bussiness.csprojResolveAssemblyReference.cache
+F:\Working\SMSServices\Bussiness\obj\Debug\Bussiness.dll
+F:\Working\SMSServices\Bussiness\obj\Debug\Bussiness.pdb

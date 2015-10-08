@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+									namespace="Core.Domain.Model"
+									assembly="Core">
+
+  <class name="Category" table="Categories" dynamic-update="true">
+    <cache usage="read-write"/>
+    <id name="Id" column="Id" type="Guid">
+      <generator class="guid"/>
+    </id>
+    <property name="Name" length="100"/>
+  </class>
+</hibernate-mapping>

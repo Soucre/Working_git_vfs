@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"	namespace="Core.Domain.Model"	assembly="Core">
+  <class name="MAccDetailLog" table="MAccDetailLog" dynamic-update="true">
+    <cache usage="read-write"/>
+      <id name="LogId" column="LogId" type="Int32">       
+      </id>
+
+    <property column="CustomerId" type="String" name="CustomerId" length="10" />
+    <property column="AccountId" type="String" name="AccountId" length="10" />
+    <property column="ContractId" type="String" name="ContractId" length="50" />
+    <property column="Amount" type="Decimal" name="Amount" />
+    <property column="Status" type="String" name="Status" length="1" />
+    
+    <property column="EffectiveOnDate" type="DateTime" name="EffectiveOnDate"/>
+    <property column="AmountCalInterest" type="Decimal" name="AmountCalInterest"/>
+    <property column="InterestPayNow" type="Decimal" name="InterestPayNow"/> 
+    <property column="LogType" type="String" name="LogType" length="1" />
+    <property column="LogDate" type="DateTime" name="LogDate"/>
+    
+    
+    <!--<property column="msrepl_tran_version" type="Guid" name="msrepl_tran_version"/>-->
+  
+  </class>
+</hibernate-mapping>

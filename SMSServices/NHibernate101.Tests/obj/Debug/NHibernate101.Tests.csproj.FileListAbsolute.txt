@@ -1,0 +1,76 @@
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\hibernate.cfg.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.Tests.dll.config
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.Tests.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.Tests.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Core.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Infrastructure.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Castle.DynamicProxy2.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\log4net.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Castle.Core.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Core.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Castle.DynamicProxy2.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\log4net.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Infrastructure.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate.ByteCode.Castle.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Iesi.Collections.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Castle.Core.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\obj\Debug\NHibernate101.Tests.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\obj\Debug\NHibernate101.Tests.pdb
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\hibernate.cfg.xml
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.Tests.dll.config
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.Tests.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.Tests.pdb
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Castle.Core.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Castle.DynamicProxy2.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Core.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Infrastructure.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate.ByteCode.Castle.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Iesi.Collections.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Antlr3.Runtime.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Core.pdb
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Castle.DynamicProxy2.xml
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Infrastructure.pdb
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate.ByteCode.Castle.xml
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Iesi.Collections.xml
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate.xml
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\Castle.Core.xml
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.pdb
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\obj\Debug\ResolveAssemblyReference.cache
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\obj\Debug\NHibernate101.Tests.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101.Tests\obj\Debug\NHibernate101.Tests.pdb
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\hibernate.cfg.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.Tests.dll.config
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.Tests.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.Tests.pdb
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\Castle.Core.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\Core.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\Infrastructure.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\Iesi.Collections.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\log4net.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\Core.pdb
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\Infrastructure.pdb
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate101.pdb
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\Castle.Core.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\Castle.DynamicProxy2.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\NHibernate.ByteCode.Castle.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\Iesi.Collections.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\bin\Debug\log4net.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\obj\Debug\NHibernate101.Tests.csprojResolveAssemblyReference.cache
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\obj\Debug\NHibernate101.Tests.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101.Tests\obj\Debug\NHibernate101.Tests.pdb

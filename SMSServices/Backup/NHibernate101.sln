@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate101", "NHibernate101\NHibernate101.csproj", "{77A56577-E874-440D-B5C4-16E968176075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate101.Tests", "NHibernate101.Tests\NHibernate101.Tests.csproj", "{302A5E17-6F8E-42FC-950B-4F1674A5E901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{AA91D00B-3458-4C2F-9B85-885143EBCCA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{315E3CF8-EE31-4DAF-BB0B-10E694BF8B85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77A56577-E874-440D-B5C4-16E968176075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A56577-E874-440D-B5C4-16E968176075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A56577-E874-440D-B5C4-16E968176075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A56577-E874-440D-B5C4-16E968176075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302A5E17-6F8E-42FC-950B-4F1674A5E901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302A5E17-6F8E-42FC-950B-4F1674A5E901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302A5E17-6F8E-42FC-950B-4F1674A5E901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302A5E17-6F8E-42FC-950B-4F1674A5E901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA91D00B-3458-4C2F-9B85-885143EBCCA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA91D00B-3458-4C2F-9B85-885143EBCCA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA91D00B-3458-4C2F-9B85-885143EBCCA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA91D00B-3458-4C2F-9B85-885143EBCCA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315E3CF8-EE31-4DAF-BB0B-10E694BF8B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315E3CF8-EE31-4DAF-BB0B-10E694BF8B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315E3CF8-EE31-4DAF-BB0B-10E694BF8B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315E3CF8-EE31-4DAF-BB0B-10E694BF8B85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

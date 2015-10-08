@@ -1,0 +1,85 @@
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\Core.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\Core.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\NHibernate.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\log4net.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\Antlr3.Runtime.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\NHibernate.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\Iesi.Collections.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\log4net.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\obj\Debug\Core.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\obj\Debug\Core.pdb
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\Core.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\Core.pdb
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\NHibernate.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\Iesi.Collections.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\Antlr3.Runtime.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\NHibernate.xml
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\bin\Debug\Iesi.Collections.xml
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\obj\Debug\ResolveAssemblyReference.cache
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\obj\Debug\Core.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\Core\obj\Debug\Core.pdb
+C:\Users\hieu.nguyen\Downloads\NHibernate101\Core\bin\Debug\Core.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\Core\bin\Debug\Core.pdb
+C:\Users\hieu.nguyen\Downloads\NHibernate101\Core\bin\Debug\NHibernate.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\Core\bin\Debug\NHibernate.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\Core\obj\Debug\Core.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\Core\obj\Debug\Core.pdb
+C:\Users\hieu.nguyen\Downloads\NHibernate101\Core\bin\Debug\Iesi.Collections.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\Core\bin\Debug\Iesi.Collections.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\Core\bin\Debug\log4net.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\Core\bin\Debug\log4net.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\Core\bin\Debug\Antlr3.Runtime.dll
+D:\SMS\NHibernate101\Core\bin\Debug\Core.dll
+D:\SMS\NHibernate101\Core\bin\Debug\Core.pdb
+D:\SMS\NHibernate101\Core\bin\Debug\Antlr3.Runtime.dll
+D:\SMS\NHibernate101\Core\bin\Debug\Iesi.Collections.dll
+D:\SMS\NHibernate101\Core\bin\Debug\log4net.dll
+D:\SMS\NHibernate101\Core\bin\Debug\NHibernate.dll
+D:\SMS\NHibernate101\Core\bin\Debug\Iesi.Collections.xml
+D:\SMS\NHibernate101\Core\bin\Debug\log4net.xml
+D:\SMS\NHibernate101\Core\bin\Debug\NHibernate.xml
+D:\SMS\NHibernate101\Core\obj\Debug\Core.dll
+D:\SMS\NHibernate101\Core\obj\Debug\Core.pdb
+D:\SMS\NHibernate101\Core\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\SMS\NHibernate101\Core\bin\Debug\Castle.Core.dll
+D:\SMS\NHibernate101\Core\bin\Debug\Castle.DynamicProxy2.dll
+D:\SMS\NHibernate101\Core\bin\Debug\NHibernate.ByteCode.Castle.xml
+D:\SMS\NHibernate101\Core\bin\Debug\Castle.Core.xml
+D:\SMS\NHibernate101\Core\bin\Debug\Castle.DynamicProxy2.xml
+E:\Dropbox\NHibernate101\Core\bin\Debug\Core.dll
+E:\Dropbox\NHibernate101\Core\bin\Debug\Core.pdb
+E:\Dropbox\NHibernate101\Core\bin\Debug\Antlr3.Runtime.dll
+E:\Dropbox\NHibernate101\Core\bin\Debug\Castle.Core.dll
+E:\Dropbox\NHibernate101\Core\bin\Debug\Iesi.Collections.dll
+E:\Dropbox\NHibernate101\Core\bin\Debug\log4net.dll
+E:\Dropbox\NHibernate101\Core\bin\Debug\NHibernate.ByteCode.Castle.dll
+E:\Dropbox\NHibernate101\Core\bin\Debug\NHibernate.dll
+E:\Dropbox\NHibernate101\Core\bin\Debug\Castle.DynamicProxy2.dll
+E:\Dropbox\NHibernate101\Core\bin\Debug\Castle.Core.xml
+E:\Dropbox\NHibernate101\Core\bin\Debug\Iesi.Collections.xml
+E:\Dropbox\NHibernate101\Core\bin\Debug\log4net.xml
+E:\Dropbox\NHibernate101\Core\bin\Debug\NHibernate.xml
+E:\Dropbox\NHibernate101\Core\bin\Debug\NHibernate.ByteCode.Castle.xml
+E:\Dropbox\NHibernate101\Core\bin\Debug\Castle.DynamicProxy2.xml
+E:\Dropbox\NHibernate101\Core\obj\Debug\Core.dll
+E:\Dropbox\NHibernate101\Core\obj\Debug\Core.pdb
+E:\Dropbox\NHibernate101\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+E:\Working\SMSServices\Core\bin\Debug\Core.dll
+E:\Working\SMSServices\Core\bin\Debug\Core.pdb
+E:\Working\SMSServices\Core\bin\Debug\Antlr3.Runtime.dll
+E:\Working\SMSServices\Core\bin\Debug\Castle.Core.dll
+E:\Working\SMSServices\Core\bin\Debug\Iesi.Collections.dll
+E:\Working\SMSServices\Core\bin\Debug\log4net.dll
+E:\Working\SMSServices\Core\bin\Debug\NHibernate.ByteCode.Castle.dll
+E:\Working\SMSServices\Core\bin\Debug\NHibernate.dll
+E:\Working\SMSServices\Core\bin\Debug\Castle.DynamicProxy2.dll
+E:\Working\SMSServices\Core\bin\Debug\Castle.Core.xml
+E:\Working\SMSServices\Core\bin\Debug\Iesi.Collections.xml
+E:\Working\SMSServices\Core\bin\Debug\log4net.xml
+E:\Working\SMSServices\Core\bin\Debug\NHibernate.xml
+E:\Working\SMSServices\Core\bin\Debug\NHibernate.ByteCode.Castle.xml
+E:\Working\SMSServices\Core\bin\Debug\Castle.DynamicProxy2.xml
+E:\Working\SMSServices\Core\obj\Debug\Core.dll
+E:\Working\SMSServices\Core\obj\Debug\Core.pdb

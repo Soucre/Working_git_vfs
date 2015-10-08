@@ -1,0 +1,27 @@
+﻿
+
+@{
+         int i = 1;
+         foreach (var item in Model)
+         {
+             <tr id="updatetest">
+                    <td>@i</td>
+                    <td>@item.StockCode</td>
+                    <td>@String.Format("{0:dd/MM/yyyy}", @item.DateNoRight)</td>
+                    <td>@String.Format("{0:dd/MM/yyyy}", @item.DateOwnerConfirm)</td>
+                    <td> @item.DatePay</td>
+                    <td>@item.RateA/@item.RateB</td>
+                    <td>@item.RightType</td>
+                    <td>@Ajax.ActionLink("Update", "Update", new { id = @item.Id }, new AjaxOptions
+                   {
+                       HttpMethod = "GET",
+                       Confirm = "Bạn có muốn cập nhật?"
+
+                   })
+                     </td>
+        
+            </tr>  
+             i++;
+         }
+         
+        }

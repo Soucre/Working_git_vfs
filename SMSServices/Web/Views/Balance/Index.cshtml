@@ -1,0 +1,20 @@
+﻿
+
+@{
+    ViewBag.Title = "Update Balance";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Message</h1>
+                <h2></h2>
+            </hgroup>
+          
+        </div>
+    </section>
+}
+
+<div>
+    @Ajax.ActionLink("Cập nhật số dư nợ", "First","Balance",null)
+</div>

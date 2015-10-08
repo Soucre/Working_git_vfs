@@ -1,0 +1,37 @@
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\NHibernate101.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\NHibernate101.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\obj\Debug\NHibernate101.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\obj\Debug\NHibernate101.pdb
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\NHibernate101.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\NHibernate101.pdb
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\obj\Debug\ResolveAssemblyReference.cache
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\obj\Debug\NHibernate101.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\obj\Debug\NHibernate101.pdb
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\hibernate.cfg.xml
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\Core.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\Infrastructure.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\Iesi.Collections.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\Antlr3.Runtime.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\NHibernate.dll
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\Core.pdb
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\Infrastructure.pdb
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\Iesi.Collections.xml
+F:\cintriago\Datos\Visual Studio 2008\Projects\MVC\NHibernate101\NHibernate101\bin\NHibernate.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\hibernate.cfg.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\NHibernate101.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\NHibernate101.pdb
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\Core.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\Infrastructure.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\NHibernate.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\Iesi.Collections.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\Antlr3.Runtime.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\log4net.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\Core.pdb
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\Infrastructure.pdb
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\NHibernate.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\Iesi.Collections.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\bin\log4net.xml
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\obj\Debug\NHibernate101.csprojResolveAssemblyReference.cache
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\obj\Debug\NHibernate101.dll
+C:\Users\hieu.nguyen\Downloads\NHibernate101\NHibernate101\obj\Debug\NHibernate101.pdb

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"	namespace="Core.Domain.Model"	assembly="Core">
+  <class name="RightExec" table="RightExec" dynamic-update="true">
+    <cache usage="read-write"/>
+      <id name="Id" column="Id" type="Int32">       
+      </id>
+
+    <property column="StockCode" type="String" name="StockCode" length="10" />
+    <property column="StockType" type="String" name="StockType" length="1" />
+    <property column="BoardType" type="String" name="BoardType" length="1" />
+    <property column="DateNoRight" type="DateTime" name="DateNoRight" />
+    <property column="DateOwnerConfirm" type="DateTime" name="DateOwnerConfirm"/>
+    <property column="DatePay" type="DateTime" name="DatePay"/>
+    <property column="BeginRegisterDate" type="DateTime" name="BeginRegisterDate" length="100" />
+    <property column="EndRegisterDate" type="DateTime" name="EndRegisterDate" length="100" />
+    <property column="BeginTransferDate" type="DateTime" name="BeginTransferDate" length="100" />
+    <property column="EndTransferDate" type="DateTime" name="EndTransferDate" length="100" />
+    <property column="Description" type="String" name="Description" length="100" />
+    <property column="RateA" type="Int32" name="RateA"/>
+    <property column="RateB" type="Int32" name="RateB" />
+    <property column="RightType" type="String" name="RightType" length="1" />
+    <property column="Difference" type="Decimal" name="Difference" length="100" />
+    <property column="Posted" type="bool" name="Posted" />
+    <property column="RightExecPrice" type="Decimal" name="RightExecPrice" />
+    <property column="RoundType" type="Int32" name="RoundType"/>
+    <property column="RoundPrice" type="Decimal" name="RoundPrice"/>
+    <property column="DeadLine" type="DateTime" name="DeadLine"/>
+    <property column="RightRateA" type="Int32" name="RightRateA"/>
+    <property column="RightRateB" type="Int32" name="RightRateB" />
+    <property column="DecimalPlaces" type="Int32" name="DecimalPlaces"/>
+    <property column="BeginTransDate" type="DateTime" name="BeginTransDate"/>
+    <property column="ActiveDate" type="DateTime" name="ActiveDate"/>
+    <property column="ReceiptNumber" type="String" name="ReceiptNumber" length="100"/>
+    <property column="ReceiptDate" type="DateTime" name="ReceiptDate"/>
+    <!--<property column="msrepl_tran_version" type="Guid" name="msrepl_tran_version"/>-->
+  
+  </class>
+</hibernate-mapping>

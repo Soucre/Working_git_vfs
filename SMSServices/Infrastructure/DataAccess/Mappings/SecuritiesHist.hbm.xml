@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-lazy="true" namespace="Core.Domain.Model" assembly="Core">
+  <class name="SecuritiesHist" table="SecuritiesHist" lazy="true">
+      <!-- Primary Key(s) -->
+    <cache usage="read-write"/>
+    <id name="Id" column="Id" type="Int32">     
+    </id>
+    
+
+      <!-- Properties -->
+    <property column="BranchCode" type="String" name="BranchCode" length="3"/>
+    <property column="BankGl" type="String" name="BankGl" length="6" />
+    <property column="SectionGl" type="String" name="SectionGl" length="4" />
+    <property column="AccountId" type="String" name="AccountId" length="10" />
+    <property column="StockCode" type="String" name="StockCode" length="10" />
+    <property column="TransactionDate" type="DateTime" name="TransactionDate" />
+      <property column="Id" type="Int32" name="Id"/>
+      <property column="AccountName" type="String" name="AccountName" length="100" />
+      <property column="Quantity" type="Int64" name="Quantity" />
+      <property column="PendingDebitQuantity" type="Int64" name="PendingDebitQuantity" />   
+      <!--<property column="msrepl_tran_version" type="String" name="msrepl_tran_version" length="36"/>-->
+  </class>
+</hibernate-mapping>
+

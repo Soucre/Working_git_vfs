@@ -1,0 +1,113 @@
+﻿@model IEnumerable<Core.Domain.Model.RightExec>
+
+@{
+    ViewBag.Title = "Thông tin quyền";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Message</h1>
+                <h2></h2>
+            </hgroup>
+          
+        </div>
+    </section>
+}
+
+   
+        <table>
+        <tr>
+            <td><strong>Mã chứng khoán:</strong></td>
+            <td>@Html.TextBox("typeStockCode", Session["Stockcode"], new { style = "width:60px", id = "typeStockCode", MaxLenght = "3" })</td>            
+           @* <td><b>@Html.ActionLink("SEARCH", "Index", "Home", null, new { @class = "read-more" })</b></td>*@
+            <td><b><input id="SEARCH" class="read-more" value="SEARCH" onclick="location.href='@Url.Action("Index", "Home")?stock=' + encodeURIComponent(document.getElementById('typeStockCode').value);"   /></b></td>
+            
+        </tr>
+    </table>   
+              
+     
+   <table class="bordered" id="updatetest">
+    <thead>
+
+    <tr>
+        <th>#</th>        
+        <th>Mã CK</th>
+        <th>Ngày không hưởng quyền</th>
+        <th>Ngày chốt</th>
+        <th>Ngày thanh toán</th>
+        <th>tỉ lệ</th>
+        <th>Loại hình</th>
+        <th></th>
+    </tr>
+    </thead>
+    @{
+         int i = 1;
+         foreach (var item in Model)
+         {
+             <tr  >
+                    <td>@i</td>
+                    <td>@item.StockCode</td>
+                    <td>@String.Format("{0:dd/MM/yyyy}", @item.DateNoRight)</td>
+                    <td>@String.Format("{0:dd/MM/yyyy}", @item.DateOwnerConfirm)</td>
+                    <td>@String.Format("{0:dd/MM/yyyy}", @item.DatePay)</td>
+                    <td>@item.RateA/@item.RateB</td>
+                    <td>@item.RightType</td>
+                    <td>@Ajax.ActionLink("Update", "Update", new { id = @item.Id }, new AjaxOptions
+                   {
+                       HttpMethod = "GET",
+                       Confirm = "Bạn có muốn cập nhật?"                      
+
+                   })
+                     </td>
+        
+            </tr>
+             i++;
+         }
+         
+     }
+
+    
+
+</table>
+     <br />
+        @{
+         int count = Convert.ToInt32(ViewData["count"]);
+         int page = 0;
+         if (count % 4 == 0)
+         {
+             page = count / 8;
+         }
+         else
+         {
+             page = count / 8 + 1;
+         }
+
+         for (int ii = 1; ii <= page; ii++)
+         {
+             if(@ViewData["pageNo"].ToString() == @ii.ToString())
+             {
+                @: @Html.ActionLink(@ii.ToString(), "Paging", new { page = @ii }, new { style = "font-weight:bold" })
+            }
+            else
+            {
+                 @: @Html.ActionLink(@ii.ToString(), "Paging", new { page = @ii })
+             }
+
+
+         }
+              @*@:<strong style="float:right">page: @ViewData["pageNo"]</strong>  *@
+            
+        }
+        
+
+<div>
+   @* <script type="text/javascript">
+        $().ready(function () {
+            $("#SEARCH").click(function () {
+                alert('hello');
+            });
+        });
+            
+     </script>*@
+</div>
