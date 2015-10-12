@@ -39,3 +39,7 @@ F:\Working\SMSServices\SyncBackupCloud\bin\Debug\Bussiness.pdb
 F:\Working\SMSServices\SyncBackupCloud\bin\Debug\Core.pdb
 F:\Working\SMSServices\SyncBackupCloud\bin\Debug\Infrastructure.pdb
 F:\Working\SMSServices\SyncBackupCloud\obj\x86\Debug\SyncReport.exe
+F:\Working_git_vfs\SMSServices\SyncBackupCloud\bin\Debug\SyncReport.exe.config
+F:\Working_git_vfs\SMSServices\SyncBackupCloud\obj\x86\Debug\SyncBackupCloud.csproj.ResolveComReference.cache
+F:\Working_git_vfs\SMSServices\SyncBackupCloud\obj\x86\Debug\SyncReport.exe
+F:\Working_git_vfs\SMSServices\SyncBackupCloud\obj\x86\Debug\SyncReport.pdb

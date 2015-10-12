@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VfsCustomerServiceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ContentParameter">
+    <Key>
+      <PropertyRef Name="ContentParameterID" />
+    </Key>
+    <Property Name="ContentParameterID" Type="Int32" Nullable="false" />
+    <Property Name="ContentParameterName" Type="String" MaxLength="127" FixedLength="false" Unicode="true" />
+    <Property Name="ContentParameterDescription" Type="String" MaxLength="127" FixedLength="false" Unicode="true" />
+    <Property Name="ContentParameterValue" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ContentParameterActive" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="ContentTemplate">
+    <Key>
+      <PropertyRef Name="ContentTemplateID" />
+    </Key>
+    <Property Name="ContentTemplateID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceTypeID" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="400" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Sender" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Receiver" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Subject" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyContentType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyEncoding" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ServiceType" Relationship="Self.ContentTemplate_ServiceTypeID_Fk" FromRole="ContentTemplate" ToRole="ServiceType" />
+    <NavigationProperty Name="ContentTemplateAttachements" Relationship="Self.ContentTemplateAttachement_ContentTemplateID_Fk" FromRole="ContentTemplate" ToRole="ContentTemplateAttachement" />
+    <NavigationProperty Name="MessageContentSents" Relationship="Self.MessageContentSent_ContentTemplateID_Fk" FromRole="ContentTemplate" ToRole="MessageContentSent" />
+  </EntityType>
+  <EntityType Name="ContentTemplateAttachement">
+    <Key>
+      <PropertyRef Name="ContentTemplateAttachementID" />
+    </Key>
+    <Property Name="ContentTemplateAttachementID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AttachementDocument" Type="String" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Name="AttachementDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ContentTemplateID" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ContentTemplate" Relationship="Self.ContentTemplateAttachement_ContentTemplateID_Fk" FromRole="ContentTemplateAttachement" ToRole="ContentTemplate" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="BranchCode" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ContractNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CustomerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BrokerId" Type="Int32" Nullable="false" />
+    <Property Name="CustomerName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CustomerNameViet" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerType" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="DomesticForeign" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="Dob" Type="DateTime" Precision="0" />
+    <Property Name="Sex" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="SignatureImage1" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="SignatureImage2" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="OpenDate" Type="DateTime" Precision="0" />
+    <Property Name="CloseDate" Type="DateTime" Precision="0" />
+    <Property Name="CardType" Type="Int32" Nullable="false" />
+    <Property Name="CardIdentity" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CardDate" Type="DateTime" Precision="0" />
+    <Property Name="CardIssuer" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="AddressViet" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Tel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Fax" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Mobile" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Mobile2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UserCreate" Type="Int32" />
+    <Property Name="DateCreate" Type="DateTime" Precision="0" />
+    <Property Name="UserModify" Type="Int32" />
+    <Property Name="DateModify" Type="DateTime" Precision="0" />
+    <Property Name="ProxyStatus" Type="Boolean" />
+    <Property Name="AccountStatus" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="Notes" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="WorkingAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="UserIntroduce" Type="Int32" />
+    <Property Name="AttitudePoint" Type="Int32" />
+    <Property Name="DepositPoint" Type="Int32" />
+    <Property Name="ActionPoint" Type="Int32" />
+    <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Website" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TaxCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AccountType" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="OrderType" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="ReceiveReport" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="ReceiveReportBy" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="MarriageStatus" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="KnowledgeLevel" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="Job" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="OfficeFunction" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OfficeTel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="OfficeFax" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="HusbandWifeName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="HusbandWifeCardNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="HusbandWifeCardDate" Type="DateTime" Precision="0" />
+    <Property Name="HusbandWifeCardLocation" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="HusbandWifeTel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HusbandWifeEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="JoinStockMarket" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="InvestKnowledge" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="InvestedIn" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="InvestTarget" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="RiskAccepted" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="InvestFund" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="DelegatePersonName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DelegatePersonFunction" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DelegatePersonCardNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DelegateCardDate" Type="DateTime" Precision="0" />
+    <Property Name="DelegateCardLocation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DelegatePersonTel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DelegatePersonEmail" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ChiefAccountancyName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ChiefAccountancyCI" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ChiefAccountancyCD" Type="DateTime" Precision="0" />
+    <Property Name="ChiefAccountancyIssuer" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ChiefAccountancySign1" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="ChiefAccountancySign2" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="CaProxyName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CaProxyCI" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CaProxyCD" Type="DateTime" Precision="0" />
+    <Property Name="CaProxyIssuer" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CaProxySign1" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="CaProxySign2" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="CompanySign1" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="CompanySign2" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="TradeCode" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CustomerAccount" Type="Int32" Nullable="false" />
+    <Property Name="MobileSms" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="IsHere" Type="Boolean" Nullable="false" />
+    <Property Name="MoneyDepositeNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MoneyDepositeLocation" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DepartmentId" Type="Int32" />
+    <Property Name="PublicCompanyManage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PublicCompanyHolder" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ParentCompanyName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ParentCompanyAddress" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ParentCompanyEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ParentCompanyTel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PostType" Type="Int16" Nullable="false" />
+    <Property Name="ReOpenDate" Type="DateTime" Precision="0" />
+    <Property Name="UserTakeCared" Type="Int32" />
+    <Property Name="TypeID" Type="Int32" />
+    <Property Name="SendYN" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="ReceiveRelatedStockEmail" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="ReceiveRelatedStockSms" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="VType" Type="Boolean" />
+    <NavigationProperty Name="CustomerType1" Relationship="Self.Customer_TypeID_Fk" FromRole="Customer" ToRole="CustomerType" />
+    <NavigationProperty Name="GroupDetails" Relationship="Self.FK_Customer_GroupDetail" FromRole="Customer" ToRole="GroupDetail" />
+  </EntityType>
+  <EntityType Name="CustomerType">
+    <Key>
+      <PropertyRef Name="TypeID" />
+    </Key>
+    <Property Name="TypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Customers" Relationship="Self.Customer_TypeID_Fk" FromRole="CustomerType" ToRole="Customer" />
+  </EntityType>
+  <EntityType Name="ExtensionMessage">
+    <Key>
+      <PropertyRef Name="ExtensionMessageID" />
+    </Key>
+    <Property Name="ExtensionMessageID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Content" Type="String" MaxLength="1024" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="ExtensionMessageLog">
+    <Key>
+      <PropertyRef Name="ExtensionMessageLogID" />
+    </Key>
+    <Property Name="ExtensionMessageLogID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExtensionMessageID" Type="Int64" Nullable="false" />
+    <Property Name="CustomerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GroupCustomer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GroupName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="UserLoginId" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="GroupDetails" Relationship="Self.FK_GroupCustomer_GroupDetail" FromRole="GroupCustomer" ToRole="GroupDetail" />
+    <NavigationProperty Name="UserLogin" Relationship="Self.FK_GroupCustomer_UserLogin" FromRole="GroupCustomer" ToRole="UserLogin" />
+  </EntityType>
+  <EntityType Name="GroupDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GroupCustomerId" Type="Int32" Nullable="false" />
+    <Property Name="CustomerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Customer_GroupDetail" FromRole="GroupDetail" ToRole="Customer" />
+    <NavigationProperty Name="GroupCustomer" Relationship="Self.FK_GroupCustomer_GroupDetail" FromRole="GroupDetail" ToRole="GroupCustomer" />
+  </EntityType>
+  <EntityType Name="IncomingMessageContent">
+    <Key>
+      <PropertyRef Name="IncomingMessageContentID" />
+    </Key>
+    <Property Name="IncomingMessageContentID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceTypeID" Type="Int32" />
+    <Property Name="Sender" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Receiver" Type="String" MaxLength="127" FixedLength="false" Unicode="true" />
+    <Property Name="Subject" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="BodyContentType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyEncoding" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Status" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="ServiceID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="CommandCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Request" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MoID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ServiceType" Relationship="Self.IncomingMessageContent_ServiceTypeID_Fk" FromRole="IncomingMessageContent" ToRole="ServiceType" />
+  </EntityType>
+  <EntityType Name="IncomingMessageContentSent">
+    <Key>
+      <PropertyRef Name="IncomingMessageContentSentID" />
+    </Key>
+    <Property Name="IncomingMessageContentSentID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IncomingMessageContentID" Type="Int64" />
+    <Property Name="ServiceTypeID" Type="Int32" />
+    <Property Name="Sender" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Receiver" Type="String" MaxLength="127" FixedLength="false" Unicode="true" />
+    <Property Name="Subject" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="BodyContentType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyEncoding" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Status" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="ServiceID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="CommandCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Request" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MoID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ServiceType" Relationship="Self.IncomingMessageContentSent_ServiceTypeID_Fk" FromRole="IncomingMessageContentSent" ToRole="ServiceType" />
+  </EntityType>
+  <EntityType Name="MessageCommand">
+    <Key>
+      <PropertyRef Name="MessageCommandID" />
+    </Key>
+    <Property Name="MessageCommandID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MessageContentID" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Int32" />
+    <Property Name="ProcessedDateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="MessageContent" Relationship="Self.MessageCommand_MessageContentID_Fk" FromRole="MessageCommand" ToRole="MessageContent" />
+  </EntityType>
+  <EntityType Name="MessageContent">
+    <Key>
+      <PropertyRef Name="MessageContentID" />
+    </Key>
+    <Property Name="MessageContentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ContentTemplateID" Type="Int32" />
+    <Property Name="ServiceTypeID" Type="Int32" />
+    <Property Name="Sender" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Receiver" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Subject" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyContentType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyEncoding" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="Status" Type="Int32" />
+    <Property Name="ServiceID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="CommandCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Request" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MoID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ChargeYN" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="TotalMessages" Type="Int16" />
+    <NavigationProperty Name="MessageCommands" Relationship="Self.MessageCommand_MessageContentID_Fk" FromRole="MessageContent" ToRole="MessageCommand" />
+    <NavigationProperty Name="MessageContentAttachements" Relationship="Self.MessageContentAttachement_MessageContentID_Fk" FromRole="MessageContent" ToRole="MessageContentAttachement" />
+  </EntityType>
+  <EntityType Name="MessageContentAttachement">
+    <Key>
+      <PropertyRef Name="MessageContentAttachementID" />
+    </Key>
+    <Property Name="MessageContentAttachementID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AttachementDocument" Type="String" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Name="AttachementDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MessageContentID" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="MessageContent" Relationship="Self.MessageContentAttachement_MessageContentID_Fk" FromRole="MessageContentAttachement" ToRole="MessageContent" />
+  </EntityType>
+  <EntityType Name="MessageContentSent">
+    <Key>
+      <PropertyRef Name="MessageContentSentID" />
+    </Key>
+    <Property Name="MessageContentID" Type="Int32" Nullable="false" />
+    <Property Name="ContentTemplateID" Type="Int32" />
+    <Property Name="ServiceTypeID" Type="Int32" />
+    <Property Name="Sender" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Receiver" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Subject" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyContentType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyEncoding" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <Property Name="MessageContentSentID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="CommandCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Request" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MoID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ChargeYN" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="TotalMessages" Type="Int16" />
+    <NavigationProperty Name="ContentTemplate" Relationship="Self.MessageContentSent_ContentTemplateID_Fk" FromRole="MessageContentSent" ToRole="ContentTemplate" />
+    <NavigationProperty Name="ServiceType" Relationship="Self.MessageContentSent_ServiceTypeID_Fk" FromRole="MessageContentSent" ToRole="ServiceType" />
+  </EntityType>
+  <EntityType Name="MessageContentSentAttachement">
+    <Key>
+      <PropertyRef Name="MessageContentSentAttachementID" />
+    </Key>
+    <Property Name="MessageContentSentAttachementID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AttachementDocument" Type="String" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Name="AttachementDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MessageContentID" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="ServiceType">
+    <Key>
+      <PropertyRef Name="ServiceTypeID" />
+    </Key>
+    <Property Name="ServiceTypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceTypeDescription" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ContentTemplates" Relationship="Self.ContentTemplate_ServiceTypeID_Fk" FromRole="ServiceType" ToRole="ContentTemplate" />
+    <NavigationProperty Name="IncomingMessageContents" Relationship="Self.IncomingMessageContent_ServiceTypeID_Fk" FromRole="ServiceType" ToRole="IncomingMessageContent" />
+    <NavigationProperty Name="IncomingMessageContentSents" Relationship="Self.IncomingMessageContentSent_ServiceTypeID_Fk" FromRole="ServiceType" ToRole="IncomingMessageContentSent" />
+    <NavigationProperty Name="MessageContentSents" Relationship="Self.MessageContentSent_ServiceTypeID_Fk" FromRole="ServiceType" ToRole="MessageContentSent" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="UserLogin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="GroupCustomers" Relationship="Self.FK_GroupCustomer_UserLogin" FromRole="UserLogin" ToRole="GroupCustomer" />
+  </EntityType>
+  <Association Name="ContentTemplate_ServiceTypeID_Fk">
+    <End Role="ServiceType" Type="Self.ServiceType" Multiplicity="0..1" />
+    <End Role="ContentTemplate" Type="Self.ContentTemplate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiceType">
+        <PropertyRef Name="ServiceTypeID" />
+      </Principal>
+      <Dependent Role="ContentTemplate">
+        <PropertyRef Name="ServiceTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ContentTemplateAttachement_ContentTemplateID_Fk">
+    <End Role="ContentTemplate" Type="Self.ContentTemplate" Multiplicity="0..1" />
+    <End Role="ContentTemplateAttachement" Type="Self.ContentTemplateAttachement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ContentTemplate">
+        <PropertyRef Name="ContentTemplateID" />
+      </Principal>
+      <Dependent Role="ContentTemplateAttachement">
+        <PropertyRef Name="ContentTemplateID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MessageContentSent_ContentTemplateID_Fk">
+    <End Role="ContentTemplate" Type="Self.ContentTemplate" Multiplicity="0..1" />
+    <End Role="MessageContentSent" Type="Self.MessageContentSent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ContentTemplate">
+        <PropertyRef Name="ContentTemplateID" />
+      </Principal>
+      <Dependent Role="MessageContentSent">
+        <PropertyRef Name="ContentTemplateID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Customer_TypeID_Fk">
+    <End Role="CustomerType" Type="Self.CustomerType" Multiplicity="0..1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CustomerType">
+        <PropertyRef Name="TypeID" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="TypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Customer_GroupDetail">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="GroupDetail" Type="Self.GroupDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerId" />
+      </Principal>
+      <Dependent Role="GroupDetail">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GroupCustomer_GroupDetail">
+    <End Role="GroupCustomer" Type="Self.GroupCustomer" Multiplicity="1" />
+    <End Role="GroupDetail" Type="Self.GroupDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GroupCustomer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GroupDetail">
+        <PropertyRef Name="GroupCustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GroupCustomer_UserLogin">
+    <End Role="UserLogin" Type="Self.UserLogin" Multiplicity="1" />
+    <End Role="GroupCustomer" Type="Self.GroupCustomer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserLogin">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GroupCustomer">
+        <PropertyRef Name="UserLoginId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="IncomingMessageContent_ServiceTypeID_Fk">
+    <End Role="ServiceType" Type="Self.ServiceType" Multiplicity="0..1" />
+    <End Role="IncomingMessageContent" Type="Self.IncomingMessageContent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiceType">
+        <PropertyRef Name="ServiceTypeID" />
+      </Principal>
+      <Dependent Role="IncomingMessageContent">
+        <PropertyRef Name="ServiceTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="IncomingMessageContentSent_ServiceTypeID_Fk">
+    <End Role="ServiceType" Type="Self.ServiceType" Multiplicity="0..1" />
+    <End Role="IncomingMessageContentSent" Type="Self.IncomingMessageContentSent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiceType">
+        <PropertyRef Name="ServiceTypeID" />
+      </Principal>
+      <Dependent Role="IncomingMessageContentSent">
+        <PropertyRef Name="ServiceTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MessageCommand_MessageContentID_Fk">
+    <End Role="MessageContent" Type="Self.MessageContent" Multiplicity="1" />
+    <End Role="MessageCommand" Type="Self.MessageCommand" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MessageContent">
+        <PropertyRef Name="MessageContentID" />
+      </Principal>
+      <Dependent Role="MessageCommand">
+        <PropertyRef Name="MessageContentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MessageContentAttachement_MessageContentID_Fk">
+    <End Role="MessageContent" Type="Self.MessageContent" Multiplicity="0..1" />
+    <End Role="MessageContentAttachement" Type="Self.MessageContentAttachement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MessageContent">
+        <PropertyRef Name="MessageContentID" />
+      </Principal>
+      <Dependent Role="MessageContentAttachement">
+        <PropertyRef Name="MessageContentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MessageContentSent_ServiceTypeID_Fk">
+    <End Role="ServiceType" Type="Self.ServiceType" Multiplicity="0..1" />
+    <End Role="MessageContentSent" Type="Self.MessageContentSent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiceType">
+        <PropertyRef Name="ServiceTypeID" />
+      </Principal>
+      <Dependent Role="MessageContentSent">
+        <PropertyRef Name="ServiceTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VfsCustomerServiceEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ContentParameters" EntityType="Self.ContentParameter" />
+    <EntitySet Name="ContentTemplates" EntityType="Self.ContentTemplate" />
+    <EntitySet Name="ContentTemplateAttachements" EntityType="Self.ContentTemplateAttachement" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="CustomerTypes" EntityType="Self.CustomerType" />
+    <EntitySet Name="ExtensionMessages" EntityType="Self.ExtensionMessage" />
+    <EntitySet Name="ExtensionMessageLogs" EntityType="Self.ExtensionMessageLog" />
+    <EntitySet Name="GroupCustomers" EntityType="Self.GroupCustomer" />
+    <EntitySet Name="GroupDetails" EntityType="Self.GroupDetail" />
+    <EntitySet Name="IncomingMessageContents" EntityType="Self.IncomingMessageContent" />
+    <EntitySet Name="IncomingMessageContentSents" EntityType="Self.IncomingMessageContentSent" />
+    <EntitySet Name="MessageCommands" EntityType="Self.MessageCommand" />
+    <EntitySet Name="MessageContents" EntityType="Self.MessageContent" />
+    <EntitySet Name="MessageContentAttachements" EntityType="Self.MessageContentAttachement" />
+    <EntitySet Name="MessageContentSents" EntityType="Self.MessageContentSent" />
+    <EntitySet Name="MessageContentSentAttachements" EntityType="Self.MessageContentSentAttachement" />
+    <EntitySet Name="ServiceTypes" EntityType="Self.ServiceType" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="UserLogins" EntityType="Self.UserLogin" />
+    <AssociationSet Name="ContentTemplate_ServiceTypeID_Fk" Association="Self.ContentTemplate_ServiceTypeID_Fk">
+      <End Role="ServiceType" EntitySet="ServiceTypes" />
+      <End Role="ContentTemplate" EntitySet="ContentTemplates" />
+    </AssociationSet>
+    <AssociationSet Name="ContentTemplateAttachement_ContentTemplateID_Fk" Association="Self.ContentTemplateAttachement_ContentTemplateID_Fk">
+      <End Role="ContentTemplate" EntitySet="ContentTemplates" />
+      <End Role="ContentTemplateAttachement" EntitySet="ContentTemplateAttachements" />
+    </AssociationSet>
+    <AssociationSet Name="MessageContentSent_ContentTemplateID_Fk" Association="Self.MessageContentSent_ContentTemplateID_Fk">
+      <End Role="ContentTemplate" EntitySet="ContentTemplates" />
+      <End Role="MessageContentSent" EntitySet="MessageContentSents" />
+    </AssociationSet>
+    <AssociationSet Name="Customer_TypeID_Fk" Association="Self.Customer_TypeID_Fk">
+      <End Role="CustomerType" EntitySet="CustomerTypes" />
+      <End Role="Customer" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Customer_GroupDetail" Association="Self.FK_Customer_GroupDetail">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="GroupDetail" EntitySet="GroupDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GroupCustomer_GroupDetail" Association="Self.FK_GroupCustomer_GroupDetail">
+      <End Role="GroupCustomer" EntitySet="GroupCustomers" />
+      <End Role="GroupDetail" EntitySet="GroupDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GroupCustomer_UserLogin" Association="Self.FK_GroupCustomer_UserLogin">
+      <End Role="UserLogin" EntitySet="UserLogins" />
+      <End Role="GroupCustomer" EntitySet="GroupCustomers" />
+    </AssociationSet>
+    <AssociationSet Name="IncomingMessageContent_ServiceTypeID_Fk" Association="Self.IncomingMessageContent_ServiceTypeID_Fk">
+      <End Role="ServiceType" EntitySet="ServiceTypes" />
+      <End Role="IncomingMessageContent" EntitySet="IncomingMessageContents" />
+    </AssociationSet>
+    <AssociationSet Name="IncomingMessageContentSent_ServiceTypeID_Fk" Association="Self.IncomingMessageContentSent_ServiceTypeID_Fk">
+      <End Role="ServiceType" EntitySet="ServiceTypes" />
+      <End Role="IncomingMessageContentSent" EntitySet="IncomingMessageContentSents" />
+    </AssociationSet>
+    <AssociationSet Name="MessageCommand_MessageContentID_Fk" Association="Self.MessageCommand_MessageContentID_Fk">
+      <End Role="MessageContent" EntitySet="MessageContents" />
+      <End Role="MessageCommand" EntitySet="MessageCommands" />
+    </AssociationSet>
+    <AssociationSet Name="MessageContentAttachement_MessageContentID_Fk" Association="Self.MessageContentAttachement_MessageContentID_Fk">
+      <End Role="MessageContent" EntitySet="MessageContents" />
+      <End Role="MessageContentAttachement" EntitySet="MessageContentAttachements" />
+    </AssociationSet>
+    <AssociationSet Name="MessageContentSent_ServiceTypeID_Fk" Association="Self.MessageContentSent_ServiceTypeID_Fk">
+      <End Role="ServiceType" EntitySet="ServiceTypes" />
+      <End Role="MessageContentSent" EntitySet="MessageContentSents" />
+    </AssociationSet>
+    <EntitySet Name="REPORTINGs" EntityType="VfsCustomerServiceModel.REPORTING" />
+  </EntityContainer>
+  <EntityType Name="REPORTING">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
+    <Property Name="UploadDir" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
+    <Property Name="CreateDate" Type="DateTime" Precision="7" />
+    <Property Name="DateViewCustomer" Type="DateTime" Precision="7" />
+    <Property Name="TotalDownload" Type="Int64" />
+  </EntityType>
+</Schema>

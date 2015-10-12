@@ -200,10 +200,10 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>VfsCustomerService_Business_CoreSecuritiesSms_MOReceiver</CachedSettingsPropName>
     </WebReferenceUrl>
-    <WebReferenceUrl Include="http://mt.123sms.vn/MTSenderPartner.asmx">
+    <WebReferenceUrl Include="http://gws.netgo.vn/service1.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\MTSpam\</RelPath>
-      <UpdateFromURL>http://mt.123sms.vn/MTSenderPartner.asmx</UpdateFromURL>
+      <UpdateFromURL>http://gws.netgo.vn/service1.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -211,9 +211,6 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>VfsCustomerService_Business_MTSpam_MTSender</CachedSettingsPropName>
     </WebReferenceUrl>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Web References\MTSpam\MTSenderPartner.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -227,11 +224,14 @@
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <None Include="Web References\MTSpam\MTSenderPartner.disco" />
     <None Include="Web References\MTSpam\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <None Include="Web References\MTSpam\service1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\MTSpam\service1.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

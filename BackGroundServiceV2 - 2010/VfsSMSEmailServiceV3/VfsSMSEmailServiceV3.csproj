@@ -113,9 +113,8 @@
     <Reference Include="Vfs.WebCrawler.Entities">
       <HintPath>..\Components\Vfs.WebCrawler.Entities.dll</HintPath>
     </Reference>
-    <Reference Include="VfsCustomerService.Business, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Components\VfsCustomerService.Business.dll</HintPath>
+    <Reference Include="VfsCustomerService.Business">
+      <HintPath>..\..\VfsInformationCustomerService 2010\Components\VfsCustomerService.Business.dll</HintPath>
     </Reference>
     <Reference Include="VfsCustomerService.Data">
       <HintPath>..\Components\VfsCustomerService.Data.dll</HintPath>

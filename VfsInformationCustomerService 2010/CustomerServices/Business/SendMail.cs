@@ -308,36 +308,36 @@ namespace VfsCustomerService.Business
             this.password = password;
         }
 
-        public int Send(MessageContent messageContent)
+        public long Send(MessageContent messageContent)
         {
-            int returnValue;
-            MTSpam.MTSender mTSender = new MTSpam.MTSender();
+            long returnValue;
+            MTSpam.Service1 mTSender = new MTSpam.Service1();
             if(messageContent.MoID != string.Empty)
-                returnValue = mTSender.doSendMT(messageContent.Receiver, messageContent.BodyMessage, messageContent.ServiceID, messageContent.CommandCode, "0", messageContent.Request, "1", "1", "0", "0", Convert.ToInt64(messageContent.MoID), this.userName, this.password);
+                returnValue = 1;
             else
-                returnValue = mTSender.doSendMTSPAM(messageContent.Receiver, messageContent.BodyMessage, this.userName, this.password);
+                returnValue = mTSender.doSendBrand(messageContent.Receiver, messageContent.BodyMessage, "VFS", false, true, this.userName, this.password);
 
             if(returnValue == (int)SMSCommandStatus.SuccessAndFinish)
                 MessageContentService.DeleteMessageContent(messageContent.MessageContentID);
             return returnValue;
         }
 
-        public int Send(MessageContent messageContent, bool checkSendType)
+        public long Send(MessageContent messageContent, bool checkSendType)
         {
-            int returnValue;
-            MTSpam.MTSender mTSender = new MTSpam.MTSender();
+            long returnValue;
+            MTSpam.Service1 mTSender = new MTSpam.Service1();
             if (checkSendType == false)
             {
-                returnValue = mTSender.doSendMTSPAM(messageContent.Receiver, messageContent.BodyMessage, this.userName, this.password);
+                returnValue = mTSender.doSendBrand(messageContent.Receiver, messageContent.BodyMessage, "VFS", false,true, this.userName, this.password);
             }
             else
             {
                 if (messageContent.Request != string.Empty)
-                    returnValue = mTSender.doSendMT(messageContent.Receiver, messageContent.BodyMessage, messageContent.ServiceID, messageContent.CommandCode, "0", messageContent.Request, "1", "1", "1", "0", Convert.ToInt64(messageContent.MoID), this.userName, this.password);
+                    returnValue = 1;
                 else
-                    returnValue = mTSender.doSendMTSPAM(messageContent.Receiver, messageContent.BodyMessage, this.userName, this.password);
+                    returnValue = mTSender.doSendBrand(messageContent.Receiver, messageContent.BodyMessage, "VFS", false, true, this.userName, this.password);
             }
-            if (returnValue == (int)SMSCommandStatus.SuccessAndFinish)
+            if (returnValue > 0)
                 MessageContentService.DeleteMessageContent(messageContent.MessageContentID);
             return returnValue;
         }

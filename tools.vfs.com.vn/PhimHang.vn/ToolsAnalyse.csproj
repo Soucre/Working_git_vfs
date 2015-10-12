@@ -269,12 +269,75 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\CommentProfileModels.cs" />
+    <Compile Include="Models\ContentParameter.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContentTemplate.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContentTemplateAttachement.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Customer.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustomerServicesModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerServicesModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustomerServicesModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustomerServicesModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerServicesModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustomerType.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\DIV.cs" />
+    <Compile Include="Models\ExtensionMessage.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ExtensionMessageLog.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\FrontUser.cs">
       <DependentUpon>OTFront.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\GroupCustomer.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GroupDetail.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Helper.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\IncomingMessageContent.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IncomingMessageContentSent.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MessageCommand.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MessageContent.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MessageContentAttachement.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MessageContentSent.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MessageContentSentAttachement.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\OTFront.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -292,6 +355,12 @@
     </Compile>
     <Compile Include="Models\PhimHangvnHelper.cs" />
     <Compile Include="Models\RecommendationModel.cs" />
+    <Compile Include="Models\REPORTING.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ServiceType.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\StoxDataDB.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -307,7 +376,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>StoxDataDB.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\UserCustom.cs" />
+    <Compile Include="Models\UserLogin.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\ValidateFileAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -1350,6 +1425,23 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>StoxDataDB.edmx</DependentUpon>
       <LastGenOutput>StoxDataDB.cs</LastGenOutput>
+    </Content>
+    <EntityDeploy Include="Models\CustomerServicesModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CustomerServicesModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\CustomerServicesModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CustomerServicesModel.edmx</DependentUpon>
+      <LastGenOutput>CustomerServicesModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\CustomerServicesModel.edmx.diagram">
+      <DependentUpon>CustomerServicesModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\CustomerServicesModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CustomerServicesModel.edmx</DependentUpon>
+      <LastGenOutput>CustomerServicesModel.cs</LastGenOutput>
     </Content>
     <None Include="Properties\PublishProfiles\Co tuc.pubxml" />
     <None Include="Properties\PublishProfiles\KNKH.pubxml" />

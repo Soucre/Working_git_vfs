@@ -112,3 +112,21 @@ BEGIN
 	order by Nam2015KeHoach DESC
 
 END
+
+------------------------------------------------------------------------
+
+USE VfsCustomerService
+
+ALTER TABLE [Customer]
+ADD VType BIT NULL -- 1: khach hang VIP, 0 hoac Null khách hàng thuong
+
+CREATE TABLE REPORTING (
+	[Id] [bigint] IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	Title nvarchar(512) NULL,
+	UploadDir nvarchar(512) NULL,
+	CreateDate [datetime2](7) NULL, -- ngày t?o báo cáo
+	DateViewCustomer [datetime2](7) NULL, -- ngay KH Thu?ng xem báo cáo
+	TotalDownload bigint default(0)
+)
+
+

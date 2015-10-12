@@ -94,9 +94,9 @@ namespace SyncReport
             Initialize();
         }
 
-        public int SendAnSMS(MessageContent emailMessage)
+        public long SendAnSMS(MessageContent emailMessage)
         {
-            int result = 0;
+            long result = 0;
             try
             {
                 if (emailMessage.BodyMessage.Length <= 160)
@@ -156,7 +156,7 @@ namespace SyncReport
         {
             MessageContentCollection emailMessagesCollection = null;
             Int32 totalRow = 0;
-            Int32 result;
+            long result;
             try
             {
                 emailMessagesCollection = MessageContentService.GetMessageContentList((Int32)EmailCommandStatus.NotStart, (int)MessageServiceType.Sms, MessageContentColumns.CreatedDate, "DESC", 1, commandBlockSize, out totalRow);
@@ -166,7 +166,7 @@ namespace SyncReport
                 foreach (MessageContent email in emailMessagesCollection)
                 {
                     result = SendAnSMS(email);
-                    if (result != (int)SMSCommandStatus.SuccessAndFinish)
+                    if (result <=0 )
                     {
                         email.Status = (int)EmailCommandStatus.FailAndFinish;
                         MessageContentService.UpdateMessageContent(email);

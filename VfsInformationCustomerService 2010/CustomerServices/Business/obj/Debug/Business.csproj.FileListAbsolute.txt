@@ -30,3 +30,11 @@ F:\Working_Git\workingViFS\VfsInformationCustomerService 2010\CustomerServices\B
 F:\Working_Git\workingViFS\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.dll
 F:\Working_Git\workingViFS\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.pdb
 F:\Working_Git\workingViFS\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\VfsCustomerService.Business.dll.config
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\VfsCustomerService.Business.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\VfsCustomerService.Business.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.SR.resources
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\Business.csproj.GenerateResource.Cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CustomerServices\Business\obj\Debug\VfsCustomerService.Business.pdb
