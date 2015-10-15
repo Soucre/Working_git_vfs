@@ -181,4 +181,6 @@ F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\bin\Microsoft.Owin.Security.Twit
 F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Debug\PhimHang.dll
 F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Debug\PhimHang.pdb
+F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Debug\ToolsAnalyse.csproj.GenerateResource.Cache
+F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Debug\PhimHang.Resources.VN-Resources.resources
 F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Debug\ToolsAnalyse.csprojResolveAssemblyReference.cache

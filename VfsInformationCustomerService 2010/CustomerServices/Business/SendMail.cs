@@ -312,12 +312,12 @@ namespace VfsCustomerService.Business
         {
             long returnValue;
             MTSpam.Service1 mTSender = new MTSpam.Service1();
-            if(messageContent.MoID != string.Empty)
+            if (messageContent.MoID != string.Empty)
                 returnValue = 1;
             else
                 returnValue = mTSender.doSendBrand(messageContent.Receiver, messageContent.BodyMessage, "VFS", false, true, this.userName, this.password);
 
-            if(returnValue == (int)SMSCommandStatus.SuccessAndFinish)
+            if (returnValue > 0) // SuccessAndFinish - update: 13-10-2015
                 MessageContentService.DeleteMessageContent(messageContent.MessageContentID);
             return returnValue;
         }
@@ -328,7 +328,7 @@ namespace VfsCustomerService.Business
             MTSpam.Service1 mTSender = new MTSpam.Service1();
             if (checkSendType == false)
             {
-                returnValue = mTSender.doSendBrand(messageContent.Receiver, messageContent.BodyMessage, "VFS", false,true, this.userName, this.password);
+                returnValue = mTSender.doSendBrand(messageContent.Receiver, messageContent.BodyMessage, "VFS", false, true, this.userName, this.password);
             }
             else
             {
@@ -337,7 +337,7 @@ namespace VfsCustomerService.Business
                 else
                     returnValue = mTSender.doSendBrand(messageContent.Receiver, messageContent.BodyMessage, "VFS", false, true, this.userName, this.password);
             }
-            if (returnValue > 0)
+            if (returnValue > 0) // SuccessAndFinish - update: 13-10-2015
                 MessageContentService.DeleteMessageContent(messageContent.MessageContentID);
             return returnValue;
         }

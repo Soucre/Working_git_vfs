@@ -43,6 +43,7 @@ namespace PhimHang.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
         {
+
             if (ModelState.IsValid)
             {
                 bool signInSucess =  await SignInFrontAsync(model.UserName, model.Password);
@@ -63,6 +64,7 @@ namespace PhimHang.Controllers
                     ModelState.AddModelError("", "Invalid username or password.");
                 }
             }
+            ViewBag.ReturnUrl = returnUrl;
             // If we got this far, something failed, redisplay form
             return View(model);
         }

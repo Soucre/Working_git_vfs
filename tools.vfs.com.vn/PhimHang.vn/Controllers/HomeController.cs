@@ -21,6 +21,7 @@ namespace PhimHang.Controllers
         
         public async Task<ActionResult> Index(int row = 20)
         {
+            ViewBag.DescriptionTile = Resources.VN_Resources.DIV_Title;
             using (Stoxdb = new StoxDataEntities())
             {
                 if (row > 60)

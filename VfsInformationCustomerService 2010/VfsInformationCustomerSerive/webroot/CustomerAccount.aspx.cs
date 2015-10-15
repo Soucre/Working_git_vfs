@@ -191,15 +191,15 @@ public partial class CustomerAccount : System.Web.UI.Page
             
             customervfs = this.getSynchronize(customervfs, customer);
 
-            //if (customerCheck == null) // khách mới tạo mới KH
-            //{
-            //    CustomerService.CreateCustomer(customervfs);
-            //    //ImportService.CreateMessageWhenNewCustomer(customervfs, contentTemplate, "M");
-            //}
-            //else// khách cũ thì update lại thông tin Email, mobile ...
-            //{
-            //    CustomerService.UpdateCustomer(customervfs);
-            //}
+            if (customerCheck == null) // khách mới tạo mới KH
+            {
+                CustomerService.CreateCustomer(customervfs);
+                //ImportService.CreateMessageWhenNewCustomer(customervfs, contentTemplate, "M");
+            }
+            else// khách cũ thì update lại thông tin Email, mobile ...
+            {
+                CustomerService.UpdateCustomer(customervfs);
+            }
         }
         spSynclickWarning.InnerHtml = "Đồng bộ thành công";
         this.UpdateInterface();

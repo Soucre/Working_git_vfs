@@ -264,6 +264,7 @@
     <Compile Include="Controllers\LoginController.cs" />
     <None Include="Controllers\RecommendationController.cs_bk" />
     <None Include="Controllers\TickerController.cs_bk" />
+    <Compile Include="Controllers\ResearchController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -279,6 +280,9 @@
       <DependentUpon>CustomerServicesModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Customer.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustomerLog.cs">
       <DependentUpon>CustomerServicesModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CustomerServicesModel.Context.cs">
@@ -355,7 +359,10 @@
     </Compile>
     <Compile Include="Models\PhimHangvnHelper.cs" />
     <Compile Include="Models\RecommendationModel.cs" />
-    <Compile Include="Models\REPORTING.cs">
+    <Compile Include="Models\Report.cs">
+      <DependentUpon>CustomerServicesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ReportType.cs">
       <DependentUpon>CustomerServicesModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ServiceType.cs">
@@ -385,11 +392,21 @@
     </Compile>
     <Compile Include="Models\ValidateFileAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\VN-Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VN-Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Startup.cs" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\research.css" />
     <Content Include="css\stylesheet.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="images\uploading.gif" />
     <Content Include="Views\FrontAccount\Login.cshtml" />
     <Content Include="Views\Home\Index - template_old.cshtml" />
+    <Content Include="Views\Research\Index.cshtml" />
+    <Content Include="Views\Shared\_PartialFooter.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -1443,6 +1460,11 @@
       <DependentUpon>CustomerServicesModel.edmx</DependentUpon>
       <LastGenOutput>CustomerServicesModel.cs</LastGenOutput>
     </Content>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\Co tuc.pubxml" />
     <None Include="Properties\PublishProfiles\KNKH.pubxml" />
     <None Include="Properties\PublishProfiles\phimhang o nha.pubxml" />
@@ -1568,6 +1590,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\VN-Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>VN-Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

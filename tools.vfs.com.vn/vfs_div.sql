@@ -120,13 +120,33 @@ USE VfsCustomerService
 ALTER TABLE [Customer]
 ADD VType BIT NULL -- 1: khach hang VIP, 0 hoac Null khách hàng thuong
 
-CREATE TABLE REPORTING (
+CREATE TABLE Report (
 	[Id] [bigint] IDENTITY(1,1) NOT NULL PRIMARY KEY,
 	Title nvarchar(512) NULL,
 	UploadDir nvarchar(512) NULL,
 	CreateDate [datetime2](7) NULL, -- ngày t?o báo cáo
 	DateViewCustomer [datetime2](7) NULL, -- ngay KH Thu?ng xem báo cáo
-	TotalDownload bigint default(0)
+	TotalDownload bigint default(0),
+	FileSize bigint default(0),
+	IdReportType int
+)
+ALTER TABLE [dbo].[Report]
+ADD [Ticker] varchar(10) NULL
+
+CREATE TABLE ReportType(
+	Id int NOT NULL PRIMARY KEY,
+	[Description] nvarchar(512) NULL,
 )
 
+ALTER TABLE [dbo].Report  WITH CHECK ADD  CONSTRAINT [FK_ReportType_Report] FOREIGN KEY(IdReportType)
+REFERENCES [dbo].ReportType (Id)
+GO
+
+CREATE TABLE CustomerLog(
+	[Id] [bigint] IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	CustomerId varchar(10),
+	Total_Login bigint,
+	Total_Download bigint,
+	CreateDate [datetime2](7) default(getdate())
+)
 

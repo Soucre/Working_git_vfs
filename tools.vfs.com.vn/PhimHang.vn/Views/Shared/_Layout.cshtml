@@ -1,14 +1,13 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Công cụ phân tích đầu tư</title>    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />    
     <link href="~/css/style.css" rel="stylesheet" />
     <script src="~/Scripts/jquery-2.1.1.min.js"></script>
     <link href="~/Scripts/jquery-ui/jquery-ui.css" rel="stylesheet" />
     @*<script type="text/javascript" src="~/Scripts/chart.js"></script>*@
     @*<link href="~/css/loginForm.css" rel="stylesheet" />*@
-    
+    <title>@ViewBag.Title</title>
 </head>
 <body>
     <div class="header noPrint">
@@ -69,7 +68,7 @@
                     <div class="clear-left">
                         <ul>
                             <li id="menu-1"><a href="/">Cổ tức</a></li>
-                            <li id="menu-2"><a href="#news">Báo cáo</a></li>
+                            <li id="menu-2"><a href="/Research">Báo cáo</a></li>
                             <li id="menu-3"><a href="#contact">Danh mục khuyến nghị</a></li>
                             <li id="menu-4"><a href="#about">Đầu tư</a></li>
                         </ul>
@@ -78,6 +77,11 @@
                 </div>
 
                 <div class="default-center-menu-right">
+                    <div class="DescriptionTile">
+                        <p>
+                            @ViewBag.DescriptionTile                            
+                        </p>
+                    </div>
                     @RenderBody()                    
                 </div>
 
@@ -108,5 +112,8 @@
     </div>*@
     
     @RenderSection("scripts", required: false)
+
+
+   @Html.Partial("_PartialFooter")
 </body>
 </html>

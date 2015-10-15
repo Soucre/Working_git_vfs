@@ -148,6 +148,16 @@
     <Property Name="ReceiveRelatedStockSms" Type="nvarchar" MaxLength="1" />
     <Property Name="VType" Type="bit" />
   </EntityType>
+  <EntityType Name="CustomerLog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="varchar" MaxLength="10" />
+    <Property Name="Total_Login" Type="bigint" />
+    <Property Name="Total_Download" Type="bigint" />
+    <Property Name="CreateDate" Type="datetime2" Precision="7" />
+  </EntityType>
   <EntityType Name="CustomerType">
     <Key>
       <PropertyRef Name="TypeID" />
@@ -309,7 +319,7 @@
     <Property Name="CreatedDate" Type="datetime" />
     <Property Name="ModifiedDate" Type="datetime" />
   </EntityType>
-  <EntityType Name="REPORTING">
+  <EntityType Name="Report">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
@@ -319,6 +329,15 @@
     <Property Name="CreateDate" Type="datetime2" Precision="7" />
     <Property Name="DateViewCustomer" Type="datetime2" Precision="7" />
     <Property Name="TotalDownload" Type="bigint" />
+    <Property Name="FileSize" Type="bigint" />
+    <Property Name="IdReportType" Type="int" />
+  </EntityType>
+  <EntityType Name="ReportType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="512" />
   </EntityType>
   <EntityType Name="ServiceType">
     <Key>
@@ -419,6 +438,18 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_ReportType_Report">
+    <End Role="ReportType" Type="Self.ReportType" Multiplicity="0..1" />
+    <End Role="Report" Type="Self.Report" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReportType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Report">
+        <PropertyRef Name="IdReportType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="IncomingMessageContent_ServiceTypeID_Fk">
     <End Role="ServiceType" Type="Self.ServiceType" Multiplicity="0..1" />
     <End Role="IncomingMessageContent" Type="Self.IncomingMessageContent" Multiplicity="*" />
@@ -496,6 +527,7 @@
     <EntitySet Name="ContentTemplate" EntityType="Self.ContentTemplate" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="ContentTemplateAttachement" EntityType="Self.ContentTemplateAttachement" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CustomerLog" EntityType="Self.CustomerLog" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="CustomerType" EntityType="Self.CustomerType" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="ExtensionMessage" EntityType="Self.ExtensionMessage" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="ExtensionMessageLog" EntityType="Self.ExtensionMessageLog" Schema="dbo" store:Type="Tables" />
@@ -508,7 +540,8 @@
     <EntitySet Name="MessageContentAttachement" EntityType="Self.MessageContentAttachement" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="MessageContentSent" EntityType="Self.MessageContentSent" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="MessageContentSentAttachement" EntityType="Self.MessageContentSentAttachement" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="REPORTING" EntityType="Self.REPORTING" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Report" EntityType="Self.Report" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ReportType" EntityType="Self.ReportType" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="ServiceType" EntityType="Self.ServiceType" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UserLogin" EntityType="Self.UserLogin" Schema="dbo" store:Type="Tables" />
@@ -535,6 +568,10 @@
     <AssociationSet Name="FK_GroupCustomer_UserLogin" Association="Self.FK_GroupCustomer_UserLogin">
       <End Role="UserLogin" EntitySet="UserLogin" />
       <End Role="GroupCustomer" EntitySet="GroupCustomer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ReportType_Report" Association="Self.FK_ReportType_Report">
+      <End Role="ReportType" EntitySet="ReportType" />
+      <End Role="Report" EntitySet="Report" />
     </AssociationSet>
     <AssociationSet Name="IncomingMessageContent_ServiceTypeID_Fk" Association="Self.IncomingMessageContent_ServiceTypeID_Fk">
       <End Role="ServiceType" EntitySet="ServiceType" />

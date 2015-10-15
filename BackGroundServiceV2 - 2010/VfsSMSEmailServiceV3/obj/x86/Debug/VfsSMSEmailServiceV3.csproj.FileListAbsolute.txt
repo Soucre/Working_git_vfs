@@ -97,3 +97,4 @@ F:\Working_git_vfs\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV3\bin\Debug\Vfs
 F:\Working_git_vfs\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV3\bin\Debug\VfsInformationService.Entities.pdb
 F:\Working_git_vfs\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV3\obj\x86\Debug\SMS.ProjectInstaller.resources
 F:\Working_git_vfs\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV3\obj\x86\Debug\VfsSMSEmailServiceV3.csproj.GenerateResource.Cache
+F:\Working_git_vfs\BackGroundServiceV2 - 2010\VfsSMSEmailServiceV3\obj\x86\Debug\VfsSMSEmailServiceV3.csprojResolveAssemblyReference.cache

@@ -13,17 +13,17 @@ namespace SMS
         /// </summary>
         static void Main()
         {
-#if(!DEBUG)
+//#if(!DEBUG)
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[] 
 			{ 
 				new Service1() 
 			};
             ServiceBase.Run(ServicesToRun);
-#else
-            Information test = new Information();
-            test.Execute();
-#endif
+//#else
+//            Information test = new Information();
+//            test.Execute();
+//#endif
         }
     }
 }

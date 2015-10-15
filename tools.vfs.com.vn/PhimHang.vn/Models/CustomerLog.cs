@@ -12,13 +12,12 @@ namespace PhimHang.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class REPORTING
+    public partial class CustomerLog
     {
         public long Id { get; set; }
-        public string Title { get; set; }
-        public string UploadDir { get; set; }
+        public string CustomerId { get; set; }
+        public Nullable<long> Total_Login { get; set; }
+        public Nullable<long> Total_Download { get; set; }
         public Nullable<System.DateTime> CreateDate { get; set; }
-        public Nullable<System.DateTime> DateViewCustomer { get; set; }
-        public Nullable<long> TotalDownload { get; set; }
     }
 }

@@ -51,3 +51,9 @@ F:\Working_Git\workingViFS\BackGroundServiceV2 - 2010\UnitTest\bin\Debug\UnitTes
 F:\Working_Git\workingViFS\BackGroundServiceV2 - 2010\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
 F:\Working_Git\workingViFS\BackGroundServiceV2 - 2010\UnitTest\obj\Debug\UnitTest.exe
 F:\Working_Git\workingViFS\BackGroundServiceV2 - 2010\UnitTest\obj\Debug\UnitTest.pdb
+F:\Working_git_vfs\BackGroundServiceV2 - 2010\UnitTest\bin\Debug\UnitTest.exe.config
+F:\Working_git_vfs\BackGroundServiceV2 - 2010\UnitTest\bin\Debug\UnitTest.exe
+F:\Working_git_vfs\BackGroundServiceV2 - 2010\UnitTest\bin\Debug\UnitTest.pdb
+F:\Working_git_vfs\BackGroundServiceV2 - 2010\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
+F:\Working_git_vfs\BackGroundServiceV2 - 2010\UnitTest\obj\Debug\UnitTest.exe
+F:\Working_git_vfs\BackGroundServiceV2 - 2010\UnitTest\obj\Debug\UnitTest.pdb

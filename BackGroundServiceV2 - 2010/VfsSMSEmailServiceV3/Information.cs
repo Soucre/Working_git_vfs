@@ -32,12 +32,12 @@ namespace SMS
                     SendEmailSession sendEmailSession = new SendEmailSession(commandBlockSize);
                     SendSMSSession smsSession = new SendSMSSession(commandBlockSize, userName, password);
 
-                    Ultility.Info("----- Begin Sending email -----");
-                    Ultility.Info(DateTime.Now.ToLongTimeString());
-                    sendEmailSession.SendAllMailNotStart();
-                    Ultility.Info("----- Execution complete-----");
-                    Ultility.Info(DateTime.Now.ToLongTimeString());
-                    Ultility.Info("----- End of sending email-----");
+                    //Ultility.Info("----- Begin Sending email -----");
+                    //Ultility.Info(DateTime.Now.ToLongTimeString());
+                    //sendEmailSession.SendAllMailNotStart();
+                    //Ultility.Info("----- Execution complete-----");
+                    //Ultility.Info(DateTime.Now.ToLongTimeString());
+                    //Ultility.Info("----- End of sending email-----");
 
                     Ultility.Info("----- Begin Sending SMS -----");
                     Ultility.Info(DateTime.Now.ToLongTimeString());
