@@ -10,17 +10,14 @@
     }
     #menu-2 a {
         color:#fff;
-    }
-    #div-table {
-        width: 690px;
-        margin: 0px 0px 25px;        
-        border-top: none;
-    }
+    }    
 </style>
 <link href="~/css/research.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 @*<link href="~/css/tableStyle.css" rel="stylesheet" />*@
 <div id="div-table">
+@using (Html.BeginForm("Index","Research",FormMethod.Get))
+{
     <div class="box-filter">
         <section id="research-center">
             <div id="reseatch-category" class="list-wrapper">
@@ -32,12 +29,12 @@
                     </button>
                     <div class="ms-drop bottom" style="width: 234px; text-align:left; display:none" id="ms-SelectReportType">
                         <ul style="max-height: 250px;">
-                            <li><label><input type="checkbox" name="CategoryIDs" value="2"> Báo cáo công ty</label></li>
-                            <li><label><input type="checkbox" name="CategoryIDs" value="1"> Nhận định thị trường</label></li>
-                            <li><label><input type="checkbox" name="CategoryIDs" value="5"> Báo cáo thị trường trái phiếu hàng tuần</label></li>
-                            <li><label><input type="checkbox" name="CategoryIDs" value="4"> Báo cáo vĩ mô tóm tắt</label></li>
-                            <li><label><input type="checkbox" name="CategoryIDs" value="3"> Báo cáo ngành</label></li>
-                            <li><label><input type="checkbox" name="CategoryIDs" value="6"> Báo cáo chiến lược</label></li>                            
+                            @{
+                                foreach (var item in ViewBag.listTypeReport as List<PhimHang.Models.ListDropbox>)
+                                {
+                                    <li><label><input type="checkbox" name="CategoryIDs" value=@item.Id>@item.Description</label></li>
+                                }
+                            }                            
                         </ul>
                     </div>
                 </div>
@@ -48,98 +45,34 @@
                 <div class="ms-ctn form-control  ms-ctn-focus" style="" id="auto-suggest">
                     <span class="ms-helper " style="display: none;"></span>
                     <div class="ms-sel-ctn">
-                        <input type="text" class="" placeholder="Nhập Mã CK hoặc Tên công ty" title="" style="width: 265px; color: rgb(153, 153, 153);">
+                        <input type="text" placeholder="VNM, HAG, SSI..." title="tìm báo cáo" style="width: 400px; color: #0065BF; " maxlength="10" value='@ViewBag.Ticker' name="Ticker">
                         <div style="display: none;"></div>
                     </div>
                     <div class="ms-trigger">
                         <div class="ms-trigger-ico"></div>
                     </div>
                 </div>
-                <button id="btn-submit" type="submit"><i style="margin-left:-8px" class="fa fa-search"></i></button>
+                <button id="btn-submit" type="submit" style="cursor:pointer">
+                    <i style="margin-left:-8px" class="fa fa-search"></i>
+                </button>
             </div>
 
             <ul class="ctn-view-list">
-
-
-                <li class="item-research">
-                    <time>01/10/2015</time>
-                    <div>
-                        <a href="/vn/research-center/download/10290/b%e1%ba%a3n-tin-ch%e1%bb%a9ng-kho%c3%a1n_nh%e1%ba%adn-%c4%91%e1%bb%8bnh-v%e1%bb%81-ch%e1%bb%89-s%e1%bb%91-pmi-th%c3%a1ng-9-th%e1%bb%8b-tr%c6%b0%e1%bb%9dng-b%c4%91s-t%e1%ba%a1i-tp-hcm-v%c3%a0-jvc" target="_blank">
-                            <h2>Bản tin chứng khoán_nhận định về chỉ số PMI tháng 9; thị trường BĐS tại TP HCM và JVC</h2>
-                        </a>
-
-                        <ul class="research-type">
-                            <li class="main-report"><i class="fa fa-folder"></i>Nhận định thị trường</li>
-
-                        </ul>
-                        <div class="tags">
-
-                        </div>
-                        <a href="/vn/research-center/download/10290/b%e1%ba%a3n-tin-ch%e1%bb%a9ng-kho%c3%a1n_nh%e1%ba%adn-%c4%91%e1%bb%8bnh-v%e1%bb%81-ch%e1%bb%89-s%e1%bb%91-pmi-th%c3%a1ng-9-th%e1%bb%8b-tr%c6%b0%e1%bb%9dng-b%c4%91s-t%e1%ba%a1i-tp-hcm-v%c3%a0-jvc" target="_blank">
-                            <small class="btn-dl">
-                                560,21 KB | <i class="fa fa-eye"></i> 52
-                            </small>                            
-
-                        </a>
-                       
-
-                    </div>
-
+                <!--load danh sách report ở đây ?-->
+               @Html.Partial("_PartialListReport")
+                             
+            </ul>
+            <ul>
+                <li>
+                    <span class="readMore">
+                        <a href="javascript:void()" id="readMore">Xem thêm</a>
+                    </span>
                 </li>
-                <li class="item-research">
-                    <time>10/08/2015</time>
-                    <div>
-                        <a href="/vn/research-center/download/10225/b%e1%ba%a3n-tin-ch%e1%bb%a9ng-kho%c3%a1n_nh%e1%ba%adn-%c4%91%e1%bb%8bnh-v%e1%bb%81-ngh%e1%bb%8b-%c4%91%e1%bb%8bnh-60-th%c3%b4ng-tin-c%e1%ba%adp-nh%e1%ba%adt-v%e1%bb%81-jvc-v%c3%a0-vnm-mua-v%c3%a0o" target="_blank">
-                            <h2>Bản tin chứng khoán_nhận định về Nghị định 60; thông tin cập nhật về JVC và VNM (Mua vào) </h2>
-                        </a>
-
-                        <ul class="research-type">
-                            <li class="main-report"><i class="fa fa-folder"></i>Nhận định thị trường</li>
-
-                        </ul>
-                        <div class="tags">
-
-                        </div>
-                        <a href="/vn/research-center/download/10225/b%e1%ba%a3n-tin-ch%e1%bb%a9ng-kho%c3%a1n_nh%e1%ba%adn-%c4%91%e1%bb%8bnh-v%e1%bb%81-ngh%e1%bb%8b-%c4%91%e1%bb%8bnh-60-th%c3%b4ng-tin-c%e1%ba%adp-nh%e1%ba%adt-v%e1%bb%81-jvc-v%c3%a0-vnm-mua-v%c3%a0o" target="_blank">
-                            <small class="btn-dl">
-                                560,21 KB | <i class="fa fa-eye"></i> 52
-                            </small>  
-                        </a>
-
-
-                    </div>
-
-                </li>
-                <li class="item-research">
-                    <time>24/06/2015</time>
-                    <div>
-                        <a href="/vn/research-center/download/10171/ctcp-thi%e1%ba%bft-b%e1%bb%8b-y-t%e1%ba%bf-vi%e1%bb%87t-nh%e1%ba%adt-jvc" target="_blank">
-                            <h2>CTCP THIẾT BỊ Y TẾ VIỆT NHẬT (JVC)</h2>
-                        </a>
-
-                        <ul class="research-type">
-                            <li class="main-report"><i class="fa fa-folder"></i>Báo cáo công ty</li>
-                            <li class="company-update"><i class="fa fa-folder"></i>Báo cáo ngắn</li>
-
-                        </ul>
-                        <div class="tags">
-
-                        </div>
-                        <a href="/vn/research-center/download/10171/ctcp-thi%e1%ba%bft-b%e1%bb%8b-y-t%e1%ba%bf-vi%e1%bb%87t-nh%e1%ba%adt-jvc" target="_blank">
-                            <small class="btn-dl">
-                                560,21 KB | <i class="fa fa-eye"></i> 52
-                            </small>  
-                        </a>
-
-
-                    </div>
-
-                </li>
-
             </ul>
         </section>
     </div>
-</div>
+}
+</div> <!--end div-table -->
 
 <script>
     $(document).ready(function () {
@@ -153,6 +86,26 @@
                 $('#Arr-open').removeClass('open');
             }
         });
+
+
+        // click on readmore xem thêm
+        $('a[id=readMore]').click(function () {
+            var rowCurrent = $('.ctn-view-list').find('.item-research').length;
+            var urlCurrent = window.location.href;
+            LoadMore(rowCurrent, urlCurrent);
+            
+        });
+        function LoadMore(skipPostion, urlCurrent) {
+            $.ajax({
+                url: '/Research/LoadMoreReport',
+                type: "GET",
+                data: { "skipPostion": skipPostion, "urlCurrent": urlCurrent },
+                success: function (data) {
+                    //$('.ctn-view-list').append(data);
+                    $(data).appendTo(".ctn-view-list").hide().fadeIn(500);
+                }
+            });
+        }
     });
     
 </script>

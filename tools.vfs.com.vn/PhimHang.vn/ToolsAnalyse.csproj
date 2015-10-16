@@ -327,6 +327,7 @@
     <Compile Include="Models\IncomingMessageContentSent.cs">
       <DependentUpon>CustomerServicesModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\ListDropbox.cs" />
     <Compile Include="Models\MessageCommand.cs">
       <DependentUpon>CustomerServicesModel.tt</DependentUpon>
     </Compile>
@@ -407,6 +408,8 @@
     <Content Include="Views\Home\Index - template_old.cshtml" />
     <Content Include="Views\Research\Index.cshtml" />
     <Content Include="Views\Shared\_PartialFooter.cshtml" />
+    <Content Include="Views\Research\_PartialListReport.cshtml" />
+    <Content Include="upload\a4d5d1df4f1fd5f45d4sd5af465dsa6f.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />

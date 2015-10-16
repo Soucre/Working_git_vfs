@@ -331,11 +331,12 @@
           <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Title" Type="nvarchar" MaxLength="512" />
           <Property Name="UploadDir" Type="nvarchar" MaxLength="512" />
-          <Property Name="CreateDate" Type="datetime2" Precision="7" />
           <Property Name="DateViewCustomer" Type="datetime2" Precision="7" />
           <Property Name="TotalDownload" Type="bigint" />
           <Property Name="FileSize" Type="bigint" />
           <Property Name="IdReportType" Type="int" />
+          <Property Name="Ticker" Type="varchar" MaxLength="10" />
+          <Property Name="CreateDate" Type="datetime2" Precision="7" Nullable="false" />
         </EntityType>
         <EntityType Name="ReportType">
           <Key>
@@ -1028,11 +1029,12 @@
           <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Title" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
           <Property Name="UploadDir" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
-          <Property Name="CreateDate" Type="DateTime" Precision="7" />
           <Property Name="DateViewCustomer" Type="DateTime" Precision="7" />
           <Property Name="TotalDownload" Type="Int64" />
           <Property Name="FileSize" Type="Int64" />
           <Property Name="IdReportType" Type="Int32" />
+          <Property Name="Ticker" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="7" />
           <NavigationProperty Name="ReportType" Relationship="VfsCustomerServiceModel.FK_ReportType_Report" FromRole="Report" ToRole="ReportType" />
         </EntityType>
         <EntityType Name="ReportType">
@@ -1576,11 +1578,12 @@
           <EntitySetMapping Name="Reports">
             <EntityTypeMapping TypeName="VfsCustomerServiceModel.Report">
               <MappingFragment StoreEntitySet="Report">
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="Ticker" ColumnName="Ticker" />
                 <ScalarProperty Name="IdReportType" ColumnName="IdReportType" />
                 <ScalarProperty Name="FileSize" ColumnName="FileSize" />
                 <ScalarProperty Name="TotalDownload" ColumnName="TotalDownload" />
                 <ScalarProperty Name="DateViewCustomer" ColumnName="DateViewCustomer" />
-                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
                 <ScalarProperty Name="UploadDir" ColumnName="UploadDir" />
                 <ScalarProperty Name="Title" ColumnName="Title" />
                 <ScalarProperty Name="Id" ColumnName="Id" />

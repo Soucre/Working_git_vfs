@@ -326,11 +326,12 @@
     <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Title" Type="nvarchar" MaxLength="512" />
     <Property Name="UploadDir" Type="nvarchar" MaxLength="512" />
-    <Property Name="CreateDate" Type="datetime2" Precision="7" />
     <Property Name="DateViewCustomer" Type="datetime2" Precision="7" />
     <Property Name="TotalDownload" Type="bigint" />
     <Property Name="FileSize" Type="bigint" />
     <Property Name="IdReportType" Type="int" />
+    <Property Name="Ticker" Type="varchar" MaxLength="10" />
+    <Property Name="CreateDate" Type="datetime2" Precision="7" Nullable="false" />
   </EntityType>
   <EntityType Name="ReportType">
     <Key>

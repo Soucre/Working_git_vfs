@@ -340,11 +340,12 @@
     <EntitySetMapping Name="Reports">
       <EntityTypeMapping TypeName="VfsCustomerServiceModel.Report">
         <MappingFragment StoreEntitySet="Report">
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Ticker" ColumnName="Ticker" />
           <ScalarProperty Name="IdReportType" ColumnName="IdReportType" />
           <ScalarProperty Name="FileSize" ColumnName="FileSize" />
           <ScalarProperty Name="TotalDownload" ColumnName="TotalDownload" />
           <ScalarProperty Name="DateViewCustomer" ColumnName="DateViewCustomer" />
-          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
           <ScalarProperty Name="UploadDir" ColumnName="UploadDir" />
           <ScalarProperty Name="Title" ColumnName="Title" />
           <ScalarProperty Name="Id" ColumnName="Id" />

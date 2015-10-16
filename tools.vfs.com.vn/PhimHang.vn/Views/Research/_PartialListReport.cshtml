@@ -1,0 +1,27 @@
+﻿@model List<PhimHang.Models.Report>
+@{
+    foreach (var item in Model)
+    {
+        <li class="item-research">
+            <time>@item.CreateDate.ToString("dd/MM/yyyy HH:MM:ss")</time>
+            <div>
+                <a href="/upload/@item.UploadDir" target="_blank">
+                    <h2>@item.Title</h2>
+                </a>
+
+                <ul class="research-type">
+                    <li class="main-report"><i class="fa fa-folder"></i>@item.ReportType.Description</li>
+
+                </ul>
+                <div class="tags">
+
+                </div>
+                <a href="/upload/@item.UploadDir" target="_blank">
+                    <small class="btn-dl">
+                        @item.FileSize KB | <i class="fa fa-eye"></i> @item.TotalDownload
+                    </small>
+                </a>
+            </div>
+        </li>
+    }
+}

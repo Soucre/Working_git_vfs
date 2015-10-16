@@ -123,8 +123,7 @@ ADD VType BIT NULL -- 1: khach hang VIP, 0 hoac Null khách hàng thuong
 CREATE TABLE Report (
 	[Id] [bigint] IDENTITY(1,1) NOT NULL PRIMARY KEY,
 	Title nvarchar(512) NULL,
-	UploadDir nvarchar(512) NULL,
-	CreateDate [datetime2](7) NULL, -- ngày t?o báo cáo
+	UploadDir nvarchar(512) NULL,	
 	DateViewCustomer [datetime2](7) NULL, -- ngay KH Thu?ng xem báo cáo
 	TotalDownload bigint default(0),
 	FileSize bigint default(0),
@@ -149,4 +148,7 @@ CREATE TABLE CustomerLog(
 	Total_Download bigint,
 	CreateDate [datetime2](7) default(getdate())
 )
+
+ALTER TABLE [dbo].[Report]
+ADD CreateDate [datetime2](7) NOT NULL default(getdate()) -- ngày t?o báo cáo
 

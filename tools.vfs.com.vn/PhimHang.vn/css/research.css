@@ -243,6 +243,9 @@ header > [class^=topbar] > div, [class$="two-level"] > li > *, #research-center 
 [class^=ctn-view] > [class^=item-research] {
     padding: 0 0 12px 0;
 }
+[class^=ctn-view] > [class^=item-research]:hover {
+    background-color:#E9ECEE;
+}
 
 [class^=ctn-view-list] > [class*=item] {
     width: 100%;
@@ -378,4 +381,25 @@ small[class^=btn] {
 
 .ms-choice > div.open {
     background: url(/images/arr-light-down-sm.png) no-repeat 0 70%;
+}
+
+#div-table {
+        width: 690px;
+        margin: 0px 0px 25px;        
+        border-top: none;
+}
+
+.readMore {
+    width: 690px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.readMore a {
+    background-color: #6B8AA9;
+    color: white;
+    border: none;
+    padding: 6px 315px;
+    width: 690px;
+    cursor: pointer;
 }
