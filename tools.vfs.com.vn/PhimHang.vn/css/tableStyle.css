@@ -66,3 +66,8 @@
     padding:3px 15px;
 }
 
+ul, ol {
+    margin: 0px;
+    padding: 0 0px 0 0px;
+    line-height: 18px;
+}

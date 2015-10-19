@@ -32,7 +32,14 @@
                 </li>
             </ul>
             <div class="hotline">
-                <span style="color: #bfbfbf;">Xin Chào: @User.Identity.Name.ToUpper()</span>
+                <span style="color: #bfbfbf;">Xin Chào: @User.Identity.Name.ToUpper()
+                @{
+                    if (Request.Cookies["AccountType"] != null)
+                    {
+                        <text>[@Request.Cookies["AccountType"].Value]</text> 
+                    }
+                }
+                </span>
             </div>
         </div> <!-- login_header -->
 
@@ -69,13 +76,11 @@
                         <ul>
                             <li id="menu-1"><a href="/">Cổ tức</a></li>
                             <li id="menu-2"><a href="/Research">Báo cáo</a></li>
-                            <li id="menu-3"><a href="#contact">Danh mục khuyến nghị</a></li>
-                            <li id="menu-4"><a href="#about">Đầu tư</a></li>
+                            <li id="menu-3"><a href="#">Danh mục khuyến nghị</a></li>
+                            <li id="menu-4"><a href="#">Đầu tư</a></li>
                         </ul>
-                    </div>
-                    
+                    </div>                    
                 </div>
-
                 <div class="default-center-menu-right">
                     <div class="DescriptionTile">
                         <p>

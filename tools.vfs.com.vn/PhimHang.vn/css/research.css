@@ -288,7 +288,7 @@ header > [class^=topbar] > div, [class$="two-level"] > li > *, #research-center 
 [class^=ctn-view] > [class^=item-research] h2 {
     padding: 0px 0 0 0;
     line-height: 20px!important;
-    height: 44px;
+    height: 41px;
     position: relative;
     overflow: hidden;
 }
@@ -341,8 +341,11 @@ h2 {
 [class^=ctn-view] > [class^=item-research] > div small {
     padding: 5px 10px 5px 15px!important;
 }
+[class^=ctn-view] > [class^=item-research] > div small img {
+    width:18px;    
+}
 small[class^=btn-dl] {
-    background: url(/images/arr-download-size-01.png) no-repeat 10% 50% #E4E4E4;
+    background: url(/images/Icons_PDF.gif) no-repeat 0% 50% #E4E4E4;
 }
 
 small[class^=btn] {
@@ -351,7 +354,7 @@ small[class^=btn] {
     bottom: -1px;
     /*background: #fff;*/
     display: block;
-    width: 85px;
+    width: 95px;
     color: #4b4b4b;
     text-align: right;
     padding: 0px 2px 0 2px;

@@ -51,5 +51,32 @@ namespace PhimHang.Models
             }
             return new string(array, 0, arrayIndex);
         }
+        public static void SetCookieOfVIP()
+        {
+            var FacebookLogin = new HttpCookie("AccountType", "VIP");
+            FacebookLogin.Expires.AddDays(2);
+            if (FacebookLogin == null)
+            {
+                HttpContext.Current.Response.Cookies.Add(FacebookLogin);
+            }
+            else
+            {
+                HttpContext.Current.Response.SetCookie(FacebookLogin);
+            }
+
+        }
+
+        public static void ReleaseCookieOfFace()
+        {
+            if (HttpContext.Current.Request.Cookies["AccountType"] != null)
+            {
+                var user = new HttpCookie("AccountType")
+                {
+                    Expires = DateTime.Now.AddDays(-2),
+                    Value = null
+                };
+                HttpContext.Current.Response.Cookies.Add(user);
+            }
+        }
     }
 }

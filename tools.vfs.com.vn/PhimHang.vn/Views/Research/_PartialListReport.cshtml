@@ -18,10 +18,25 @@
                 </div>
                 <a href="/upload/@item.UploadDir" target="_blank">
                     <small class="btn-dl">
-                        @item.FileSize KB | <i class="fa fa-eye"></i> @item.TotalDownload
+                        
+                        @item.FileSize KB | <i class="fa fa-eye"></i> @item.TotalDownload 
                     </small>
+                    
                 </a>
+                
             </div>
         </li>
     }
 }
+
+<script>
+    $(document).ready(function () {
+        if ('@Model.Count' == 5) {
+            $('.readMore').fadeIn();
+        }
+        else {
+            $('.readMore').fadeOut();
+        }
+        
+    });
+</script>

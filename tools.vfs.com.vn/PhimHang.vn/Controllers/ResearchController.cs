@@ -13,60 +13,99 @@ using System.Data.SqlClient;
 
 namespace PhimHang.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class ResearchController : Controller
     {
         //
         // GET: /Research/
         private VfsCustomerServiceEntities DbCustomerSV = new VfsCustomerServiceEntities();
-        public async Task<ActionResult> Index(string ticker)
+        public async Task<ActionResult> Index(string ticker, int[] CategoryIDs)
         {
             using (DbCustomerSV = new VfsCustomerServiceEntities())
             {
-                ViewBag.DescriptionTile = Resources.VN_Resources.Research_Title;
+                ViewBag.DescriptionTile = Resources.VN_Resources.Research_Title;                
                 ViewBag.Ticker = ticker;
                 string tickerFilter = string.IsNullOrEmpty(ticker) ? "ALL" : ticker;
-                LoadParameter();
-
-                var listReport = await (from r in DbCustomerSV.Reports.Include(r => r.ReportType)
-                                        where (r.Ticker == tickerFilter || "ALL" == tickerFilter)
+                LoadParameter(CategoryIDs);
+                var listReport = new List<Report>();
+                if (CategoryIDs == null)
+                {
+                    listReport = await (from r in DbCustomerSV.Reports.Include(r => r.ReportType)
+                                        where (r.Ticker == tickerFilter || "ALL" == tickerFilter)                                        
                                         orderby r.CreateDate descending
                                         select r).Take(5).ToListAsync();
+                }
+                else
+                {
+                    listReport = await (from r in DbCustomerSV.Reports.Include(r => r.ReportType)
+                                        where (r.Ticker == tickerFilter || "ALL" == tickerFilter)
+                                        && (CategoryIDs.Contains(r.ReportType.Id))
+                                        orderby r.CreateDate descending
+                                        select r).Take(5).ToListAsync();
+                }
+
                 return View(listReport);
             }
-            
+
         }
 
-        public async Task<ActionResult> LoadMoreReport(int skipPostion, string urlCurrent)
-        {
-            string splitURL = urlCurrent.Substring(urlCurrent.IndexOf('?')).Split('#')[0];
-            
-                //.QueryString["Ticker"];
-            using (DbCustomerSV = new VfsCustomerServiceEntities())
-            {
-                var listReport = await (from r in DbCustomerSV.Reports.Include(r => r.ReportType)
-                                        orderby r.CreateDate descending
-                                        select r).Skip(skipPostion).Take(5).ToListAsync();
-                return PartialView("_PartialListReport", listReport);
-            }
-        }
 
-        private void LoadParameter()
+
+        private void LoadParameter(int[] CategoryIDs)
         {
-            var listTypeReport = new List<ListDropbox>
+           
+            var listTypeReport = new List<CheckBoxes>
                     { 
-                        new ListDropbox { Id = 1, Description = "Báo cáo công ty" },
-                        new ListDropbox { Id = 2, Description = "Nhận định thị trường" },
-                        new ListDropbox{ Id = 3, Description = "Báo cáo chiến lược" },
-                        new ListDropbox{ Id = 4, Description = "BC phân tích doanh nghiệp" },
-                        new ListDropbox{ Id = 5, Description = "Chủ đề nóng" }
-                        
+                        new CheckBoxes { Id = 1, Description = "Cảm nhận thị trường" },
+                        new CheckBoxes { Id = 2, Description = "Phân tích cổ phiếu" },
+                        new CheckBoxes{ Id = 3, Description = "Phân tích kỹ thuật" },
+                        new CheckBoxes{ Id = 4, Description = "Báo cáo chiến lược" },
+                        new CheckBoxes{ Id = 5, Description = "Phím hàng" },
+                        new CheckBoxes{ Id = 6, Description = "Snapshot" }                        
                     }.ToList();
-
+            if (CategoryIDs!=null)
+            {
+                foreach (var item in listTypeReport)
+                {
+                    if (CategoryIDs.Any(ct => ct == item.Id))
+                    {
+                        item.Checked = true;
+                    }
+                }
+            }
+            
             ViewBag.listTypeReport = listTypeReport; // load loai bao cao trong menu
         }
 
+        public async Task<ActionResult> LoadMoreReport(int skipPostion, string ticker, int[] CategoryIDs)
+        {
+            
+            string tickerFilter = string.IsNullOrEmpty(ticker) ? "ALL" : ticker;
+            using (DbCustomerSV = new VfsCustomerServiceEntities())
+            {
+                var listReport = new List<Report>();
+                if (CategoryIDs == null)
+                {
+                    listReport = await (from r in DbCustomerSV.Reports.Include(r => r.ReportType)
+                                        where (r.Ticker == tickerFilter || "ALL" == tickerFilter)
+                                        orderby r.CreateDate descending
+                                        select r).Skip(skipPostion).Take(5).ToListAsync();
+                }
+                else
+                {
+                    listReport = await (from r in DbCustomerSV.Reports.Include(r => r.ReportType)
+                                        where (r.Ticker == tickerFilter || "ALL" == tickerFilter)
+                                        && (CategoryIDs.Contains(r.ReportType.Id))
+                                        orderby r.CreateDate descending
+                                        select r).Skip(skipPostion).Take(5).ToListAsync();
+                }
 
+                //var listReport = await (from r in DbCustomerSV.Reports.Include(r => r.ReportType)
+                //                        orderby r.CreateDate descending
+                //                        select r).Skip(skipPostion).Take(5).ToListAsync();
+                return PartialView("_PartialListReport", listReport);
+            }
+        }
 
 	}
 }

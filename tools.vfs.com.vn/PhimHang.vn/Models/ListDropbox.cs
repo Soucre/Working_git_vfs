@@ -11,4 +11,15 @@ namespace PhimHang.Models
 
         public String Description { get; set; }
     }
+    public class CheckBoxes
+    {
+        public CheckBoxes()
+        {
+            Checked = false;
+        }
+        public int Id { get; set; }
+        public string Value { get; set; }
+        public string Description { get; set; }
+        public bool Checked { get; set; }
+    }
 }

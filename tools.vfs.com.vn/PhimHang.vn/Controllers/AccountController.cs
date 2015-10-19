@@ -36,7 +36,7 @@ namespace PhimHang.Controllers
         }
         public UserManager<ApplicationUser> UserManager { get; private set; }
         private OFrontTEntities frontDb;
-
+        private VfsCustomerServiceEntities customerDb;
         //private testEntities db;// = new testEntities();
         [AllowAnonymous]
         public ActionResult Index(string returnUrl)
@@ -75,6 +75,16 @@ namespace PhimHang.Controllers
                     if (user != null)
                     {
                         await SignInAsync(user, model.RememberMe);
+                        // set account VIP
+                        using (customerDb = new VfsCustomerServiceEntities())
+                        {
+                            var customer = await customerDb.Customers.FirstOrDefaultAsync(cs => cs.CustomerId == user.UserName);
+                            if (customer.VType == true)
+                            {
+                                Helper.SetCookieOfVIP();
+                            }
+                        }
+                        //------------------------
                         return RedirectToLocal(returnUrl); // Returun URL
                         //return RedirectToAction(""); // Hieu
 
@@ -555,6 +565,7 @@ namespace PhimHang.Controllers
         public ActionResult LogOff()
         {
             AuthenticationManager.SignOut();
+            Helper.ReleaseCookieOfFace();
             return RedirectToAction("Index", "Home");
         }
 

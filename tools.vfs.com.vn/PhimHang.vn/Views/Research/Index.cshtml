@@ -30,9 +30,21 @@
                     <div class="ms-drop bottom" style="width: 234px; text-align:left; display:none" id="ms-SelectReportType">
                         <ul style="max-height: 250px;">
                             @{
-                                foreach (var item in ViewBag.listTypeReport as List<PhimHang.Models.ListDropbox>)
+                            foreach (var item in ViewBag.listTypeReport as List<PhimHang.Models.CheckBoxes>)
                                 {
-                                    <li><label><input type="checkbox" name="CategoryIDs" value=@item.Id>@item.Description</label></li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" name="CategoryIDs" value=@item.Id onclick="this.form.submit();"
+                                              @{
+                                                if (item.Checked == true)
+                                                {
+                                                    <text> checked="checked"</text>
+                                                }
+                                              }     
+                                                   
+                                               >@item.Description
+                                        </label>
+                                    </li>
                                 }
                             }                            
                         </ul>
@@ -63,9 +75,10 @@
                              
             </ul>
             <ul>
+
                 <li>
-                    <span class="readMore">
-                        <a href="javascript:void()" id="readMore">Xem thêm</a>
+                    <span class="readMore" style="display:none">
+                        <a href="#" onclick="return false" id="readMore">Xem thêm</a>
                     </span>
                 </li>
             </ul>
@@ -91,15 +104,23 @@
         // click on readmore xem thêm
         $('a[id=readMore]').click(function () {
             var rowCurrent = $('.ctn-view-list').find('.item-research').length;
-            var urlCurrent = window.location.href;
-            LoadMore(rowCurrent, urlCurrent);
+            var ticker = '@Request.QueryString["Ticker"]';
+            var dropboxFilter = [];
+            $("input[name='CategoryIDs']:checked").each(function () {
+                dropboxFilter.push(parseInt($(this).val()));
+            });
+            //var dropboxFilter = $('input[name=CategoryIDs]:checked');
+            console.log(dropboxFilter);
+            LoadMore(rowCurrent, ticker, dropboxFilter);
             
         });
-        function LoadMore(skipPostion, urlCurrent) {
+        function LoadMore(skipPostion, ticker, dropboxFilter) {
+            
             $.ajax({
                 url: '/Research/LoadMoreReport',
                 type: "GET",
-                data: { "skipPostion": skipPostion, "urlCurrent": urlCurrent },
+                traditional: true,
+                data: { "skipPostion": skipPostion, "ticker": ticker, "CategoryIDs": dropboxFilter },
                 success: function (data) {
                     //$('.ctn-view-list').append(data);
                     $(data).appendTo(".ctn-view-list").hide().fadeIn(500);
