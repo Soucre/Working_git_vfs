@@ -108,7 +108,8 @@ CREATE PROCEDURE [dbo].spCustomerUpdate
 	@TypeID int,
 	@SendYN nvarchar(1),
 	@ReceiveRelatedStockEmail nvarchar(1),
-	@ReceiveRelatedStockSms nvarchar(1)
+	@ReceiveRelatedStockSms nvarchar(1),
+	@VType bit
 AS
 
 UPDATE [dbo].[Customer] SET
@@ -213,7 +214,8 @@ UPDATE [dbo].[Customer] SET
 	[TypeID] = @TypeID,
 	[SendYN] = @SendYN,
 	[ReceiveRelatedStockEmail] = @ReceiveRelatedStockEmail,
-	[ReceiveRelatedStockSms] = @ReceiveRelatedStockSms
+	[ReceiveRelatedStockSms] = @ReceiveRelatedStockSms,
+	[VType] = @VType
 	
 WHERE
 	[CustomerId] = @CustomerId

@@ -66,9 +66,13 @@ box-shadow: none;
   margin: 0 auto;  
 }
 
-.btn:hover {
-  background-color: #2980B9;
+.btn:disabled {
+    background:url('/images/uploading.gif') no-repeat 50% 40% #CCDFED;
 }
+
+/*.btn:hover {
+  background-color: #2980B9;
+}*/
 
 .login-link {
   font-size: 12px;

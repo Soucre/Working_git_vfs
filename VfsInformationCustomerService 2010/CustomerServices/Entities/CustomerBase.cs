@@ -114,6 +114,7 @@ namespace VfsCustomerService.Entities
         private string _SendYN = "Y";
         private string _ReceiveRelatedStockEmail = "Y";
         private string _ReceiveRelatedStockSms = "Y";
+        private bool _VType = false;
 
 		#endregion
 		
@@ -223,7 +224,8 @@ namespace VfsCustomerService.Entities
 			int TypeID,
             string SendYN,
             string ReceiveRelatedStockEmail,
-            string ReceiveRelatedStockSms)
+            string ReceiveRelatedStockSms,
+            bool VType)
 		
 		{
 			this._BranchCode = BranchCode;
@@ -329,6 +331,7 @@ namespace VfsCustomerService.Entities
             this._SendYN = SendYN;
             this._ReceiveRelatedStockEmail = ReceiveRelatedStockEmail;
             this._ReceiveRelatedStockSms = ReceiveRelatedStockSms;
+            this._VType = VType;
 		}
 		#endregion
 		
@@ -1355,6 +1358,13 @@ namespace VfsCustomerService.Entities
             get { return _ReceiveRelatedStockSms; }
             set { _ReceiveRelatedStockSms = value; }
         }
+
+        public bool VType
+        {
+            get { return _VType; }
+            set { _VType = value; }
+        }
+
 	
 		#endregion
 	}//End Class
@@ -1463,6 +1473,7 @@ namespace VfsCustomerService.Entities
 		TypeID,
         SendYN,
         ReceiveRelatedStockEmail,
-        ReceiveRelatedStockSms
+        ReceiveRelatedStockSms,
+        VType
 	}//End enum
 }

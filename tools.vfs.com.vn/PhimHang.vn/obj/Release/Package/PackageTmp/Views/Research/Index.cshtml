@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewBag.Title = "Báo cáo phân tích";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    #menu-2 {
+        /*background-color: rgb(245, 131, 31);*/
+        background-color: #F29918;
+    }
+    #menu-2 a {
+        color:#fff;
+    }    
+</style>
+<link href="~/css/research.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="~/Scripts/ExtentionJS.js"></script>
+<script src="~/Js/ResearchJs.js"></script>
+@*<link href="~/css/tableStyle.css" rel="stylesheet" />*@
+<div id="div-table">
+    <input type="hidden" name="hiddenTicker" value=@ViewBag.Ticker id="hiddenTicker" />
+@using (Html.BeginForm("Index","Research",FormMethod.Get))
+{
+    <div class="box-filter">
+        <section id="research-center">
+            <div id="reseatch-category" class="list-wrapper">
+                
+                <div class="ms-parent">
+                    <button type="button" class="ms-choice" style="width: 234px;" id="ms-dropReportType">
+                        <span class="placeholder">Loại báo cáo phân tích</span>
+                        <div class="" id="Arr-open"></div>
+                    </button>
+                    <div class="ms-drop bottom" style="width: 234px; text-align:left; display:none" id="ms-SelectReportType">
+                        <ul style="max-height: 250px;">
+                            @{
+                            foreach (var item in ViewBag.listTypeReport as List<PhimHang.Models.CheckBoxes>)
+                                {
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" name="CategoryIDs" value=@item.Id onclick="this.form.submit();"
+                                              @{
+                                                if (item.Checked == true)
+                                                {
+                                                    <text> checked="checked"</text>
+                                                }
+                                              }     
+                                                   
+                                               >@item.Description
+                                        </label>
+                                    </li>
+                                }
+                            }                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-box">
+                <!--<input class="form-control" id="auto-suggest" type="search" name="research_search" placeholder=" / company name / key word" />-->
+                
+                <div class="ms-ctn form-control  ms-ctn-focus" style="" id="auto-suggest">
+                    <span class="ms-helper " style="display: none;"></span>
+                    <div class="ms-sel-ctn">
+                        <input type="text" placeholder="VNM, HAG, SSI..." title="tìm báo cáo" style="width: 400px; color: #0065BF; " maxlength="10" value='@ViewBag.Ticker' name="Ticker">
+                        <div style="display: none;"></div>
+                    </div>
+                    <div class="ms-trigger">
+                        <div class="ms-trigger-ico"></div>
+                    </div>
+                </div>
+                <button id="btn-submit" type="submit" style="cursor:pointer">
+                    <i style="margin-left:-8px" class="fa fa-search"></i>
+                </button>
+            </div>
+
+            <ul class="ctn-view-list">
+                <!--load danh sách report ở đây ?-->
+               @Html.Partial("_PartialListReport")
+                             
+            </ul>
+            <ul>
+
+                <li>
+                    <span class="readMore">
+                        <a href="javascript:void(0)"  id="readMore">Xem thêm</a>
+                    </span>
+                    <span id="loading-image" style="display:none"><img src="/images/uploading.gif" /></span>
+                </li>
+            </ul>
+        </section>
+    </div>
+}
+</div> <!--end div-table -->
+
+

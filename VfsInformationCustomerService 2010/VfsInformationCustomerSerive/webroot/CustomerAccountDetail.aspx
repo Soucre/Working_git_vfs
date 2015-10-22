@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="CustomerAccountDetail.aspx.cs" Inherits="CustomerAccountDetail" Title="Untitled Page" %>
 <%@ Register Assembly="jQueryDatePicker" Namespace="Westwind.Web.Controls" TagPrefix="ww" %>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" Runat="Server">
+
     <h1 runat="server" id="header1"></h1>    
 <div>
      <input class="button" id="ButtonCallBack" runat="server" type="button"  onserverclick="ButtonCallBack_onserverclick" />
@@ -8,7 +9,7 @@
 </div>  
     <table >      
         <tr>
-            <td><%=Resources.UIResource.CustomerId%></td>
+            <td style="width:210px;"><%=Resources.UIResource.CustomerId%></td>
             <td><input runat="server" id="InputCustomerId" maxlength="10" style="width:100px" readonly="readonly"/></td>
         </tr>
         <tr>
@@ -101,6 +102,15 @@
             <td><select runat="server" id="SelectReceiveRelatedStockSms">
                 <option value="Y">Yes</option>
                 <option value="N">No</option>
+                </select>
+            </td>
+        </tr>
+         <tr>
+            <td><%=Resources.UIResource.CutomerVIPType%></td>
+            <td>
+                <select runat="server" id="selectCustomerVIP">
+                    <option value="Y">Yes</option>
+                    <option value="N">No</option>
                 </select>
             </td>
         </tr>

@@ -122,6 +122,7 @@ namespace DAOvEntitiesFramwork_CusServices
         public string SendYN { get; set; }
         public string ReceiveRelatedStockEmail { get; set; }
         public string ReceiveRelatedStockSms { get; set; }
+        public Nullable<bool> VType { get; set; }
     
         public virtual CustomerType CustomerType1 { get; set; }
         public virtual ICollection<GroupDetail> GroupDetails { get; set; }

@@ -14,8 +14,11 @@
 </style>
 <link href="~/css/research.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="~/Scripts/ExtentionJS.js"></script>
+<script src="~/Js/ResearchJs.js"></script>
 @*<link href="~/css/tableStyle.css" rel="stylesheet" />*@
 <div id="div-table">
+    <input type="hidden" name="hiddenTicker" value=@ViewBag.Ticker id="hiddenTicker" />
 @using (Html.BeginForm("Index","Research",FormMethod.Get))
 {
     <div class="box-filter">
@@ -54,6 +57,7 @@
 
             <div class="search-box">
                 <!--<input class="form-control" id="auto-suggest" type="search" name="research_search" placeholder=" / company name / key word" />-->
+                
                 <div class="ms-ctn form-control  ms-ctn-focus" style="" id="auto-suggest">
                     <span class="ms-helper " style="display: none;"></span>
                     <div class="ms-sel-ctn">
@@ -77,9 +81,10 @@
             <ul>
 
                 <li>
-                    <span class="readMore" style="display:none">
-                        <a href="#" onclick="return false" id="readMore">Xem thêm</a>
+                    <span class="readMore">
+                        <a href="javascript:void(0)"  id="readMore">Xem thêm</a>
                     </span>
+                    <span id="loading-image" style="display:none"><img src="/images/uploading.gif" /></span>
                 </li>
             </ul>
         </section>
@@ -87,46 +92,4 @@
 }
 </div> <!--end div-table -->
 
-<script>
-    $(document).ready(function () {
-        $('button[id=ms-dropReportType]').click(function () {
-            if (!$('#ms-SelectReportType').is(':visible')) {                
-                $('#ms-SelectReportType').fadeIn();
-                $('#Arr-open').addClass('open');
-            }
-            else {                
-                $('#ms-SelectReportType').fadeOut();
-                $('#Arr-open').removeClass('open');
-            }
-        });
 
-
-        // click on readmore xem thêm
-        $('a[id=readMore]').click(function () {
-            var rowCurrent = $('.ctn-view-list').find('.item-research').length;
-            var ticker = '@Request.QueryString["Ticker"]';
-            var dropboxFilter = [];
-            $("input[name='CategoryIDs']:checked").each(function () {
-                dropboxFilter.push(parseInt($(this).val()));
-            });
-            //var dropboxFilter = $('input[name=CategoryIDs]:checked');
-            console.log(dropboxFilter);
-            LoadMore(rowCurrent, ticker, dropboxFilter);
-            
-        });
-        function LoadMore(skipPostion, ticker, dropboxFilter) {
-            
-            $.ajax({
-                url: '/Research/LoadMoreReport',
-                type: "GET",
-                traditional: true,
-                data: { "skipPostion": skipPostion, "ticker": ticker, "CategoryIDs": dropboxFilter },
-                success: function (data) {
-                    //$('.ctn-view-list').append(data);
-                    $(data).appendTo(".ctn-view-list").hide().fadeIn(500);
-                }
-            });
-        }
-    });
-    
-</script>

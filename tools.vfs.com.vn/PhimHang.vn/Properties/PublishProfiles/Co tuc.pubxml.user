@@ -85,7 +85,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2015 09:04:39</publishTime>
     </File>
     <File Include="bin/PhimHang.dll">
-      <publishTime>09/30/2015 15:11:34</publishTime>
+      <publishTime>10/20/2015 15:46:49</publishTime>
     </File>
     <File Include="bin/System.ComponentModel.DataAnnotations.dll">
       <publishTime>09/26/2012 03:16:08</publishTime>
@@ -519,17 +519,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/walt_disney/waltographUI.ttf">
       <publishTime>07/13/2015 09:04:24</publishTime>
     </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>10/15/2015 09:48:03</publishTime>
+    </File>
     <File Include="css/loginForm.css">
-      <publishTime>07/23/2015 15:25:21</publishTime>
+      <publishTime>10/20/2015 09:23:45</publishTime>
+    </File>
+    <File Include="css/research.css">
+      <publishTime>10/20/2015 11:16:25</publishTime>
     </File>
     <File Include="css/style.css">
-      <publishTime>09/28/2015 16:33:58</publishTime>
+      <publishTime>10/19/2015 14:58:48</publishTime>
     </File>
     <File Include="css/stylesheet.css">
       <publishTime>09/30/2015 15:08:25</publishTime>
     </File>
     <File Include="css/tableStyle.css">
-      <publishTime>09/30/2015 15:09:02</publishTime>
+      <publishTime>10/19/2015 15:42:18</publishTime>
     </File>
     <File Include="DetailTheme/css/960.css">
       <publishTime>07/13/2015 09:04:25</publishTime>
@@ -2487,6 +2493,24 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="favicon.ico">
       <publishTime>07/13/2015 09:04:33</publishTime>
     </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>10/15/2015 09:46:43</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>10/15/2015 09:46:43</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>10/15/2015 09:46:43</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>10/15/2015 09:46:43</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>10/15/2015 09:46:43</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>10/15/2015 09:46:43</publishTime>
+    </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
       <publishTime>07/13/2015 09:04:33</publishTime>
     </File>
@@ -2507,6 +2531,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="images/ajax-loader.gif">
       <publishTime>07/13/2015 09:04:33</publishTime>
+    </File>
+    <File Include="images/arr-light-down-sm.png">
+      <publishTime>10/15/2015 16:56:06</publishTime>
+    </File>
+    <File Include="images/arr-light-up-sm.png">
+      <publishTime>10/14/2015 14:33:57</publishTime>
     </File>
     <File Include="images/bg-body.gif">
       <publishTime>07/13/2015 09:04:33</publishTime>
@@ -2565,6 +2595,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="images/bg_menu1.png">
       <publishTime>07/13/2015 09:04:33</publishTime>
     </File>
+    <File Include="images/footer.gif">
+      <publishTime>10/15/2015 13:32:45</publishTime>
+    </File>
     <File Include="images/header.png">
       <publishTime>07/13/2015 09:04:33</publishTime>
     </File>
@@ -2603,6 +2636,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="images/ico-theme-3.gif">
       <publishTime>07/13/2015 09:04:33</publishTime>
+    </File>
+    <File Include="images/Icons_PDF.gif">
+      <publishTime>10/19/2015 14:33:17</publishTime>
     </File>
     <File Include="images/icon_calendar.png">
       <publishTime>07/13/2015 09:04:33</publishTime>
@@ -2828,6 +2864,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="img/userDefault.jpg">
       <publishTime>07/13/2015 09:04:33</publishTime>
+    </File>
+    <File Include="Js/ResearchJs.js">
+      <publishTime>10/20/2015 14:51:51</publishTime>
     </File>
     <File Include="LoginTheme/css/datePicker.css">
       <publishTime>07/13/2015 09:04:28</publishTime>
@@ -3192,6 +3231,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="LoginTheme/js/jquery/ui.core.js">
       <publishTime>07/13/2015 09:04:29</publishTime>
     </File>
+    <File Include="Models/CustomerServicesModel.edmx.diagram">
+      <publishTime>10/16/2015 14:13:19</publishTime>
+    </File>
     <File Include="Models/OTFront.edmx.diagram">
       <publishTime>07/20/2015 08:24:36</publishTime>
     </File>
@@ -3212,6 +3254,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Scripts/Custom/timer.js">
       <publishTime>07/13/2015 09:04:29</publishTime>
+    </File>
+    <File Include="Scripts/ExtentionJS.js">
+      <publishTime>10/20/2015 14:40:03</publishTime>
     </File>
     <File Include="Scripts/jquery-1.6.4.js">
       <publishTime>07/13/2015 09:04:30</publishTime>
@@ -3373,7 +3418,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2015 09:04:30</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>07/13/2015 09:04:30</publishTime>
+      <publishTime>10/20/2015 13:27:37</publishTime>
+    </File>
+    <File Include="upload/a4d5d1df4f1fd5f45d4sd5af465dsa6f.pdf">
+      <publishTime>10/16/2015 14:39:32</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
       <publishTime>07/13/2015 09:04:30</publishTime>
@@ -3424,7 +3472,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2015 09:04:30</publishTime>
     </File>
     <File Include="Views/FrontAccount/Login.cshtml">
-      <publishTime>07/23/2015 16:06:16</publishTime>
+      <publishTime>10/20/2015 09:32:00</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
       <publishTime>07/13/2015 09:04:30</publishTime>
@@ -3436,7 +3484,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/30/2015 09:30:25</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/30/2015 16:17:53</publishTime>
+      <publishTime>10/15/2015 14:48:40</publishTime>
     </File>
     <File Include="Views/Home/ModifyRecommend.cshtml">
       <publishTime>07/13/2015 09:04:30</publishTime>
@@ -3468,11 +3516,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Recommendation/SellRecommend.cshtml">
       <publishTime>07/13/2015 09:04:30</publishTime>
     </File>
+    <File Include="Views/Research/Index.cshtml">
+      <publishTime>10/20/2015 15:49:30</publishTime>
+    </File>
+    <File Include="Views/Research/_PartialListReport.cshtml">
+      <publishTime>10/20/2015 14:21:59</publishTime>
+    </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>07/13/2015 09:04:30</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/28/2015 16:36:53</publishTime>
+      <publishTime>10/20/2015 08:48:58</publishTime>
     </File>
     <File Include="Views/Shared/_Layout_Login.cshtml">
       <publishTime>07/23/2015 14:40:01</publishTime>
@@ -3482,6 +3536,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>07/13/2015 09:04:30</publishTime>
+    </File>
+    <File Include="Views/Shared/_PartialFooter.cshtml">
+      <publishTime>10/15/2015 13:54:02</publishTime>
     </File>
     <File Include="Views/Ticker/Index.cshtml">
       <publishTime>07/13/2015 09:04:30</publishTime>
@@ -3493,7 +3550,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2015 09:04:30</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/28/2015 16:43:22</publishTime>
+      <publishTime>10/20/2015 15:47:14</publishTime>
     </File>
   </ItemGroup>
 </Project>

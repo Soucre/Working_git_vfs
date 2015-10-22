@@ -10,3 +10,7 @@ F:\Working\VfsInformationCustomerService 2010\Components\VfsCustomerService.Enti
 F:\Working\VfsInformationCustomerService 2010\Components\VfsCustomerService.Entities.pdb
 F:\Working\VfsInformationCustomerService 2010\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.dll
 F:\Working\VfsInformationCustomerService 2010\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\VfsCustomerService.Entities.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\VfsCustomerService.Entities.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CustomerServices\Entities\obj\Debug\VfsCustomerService.Entities.pdb

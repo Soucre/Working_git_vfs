@@ -26,12 +26,18 @@ namespace PhimHang.Controllers
                 ViewBag.DescriptionTile = Resources.VN_Resources.Research_Title;                
                 ViewBag.Ticker = ticker;
                 string tickerFilter = string.IsNullOrEmpty(ticker) ? "ALL" : ticker;
+                DateTime dateVIPFilter = DateTime.Now;
+                if (Request.Cookies["AccountType"] != null)
+                {
+                    dateVIPFilter = dateVIPFilter.AddDays(2);
+                }
                 LoadParameter(CategoryIDs);
                 var listReport = new List<Report>();
                 if (CategoryIDs == null)
                 {
                     listReport = await (from r in DbCustomerSV.Reports.Include(r => r.ReportType)
-                                        where (r.Ticker == tickerFilter || "ALL" == tickerFilter)                                        
+                                        where (r.Ticker == tickerFilter || "ALL" == tickerFilter)
+                                        && (r.DateViewCustomer <= dateVIPFilter)
                                         orderby r.CreateDate descending
                                         select r).Take(5).ToListAsync();
                 }
@@ -40,6 +46,7 @@ namespace PhimHang.Controllers
                     listReport = await (from r in DbCustomerSV.Reports.Include(r => r.ReportType)
                                         where (r.Ticker == tickerFilter || "ALL" == tickerFilter)
                                         && (CategoryIDs.Contains(r.ReportType.Id))
+                                        && (r.DateViewCustomer <= dateVIPFilter)
                                         orderby r.CreateDate descending
                                         select r).Take(5).ToListAsync();
                 }
@@ -81,6 +88,11 @@ namespace PhimHang.Controllers
         {
             
             string tickerFilter = string.IsNullOrEmpty(ticker) ? "ALL" : ticker;
+            DateTime dateVIPFilter = DateTime.Now; 
+            if (Request.Cookies["AccountType"] != null)
+            {
+                dateVIPFilter = dateVIPFilter.AddDays(2); // neu la VIP dc xem tat ca cac report
+            }
             using (DbCustomerSV = new VfsCustomerServiceEntities())
             {
                 var listReport = new List<Report>();
@@ -88,6 +100,7 @@ namespace PhimHang.Controllers
                 {
                     listReport = await (from r in DbCustomerSV.Reports.Include(r => r.ReportType)
                                         where (r.Ticker == tickerFilter || "ALL" == tickerFilter)
+                                        && (r.DateViewCustomer <= dateVIPFilter)
                                         orderby r.CreateDate descending
                                         select r).Skip(skipPostion).Take(5).ToListAsync();
                 }
@@ -95,14 +108,13 @@ namespace PhimHang.Controllers
                 {
                     listReport = await (from r in DbCustomerSV.Reports.Include(r => r.ReportType)
                                         where (r.Ticker == tickerFilter || "ALL" == tickerFilter)
+                                        && (r.DateViewCustomer <= dateVIPFilter)
                                         && (CategoryIDs.Contains(r.ReportType.Id))
                                         orderby r.CreateDate descending
                                         select r).Skip(skipPostion).Take(5).ToListAsync();
                 }
 
-                //var listReport = await (from r in DbCustomerSV.Reports.Include(r => r.ReportType)
-                //                        orderby r.CreateDate descending
-                //                        select r).Skip(skipPostion).Take(5).ToListAsync();
+              
                 return PartialView("_PartialListReport", listReport);
             }
         }

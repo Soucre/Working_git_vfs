@@ -150,7 +150,8 @@ SELECT
 	[TypeId],
 	[SendYN],
 	[ReceiveRelatedStockEmail],
-	[ReceiveRelatedStockSms]
+	[ReceiveRelatedStockSms],
+	VType
 	
 FROM
 	#TempCustomers AS tblTemp JOIN [dbo].[Customer] ON

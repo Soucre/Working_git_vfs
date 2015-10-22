@@ -14,8 +14,8 @@ using VfsCustomerService.Data;
 using VfsCustomerService.Entities;
 using Vfs.WebCrawler.Utility;
 
-using CoreSecurityServiceBusiness = CoreSecurityService.Business;
-using CoreSecurityServiceEntities = CoreSecurityService.Entities;
+//using CoreSecurityServiceBusiness = CoreSecurityService.Business;
+//using CoreSecurityServiceEntities = CoreSecurityService.Entities;
 using System.Collections.Generic;
 
 
@@ -172,7 +172,7 @@ public partial class CustomerAccount : System.Web.UI.Page
         var customerCollectionCore = new List<DAOvEntitiesFramwork.Customer>();
         customerCollectionCore = await DAOvEntitiesFramwork.Customer_Goline.GetListCustomer_Goline();
         //
-
+        
 
         // khi có khách hàng mới mở tài khoản gửi mail và SMS
         //ContentTemplate contentTemplate = ContentTemplateService.GetContentTemplate(Convert.ToInt32(ApplicationHelper.ContentemplateId));

@@ -71,6 +71,7 @@ public partial class CustomerAccountDetail : System.Web.UI.Page
             this.SelectDenyEmail.Value = customer.SendYN;
             this.SelectReceiveRelatedStockEmail.Value = customer.ReceiveRelatedStockEmail;
             this.SelectReceiveRelatedStockSms.Value = customer.ReceiveRelatedStockSms;
+            this.selectCustomerVIP.Value = customer.VType == true ? "Y": "N";
         }
     }
 
@@ -95,6 +96,7 @@ public partial class CustomerAccountDetail : System.Web.UI.Page
             customer.SendYN = this.SelectDenyEmail.Value;
             customer.ReceiveRelatedStockEmail = this.SelectReceiveRelatedStockEmail.Value;
             customer.ReceiveRelatedStockSms = this.SelectReceiveRelatedStockSms.Value;
+            customer.VType = this.selectCustomerVIP.Value == "Y" ? true : false;
             CustomerService.UpdateCustomer(customer);
         }
         Response.Redirect("CustomerAccount.aspx");

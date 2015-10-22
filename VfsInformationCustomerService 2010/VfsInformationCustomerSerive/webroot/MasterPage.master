@@ -252,12 +252,12 @@
             <div class="menuBar1">
                    <ul>
                         <li class="green">
-			                <p><a href="#">QUẢN LÝ KHÁCH HÀNG</a></p>
+			                <p><a href="#">Hệ thống báo cáo</a></p>
 			                
 		                </li>	
-                        <li class="blue"><p><a href="CustomerGroup.aspx">Nhóm khách hàng</a></p></li>	
-                       <li class="blue"><p><a href="GroupDetail.aspx">Chi tiết nhóm</a></p></li>
-                       <li class="blue"><p><a href="MessegeGroup.aspx">Gửi tin theo nhóm</a></p></li>	
+                        <li class="blue"><p><a href="CreateReport.aspx">Tạo báo cáo</a></p></li>	
+                       <li class="blue"><p><a href="GroupDetail.aspx">Danh mục báo cáo</a></p></li>
+                      <%-- <li class="blue"><p><a href="MessegeGroup.aspx">Gửi tin theo nhóm</a></p></li>	--%>
                        <%--Menu 2--%>
 		                <li class="green" style="margin-top:1px">
 			                <p><a href="#">Dịch vụ gửi tin</a></p>			                

@@ -30,7 +30,7 @@ namespace PhimHang.Models
 
     public class LoginViewModel
     {
-        [Required(ErrorMessage="Nhập tên đăng nhập <br />")]
+        [Required(ErrorMessage="Nhập tên đăng nhập hoặc")]
         [Display(Name = "User name")]
         public string UserName { get; set; }
 

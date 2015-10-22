@@ -2,6 +2,7 @@
      margin: 0px 0px 25px;
      border: solid 1px #ccc;
      border-top: none;
+     /*margin-top:35px;*/
 }
 
 .tg  {
@@ -65,3 +66,8 @@
     padding:3px 15px;
 }
 
+ul, ol {
+    margin: 0px;
+    padding: 0 0px 0 0px;
+    line-height: 18px;
+}

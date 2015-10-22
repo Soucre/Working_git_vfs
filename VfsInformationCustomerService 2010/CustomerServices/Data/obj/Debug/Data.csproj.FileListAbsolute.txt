@@ -19,3 +19,10 @@ F:\Working\VfsInformationCustomerService 2010\CustomerServices\Data\obj\Debug\Vf
 F:\Working\VfsInformationCustomerService 2010\CustomerServices\Data\obj\Debug\Data.csproj.GenerateResource.Cache
 F:\Working\VfsInformationCustomerService 2010\CustomerServices\Data\obj\Debug\VfsCustomerService.Data.dll
 F:\Working\VfsInformationCustomerService 2010\CustomerServices\Data\obj\Debug\VfsCustomerService.Data.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\VfsCustomerService.Data.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\VfsCustomerService.Data.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CustomerServices\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CustomerServices\Data\obj\Debug\VfsCustomerService.Data.SR.resources
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CustomerServices\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CustomerServices\Data\obj\Debug\VfsCustomerService.Data.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CustomerServices\Data\obj\Debug\VfsCustomerService.Data.pdb

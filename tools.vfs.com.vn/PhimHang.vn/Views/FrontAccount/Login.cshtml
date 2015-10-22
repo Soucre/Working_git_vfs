@@ -31,39 +31,18 @@
                     @Html.CheckBoxFor(m => m.RememberMe, new { @class = "checkbox-size", id = "login-check" })
                     <label for="login-check">Nhớ mật khẩu</label>
                 </div>
-                @*<a class="btn btn-primary btn-large btn-block" href="#">login</a>*@
-                <input id="login-submit" type="submit" class="btn btn-primary btn-large btn-block" value="Đăng nhập" />
+                @*<a class="btn btn-primary btn-large btn-block" href="#">login</a> *@
+                <input onclick ="this.disabled = true;this.form.submit();" id="login-submit" type="submit" class="btn btn-primary btn-large btn-block" value="Đăng nhập" />
                 <a target="_blank" class="login-link" href="http://www.vfs.com.vn/tabid/97/lien-he.aspx">Lost your password?</a>
-                <img id="logging-image" src="/images/uploading.gif" />
+                @*<img id="logging-image" src="/images/uploading.gif" />*@
             </div>
         </div>
     }
 </div>
 @*<div style="display:none" id="loading" ></div>*@
 
-<script>    
-    $(function () {
-        
-        //$('#login-submit').click(function () {            
-        //    $('#logging-image').show();
-        //    var contanner = $('.login').find('.validation-summary-errors');
-        //    var fileValidate = $('.login').find('.field-validation-valid');
-        //    if (contanner.length > 0 || fileValidate.length > 0) {
-        //        $('#logging-image').hide();
-        //    }
-
-        //});
-    })
-    
-    
-  //$(window).unload(function() {
-  //    $('#logging-image').hide();
-  //});    
 
     
     
-    
-      
-    
-</script>
+
 

@@ -134,7 +134,8 @@ SELECT
 	[TypeID],
 	[SendYN],
 	[ReceiveRelatedStockEmail],
-	[ReceiveRelatedStockSms]
+	[ReceiveRelatedStockSms],
+	[VType]
 FROM
 	[dbo].[Customer]
 WHERE

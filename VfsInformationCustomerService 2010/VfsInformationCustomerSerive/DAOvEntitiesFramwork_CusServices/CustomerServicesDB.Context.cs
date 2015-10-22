@@ -29,6 +29,7 @@ namespace DAOvEntitiesFramwork_CusServices
         public virtual DbSet<ContentTemplate> ContentTemplates { get; set; }
         public virtual DbSet<ContentTemplateAttachement> ContentTemplateAttachements { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
+        public virtual DbSet<CustomerLog> CustomerLogs { get; set; }
         public virtual DbSet<CustomerType> CustomerTypes { get; set; }
         public virtual DbSet<ExtensionMessage> ExtensionMessages { get; set; }
         public virtual DbSet<ExtensionMessageLog> ExtensionMessageLogs { get; set; }
@@ -41,6 +42,8 @@ namespace DAOvEntitiesFramwork_CusServices
         public virtual DbSet<MessageContentAttachement> MessageContentAttachements { get; set; }
         public virtual DbSet<MessageContentSent> MessageContentSents { get; set; }
         public virtual DbSet<MessageContentSentAttachement> MessageContentSentAttachements { get; set; }
+        public virtual DbSet<Report> Reports { get; set; }
+        public virtual DbSet<ReportType> ReportTypes { get; set; }
         public virtual DbSet<ServiceType> ServiceTypes { get; set; }
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<UserLogin> UserLogins { get; set; }

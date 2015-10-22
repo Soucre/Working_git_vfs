@@ -119,6 +119,7 @@ namespace VfsCustomerService.Data
                 if (!reader.IsDBNull(reader.GetOrdinal("SendYN"))) item.SendYN = (string)reader["SendYN"];
                 if (!reader.IsDBNull(reader.GetOrdinal("ReceiveRelatedStockEmail"))) item.ReceiveRelatedStockEmail = (string)reader["ReceiveRelatedStockEmail"];
                 if (!reader.IsDBNull(reader.GetOrdinal("ReceiveRelatedStockSms"))) item.ReceiveRelatedStockSms = (string)reader["ReceiveRelatedStockSms"];
+                if (!reader.IsDBNull(reader.GetOrdinal("VType"))) item.VType = (bool)reader["VType"];
             }
             catch (Exception ex)
             {
@@ -369,6 +370,7 @@ namespace VfsCustomerService.Data
                 database.AddInParameter(dbCommand, "@SendYN", DbType.String, customer.SendYN);
                 database.AddInParameter(dbCommand, "@ReceiveRelatedStockEmail", DbType.String, customer.ReceiveRelatedStockEmail);
                 database.AddInParameter(dbCommand, "@ReceiveRelatedStockSms", DbType.String, customer.ReceiveRelatedStockSms);
+                database.AddInParameter(dbCommand, "@VType", DbType.Boolean, customer.VType);
                 
                 database.ExecuteNonQuery(dbCommand);
             }

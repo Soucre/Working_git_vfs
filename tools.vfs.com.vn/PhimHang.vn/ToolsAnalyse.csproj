@@ -403,7 +403,13 @@
     <Content Include="css\research.css" />
     <Content Include="css\stylesheet.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="images\arr-light-down-sm.png" />
+    <Content Include="images\arr-light-up-sm.png" />
+    <Content Include="images\footer.gif" />
+    <Content Include="images\Icons_PDF.gif" />
     <Content Include="images\uploading.gif" />
+    <Content Include="Js\ResearchJs.js" />
+    <Content Include="Scripts\ExtentionJS.js" />
     <Content Include="Views\FrontAccount\Login.cshtml" />
     <Content Include="Views\Home\Index - template_old.cshtml" />
     <Content Include="Views\Research\Index.cshtml" />

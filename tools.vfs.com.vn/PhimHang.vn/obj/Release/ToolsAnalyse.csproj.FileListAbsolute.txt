@@ -89,3 +89,5 @@ F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\bin\Microsoft.Owin.Security.Twit
 F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Release\PhimHang.dll
 F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Release\PhimHang.pdb
+F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Release\PhimHang.Resources.VN-Resources.resources
+F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Release\ToolsAnalyse.csproj.GenerateResource.Cache
