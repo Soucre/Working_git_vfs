@@ -24,36 +24,36 @@ public class TemplateServices : System.Web.Services.WebService {
     }
     [Obsolete]
     [WebMethod]
-    public JsonResponse DeleteTemplate(string id)
+    public void DeleteTemplate(string id)
     {
-        if (Utils.StringIsNullOrWhitespace(id))
-        {
-            return new JsonResponse() { Message = Resources.UIResource.invalidPostId };
-        }
-        var contentTemplate = ContentTemplateService.GetContentTemplate(int.Parse(id));
+        //if (Utils.StringIsNullOrWhitespace(id))
+        //{
+        //    return new JsonResponse() { Message = Resources.UIResource.invalidPostId };
+        //}
+        //var contentTemplate = ContentTemplateService.GetContentTemplate(int.Parse(id));
 
-        if (contentTemplate == null)
-        {
-            return new JsonResponse() { Message = Resources.UIResource.invalidPostId };
-        }
+        //if (contentTemplate == null)
+        //{
+        //    return new JsonResponse() { Message = Resources.UIResource.invalidPostId };
+        //}
 
-        if (Common.ExistsContentTemplateForMessageContent(int.Parse(id)) == true || Common.ExistsContentTemplateForMessageContentSent(int.Parse(id)) == true)
-        {
-            return new JsonResponse() { Message = Resources.UIResource.CouldNotDeleteTemplate };
-        }
-        else
-        {
-            try
-            {
-                ContentTemplateService.DeleteContentTemplateAndAttachement(int.Parse(id));
-                return new JsonResponse() { Success = true, Message = Resources.UIResource.Delete };
-            }
-            catch (Exception ex)
-            {
-                return new JsonResponse() { Message = string.Format(Resources.UIResource.CouldNotDeleteTemplate, ex.Message) };
+        //if (Common.ExistsContentTemplateForMessageContent(int.Parse(id)) == true || Common.ExistsContentTemplateForMessageContentSent(int.Parse(id)) == true)
+        //{
+        //    return new JsonResponse() { Message = Resources.UIResource.CouldNotDeleteTemplate };
+        //}
+        //else
+        //{
+        //    try
+        //    {
+        //        ContentTemplateService.DeleteContentTemplateAndAttachement(int.Parse(id));
+        //        return new JsonResponse() { Success = true, Message = Resources.UIResource.Delete };
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return new JsonResponse() { Message = string.Format(Resources.UIResource.CouldNotDeleteTemplate, ex.Message) };
                 
-            }
-        }
+        //    }
+        //}
     }
     
 }

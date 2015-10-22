@@ -9,7 +9,7 @@
       <link type="text/css" rel="Stylesheet" href="_assets/css/general.css" />
       <link type="text/css" rel="Stylesheet" href="_assets/css/accordion.css" />
       <link type="text/css" rel="Stylesheet" href="_assets/css/MessageContent.css" />
-        <link href="_assets/css/MenuStyle.css" rel="stylesheet"  type="text/css" /> <%--Style of menu--%>
+      <link href="_assets/css/MenuStyle.css" rel="stylesheet"  type="text/css" /> <%--Style of menu--%>
       <script type="text/javascript" src="Js/NewsDetail.js"></script>
       <script type="text/javascript" src="Js/NewsList.js"></script>
       <script type="text/javascript" src="Js/ContentDetail.js"></script>
@@ -54,8 +54,9 @@
                 { title: 'Test template 2', content: 'Test 2' }
             ]
         });
-</script>
-
+    </script>
+    <asp:contentplaceholder id="ContentPlaceHolderTitle" runat="server">
+       </asp:contentplaceholder>
 </head>
 <body>
     <form id="form1" runat="server">

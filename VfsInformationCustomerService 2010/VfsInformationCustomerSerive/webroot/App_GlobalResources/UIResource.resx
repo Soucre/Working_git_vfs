@@ -816,4 +816,13 @@
   <data name="CutomerVIPType" xml:space="preserve">
     <value>Khách hàng VIP:</value>
   </data>
+  <data name="ReportTitle" xml:space="preserve">
+    <value>Tiêu đề báo cáo:</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Loại báo cáo:</value>
+  </data>
+  <data name="SelectTimeView" xml:space="preserve">
+    <value>Khách hàng thường xem sau:</value>
+  </data>
 </root>
