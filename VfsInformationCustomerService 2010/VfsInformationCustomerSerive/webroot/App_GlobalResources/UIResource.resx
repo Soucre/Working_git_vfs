@@ -825,4 +825,7 @@
   <data name="SelectTimeView" xml:space="preserve">
     <value>Khách hàng thường xem sau:</value>
   </data>
+  <data name="StockCode" xml:space="preserve">
+    <value>Mã chứng khoán:</value>
+  </data>
 </root>

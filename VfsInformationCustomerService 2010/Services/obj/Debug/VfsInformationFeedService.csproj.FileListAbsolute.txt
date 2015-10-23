@@ -85,3 +85,8 @@ F:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationF
 F:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.csproj.GenerateResource.Cache
 F:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.exe
 F:\Working\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.csprojResolveAssemblyReference.cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.InformationFeedService.resources
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.ServiceInstaller.resources
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.csproj.GenerateResource.Cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Services\obj\Debug\VfsInformationFeedService.exe

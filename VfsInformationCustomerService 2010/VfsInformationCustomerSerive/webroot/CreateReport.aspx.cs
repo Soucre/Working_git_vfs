@@ -21,4 +21,13 @@ public partial class CreateReport : System.Web.UI.Page
         //fdas.SelectedValue
         rbtLstTimeView.SelectedValue = "8";
     }
+    /// <summary>
+    /// Tạo báo cáo
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    protected void CreateReport_Click(object sender, EventArgs e)
+    {
+
+    }
 }

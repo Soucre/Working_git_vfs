@@ -5,14 +5,16 @@
 <h1>Tạo báo cáo</h1>     
 
 <div>
-    <input type="button" id="ButtonCreateReport" runat="server" value="Tạo báo cáo"/>
+    <input type="button" id="ButtonCreateReport" runat="server" value="Tạo báo cáo" onserverclick="CreateReport_Click" />
     <span class="warning_Messenge" runat="server" id="spSynclickWarning"></span>
     <table >     
          
         <tr>
-            <td style="width:210px;"><%=Resources.UIResource.ReportTitle%></td>
+            <td style="width:240px;"><%=Resources.UIResource.ReportTitle%></td>
             <td>
                 <input name="TitleReport" maxlength="512" style="width:400px" />
+                <asp:RequiredFieldValidator ID="receiverTextBoxRequiredFieldValidator" runat="server" ControlToValidate="TitleReport"
+                        ErrorMessage="receiverInfoRequired" EnableClientScript="false"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -41,7 +43,23 @@
         <tr>
             <td><%=Resources.UIResource.ReportType%></td>
             <td>
-                <asp:DropDownList runat="server" ID="reportTypeDropDownList" ></asp:DropDownList>
+                <asp:DropDownList runat="server" ID="reportTypeDropDownList" >
+                    <asp:ListItem Text="Chọn" Value="0"></asp:ListItem>
+                    <asp:ListItem Text="Cảm nhận thị trường" Value="1"></asp:ListItem>
+                    <asp:ListItem Text="Phân tích cổ phiếu" Value="2"></asp:ListItem>
+                    <asp:ListItem Text="Phân tích kỹ thuật" Value="3"></asp:ListItem>
+                    <asp:ListItem Text="Báo cáo chiến lược" Value="4"></asp:ListItem>
+                    <asp:ListItem Text="Phím hàng" Value="5"></asp:ListItem>
+                    <asp:ListItem Text="Snapshot" Value="6"></asp:ListItem>
+                </asp:DropDownList>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <%=Resources.UIResource.StockCode%>
+            </td>
+            <td>
+                <input name="StockCodeInput" maxlength="10" style="width:80px" />
             </td>
         </tr>
     </table>

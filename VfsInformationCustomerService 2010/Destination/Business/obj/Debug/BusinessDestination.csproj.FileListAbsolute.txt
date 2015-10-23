@@ -19,3 +19,10 @@ F:\Working\VfsInformationCustomerService 2010\Destination\Business\obj\Debug\Vfs
 F:\Working\VfsInformationCustomerService 2010\Destination\Business\obj\Debug\BusinessDestination.csproj.GenerateResource.Cache
 F:\Working\VfsInformationCustomerService 2010\Destination\Business\obj\Debug\Vfs.WebCrawler.Destination.Business.dll
 F:\Working\VfsInformationCustomerService 2010\Destination\Business\obj\Debug\Vfs.WebCrawler.Destination.Business.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\Vfs.WebCrawler.Destination.Business.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\Vfs.WebCrawler.Destination.Business.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Destination\Business\obj\Debug\BusinessDestination.csprojResolveAssemblyReference.cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Destination\Business\obj\Debug\Vfs.WebCrawler.Destination.Business.SR.resources
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Destination\Business\obj\Debug\BusinessDestination.csproj.GenerateResource.Cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Destination\Business\obj\Debug\Vfs.WebCrawler.Destination.Business.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Destination\Business\obj\Debug\Vfs.WebCrawler.Destination.Business.pdb
