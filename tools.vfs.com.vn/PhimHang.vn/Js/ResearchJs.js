@@ -11,37 +11,37 @@ $(document).ready(function () {
         }
     });
 
-
     // click on readmore xem thêm
     $('a[id=readMore]').click(function () {
-        $(this).attr('disabled', true);
+        $(this).hide();
         var rowCurrent = $('.ctn-view-list').find('.item-research').length; // so dong hien tai de lay them 5
         var ticker = $('#hiddenTicker').val();
         var dropboxFilter = [];
         $("input[name='CategoryIDs']:checked").each(function () { // kiem tra xem bao nhieu check box filter
             dropboxFilter.push(parseInt($(this).val()));
         });
-
         LoadMore(rowCurrent, ticker, dropboxFilter);
         return false;
     });
     function LoadMore(skipPostion, ticker, dropboxFilter) {
-
         $.ajax({
             url: '/Research/LoadMoreReport',
             type: "GET",
             traditional: true,
-            async: false,
-            data: { "skipPostion": skipPostion, "ticker": ticker, "CategoryIDs": dropboxFilter },
-            beforeSend: function (xhr) {
-                $("#loading-image").show();
-            },
+            //async: false,
+            data: { "skipPostion": skipPostion, "ticker": ticker, "CategoryIDs": dropboxFilter },            
             success: function (data) {
                 //$('.ajaxLoadingImage').html('');                    
                 $(data).appendTo(".ctn-view-list").hide().fadeIn(500);
                 //$(".ctn-view-list").load(data);
-                $('#readMore').removeAttr('disabled', false);
+                //$('#readMore').removeAttr('disabled', false);                
+            },
+            beforeSend: function (xhr) {
+                $("#loading-image").show();
+            },
+            complete: function () {
                 $("#loading-image").hide();
+                $('#readMore').show();
             }
         });
     }

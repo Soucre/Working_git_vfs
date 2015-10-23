@@ -86,7 +86,7 @@ namespace PhimHang.Controllers
 
         public async Task<ActionResult> LoadMoreReport(int skipPostion, string ticker, int[] CategoryIDs)
         {
-            
+            //System.Threading.Thread.Sleep(6000);
             string tickerFilter = string.IsNullOrEmpty(ticker) ? "ALL" : ticker;
             DateTime dateVIPFilter = DateTime.Now; 
             if (Request.Cookies["AccountType"] != null)
@@ -103,6 +103,7 @@ namespace PhimHang.Controllers
                                         && (r.DateViewCustomer <= dateVIPFilter)
                                         orderby r.CreateDate descending
                                         select r).Skip(skipPostion).Take(5).ToListAsync();
+
                 }
                 else
                 {
@@ -112,8 +113,9 @@ namespace PhimHang.Controllers
                                         && (CategoryIDs.Contains(r.ReportType.Id))
                                         orderby r.CreateDate descending
                                         select r).Skip(skipPostion).Take(5).ToListAsync();
-                }
 
+
+                }
               
                 return PartialView("_PartialListReport", listReport);
             }
