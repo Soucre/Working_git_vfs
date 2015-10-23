@@ -19,3 +19,10 @@ F:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\D
 F:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\Business.csproj.GenerateResource.Cache
 F:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.dll
 F:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\CoreSecurityService.Business.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\CoreSecurityService.Business.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.SR.resources
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\Business.csproj.GenerateResource.Cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CoreSecurityService\Business\obj\Debug\CoreSecurityService.Business.pdb

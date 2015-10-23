@@ -11,3 +11,8 @@ F:\Working\VfsInformationCustomerService 2010\Components\Vfs.WebCrawler.Entities
 F:\Working\VfsInformationCustomerService 2010\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
 F:\Working\VfsInformationCustomerService 2010\Entities\obj\Debug\Vfs.WebCrawler.Entities.dll
 F:\Working\VfsInformationCustomerService 2010\Entities\obj\Debug\Vfs.WebCrawler.Entities.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\Vfs.WebCrawler.Entities.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\Vfs.WebCrawler.Entities.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Entities\obj\Debug\Vfs.WebCrawler.Entities.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Entities\obj\Debug\Vfs.WebCrawler.Entities.pdb

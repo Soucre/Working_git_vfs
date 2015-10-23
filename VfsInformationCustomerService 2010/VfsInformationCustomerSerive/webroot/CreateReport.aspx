@@ -12,17 +12,18 @@
         <tr>
             <td style="width:240px;"><%=Resources.UIResource.ReportTitle%></td>
             <td>
-                <input name="TitleReport" maxlength="512" style="width:400px" />
-                <asp:RequiredFieldValidator ID="receiverTextBoxRequiredFieldValidator" runat="server" ControlToValidate="TitleReport"
-                        ErrorMessage="receiverInfoRequired" EnableClientScript="false"></asp:RequiredFieldValidator>
+                <%--<input Id="TitleReport" name="TitleReport" maxlength="512" style="width:400px" />--%>                
+                <asp:TextBox runat="server" ID="TitleReport"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="TitleReportRequiredFieldValidator" runat="server" ControlToValidate="TitleReport"
+                        ErrorMessage="required" EnableClientScript="false"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
             <td><%= Resources.UIResource.SelectFile%></td>
             <td>
-                <asp:FileUpload id="SourceFile" runat="server" />
+                <asp:FileUpload id="SourceFile" runat="server" accept="application/pdf" />
                 <asp:RequiredFieldValidator ID="uploadFileRequiredFieldValidator" runat="server" ControlToValidate="SourceFile"
-                ErrorMessage="" EnableClientScript="false"></asp:RequiredFieldValidator>     
+                ErrorMessage="Select file" EnableClientScript="false"></asp:RequiredFieldValidator>     
     
             </td>
         </tr>
@@ -59,7 +60,10 @@
                 <%=Resources.UIResource.StockCode%>
             </td>
             <td>
-                <input name="StockCodeInput" maxlength="10" style="width:80px" />
+                <%--<input name="StockCodeInput" maxlength="10" style="width:80px" />--%>
+                <asp:TextBox runat="server" ID="StockCodeInput"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="StockCodeInput"
+                        ErrorMessage="required" EnableClientScript="false"></asp:RequiredFieldValidator>
             </td>
         </tr>
     </table>

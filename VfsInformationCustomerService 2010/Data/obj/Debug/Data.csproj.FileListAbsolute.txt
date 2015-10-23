@@ -19,3 +19,10 @@ F:\Working\VfsInformationCustomerService 2010\Data\obj\Debug\Vfs.WebCrawler.Data
 F:\Working\VfsInformationCustomerService 2010\Data\obj\Debug\Data.csproj.GenerateResource.Cache
 F:\Working\VfsInformationCustomerService 2010\Data\obj\Debug\Vfs.WebCrawler.Data.dll
 F:\Working\VfsInformationCustomerService 2010\Data\obj\Debug\Vfs.WebCrawler.Data.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\Vfs.WebCrawler.Data.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\Vfs.WebCrawler.Data.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Data\obj\Debug\Vfs.WebCrawler.Data.SR.resources
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Data\obj\Debug\Vfs.WebCrawler.Data.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Data\obj\Debug\Vfs.WebCrawler.Data.pdb

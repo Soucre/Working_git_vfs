@@ -10,3 +10,7 @@ F:\Working\VfsInformationCustomerService 2010\Components\CoreSecurityService.Ent
 F:\Working\VfsInformationCustomerService 2010\Components\CoreSecurityService.Entities.pdb
 F:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Entities\obj\Debug\CoreSecurityService.Entities.dll
 F:\Working\VfsInformationCustomerService 2010\CoreSecurityService\Entities\obj\Debug\CoreSecurityService.Entities.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\CoreSecurityService.Entities.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\Components\CoreSecurityService.Entities.pdb
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CoreSecurityService\Entities\obj\Debug\CoreSecurityService.Entities.dll
+F:\Working_git_vfs\VfsInformationCustomerService 2010\CoreSecurityService\Entities\obj\Debug\CoreSecurityService.Entities.pdb

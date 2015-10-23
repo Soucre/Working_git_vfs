@@ -118,6 +118,7 @@
     <Compile Include="Report.cs">
       <DependentUpon>CustomerServicesDB.tt</DependentUpon>
     </Compile>
+    <Compile Include="ReportDAO.cs" />
     <Compile Include="ReportType.cs">
       <DependentUpon>CustomerServicesDB.tt</DependentUpon>
     </Compile>
