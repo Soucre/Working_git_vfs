@@ -1,7 +1,8 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Simulation.aspx.cs" Inherits="CustomerService_Simulation" Title="Mo phong" %>
 <%@ Register Assembly="Jiffycms.Net.Toolkit" Namespace="Jiffycms.Net.Toolkit" TagPrefix="cc1" %>
 
-<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" Runat="Server">    
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" Runat="Server">  
+      <script src="Js/TinymceLoadInit.js"></script>
  <div>
     <asp:Literal runat="server" ID="messageLiteral" Visible="false"></asp:Literal>
  </div>

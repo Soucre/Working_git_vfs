@@ -14,6 +14,7 @@ namespace DAOvEntitiesFramwork_CusServices
     
     public partial class UserLogin
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public UserLogin()
         {
             this.GroupCustomers = new HashSet<GroupCustomer>();
@@ -23,6 +24,7 @@ namespace DAOvEntitiesFramwork_CusServices
         public string UserName { get; set; }
         public System.DateTime CreatedDate { get; set; }
     
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<GroupCustomer> GroupCustomers { get; set; }
     }
 }

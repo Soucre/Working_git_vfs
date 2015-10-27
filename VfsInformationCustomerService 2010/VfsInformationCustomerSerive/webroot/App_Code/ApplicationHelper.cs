@@ -162,6 +162,13 @@ namespace Vfs.WebCrawler.Utility
                 return ConfigurationManager.AppSettings["ContentemplateIdForPorfolioSMS"].ToString();
             }
         }
+        public static int ReportContentTemplate
+        {
+            get
+            {
+                return Convert.ToInt32(ConfigurationManager.AppSettings["ReportContentTemplate"].ToString());
+            }
+        }
         public static string DailyContentTemplateId
         {
             get
@@ -199,6 +206,14 @@ namespace Vfs.WebCrawler.Utility
             get
             {
                 return ContentParameterService.GetContentParameter(3).ContentParameterValue;
+            }
+        }
+
+        public static string UploadFolderReport
+        {
+            get
+            {
+                return ConfigurationManager.AppSettings["UploadFolderReport"].ToString();
             }
         }
 
@@ -359,6 +374,23 @@ namespace Vfs.WebCrawler.Utility
         public static string returnDate(object dafe)
         {
             return String.Format("{0:MM/dd/yyyy}", dafe);
+        }
+        public static string UploadPDF(FileUpload fileUpload, string filePath, string fileType, out int filesize)
+        {
+
+            string fileNameGuide = Guid.NewGuid().ToString();
+            filesize = fileUpload.PostedFile.ContentLength;
+            try
+            {
+                fileUpload.PostedFile.SaveAs(filePath + "\\" + fileNameGuide + fileType);                
+                return fileNameGuide + fileType; // return fileName
+            }
+            catch (Exception)
+            {
+                return "EX"; // return exception
+                // ghi log ra
+            }
+            
         }
     }
 }

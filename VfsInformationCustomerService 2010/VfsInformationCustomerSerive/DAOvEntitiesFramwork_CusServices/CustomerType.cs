@@ -14,6 +14,7 @@ namespace DAOvEntitiesFramwork_CusServices
     
     public partial class CustomerType
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public CustomerType()
         {
             this.Customers = new HashSet<Customer>();
@@ -22,6 +23,7 @@ namespace DAOvEntitiesFramwork_CusServices
         public int TypeID { get; set; }
         public string Description { get; set; }
     
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Customer> Customers { get; set; }
     }
 }

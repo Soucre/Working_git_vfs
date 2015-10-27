@@ -14,6 +14,7 @@ namespace DAOvEntitiesFramwork_CusServices
     
     public partial class ContentTemplate
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public ContentTemplate()
         {
             this.ContentTemplateAttachements = new HashSet<ContentTemplateAttachement>();
@@ -33,7 +34,9 @@ namespace DAOvEntitiesFramwork_CusServices
         public Nullable<System.DateTime> ModifiedDate { get; set; }
     
         public virtual ServiceType ServiceType { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ContentTemplateAttachement> ContentTemplateAttachements { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<MessageContentSent> MessageContentSents { get; set; }
     }
 }

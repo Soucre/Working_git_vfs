@@ -100,9 +100,9 @@ namespace VfsInformationFeedService
             Initialize();
         }
 
-        public int SendAnSMS(MessageContent emailMessage)
+        public long SendAnSMS(MessageContent emailMessage)
         {
-            int result = 0;
+            long result = 0;
             try
             {
                 if(emailMessage.BodyMessage.Length <= 160)
@@ -161,7 +161,7 @@ namespace VfsInformationFeedService
         {
             MessageContentCollection emailMessagesCollection = null;
             Int32 totalRow = 0;
-            Int32 result;
+            Int64 result;
             try
             {              
                 emailMessagesCollection = MessageContentService.GetMessageContentList((Int32)EmailCommandStatus.NotStart, (int)MessageServiceType.Sms, MessageContentColumns.CreatedDate, "DESC", 1, commandBlockSize, out totalRow);

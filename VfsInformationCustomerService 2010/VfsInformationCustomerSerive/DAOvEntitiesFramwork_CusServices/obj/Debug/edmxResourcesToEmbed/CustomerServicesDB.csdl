@@ -1,81 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="VfsCustomerServiceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityContainer Name="VfsCustomerServiceEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="ContentParameters" EntityType="VfsCustomerServiceModel.ContentParameter" />
-    <EntitySet Name="ContentTemplates" EntityType="VfsCustomerServiceModel.ContentTemplate" />
-    <EntitySet Name="ContentTemplateAttachements" EntityType="VfsCustomerServiceModel.ContentTemplateAttachement" />
-    <EntitySet Name="Customers" EntityType="VfsCustomerServiceModel.Customer" />
-    <EntitySet Name="CustomerLogs" EntityType="VfsCustomerServiceModel.CustomerLog" />
-    <EntitySet Name="CustomerTypes" EntityType="VfsCustomerServiceModel.CustomerType" />
-    <EntitySet Name="ExtensionMessages" EntityType="VfsCustomerServiceModel.ExtensionMessage" />
-    <EntitySet Name="ExtensionMessageLogs" EntityType="VfsCustomerServiceModel.ExtensionMessageLog" />
-    <EntitySet Name="GroupCustomers" EntityType="VfsCustomerServiceModel.GroupCustomer" />
-    <EntitySet Name="GroupDetails" EntityType="VfsCustomerServiceModel.GroupDetail" />
-    <EntitySet Name="IncomingMessageContents" EntityType="VfsCustomerServiceModel.IncomingMessageContent" />
-    <EntitySet Name="IncomingMessageContentSents" EntityType="VfsCustomerServiceModel.IncomingMessageContentSent" />
-    <EntitySet Name="MessageCommands" EntityType="VfsCustomerServiceModel.MessageCommand" />
-    <EntitySet Name="MessageContents" EntityType="VfsCustomerServiceModel.MessageContent" />
-    <EntitySet Name="MessageContentAttachements" EntityType="VfsCustomerServiceModel.MessageContentAttachement" />
-    <EntitySet Name="MessageContentSents" EntityType="VfsCustomerServiceModel.MessageContentSent" />
-    <EntitySet Name="MessageContentSentAttachements" EntityType="VfsCustomerServiceModel.MessageContentSentAttachement" />
-    <EntitySet Name="Reports" EntityType="VfsCustomerServiceModel.Report" />
-    <EntitySet Name="ReportTypes" EntityType="VfsCustomerServiceModel.ReportType" />
-    <EntitySet Name="ServiceTypes" EntityType="VfsCustomerServiceModel.ServiceType" />
-    <EntitySet Name="sysdiagrams" EntityType="VfsCustomerServiceModel.sysdiagram" />
-    <EntitySet Name="UserLogins" EntityType="VfsCustomerServiceModel.UserLogin" />
-    <AssociationSet Name="ContentTemplate_ServiceTypeID_Fk" Association="VfsCustomerServiceModel.ContentTemplate_ServiceTypeID_Fk">
-      <End Role="ServiceType" EntitySet="ServiceTypes" />
-      <End Role="ContentTemplate" EntitySet="ContentTemplates" />
-    </AssociationSet>
-    <AssociationSet Name="ContentTemplateAttachement_ContentTemplateID_Fk" Association="VfsCustomerServiceModel.ContentTemplateAttachement_ContentTemplateID_Fk">
-      <End Role="ContentTemplate" EntitySet="ContentTemplates" />
-      <End Role="ContentTemplateAttachement" EntitySet="ContentTemplateAttachements" />
-    </AssociationSet>
-    <AssociationSet Name="MessageContentSent_ContentTemplateID_Fk" Association="VfsCustomerServiceModel.MessageContentSent_ContentTemplateID_Fk">
-      <End Role="ContentTemplate" EntitySet="ContentTemplates" />
-      <End Role="MessageContentSent" EntitySet="MessageContentSents" />
-    </AssociationSet>
-    <AssociationSet Name="Customer_TypeID_Fk" Association="VfsCustomerServiceModel.Customer_TypeID_Fk">
-      <End Role="CustomerType" EntitySet="CustomerTypes" />
-      <End Role="Customer" EntitySet="Customers" />
-    </AssociationSet>
-    <AssociationSet Name="FK_Customer_GroupDetail" Association="VfsCustomerServiceModel.FK_Customer_GroupDetail">
-      <End Role="Customer" EntitySet="Customers" />
-      <End Role="GroupDetail" EntitySet="GroupDetails" />
-    </AssociationSet>
-    <AssociationSet Name="FK_GroupCustomer_GroupDetail" Association="VfsCustomerServiceModel.FK_GroupCustomer_GroupDetail">
-      <End Role="GroupCustomer" EntitySet="GroupCustomers" />
-      <End Role="GroupDetail" EntitySet="GroupDetails" />
-    </AssociationSet>
-    <AssociationSet Name="FK_GroupCustomer_UserLogin" Association="VfsCustomerServiceModel.FK_GroupCustomer_UserLogin">
-      <End Role="UserLogin" EntitySet="UserLogins" />
-      <End Role="GroupCustomer" EntitySet="GroupCustomers" />
-    </AssociationSet>
-    <AssociationSet Name="IncomingMessageContent_ServiceTypeID_Fk" Association="VfsCustomerServiceModel.IncomingMessageContent_ServiceTypeID_Fk">
-      <End Role="ServiceType" EntitySet="ServiceTypes" />
-      <End Role="IncomingMessageContent" EntitySet="IncomingMessageContents" />
-    </AssociationSet>
-    <AssociationSet Name="IncomingMessageContentSent_ServiceTypeID_Fk" Association="VfsCustomerServiceModel.IncomingMessageContentSent_ServiceTypeID_Fk">
-      <End Role="ServiceType" EntitySet="ServiceTypes" />
-      <End Role="IncomingMessageContentSent" EntitySet="IncomingMessageContentSents" />
-    </AssociationSet>
-    <AssociationSet Name="MessageCommand_MessageContentID_Fk" Association="VfsCustomerServiceModel.MessageCommand_MessageContentID_Fk">
-      <End Role="MessageContent" EntitySet="MessageContents" />
-      <End Role="MessageCommand" EntitySet="MessageCommands" />
-    </AssociationSet>
-    <AssociationSet Name="MessageContentAttachement_MessageContentID_Fk" Association="VfsCustomerServiceModel.MessageContentAttachement_MessageContentID_Fk">
-      <End Role="MessageContent" EntitySet="MessageContents" />
-      <End Role="MessageContentAttachement" EntitySet="MessageContentAttachements" />
-    </AssociationSet>
-    <AssociationSet Name="MessageContentSent_ServiceTypeID_Fk" Association="VfsCustomerServiceModel.MessageContentSent_ServiceTypeID_Fk">
-      <End Role="ServiceType" EntitySet="ServiceTypes" />
-      <End Role="MessageContentSent" EntitySet="MessageContentSents" />
-    </AssociationSet>
-    <AssociationSet Name="FK_ReportType_Report" Association="VfsCustomerServiceModel.FK_ReportType_Report">
-      <End Role="ReportType" EntitySet="ReportTypes" />
-      <End Role="Report" EntitySet="Reports" />
-    </AssociationSet>
-  </EntityContainer>
+<Schema Namespace="VfsCustomerServiceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityType Name="ContentParameter">
     <Key>
       <PropertyRef Name="ContentParameterID" />
@@ -94,18 +18,18 @@
     </Key>
     <Property Name="ContentTemplateID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="ServiceTypeID" Type="Int32" />
-    <Property Name="Description" Type="String" Nullable="false" MaxLength="400" FixedLength="false" Unicode="true" />
-    <Property Name="Sender" Type="String" Nullable="false" MaxLength="127" FixedLength="false" Unicode="true" />
-    <Property Name="Receiver" Type="String" Nullable="false" MaxLength="127" FixedLength="false" Unicode="true" />
-    <Property Name="Subject" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
-    <Property Name="BodyContentType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="BodyEncoding" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
-    <Property Name="BodyMessage" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="400" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Sender" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Receiver" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Subject" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyContentType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyEncoding" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="CreatedDate" Type="DateTime" Precision="3" />
     <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
-    <NavigationProperty Name="ServiceType" Relationship="VfsCustomerServiceModel.ContentTemplate_ServiceTypeID_Fk" FromRole="ContentTemplate" ToRole="ServiceType" />
-    <NavigationProperty Name="ContentTemplateAttachements" Relationship="VfsCustomerServiceModel.ContentTemplateAttachement_ContentTemplateID_Fk" FromRole="ContentTemplate" ToRole="ContentTemplateAttachement" />
-    <NavigationProperty Name="MessageContentSents" Relationship="VfsCustomerServiceModel.MessageContentSent_ContentTemplateID_Fk" FromRole="ContentTemplate" ToRole="MessageContentSent" />
+    <NavigationProperty Name="ServiceType" Relationship="Self.ContentTemplate_ServiceTypeID_Fk" FromRole="ContentTemplate" ToRole="ServiceType" />
+    <NavigationProperty Name="ContentTemplateAttachements" Relationship="Self.ContentTemplateAttachement_ContentTemplateID_Fk" FromRole="ContentTemplate" ToRole="ContentTemplateAttachement" />
+    <NavigationProperty Name="MessageContentSents" Relationship="Self.MessageContentSent_ContentTemplateID_Fk" FromRole="ContentTemplate" ToRole="MessageContentSent" />
   </EntityType>
   <EntityType Name="ContentTemplateAttachement">
     <Key>
@@ -117,15 +41,15 @@
     <Property Name="ContentTemplateID" Type="Int32" />
     <Property Name="CreatedDate" Type="DateTime" Precision="3" />
     <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
-    <NavigationProperty Name="ContentTemplate" Relationship="VfsCustomerServiceModel.ContentTemplateAttachement_ContentTemplateID_Fk" FromRole="ContentTemplateAttachement" ToRole="ContentTemplate" />
+    <NavigationProperty Name="ContentTemplate" Relationship="Self.ContentTemplateAttachement_ContentTemplateID_Fk" FromRole="ContentTemplateAttachement" ToRole="ContentTemplate" />
   </EntityType>
   <EntityType Name="Customer">
     <Key>
       <PropertyRef Name="CustomerId" />
     </Key>
-    <Property Name="BranchCode" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="BranchCode" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="ContractNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-    <Property Name="CustomerId" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CustomerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="BrokerId" Type="Int32" Nullable="false" />
     <Property Name="CustomerName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="CustomerNameViet" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
@@ -227,8 +151,8 @@
     <Property Name="ReceiveRelatedStockEmail" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
     <Property Name="ReceiveRelatedStockSms" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
     <Property Name="VType" Type="Boolean" />
-    <NavigationProperty Name="CustomerType1" Relationship="VfsCustomerServiceModel.Customer_TypeID_Fk" FromRole="Customer" ToRole="CustomerType" />
-    <NavigationProperty Name="GroupDetails" Relationship="VfsCustomerServiceModel.FK_Customer_GroupDetail" FromRole="Customer" ToRole="GroupDetail" />
+    <NavigationProperty Name="CustomerType1" Relationship="Self.Customer_TypeID_Fk" FromRole="Customer" ToRole="CustomerType" />
+    <NavigationProperty Name="GroupDetails" Relationship="Self.FK_Customer_GroupDetail" FromRole="Customer" ToRole="GroupDetail" />
   </EntityType>
   <EntityType Name="CustomerLog">
     <Key>
@@ -246,15 +170,15 @@
     </Key>
     <Property Name="TypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <NavigationProperty Name="Customers" Relationship="VfsCustomerServiceModel.Customer_TypeID_Fk" FromRole="CustomerType" ToRole="Customer" />
+    <NavigationProperty Name="Customers" Relationship="Self.Customer_TypeID_Fk" FromRole="CustomerType" ToRole="Customer" />
   </EntityType>
   <EntityType Name="ExtensionMessage">
     <Key>
       <PropertyRef Name="ExtensionMessageID" />
     </Key>
     <Property Name="ExtensionMessageID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Title" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
-    <Property Name="Content" Type="String" Nullable="false" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Content" Type="String" MaxLength="1024" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
   </EntityType>
   <EntityType Name="ExtensionMessageLog">
@@ -263,7 +187,7 @@
     </Key>
     <Property Name="ExtensionMessageLogID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="ExtensionMessageID" Type="Int64" Nullable="false" />
-    <Property Name="CustomerId" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CustomerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
   </EntityType>
   <EntityType Name="GroupCustomer">
     <Key>
@@ -273,8 +197,8 @@
     <Property Name="GroupName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
     <Property Name="UserLoginId" Type="Int32" Nullable="false" />
     <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
-    <NavigationProperty Name="GroupDetails" Relationship="VfsCustomerServiceModel.FK_GroupCustomer_GroupDetail" FromRole="GroupCustomer" ToRole="GroupDetail" />
-    <NavigationProperty Name="UserLogin" Relationship="VfsCustomerServiceModel.FK_GroupCustomer_UserLogin" FromRole="GroupCustomer" ToRole="UserLogin" />
+    <NavigationProperty Name="GroupDetails" Relationship="Self.FK_GroupCustomer_GroupDetail" FromRole="GroupCustomer" ToRole="GroupDetail" />
+    <NavigationProperty Name="UserLogin" Relationship="Self.FK_GroupCustomer_UserLogin" FromRole="GroupCustomer" ToRole="UserLogin" />
   </EntityType>
   <EntityType Name="GroupDetail">
     <Key>
@@ -283,8 +207,8 @@
     <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="GroupCustomerId" Type="Int32" Nullable="false" />
     <Property Name="CustomerId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="Customer" Relationship="VfsCustomerServiceModel.FK_Customer_GroupDetail" FromRole="GroupDetail" ToRole="Customer" />
-    <NavigationProperty Name="GroupCustomer" Relationship="VfsCustomerServiceModel.FK_GroupCustomer_GroupDetail" FromRole="GroupDetail" ToRole="GroupCustomer" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Customer_GroupDetail" FromRole="GroupDetail" ToRole="Customer" />
+    <NavigationProperty Name="GroupCustomer" Relationship="Self.FK_GroupCustomer_GroupDetail" FromRole="GroupDetail" ToRole="GroupCustomer" />
   </EntityType>
   <EntityType Name="IncomingMessageContent">
     <Key>
@@ -292,12 +216,12 @@
     </Key>
     <Property Name="IncomingMessageContentID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="ServiceTypeID" Type="Int32" />
-    <Property Name="Sender" Type="String" Nullable="false" MaxLength="127" FixedLength="false" Unicode="true" />
+    <Property Name="Sender" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Receiver" Type="String" MaxLength="127" FixedLength="false" Unicode="true" />
     <Property Name="Subject" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
-    <Property Name="BodyContentType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="BodyEncoding" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
-    <Property Name="BodyMessage" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="BodyContentType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyEncoding" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Status" Type="Int32" />
     <Property Name="CreatedDate" Type="DateTime" Precision="3" />
     <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
@@ -305,7 +229,7 @@
     <Property Name="CommandCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
     <Property Name="Request" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <Property Name="MoID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-    <NavigationProperty Name="ServiceType" Relationship="VfsCustomerServiceModel.IncomingMessageContent_ServiceTypeID_Fk" FromRole="IncomingMessageContent" ToRole="ServiceType" />
+    <NavigationProperty Name="ServiceType" Relationship="Self.IncomingMessageContent_ServiceTypeID_Fk" FromRole="IncomingMessageContent" ToRole="ServiceType" />
   </EntityType>
   <EntityType Name="IncomingMessageContentSent">
     <Key>
@@ -314,12 +238,12 @@
     <Property Name="IncomingMessageContentSentID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="IncomingMessageContentID" Type="Int64" />
     <Property Name="ServiceTypeID" Type="Int32" />
-    <Property Name="Sender" Type="String" Nullable="false" MaxLength="127" FixedLength="false" Unicode="true" />
+    <Property Name="Sender" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Receiver" Type="String" MaxLength="127" FixedLength="false" Unicode="true" />
     <Property Name="Subject" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
-    <Property Name="BodyContentType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="BodyEncoding" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
-    <Property Name="BodyMessage" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="BodyContentType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyEncoding" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Status" Type="Int32" />
     <Property Name="CreatedDate" Type="DateTime" Precision="3" />
     <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
@@ -327,7 +251,7 @@
     <Property Name="CommandCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
     <Property Name="Request" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <Property Name="MoID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-    <NavigationProperty Name="ServiceType" Relationship="VfsCustomerServiceModel.IncomingMessageContentSent_ServiceTypeID_Fk" FromRole="IncomingMessageContentSent" ToRole="ServiceType" />
+    <NavigationProperty Name="ServiceType" Relationship="Self.IncomingMessageContentSent_ServiceTypeID_Fk" FromRole="IncomingMessageContentSent" ToRole="ServiceType" />
   </EntityType>
   <EntityType Name="MessageCommand">
     <Key>
@@ -339,7 +263,7 @@
     <Property Name="ProcessedDateTime" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="CreatedDate" Type="DateTime" Precision="3" />
     <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
-    <NavigationProperty Name="MessageContent" Relationship="VfsCustomerServiceModel.MessageCommand_MessageContentID_Fk" FromRole="MessageCommand" ToRole="MessageContent" />
+    <NavigationProperty Name="MessageContent" Relationship="Self.MessageCommand_MessageContentID_Fk" FromRole="MessageCommand" ToRole="MessageContent" />
   </EntityType>
   <EntityType Name="MessageContent">
     <Key>
@@ -348,12 +272,12 @@
     <Property Name="MessageContentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="ContentTemplateID" Type="Int32" />
     <Property Name="ServiceTypeID" Type="Int32" />
-    <Property Name="Sender" Type="String" Nullable="false" MaxLength="127" FixedLength="false" Unicode="true" />
-    <Property Name="Receiver" Type="String" Nullable="false" MaxLength="127" FixedLength="false" Unicode="true" />
-    <Property Name="Subject" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
-    <Property Name="BodyContentType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="BodyEncoding" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
-    <Property Name="BodyMessage" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Sender" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Receiver" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Subject" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyContentType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyEncoding" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="CreatedDate" Type="DateTime" Precision="3" />
     <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
     <Property Name="Status" Type="Int32" />
@@ -363,8 +287,8 @@
     <Property Name="MoID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <Property Name="ChargeYN" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
     <Property Name="TotalMessages" Type="Int16" />
-    <NavigationProperty Name="MessageCommands" Relationship="VfsCustomerServiceModel.MessageCommand_MessageContentID_Fk" FromRole="MessageContent" ToRole="MessageCommand" />
-    <NavigationProperty Name="MessageContentAttachements" Relationship="VfsCustomerServiceModel.MessageContentAttachement_MessageContentID_Fk" FromRole="MessageContent" ToRole="MessageContentAttachement" />
+    <NavigationProperty Name="MessageCommands" Relationship="Self.MessageCommand_MessageContentID_Fk" FromRole="MessageContent" ToRole="MessageCommand" />
+    <NavigationProperty Name="MessageContentAttachements" Relationship="Self.MessageContentAttachement_MessageContentID_Fk" FromRole="MessageContent" ToRole="MessageContentAttachement" />
   </EntityType>
   <EntityType Name="MessageContentAttachement">
     <Key>
@@ -376,7 +300,7 @@
     <Property Name="MessageContentID" Type="Int32" />
     <Property Name="CreatedDate" Type="DateTime" Precision="3" />
     <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
-    <NavigationProperty Name="MessageContent" Relationship="VfsCustomerServiceModel.MessageContentAttachement_MessageContentID_Fk" FromRole="MessageContentAttachement" ToRole="MessageContent" />
+    <NavigationProperty Name="MessageContent" Relationship="Self.MessageContentAttachement_MessageContentID_Fk" FromRole="MessageContentAttachement" ToRole="MessageContent" />
   </EntityType>
   <EntityType Name="MessageContentSent">
     <Key>
@@ -385,11 +309,11 @@
     <Property Name="MessageContentID" Type="Int32" Nullable="false" />
     <Property Name="ContentTemplateID" Type="Int32" />
     <Property Name="ServiceTypeID" Type="Int32" />
-    <Property Name="Sender" Type="String" Nullable="false" MaxLength="127" FixedLength="false" Unicode="true" />
-    <Property Name="Receiver" Type="String" Nullable="false" MaxLength="127" FixedLength="false" Unicode="true" />
-    <Property Name="Subject" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
-    <Property Name="BodyContentType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="BodyEncoding" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Sender" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Receiver" Type="String" MaxLength="127" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Subject" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyContentType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BodyEncoding" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="BodyMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="CreatedDate" Type="DateTime" Precision="3" />
     <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
@@ -400,8 +324,8 @@
     <Property Name="MoID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <Property Name="ChargeYN" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
     <Property Name="TotalMessages" Type="Int16" />
-    <NavigationProperty Name="ContentTemplate" Relationship="VfsCustomerServiceModel.MessageContentSent_ContentTemplateID_Fk" FromRole="MessageContentSent" ToRole="ContentTemplate" />
-    <NavigationProperty Name="ServiceType" Relationship="VfsCustomerServiceModel.MessageContentSent_ServiceTypeID_Fk" FromRole="MessageContentSent" ToRole="ServiceType" />
+    <NavigationProperty Name="ContentTemplate" Relationship="Self.MessageContentSent_ContentTemplateID_Fk" FromRole="MessageContentSent" ToRole="ContentTemplate" />
+    <NavigationProperty Name="ServiceType" Relationship="Self.MessageContentSent_ServiceTypeID_Fk" FromRole="MessageContentSent" ToRole="ServiceType" />
   </EntityType>
   <EntityType Name="MessageContentSentAttachement">
     <Key>
@@ -423,11 +347,11 @@
     <Property Name="UploadDir" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
     <Property Name="DateViewCustomer" Type="DateTime" Precision="7" />
     <Property Name="TotalDownload" Type="Int64" />
-    <Property Name="FileSize" Type="Int64" />
+    <Property Name="FileSize" Type="Int32" />
     <Property Name="IdReportType" Type="Int32" />
     <Property Name="Ticker" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
     <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="7" />
-    <NavigationProperty Name="ReportType" Relationship="VfsCustomerServiceModel.FK_ReportType_Report" FromRole="Report" ToRole="ReportType" />
+    <NavigationProperty Name="ReportType" Relationship="Self.FK_ReportType_Report" FromRole="Report" ToRole="ReportType" />
   </EntityType>
   <EntityType Name="ReportType">
     <Key>
@@ -435,7 +359,7 @@
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" />
     <Property Name="Description" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
-    <NavigationProperty Name="Reports" Relationship="VfsCustomerServiceModel.FK_ReportType_Report" FromRole="ReportType" ToRole="Report" />
+    <NavigationProperty Name="Reports" Relationship="Self.FK_ReportType_Report" FromRole="ReportType" ToRole="Report" />
   </EntityType>
   <EntityType Name="ServiceType">
     <Key>
@@ -445,16 +369,16 @@
     <Property Name="ServiceTypeDescription" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="CreatedDate" Type="DateTime" Precision="3" />
     <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
-    <NavigationProperty Name="ContentTemplates" Relationship="VfsCustomerServiceModel.ContentTemplate_ServiceTypeID_Fk" FromRole="ServiceType" ToRole="ContentTemplate" />
-    <NavigationProperty Name="IncomingMessageContents" Relationship="VfsCustomerServiceModel.IncomingMessageContent_ServiceTypeID_Fk" FromRole="ServiceType" ToRole="IncomingMessageContent" />
-    <NavigationProperty Name="IncomingMessageContentSents" Relationship="VfsCustomerServiceModel.IncomingMessageContentSent_ServiceTypeID_Fk" FromRole="ServiceType" ToRole="IncomingMessageContentSent" />
-    <NavigationProperty Name="MessageContentSents" Relationship="VfsCustomerServiceModel.MessageContentSent_ServiceTypeID_Fk" FromRole="ServiceType" ToRole="MessageContentSent" />
+    <NavigationProperty Name="ContentTemplates" Relationship="Self.ContentTemplate_ServiceTypeID_Fk" FromRole="ServiceType" ToRole="ContentTemplate" />
+    <NavigationProperty Name="IncomingMessageContents" Relationship="Self.IncomingMessageContent_ServiceTypeID_Fk" FromRole="ServiceType" ToRole="IncomingMessageContent" />
+    <NavigationProperty Name="IncomingMessageContentSents" Relationship="Self.IncomingMessageContentSent_ServiceTypeID_Fk" FromRole="ServiceType" ToRole="IncomingMessageContentSent" />
+    <NavigationProperty Name="MessageContentSents" Relationship="Self.MessageContentSent_ServiceTypeID_Fk" FromRole="ServiceType" ToRole="MessageContentSent" />
   </EntityType>
   <EntityType Name="sysdiagram">
     <Key>
       <PropertyRef Name="diagram_id" />
     </Key>
-    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="principal_id" Type="Int32" Nullable="false" />
     <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="version" Type="Int32" />
@@ -467,11 +391,11 @@
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="UserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
     <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
-    <NavigationProperty Name="GroupCustomers" Relationship="VfsCustomerServiceModel.FK_GroupCustomer_UserLogin" FromRole="UserLogin" ToRole="GroupCustomer" />
+    <NavigationProperty Name="GroupCustomers" Relationship="Self.FK_GroupCustomer_UserLogin" FromRole="UserLogin" ToRole="GroupCustomer" />
   </EntityType>
   <Association Name="ContentTemplate_ServiceTypeID_Fk">
-    <End Type="VfsCustomerServiceModel.ServiceType" Role="ServiceType" Multiplicity="0..1" />
-    <End Type="VfsCustomerServiceModel.ContentTemplate" Role="ContentTemplate" Multiplicity="*" />
+    <End Role="ServiceType" Type="Self.ServiceType" Multiplicity="0..1" />
+    <End Role="ContentTemplate" Type="Self.ContentTemplate" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="ServiceType">
         <PropertyRef Name="ServiceTypeID" />
@@ -482,8 +406,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="ContentTemplateAttachement_ContentTemplateID_Fk">
-    <End Type="VfsCustomerServiceModel.ContentTemplate" Role="ContentTemplate" Multiplicity="0..1" />
-    <End Type="VfsCustomerServiceModel.ContentTemplateAttachement" Role="ContentTemplateAttachement" Multiplicity="*" />
+    <End Role="ContentTemplate" Type="Self.ContentTemplate" Multiplicity="0..1" />
+    <End Role="ContentTemplateAttachement" Type="Self.ContentTemplateAttachement" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="ContentTemplate">
         <PropertyRef Name="ContentTemplateID" />
@@ -494,8 +418,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="MessageContentSent_ContentTemplateID_Fk">
-    <End Type="VfsCustomerServiceModel.ContentTemplate" Role="ContentTemplate" Multiplicity="0..1" />
-    <End Type="VfsCustomerServiceModel.MessageContentSent" Role="MessageContentSent" Multiplicity="*" />
+    <End Role="ContentTemplate" Type="Self.ContentTemplate" Multiplicity="0..1" />
+    <End Role="MessageContentSent" Type="Self.MessageContentSent" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="ContentTemplate">
         <PropertyRef Name="ContentTemplateID" />
@@ -506,8 +430,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="Customer_TypeID_Fk">
-    <End Type="VfsCustomerServiceModel.CustomerType" Role="CustomerType" Multiplicity="0..1" />
-    <End Type="VfsCustomerServiceModel.Customer" Role="Customer" Multiplicity="*" />
+    <End Role="CustomerType" Type="Self.CustomerType" Multiplicity="0..1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="CustomerType">
         <PropertyRef Name="TypeID" />
@@ -518,8 +442,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Customer_GroupDetail">
-    <End Type="VfsCustomerServiceModel.Customer" Role="Customer" Multiplicity="0..1" />
-    <End Type="VfsCustomerServiceModel.GroupDetail" Role="GroupDetail" Multiplicity="*" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="GroupDetail" Type="Self.GroupDetail" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Customer">
         <PropertyRef Name="CustomerId" />
@@ -530,8 +454,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_GroupCustomer_GroupDetail">
-    <End Type="VfsCustomerServiceModel.GroupCustomer" Role="GroupCustomer" Multiplicity="1" />
-    <End Type="VfsCustomerServiceModel.GroupDetail" Role="GroupDetail" Multiplicity="*" />
+    <End Role="GroupCustomer" Type="Self.GroupCustomer" Multiplicity="1" />
+    <End Role="GroupDetail" Type="Self.GroupDetail" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="GroupCustomer">
         <PropertyRef Name="Id" />
@@ -542,8 +466,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_GroupCustomer_UserLogin">
-    <End Type="VfsCustomerServiceModel.UserLogin" Role="UserLogin" Multiplicity="1" />
-    <End Type="VfsCustomerServiceModel.GroupCustomer" Role="GroupCustomer" Multiplicity="*" />
+    <End Role="UserLogin" Type="Self.UserLogin" Multiplicity="1" />
+    <End Role="GroupCustomer" Type="Self.GroupCustomer" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="UserLogin">
         <PropertyRef Name="Id" />
@@ -554,8 +478,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="IncomingMessageContent_ServiceTypeID_Fk">
-    <End Type="VfsCustomerServiceModel.ServiceType" Role="ServiceType" Multiplicity="0..1" />
-    <End Type="VfsCustomerServiceModel.IncomingMessageContent" Role="IncomingMessageContent" Multiplicity="*" />
+    <End Role="ServiceType" Type="Self.ServiceType" Multiplicity="0..1" />
+    <End Role="IncomingMessageContent" Type="Self.IncomingMessageContent" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="ServiceType">
         <PropertyRef Name="ServiceTypeID" />
@@ -566,8 +490,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="IncomingMessageContentSent_ServiceTypeID_Fk">
-    <End Type="VfsCustomerServiceModel.ServiceType" Role="ServiceType" Multiplicity="0..1" />
-    <End Type="VfsCustomerServiceModel.IncomingMessageContentSent" Role="IncomingMessageContentSent" Multiplicity="*" />
+    <End Role="ServiceType" Type="Self.ServiceType" Multiplicity="0..1" />
+    <End Role="IncomingMessageContentSent" Type="Self.IncomingMessageContentSent" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="ServiceType">
         <PropertyRef Name="ServiceTypeID" />
@@ -578,8 +502,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="MessageCommand_MessageContentID_Fk">
-    <End Type="VfsCustomerServiceModel.MessageContent" Role="MessageContent" Multiplicity="1" />
-    <End Type="VfsCustomerServiceModel.MessageCommand" Role="MessageCommand" Multiplicity="*" />
+    <End Role="MessageContent" Type="Self.MessageContent" Multiplicity="1" />
+    <End Role="MessageCommand" Type="Self.MessageCommand" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="MessageContent">
         <PropertyRef Name="MessageContentID" />
@@ -590,8 +514,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="MessageContentAttachement_MessageContentID_Fk">
-    <End Type="VfsCustomerServiceModel.MessageContent" Role="MessageContent" Multiplicity="0..1" />
-    <End Type="VfsCustomerServiceModel.MessageContentAttachement" Role="MessageContentAttachement" Multiplicity="*" />
+    <End Role="MessageContent" Type="Self.MessageContent" Multiplicity="0..1" />
+    <End Role="MessageContentAttachement" Type="Self.MessageContentAttachement" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="MessageContent">
         <PropertyRef Name="MessageContentID" />
@@ -602,8 +526,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="MessageContentSent_ServiceTypeID_Fk">
-    <End Type="VfsCustomerServiceModel.ServiceType" Role="ServiceType" Multiplicity="0..1" />
-    <End Type="VfsCustomerServiceModel.MessageContentSent" Role="MessageContentSent" Multiplicity="*" />
+    <End Role="ServiceType" Type="Self.ServiceType" Multiplicity="0..1" />
+    <End Role="MessageContentSent" Type="Self.MessageContentSent" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="ServiceType">
         <PropertyRef Name="ServiceTypeID" />
@@ -614,8 +538,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_ReportType_Report">
-    <End Type="VfsCustomerServiceModel.ReportType" Role="ReportType" Multiplicity="0..1" />
-    <End Type="VfsCustomerServiceModel.Report" Role="Report" Multiplicity="*" />
+    <End Role="ReportType" Type="Self.ReportType" Multiplicity="0..1" />
+    <End Role="Report" Type="Self.Report" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="ReportType">
         <PropertyRef Name="Id" />
@@ -625,4 +549,80 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <EntityContainer Name="VfsCustomerServiceEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ContentParameters" EntityType="Self.ContentParameter" />
+    <EntitySet Name="ContentTemplates" EntityType="Self.ContentTemplate" />
+    <EntitySet Name="ContentTemplateAttachements" EntityType="Self.ContentTemplateAttachement" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="CustomerLogs" EntityType="Self.CustomerLog" />
+    <EntitySet Name="CustomerTypes" EntityType="Self.CustomerType" />
+    <EntitySet Name="ExtensionMessages" EntityType="Self.ExtensionMessage" />
+    <EntitySet Name="ExtensionMessageLogs" EntityType="Self.ExtensionMessageLog" />
+    <EntitySet Name="GroupCustomers" EntityType="Self.GroupCustomer" />
+    <EntitySet Name="GroupDetails" EntityType="Self.GroupDetail" />
+    <EntitySet Name="IncomingMessageContents" EntityType="Self.IncomingMessageContent" />
+    <EntitySet Name="IncomingMessageContentSents" EntityType="Self.IncomingMessageContentSent" />
+    <EntitySet Name="MessageCommands" EntityType="Self.MessageCommand" />
+    <EntitySet Name="MessageContents" EntityType="Self.MessageContent" />
+    <EntitySet Name="MessageContentAttachements" EntityType="Self.MessageContentAttachement" />
+    <EntitySet Name="MessageContentSents" EntityType="Self.MessageContentSent" />
+    <EntitySet Name="MessageContentSentAttachements" EntityType="Self.MessageContentSentAttachement" />
+    <EntitySet Name="Reports" EntityType="Self.Report" />
+    <EntitySet Name="ReportTypes" EntityType="Self.ReportType" />
+    <EntitySet Name="ServiceTypes" EntityType="Self.ServiceType" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="UserLogins" EntityType="Self.UserLogin" />
+    <AssociationSet Name="ContentTemplate_ServiceTypeID_Fk" Association="Self.ContentTemplate_ServiceTypeID_Fk">
+      <End Role="ServiceType" EntitySet="ServiceTypes" />
+      <End Role="ContentTemplate" EntitySet="ContentTemplates" />
+    </AssociationSet>
+    <AssociationSet Name="ContentTemplateAttachement_ContentTemplateID_Fk" Association="Self.ContentTemplateAttachement_ContentTemplateID_Fk">
+      <End Role="ContentTemplate" EntitySet="ContentTemplates" />
+      <End Role="ContentTemplateAttachement" EntitySet="ContentTemplateAttachements" />
+    </AssociationSet>
+    <AssociationSet Name="MessageContentSent_ContentTemplateID_Fk" Association="Self.MessageContentSent_ContentTemplateID_Fk">
+      <End Role="ContentTemplate" EntitySet="ContentTemplates" />
+      <End Role="MessageContentSent" EntitySet="MessageContentSents" />
+    </AssociationSet>
+    <AssociationSet Name="Customer_TypeID_Fk" Association="Self.Customer_TypeID_Fk">
+      <End Role="CustomerType" EntitySet="CustomerTypes" />
+      <End Role="Customer" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Customer_GroupDetail" Association="Self.FK_Customer_GroupDetail">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="GroupDetail" EntitySet="GroupDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GroupCustomer_GroupDetail" Association="Self.FK_GroupCustomer_GroupDetail">
+      <End Role="GroupCustomer" EntitySet="GroupCustomers" />
+      <End Role="GroupDetail" EntitySet="GroupDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GroupCustomer_UserLogin" Association="Self.FK_GroupCustomer_UserLogin">
+      <End Role="UserLogin" EntitySet="UserLogins" />
+      <End Role="GroupCustomer" EntitySet="GroupCustomers" />
+    </AssociationSet>
+    <AssociationSet Name="IncomingMessageContent_ServiceTypeID_Fk" Association="Self.IncomingMessageContent_ServiceTypeID_Fk">
+      <End Role="ServiceType" EntitySet="ServiceTypes" />
+      <End Role="IncomingMessageContent" EntitySet="IncomingMessageContents" />
+    </AssociationSet>
+    <AssociationSet Name="IncomingMessageContentSent_ServiceTypeID_Fk" Association="Self.IncomingMessageContentSent_ServiceTypeID_Fk">
+      <End Role="ServiceType" EntitySet="ServiceTypes" />
+      <End Role="IncomingMessageContentSent" EntitySet="IncomingMessageContentSents" />
+    </AssociationSet>
+    <AssociationSet Name="MessageCommand_MessageContentID_Fk" Association="Self.MessageCommand_MessageContentID_Fk">
+      <End Role="MessageContent" EntitySet="MessageContents" />
+      <End Role="MessageCommand" EntitySet="MessageCommands" />
+    </AssociationSet>
+    <AssociationSet Name="MessageContentAttachement_MessageContentID_Fk" Association="Self.MessageContentAttachement_MessageContentID_Fk">
+      <End Role="MessageContent" EntitySet="MessageContents" />
+      <End Role="MessageContentAttachement" EntitySet="MessageContentAttachements" />
+    </AssociationSet>
+    <AssociationSet Name="MessageContentSent_ServiceTypeID_Fk" Association="Self.MessageContentSent_ServiceTypeID_Fk">
+      <End Role="ServiceType" EntitySet="ServiceTypes" />
+      <End Role="MessageContentSent" EntitySet="MessageContentSents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ReportType_Report" Association="Self.FK_ReportType_Report">
+      <End Role="ReportType" EntitySet="ReportTypes" />
+      <End Role="Report" EntitySet="Reports" />
+    </AssociationSet>
+  </EntityContainer>
 </Schema>

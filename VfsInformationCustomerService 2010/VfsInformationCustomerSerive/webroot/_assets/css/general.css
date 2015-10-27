@@ -21,3 +21,13 @@
 {
 	color:Red
 }
+
+#bodyContent #right table {
+	line-height:1.8;
+}
+
+
+#bodyContent #right table input[type='radio'],input[type='checkbox'] {
+    width:15px;
+    height:15px;
+}

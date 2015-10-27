@@ -828,4 +828,10 @@
   <data name="StockCode" xml:space="preserve">
     <value>Mã chứng khoán:</value>
   </data>
+  <data name="MessengReportVIP" xml:space="preserve">
+    <value>Nội dung tin nhắn VIP:</value>
+  </data>
+  <data name="QuestionSMS" xml:space="preserve">
+    <value>Có gửi SMS cho KH VIP?</value>
+  </data>
 </root>

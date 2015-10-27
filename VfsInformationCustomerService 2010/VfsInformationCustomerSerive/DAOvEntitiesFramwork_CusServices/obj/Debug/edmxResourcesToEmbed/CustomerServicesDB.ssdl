@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="VfsCustomerServiceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="VfsCustomerServiceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="ContentParameter">
     <Key>
       <PropertyRef Name="ContentParameterID" />
@@ -328,7 +328,7 @@
     <Property Name="UploadDir" Type="nvarchar" MaxLength="512" />
     <Property Name="DateViewCustomer" Type="datetime2" Precision="7" />
     <Property Name="TotalDownload" Type="bigint" />
-    <Property Name="FileSize" Type="bigint" />
+    <Property Name="FileSize" Type="int" />
     <Property Name="IdReportType" Type="int" />
     <Property Name="Ticker" Type="varchar" MaxLength="10" />
     <Property Name="CreateDate" Type="datetime2" Precision="7" Nullable="false" />

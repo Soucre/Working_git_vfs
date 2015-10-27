@@ -14,6 +14,7 @@ namespace DAOvEntitiesFramwork_CusServices
     
     public partial class MessageContent
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public MessageContent()
         {
             this.MessageCommands = new HashSet<MessageCommand>();
@@ -39,7 +40,9 @@ namespace DAOvEntitiesFramwork_CusServices
         public string ChargeYN { get; set; }
         public Nullable<short> TotalMessages { get; set; }
     
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<MessageCommand> MessageCommands { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<MessageContentAttachement> MessageContentAttachements { get; set; }
     }
 }

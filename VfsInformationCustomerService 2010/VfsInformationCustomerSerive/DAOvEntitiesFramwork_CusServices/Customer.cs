@@ -14,6 +14,7 @@ namespace DAOvEntitiesFramwork_CusServices
     
     public partial class Customer
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Customer()
         {
             this.GroupDetails = new HashSet<GroupDetail>();
@@ -125,6 +126,7 @@ namespace DAOvEntitiesFramwork_CusServices
         public Nullable<bool> VType { get; set; }
     
         public virtual CustomerType CustomerType1 { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<GroupDetail> GroupDetails { get; set; }
     }
 }

@@ -60,6 +60,7 @@
     <Compile Include="Customer.cs">
       <DependentUpon>CustomerServicesDB.tt</DependentUpon>
     </Compile>
+    <Compile Include="CustomerDAO.cs" />
     <Compile Include="CustomerLog.cs">
       <DependentUpon>CustomerServicesDB.tt</DependentUpon>
     </Compile>
@@ -133,13 +134,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.Config" />
     <EntityDeploy Include="CustomerServicesDB.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>CustomerServicesDB.Designer.cs</LastGenOutput>
     </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.Config" />
     <None Include="CustomerServicesDB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>CustomerServicesDB.edmx</DependentUpon>
