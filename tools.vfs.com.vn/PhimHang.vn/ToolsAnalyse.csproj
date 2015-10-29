@@ -265,6 +265,7 @@
     <None Include="Controllers\RecommendationController.cs_bk" />
     <None Include="Controllers\TickerController.cs_bk" />
     <Compile Include="Controllers\ResearchController.cs" />
+    <Compile Include="Controllers\UploadController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1589,6 +1590,7 @@
     <Folder Include="Chart\" />
     <Folder Include="DetailTheme\js\tiny-mce\plugins\spellchecker\classes\utils\" />
     <Folder Include="DetailTheme\js\tiny-mce\plugins\spellchecker\includes\" />
+    <Folder Include="Views\Upload\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

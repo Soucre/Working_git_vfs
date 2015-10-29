@@ -332,6 +332,7 @@
     <Property Name="IdReportType" Type="int" />
     <Property Name="Ticker" Type="varchar" MaxLength="10" />
     <Property Name="CreateDate" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="FileType" Type="varchar" MaxLength="5" />
   </EntityType>
   <EntityType Name="ReportType">
     <Key>

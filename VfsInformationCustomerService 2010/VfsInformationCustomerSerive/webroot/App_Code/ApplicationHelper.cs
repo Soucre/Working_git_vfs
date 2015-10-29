@@ -383,7 +383,7 @@ namespace Vfs.WebCrawler.Utility
             try
             {
                 fileUpload.PostedFile.SaveAs(filePath + "\\" + fileNameGuide + fileType);                
-                return fileNameGuide + fileType; // return fileName
+                return fileNameGuide; // return fileName
             }
             catch (Exception)
             {

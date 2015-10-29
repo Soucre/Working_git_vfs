@@ -75,6 +75,8 @@ public partial class CreateReport : System.Web.UI.Page
             rp.Ticker = StockCodeInput.Text;
             rp.Title = TitleReport.Text;
             rp.UploadDir = fileNameUpload;
+            rp.TotalDownload = 0;
+            rp.FileType = ".pdf";
             rp.FileSize = filesize/1024;
             reDAO.InsertReport(rp); // insert to database
             if (QuestionCheck.Checked) // gửi tin nhắn cho khách hành VIP
@@ -89,8 +91,28 @@ public partial class CreateReport : System.Web.UI.Page
     {
         List<CustomerCustom> listCustomerVIP = new List<CustomerCustom>();
         listCustomerVIP = CustomerDAO.getListCustomerVIPType().Result;
+        string[] data = new string[listCustomerVIP.Count];
+        int i = 0; int numberCustomerSent = 0;
 
+        foreach (var item in listCustomerVIP)
+        {
+            data[i] = item.Mobile;
+            i++;
+        }
 
+        try
+        {
+            ImportService.CreateMessageWithEmail(data, ContentTemplateService.GetContentTemplate(ApplicationHelper.ReportContentTemplate), ref numberCustomerSent);
+            divNotification.InnerHtml = "Thành công: " + numberCustomerSent + " khách hàng";
+        }
+        catch (Exception)
+        {
+
+            divNotification.InnerHtml = "Lỗi ";
+        }
+        
+
+        // return notification
     }
 
     /// <summary>

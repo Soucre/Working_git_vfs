@@ -42,10 +42,10 @@ namespace PhimHang.Models
         public virtual DbSet<MessageContentAttachement> MessageContentAttachements { get; set; }
         public virtual DbSet<MessageContentSent> MessageContentSents { get; set; }
         public virtual DbSet<MessageContentSentAttachement> MessageContentSentAttachements { get; set; }
-        public virtual DbSet<Report> Reports { get; set; }
         public virtual DbSet<ReportType> ReportTypes { get; set; }
         public virtual DbSet<ServiceType> ServiceTypes { get; set; }
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<UserLogin> UserLogins { get; set; }
+        public virtual DbSet<Report> Reports { get; set; }
     }
 }

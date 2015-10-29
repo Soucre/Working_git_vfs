@@ -58,11 +58,37 @@ namespace PhimHang.Controllers
                         await SignInAsync(user, model.RememberMe);
                         using (customerDb = new VfsCustomerServiceEntities())
                         {
-                            var customer = await customerDb.Customers.FirstOrDefaultAsync(cs => cs.CustomerId == user.UserName);
+                            #region kiem tra khach hang VIP
+                            var customer = await customerDb.Customers.FirstOrDefaultAsync(cs => cs.CustomerId == user.UserName);               
                             if (customer.VType == true)
                             {
                                 Helper.SetCookieOfVIP();
                             }
+                            #endregion
+
+                            #region thong ke khach hang
+
+                            var customerlog = await customerDb.CustomerLogs.FirstOrDefaultAsync(cl => cl.CustomerId == user.UserName);
+                            if (customerlog == null)
+                            {
+                                // insert log
+                                customerlog = new CustomerLog();
+                                customerlog.CreateDate = DateTime.Now;
+                                customerlog.CustomerId = user.UserName;
+                                customerlog.Total_Download = 0;
+                                customerlog.Total_Login = 1;
+                                customerDb.CustomerLogs.Add(customerlog);                                
+                            }
+                            else
+                            {
+                                //update log                                
+                                customerlog.Total_Download +=1;
+                                customerlog.Total_Login +=1;
+                                customerDb.Entry(customerlog).State = EntityState.Modified;
+
+                            }
+                            await customerDb.SaveChangesAsync(); // save database
+                            #endregion
                         }
                         return RedirectToLocal(returnUrl);
                     }

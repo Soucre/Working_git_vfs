@@ -12,7 +12,12 @@ namespace PhimHang
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-                
+
+            routes.MapRoute(
+            name: "upload",
+            url: "upload/{pdfName}",
+            defaults: new { controller = "Upload", action = "Index", pdfName = UrlParameter.Optional }
+            ); 
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

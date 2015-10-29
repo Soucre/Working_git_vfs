@@ -337,21 +337,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Reports">
-      <EntityTypeMapping TypeName="VfsCustomerServiceModel.Report">
-        <MappingFragment StoreEntitySet="Report">
-          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
-          <ScalarProperty Name="Ticker" ColumnName="Ticker" />
-          <ScalarProperty Name="IdReportType" ColumnName="IdReportType" />
-          <ScalarProperty Name="FileSize" ColumnName="FileSize" />
-          <ScalarProperty Name="TotalDownload" ColumnName="TotalDownload" />
-          <ScalarProperty Name="DateViewCustomer" ColumnName="DateViewCustomer" />
-          <ScalarProperty Name="UploadDir" ColumnName="UploadDir" />
-          <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="Id" ColumnName="Id" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="ReportTypes">
       <EntityTypeMapping TypeName="VfsCustomerServiceModel.ReportType">
         <MappingFragment StoreEntitySet="ReportType">
@@ -386,6 +371,22 @@
         <MappingFragment StoreEntitySet="UserLogin">
           <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
           <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reports">
+      <EntityTypeMapping TypeName="VfsCustomerServiceModel.Report">
+        <MappingFragment StoreEntitySet="Report">
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Ticker" ColumnName="Ticker" />
+          <ScalarProperty Name="IdReportType" ColumnName="IdReportType" />
+          <ScalarProperty Name="FileSize" ColumnName="FileSize" />
+          <ScalarProperty Name="TotalDownload" ColumnName="TotalDownload" />
+          <ScalarProperty Name="DateViewCustomer" ColumnName="DateViewCustomer" />
+          <ScalarProperty Name="UploadDir" ColumnName="UploadDir" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
           <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>

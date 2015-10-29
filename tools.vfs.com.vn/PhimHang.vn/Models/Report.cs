@@ -19,10 +19,11 @@ namespace PhimHang.Models
         public string UploadDir { get; set; }
         public Nullable<System.DateTime> DateViewCustomer { get; set; }
         public Nullable<long> TotalDownload { get; set; }
-        public Nullable<long> FileSize { get; set; }
+        public Nullable<int> FileSize { get; set; }
         public Nullable<int> IdReportType { get; set; }
         public string Ticker { get; set; }
         public System.DateTime CreateDate { get; set; }
+        public string FileType { get; set; }
     
         public virtual ReportType ReportType { get; set; }
     }

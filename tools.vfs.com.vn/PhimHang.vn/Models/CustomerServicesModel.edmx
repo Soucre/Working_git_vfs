@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="VfsCustomerServiceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="VfsCustomerServiceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="ContentParameter">
           <Key>
             <PropertyRef Name="ContentParameterID" />
@@ -333,10 +333,11 @@
           <Property Name="UploadDir" Type="nvarchar" MaxLength="512" />
           <Property Name="DateViewCustomer" Type="datetime2" Precision="7" />
           <Property Name="TotalDownload" Type="bigint" />
-          <Property Name="FileSize" Type="bigint" />
+          <Property Name="FileSize" Type="int" />
           <Property Name="IdReportType" Type="int" />
           <Property Name="Ticker" Type="varchar" MaxLength="10" />
           <Property Name="CreateDate" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="FileType" Type="varchar" MaxLength="5" />
         </EntityType>
         <EntityType Name="ReportType">
           <Key>
@@ -626,7 +627,6 @@
           <EntitySet Name="MessageContentAttachements" EntityType="VfsCustomerServiceModel.MessageContentAttachement" />
           <EntitySet Name="MessageContentSents" EntityType="VfsCustomerServiceModel.MessageContentSent" />
           <EntitySet Name="MessageContentSentAttachements" EntityType="VfsCustomerServiceModel.MessageContentSentAttachement" />
-          <EntitySet Name="Reports" EntityType="VfsCustomerServiceModel.Report" />
           <EntitySet Name="ReportTypes" EntityType="VfsCustomerServiceModel.ReportType" />
           <EntitySet Name="ServiceTypes" EntityType="VfsCustomerServiceModel.ServiceType" />
           <EntitySet Name="sysdiagrams" EntityType="VfsCustomerServiceModel.sysdiagram" />
@@ -679,6 +679,7 @@
             <End Role="ServiceType" EntitySet="ServiceTypes" />
             <End Role="MessageContentSent" EntitySet="MessageContentSents" />
           </AssociationSet>
+          <EntitySet Name="Reports" EntityType="VfsCustomerServiceModel.Report" />
           <AssociationSet Name="FK_ReportType_Report" Association="VfsCustomerServiceModel.FK_ReportType_Report">
             <End Role="ReportType" EntitySet="ReportTypes" />
             <End Role="Report" EntitySet="Reports" />
@@ -1022,21 +1023,6 @@
           <Property Name="CreatedDate" Type="DateTime" Precision="3" />
           <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
         </EntityType>
-        <EntityType Name="Report">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Title" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
-          <Property Name="UploadDir" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
-          <Property Name="DateViewCustomer" Type="DateTime" Precision="7" />
-          <Property Name="TotalDownload" Type="Int64" />
-          <Property Name="FileSize" Type="Int64" />
-          <Property Name="IdReportType" Type="Int32" />
-          <Property Name="Ticker" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="7" />
-          <NavigationProperty Name="ReportType" Relationship="VfsCustomerServiceModel.FK_ReportType_Report" FromRole="Report" ToRole="ReportType" />
-        </EntityType>
         <EntityType Name="ReportType">
           <Key>
             <PropertyRef Name="Id" />
@@ -1221,6 +1207,22 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EntityType Name="Report">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
+          <Property Name="UploadDir" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
+          <Property Name="DateViewCustomer" Type="DateTime" Precision="7" />
+          <Property Name="TotalDownload" Type="Int64" />
+          <Property Name="FileSize" Type="Int32" />
+          <Property Name="IdReportType" Type="Int32" />
+          <Property Name="Ticker" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="FileType" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ReportType" Relationship="VfsCustomerServiceModel.FK_ReportType_Report" FromRole="Report" ToRole="ReportType" />
+        </EntityType>
         <Association Name="FK_ReportType_Report">
           <End Type="VfsCustomerServiceModel.ReportType" Role="ReportType" Multiplicity="0..1" />
           <End Type="VfsCustomerServiceModel.Report" Role="Report" Multiplicity="*" />
@@ -1575,21 +1577,6 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="Reports">
-            <EntityTypeMapping TypeName="VfsCustomerServiceModel.Report">
-              <MappingFragment StoreEntitySet="Report">
-                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
-                <ScalarProperty Name="Ticker" ColumnName="Ticker" />
-                <ScalarProperty Name="IdReportType" ColumnName="IdReportType" />
-                <ScalarProperty Name="FileSize" ColumnName="FileSize" />
-                <ScalarProperty Name="TotalDownload" ColumnName="TotalDownload" />
-                <ScalarProperty Name="DateViewCustomer" ColumnName="DateViewCustomer" />
-                <ScalarProperty Name="UploadDir" ColumnName="UploadDir" />
-                <ScalarProperty Name="Title" ColumnName="Title" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="ReportTypes">
             <EntityTypeMapping TypeName="VfsCustomerServiceModel.ReportType">
               <MappingFragment StoreEntitySet="ReportType">
@@ -1624,6 +1611,22 @@
               <MappingFragment StoreEntitySet="UserLogin">
                 <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
                 <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Reports">
+            <EntityTypeMapping TypeName="VfsCustomerServiceModel.Report">
+              <MappingFragment StoreEntitySet="Report">
+                <ScalarProperty Name="FileType" ColumnName="FileType" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="Ticker" ColumnName="Ticker" />
+                <ScalarProperty Name="IdReportType" ColumnName="IdReportType" />
+                <ScalarProperty Name="FileSize" ColumnName="FileSize" />
+                <ScalarProperty Name="TotalDownload" ColumnName="TotalDownload" />
+                <ScalarProperty Name="DateViewCustomer" ColumnName="DateViewCustomer" />
+                <ScalarProperty Name="UploadDir" ColumnName="UploadDir" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>

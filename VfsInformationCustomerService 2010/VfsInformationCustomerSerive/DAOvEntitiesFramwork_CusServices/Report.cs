@@ -23,6 +23,7 @@ namespace DAOvEntitiesFramwork_CusServices
         public Nullable<int> IdReportType { get; set; }
         public string Ticker { get; set; }
         public System.DateTime CreateDate { get; set; }
+        public string FileType { get; set; }
     
         public virtual ReportType ReportType { get; set; }
     }

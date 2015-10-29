@@ -15,7 +15,7 @@
             <td style="width:240px;"><%=Resources.UIResource.ReportTitle%></td>
             <td>
                 <%--<input Id="TitleReport" name="TitleReport" maxlength="512" style="width:400px" />--%>                
-                <asp:TextBox runat="server" ID="TitleReport"></asp:TextBox>
+                <asp:TextBox runat="server" ID="TitleReport" maxlength="512"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="TitleReportRequiredFieldValidator" runat="server" ControlToValidate="TitleReport"
                         ErrorMessage="Required!"></asp:RequiredFieldValidator>
             </td>
@@ -33,6 +33,7 @@
             <td><%=Resources.UIResource.SelectTimeView%></td>
             <td>
                <asp:RadioButtonList ID="rbtLstTimeView" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table">
+                <asp:ListItem Text="0" Value="0"></asp:ListItem>
                 <asp:ListItem Text="2" Value="2"></asp:ListItem>
                 <asp:ListItem Text="4" Value="4"></asp:ListItem>
                 <asp:ListItem Text="6" Value="6"></asp:ListItem>
@@ -66,7 +67,7 @@
             </td>
             <td>
                 <%--<input name="StockCodeInput" maxlength="10" style="width:80px" />--%>
-                <asp:TextBox runat="server" ID="StockCodeInput"></asp:TextBox>
+                <asp:TextBox runat="server" ID="StockCodeInput" maxlength="3" ></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="StockCodeInput"
                         ErrorMessage="Required!"></asp:RequiredFieldValidator>
             </td>
@@ -96,12 +97,8 @@
     <span id="loading-image"></span>
 
 </div>
-
+    <div runat="server" id="divNotification"></div>
  <script type="text/javascript" src="Js/CreateReport.js"></script>
-
-  <script type = "text/javascript">
-     
-    </script>
 </asp:Content>
 
 

@@ -5,41 +5,41 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="738fe218906b456da5da59fda2dae690" Name="Diagram1">
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.ContentParameter" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.ContentTemplate" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.ContentTemplateAttachement" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.Customer" Width="1.5" PointX="10" PointY="31.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.CustomerLog" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.CustomerType" Width="1.5" PointX="7.75" PointY="41.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.ExtensionMessage" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.ExtensionMessageLog" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.GroupCustomer" Width="1.5" PointX="10" PointY="7.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.GroupDetail" Width="1.5" PointX="12.25" PointY="8" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.IncomingMessageContent" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.IncomingMessageContentSent" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.MessageCommand" Width="1.5" PointX="10" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.MessageContent" Width="1.5" PointX="7.75" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.MessageContentAttachement" Width="1.5" PointX="10" PointY="4.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.MessageContentSent" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.MessageContentSentAttachement" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.Report" Width="1.5" PointX="10" PointY="12" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.ReportType" Width="1.5" PointX="7.75" PointY="12.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.ServiceType" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.sysdiagram" Width="1.5" PointX="12.75" PointY="11.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="VfsCustomerServiceModel.UserLogin" Width="1.5" PointX="7.75" PointY="8.125" IsExpanded="true" />
-        <AssociationConnector Association="VfsCustomerServiceModel.ContentTemplate_ServiceTypeID_Fk" ManuallyRouted="false" />
-        <AssociationConnector Association="VfsCustomerServiceModel.ContentTemplateAttachement_ContentTemplateID_Fk" ManuallyRouted="false" />
-        <AssociationConnector Association="VfsCustomerServiceModel.MessageContentSent_ContentTemplateID_Fk" ManuallyRouted="false" />
-        <AssociationConnector Association="VfsCustomerServiceModel.Customer_TypeID_Fk" ManuallyRouted="false" />
-        <AssociationConnector Association="VfsCustomerServiceModel.FK_Customer_GroupDetail" ManuallyRouted="false" />
-        <AssociationConnector Association="VfsCustomerServiceModel.FK_GroupCustomer_GroupDetail" ManuallyRouted="false" />
-        <AssociationConnector Association="VfsCustomerServiceModel.FK_GroupCustomer_UserLogin" ManuallyRouted="false" />
-        <AssociationConnector Association="VfsCustomerServiceModel.IncomingMessageContent_ServiceTypeID_Fk" ManuallyRouted="false" />
-        <AssociationConnector Association="VfsCustomerServiceModel.IncomingMessageContentSent_ServiceTypeID_Fk" ManuallyRouted="false" />
-        <AssociationConnector Association="VfsCustomerServiceModel.MessageCommand_MessageContentID_Fk" ManuallyRouted="false" />
-        <AssociationConnector Association="VfsCustomerServiceModel.MessageContentAttachement_MessageContentID_Fk" ManuallyRouted="false" />
-        <AssociationConnector Association="VfsCustomerServiceModel.MessageContentSent_ServiceTypeID_Fk" ManuallyRouted="false" />
-        <AssociationConnector Association="VfsCustomerServiceModel.FK_ReportType_Report" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.ContentParameter" Width="1.5" PointX="7.75" PointY="11.75" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.ContentTemplate" Width="1.5" PointX="3" PointY="8.75" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.ContentTemplateAttachement" Width="1.5" PointX="5.25" PointY="15" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.Customer" Width="1.5" PointX="10" PointY="31.125" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.CustomerLog" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.CustomerType" Width="1.5" PointX="7.75" PointY="41.125" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.ExtensionMessage" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.ExtensionMessageLog" Width="1.5" PointX="9.75" PointY="11.75" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.GroupCustomer" Width="1.5" PointX="10" PointY="7.875" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.GroupDetail" Width="1.5" PointX="12.25" PointY="8" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.IncomingMessageContent" Width="1.5" PointX="3" PointY="3.875" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.IncomingMessageContentSent" Width="1.5" PointX="3" PointY="13.125" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.MessageCommand" Width="1.5" PointX="8" PointY="4.25" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.MessageContent" Width="1.5" PointX="5.75" PointY="1.375" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.MessageContentAttachement" Width="1.5" PointX="8" PointY="1.125" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.MessageContentSent" Width="1.5" PointX="5.25" PointY="8.125" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.MessageContentSentAttachement" Width="1.5" PointX="11.75" PointY="11.75" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.Report" Width="1.5" PointX="13" PointY="1" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.ReportType" Width="1.5" PointX="10.75" PointY="1.75" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.ServiceType" Width="1.5" PointX="0.75" PointY="9.375" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.sysdiagram" Width="1.5" PointX="13.75" PointY="11.75" />
+        <EntityTypeShape EntityType="VfsCustomerServiceModel.UserLogin" Width="1.5" PointX="7.75" PointY="8.125" />
+        <AssociationConnector Association="VfsCustomerServiceModel.ContentTemplate_ServiceTypeID_Fk" />
+        <AssociationConnector Association="VfsCustomerServiceModel.ContentTemplateAttachement_ContentTemplateID_Fk" />
+        <AssociationConnector Association="VfsCustomerServiceModel.MessageContentSent_ContentTemplateID_Fk" />
+        <AssociationConnector Association="VfsCustomerServiceModel.Customer_TypeID_Fk" />
+        <AssociationConnector Association="VfsCustomerServiceModel.FK_Customer_GroupDetail" />
+        <AssociationConnector Association="VfsCustomerServiceModel.FK_GroupCustomer_GroupDetail" />
+        <AssociationConnector Association="VfsCustomerServiceModel.FK_GroupCustomer_UserLogin" />
+        <AssociationConnector Association="VfsCustomerServiceModel.IncomingMessageContent_ServiceTypeID_Fk" />
+        <AssociationConnector Association="VfsCustomerServiceModel.IncomingMessageContentSent_ServiceTypeID_Fk" />
+        <AssociationConnector Association="VfsCustomerServiceModel.MessageCommand_MessageContentID_Fk" />
+        <AssociationConnector Association="VfsCustomerServiceModel.MessageContentAttachement_MessageContentID_Fk" />
+        <AssociationConnector Association="VfsCustomerServiceModel.MessageContentSent_ServiceTypeID_Fk" />
+        <AssociationConnector Association="VfsCustomerServiceModel.FK_ReportType_Report" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
