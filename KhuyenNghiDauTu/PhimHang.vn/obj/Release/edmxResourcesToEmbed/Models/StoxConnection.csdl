@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StoxDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="stox_tb_Company">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ticker" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ShortName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="TypeID" Type="Int16" />
+    <Property Name="EnglishName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CompanyTypeBeforeListed" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="IndustryParent" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="IndustryID" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="PrimaryProduct" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="ExchangeID" Type="Int16" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="Index" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ShareType" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ShareCirculate" Type="Double" />
+    <Property Name="FirstListingDate" Type="DateTime" Precision="3" />
+    <Property Name="ShareIssue" Type="Double" />
+    <Property Name="CapitalFund" Type="Double" />
+    <Property Name="ParValue" Type="Double" />
+    <Property Name="PriceListed" Type="Double" />
+    <Property Name="CTCKID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="NumberOfCDPT" Type="Double" />
+    <Property Name="NumberOfEmployees" Type="Double" />
+    <Property Name="WebsiteHomepage" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="WebsiteCorporateAction" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="WebsiteAboutCompany" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="WebsiteInvesterRelation" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="WebsiteProductServices" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="WebsiteJobHunter" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="RegistedOffice" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DistrictID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CityID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Telephone_CC" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Telephone_AC" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Telephone_Number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Fax_CC" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Fax_AC" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Fax_Number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="NumberOfATM" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="NumberOfSub1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="NumberOfTradeStation" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="HistoryDev" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="BusinessStrategies" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="KeyDevelopments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PosCompany" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CompanyProfile" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LargeInvestProject" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CompanyPromise" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="BusinessRisk" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ePrimaryProduct" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="eRegistedOffice" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="eDistrictID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="eCityID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="eHistoryDev" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="eBusinessStrategies" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="eKeyDevelopments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ePosCompany" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="eCompanyProfile" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="eLargeInvestProject" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="eCompanyPromise" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="eBusinessRisk" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="freefloat" Type="Double" />
+  </EntityType>
+  <EntityContainer Name="StoxDataEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="stox_tb_Company" EntityType="Self.stox_tb_Company" />
+    <EntitySet Name="stox_tb_Ratio" EntityType="StoxDataModel.stox_tb_Ratio" />
+    <EntitySet Name="stox_tb_HOSE_Trading" EntityType="StoxDataModel.stox_tb_HOSE_Trading" />
+    <EntitySet Name="stox_tb_StocksInfo" EntityType="StoxDataModel.stox_tb_StocksInfo" />
+  </EntityContainer>
+  <EntityType Name="stox_tb_Ratio">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BankCompany" Type="Byte" />
+    <Property Name="Ticker" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LengthReport" Type="Int32" />
+    <Property Name="LengthReport_Cal" Type="Int32" />
+    <Property Name="YearReport_Cal" Type="Int32" />
+    <Property Name="YearReport" Type="Int32" />
+    <Property Name="UpdateDate" Type="DateTime" Precision="0" />
+    <Property Name="Truot4Quy" Type="Boolean" />
+    <Property Name="Ebit" Type="Double" />
+    <Property Name="Ebitda" Type="Double" />
+    <Property Name="F5_1" Type="Double" />
+    <Property Name="F5_2" Type="Double" />
+    <Property Name="F5_3" Type="Double" />
+    <Property Name="F5_4" Type="Double" />
+    <Property Name="F5_5" Type="Double" />
+    <Property Name="F5_6" Type="Double" />
+    <Property Name="F5_7" Type="Double" />
+    <Property Name="F5_8" Type="Double" />
+    <Property Name="F5_9" Type="Double" />
+    <Property Name="F5_10" Type="Double" />
+    <Property Name="F5_11" Type="Double" />
+    <Property Name="F5_12" Type="Double" />
+    <Property Name="F5_13" Type="Double" />
+    <Property Name="F5_14" Type="Double" />
+    <Property Name="F5_15" Type="Double" />
+    <Property Name="F5_16" Type="Double" />
+    <Property Name="F5_17" Type="Double" />
+    <Property Name="F5_18" Type="Double" />
+    <Property Name="F5_19" Type="Double" />
+    <Property Name="F5_20" Type="Double" />
+    <Property Name="F5_21" Type="Double" />
+    <Property Name="F5_22" Type="Double" />
+    <Property Name="F5_23" Type="Double" />
+    <Property Name="F5_24" Type="Double" />
+    <Property Name="F5_25" Type="Double" />
+    <Property Name="F5_26" Type="Double" />
+    <Property Name="F5_27" Type="Double" />
+    <Property Name="F5_28" Type="Double" />
+    <Property Name="F5_29" Type="Double" />
+    <Property Name="F5_30" Type="Double" />
+    <Property Name="F5_31" Type="Double" />
+    <Property Name="F5_32" Type="Double" />
+    <Property Name="F5_33" Type="Double" />
+    <Property Name="F5_34" Type="Double" />
+    <Property Name="F5_35" Type="Double" />
+    <Property Name="F5_36" Type="Double" />
+    <Property Name="F5_37" Type="Double" />
+    <Property Name="F5_38" Type="Double" />
+    <Property Name="F5_39" Type="Double" />
+    <Property Name="F5_40" Type="Double" />
+    <Property Name="F5_41" Type="Double" />
+    <Property Name="F5_42" Type="Double" />
+    <Property Name="F5_43" Type="Double" />
+    <Property Name="F5_44" Type="Double" />
+    <Property Name="F5_45" Type="Double" />
+    <Property Name="F5_46" Type="Double" />
+    <Property Name="F5_47" Type="Double" />
+    <Property Name="F5_48" Type="Double" />
+    <Property Name="F5_49" Type="Double" />
+    <Property Name="F5_50" Type="Double" />
+    <Property Name="F5_51" Type="Double" />
+    <Property Name="F5_52" Type="Double" />
+    <Property Name="F5_53" Type="Double" />
+    <Property Name="F5_54" Type="Double" />
+    <Property Name="F5_55" Type="Double" />
+    <Property Name="F5_56" Type="Double" />
+    <Property Name="F5_57" Type="Double" />
+    <Property Name="F5_58" Type="Double" />
+    <Property Name="F5_59" Type="Double" />
+    <Property Name="F5_60" Type="Double" />
+    <Property Name="F5_61" Type="Double" />
+    <Property Name="F5_62" Type="Double" />
+    <Property Name="F5_63" Type="Double" />
+    <Property Name="F5_64" Type="Double" />
+    <Property Name="F5_65" Type="Double" />
+    <Property Name="F5_66" Type="Double" />
+    <Property Name="F5_67" Type="Double" />
+    <Property Name="F5_68" Type="Double" />
+    <Property Name="F5_69" Type="Double" />
+    <Property Name="F5_70" Type="Double" />
+    <Property Name="F5_71" Type="Double" />
+    <Property Name="F5_72" Type="Double" />
+    <Property Name="F5_73" Type="Double" />
+    <Property Name="F5_74" Type="Double" />
+    <Property Name="F5_75" Type="Double" />
+    <Property Name="F5_76" Type="Double" />
+    <Property Name="F5_77" Type="Double" />
+    <Property Name="F5_78" Type="Double" />
+    <Property Name="F5_79" Type="Double" />
+    <Property Name="F5_80" Type="Double" />
+    <Property Name="F5_81" Type="Double" />
+    <Property Name="F5_82" Type="Double" />
+    <Property Name="F5_83" Type="Double" />
+    <Property Name="F5_84" Type="Double" />
+    <Property Name="F5_85" Type="Double" />
+    <Property Name="F5_86" Type="Double" />
+    <Property Name="F5_87" Type="Double" />
+    <Property Name="F5_88" Type="Double" />
+    <Property Name="F5_43b" Type="Double" />
+    <Property Name="F5_90" Type="Double" />
+    <Property Name="F5_91" Type="Double" />
+    <Property Name="F5_92" Type="Double" />
+    <Property Name="F5_93" Type="Double" />
+    <Property Name="F5_94" Type="Double" />
+    <Property Name="F5_95" Type="Double" />
+    <Property Name="F5_96" Type="Double" />
+    <Property Name="F5_97" Type="Double" />
+    <Property Name="F5_98" Type="Double" />
+    <Property Name="F5_99" Type="Double" />
+    <Property Name="F5_1a" Type="Double" />
+    <Property Name="F5_100" Type="Double" />
+    <Property Name="F5_101" Type="Double" />
+    <Property Name="F5_102" Type="Double" />
+    <Property Name="F5_103" Type="Double" />
+    <Property Name="F5_104" Type="Double" />
+    <Property Name="F5_105" Type="Double" />
+    <Property Name="F5_1b" Type="Double" />
+    <Property Name="F5_61a" Type="Double" />
+    <Property Name="F5_62a" Type="Double" />
+    <Property Name="F5_63a" Type="Double" />
+    <Property Name="F5_64a" Type="Double" />
+    <Property Name="F5_65a" Type="Double" />
+    <Property Name="F5_66a" Type="Double" />
+    <Property Name="F5_67a" Type="Double" />
+    <Property Name="F5_68a" Type="Double" />
+    <Property Name="F5_69a" Type="Double" />
+    <Property Name="F5_70a" Type="Double" />
+    <Property Name="F5_15b" Type="Double" />
+    <Property Name="F5_38b" Type="Double" />
+    <Property Name="F5_106" Type="Double" />
+    <Property Name="F5_107" Type="Double" />
+    <Property Name="F5_108" Type="Double" />
+    <Property Name="F5_109" Type="Double" />
+    <Property Name="F5_110" Type="Double" />
+    <Property Name="F5_111" Type="Double" />
+    <Property Name="F5_112" Type="Double" />
+    <Property Name="F5_113" Type="Double" />
+    <Property Name="F5_114" Type="Double" />
+    <Property Name="F5_115" Type="Double" />
+    <Property Name="F5_116" Type="Double" />
+    <Property Name="F5_117" Type="Double" />
+    <Property Name="F5_118" Type="Double" />
+    <Property Name="F5_119" Type="Double" />
+    <Property Name="F5_120" Type="Double" />
+    <Property Name="F5_121" Type="Double" />
+    <Property Name="F5_122" Type="Double" />
+    <Property Name="F5_123" Type="Double" />
+    <Property Name="F5_124" Type="Double" />
+    <Property Name="F5_125" Type="Double" />
+    <Property Name="F5_126" Type="Double" />
+    <Property Name="F5_127" Type="Double" />
+    <Property Name="F5_128" Type="Double" />
+    <Property Name="F5_129" Type="Double" />
+    <Property Name="F5_130" Type="Double" />
+    <Property Name="F5_131" Type="Double" />
+    <Property Name="F5_132" Type="Double" />
+    <Property Name="F5_133" Type="Double" />
+    <Property Name="F5_134" Type="Double" />
+    <Property Name="F5_135" Type="Double" />
+    <Property Name="F5_136" Type="Double" />
+    <Property Name="F5_137" Type="Double" />
+    <Property Name="F5_138" Type="Double" />
+    <Property Name="F5_139" Type="Double" />
+    <Property Name="F5_140" Type="Double" />
+    <Property Name="F5_141" Type="Double" />
+    <Property Name="F5_142" Type="Double" />
+    <Property Name="F5_143" Type="Double" />
+    <Property Name="F5_144" Type="Double" />
+    <Property Name="F5_145" Type="Double" />
+    <Property Name="F5_146" Type="Double" />
+    <Property Name="F5_147" Type="Double" />
+    <Property Name="F5_148" Type="Double" />
+    <Property Name="F5_149" Type="Double" />
+    <Property Name="F5_150" Type="Double" />
+    <Property Name="F5_151" Type="Double" />
+    <Property Name="F5_152" Type="Double" />
+    <Property Name="F5_153" Type="Double" />
+    <Property Name="F5_154" Type="Double" />
+    <Property Name="F5_155" Type="Double" />
+    <Property Name="F5_156" Type="Double" />
+    <Property Name="F5_157" Type="Double" />
+    <Property Name="F5_158" Type="Double" />
+    <Property Name="F5_159" Type="Double" />
+    <Property Name="F5_160" Type="Double" />
+    <Property Name="F5_161" Type="Double" />
+    <Property Name="F5_162" Type="Double" />
+    <Property Name="F5_163" Type="Double" />
+    <Property Name="F5_164" Type="Double" />
+    <Property Name="F5_165" Type="Double" />
+    <Property Name="F5_166" Type="Double" />
+    <Property Name="F5_167" Type="Double" />
+    <Property Name="F5_168" Type="Double" />
+    <Property Name="F5_169" Type="Double" />
+    <Property Name="F5_170" Type="Double" />
+    <Property Name="F5_171" Type="Double" />
+    <Property Name="F5_172" Type="Double" />
+    <Property Name="F5_173" Type="Double" />
+    <Property Name="F5_174" Type="Double" />
+    <Property Name="F5_175" Type="Double" />
+    <Property Name="F5_176" Type="Double" />
+  </EntityType>
+  <EntityType Name="stox_tb_HOSE_Trading">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StockNo" Type="Int32" />
+    <Property Name="StockSymbol" Type="String" Nullable="false" MaxLength="8" FixedLength="true" Unicode="true" />
+    <Property Name="StockType" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="Ceiling" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Floor" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="BigLotValue" Type="Double" />
+    <Property Name="SecurityName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="SectorNo" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="Designated" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="Suspension" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="Delist" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="HaltResumeFlag" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="Split" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="Benefit" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="Meeting" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="Notice" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="ClientIDRequest" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="CouponRate" Type="Int32" />
+    <Property Name="IssueDate" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="MatureDate" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="AvrPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ParValue" Type="Int32" />
+    <Property Name="SDCFlag" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="PriorClosePrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PriorCloseDate" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="ProjectOpen" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="OpenPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Last" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="LastVol" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="LastVal" Type="Double" />
+    <Property Name="Highest" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Lowest" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Totalshare" Type="Double" />
+    <Property Name="TotalValue" Type="Double" />
+    <Property Name="AccumulateDeal" Type="Int32" />
+    <Property Name="BigDeal" Type="Int32" />
+    <Property Name="BigVol" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="BigVal" Type="Double" />
+    <Property Name="OddDeal" Type="Int32" />
+    <Property Name="OddVol" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="OddVal" Type="Double" />
+    <Property Name="Best1Bid" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Best1BidVolume" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Best2Bid" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Best2BidVolume" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Best3Bid" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Best3BidVolume" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Best1Offer" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Best1OfferVolume" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Best2Offer" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Best2OfferVolume" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Best3Offer" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Best3OfferVolume" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DateReport" Type="DateTime" Precision="3" />
+    <Property Name="CurrentRoom" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalRoom" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Match1" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="MatchVolume1" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Match2" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="MatchVolume2" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Other_room" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Room" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="SellPrice3" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="SellPrice2" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="SellPrice1" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="BuyPrice3" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="BuyPrice2" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="BuyPrice1" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="SellQtty3" Type="Int32" />
+    <Property Name="SellQtty2" Type="Int32" />
+    <Property Name="SellQtty1" Type="Int32" />
+    <Property Name="BuyQtty3" Type="Int32" />
+    <Property Name="BuyQtty2" Type="Int32" />
+    <Property Name="BuyQtty1" Type="Int32" />
+    <Property Name="ChangePrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ClosePrice_Adjusted" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Rate_Adjusted" Type="Double" />
+    <Property Name="Highest_Adjusted" Type="Double" />
+    <Property Name="Lowest_Adjusted" Type="Double" />
+    <Property Name="KLGD_ThoaThuan" Type="Double" />
+    <Property Name="GTGD_ThoaThuan" Type="Double" />
+    <Property Name="OpenPrice_Adjusted" Type="Double" />
+  </EntityType>
+  <EntityType Name="stox_tb_StocksInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="stock_info_id" Type="Int32" />
+    <Property Name="trading_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="time" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+    <Property Name="stock_id" Type="Int32" />
+    <Property Name="code" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="stock_type" Type="Byte" Nullable="false" />
+    <Property Name="total_listing_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="trading_unit" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="listting_status" Type="Byte" />
+    <Property Name="adjust_qtty" Type="Decimal" Precision="19" Scale="0" />
+    <Property Name="reference_status" Type="Byte" />
+    <Property Name="adjust_rate" Type="Double" />
+    <Property Name="divident_rate" Type="Double" />
+    <Property Name="status" Type="Byte" />
+    <Property Name="total_room" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="current_room" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="basic_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="open_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="close_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="current_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="current_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="highest_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="lowest_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="best_offer_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="best_bid_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="ceiling_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="floor_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="total_offer_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="total_bid_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="best_offer_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="best_bid_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="prior_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="prior_close_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="match_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="match_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="deleted" Type="Byte" />
+    <Property Name="date_created" Type="DateTime" Precision="3" />
+    <Property Name="date_modified" Type="DateTime" Precision="3" />
+    <Property Name="modified_by" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="created_by" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="parvalue" Type="Int32" />
+    <Property Name="floor_code" Type="Int32" />
+    <Property Name="match_value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="is_calcindex" Type="Byte" />
+    <Property Name="is_determinecl" Type="Byte" />
+    <Property Name="date_no" Type="Int32" />
+    <Property Name="offer_count" Type="Int32" />
+    <Property Name="bid_count" Type="Int32" />
+    <Property Name="average_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="index_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="prev_prior_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="yieldmat" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="prev_prior_close_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="nm_total_traded_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="nm_total_traded_value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="pt_match_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="pt_match_price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="pt_total_traded_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="pt_total_traded_value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="total_buy_trading_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="buy_count" Type="Int32" />
+    <Property Name="total_buy_trading_value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="total_sell_trading_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="sell_count" Type="Int32" />
+    <Property Name="total_sell_trading_value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="total_trading_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="total_trading_value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="buy_foreign_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="buy_foreign_value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="sell_foreign_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="sell_foreign_value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="remain_foreign_qtty" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="pt_yieldmat" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="dateReport" Type="DateTime" Precision="3" />
+    <Property Name="ClosePrice_Adjusted" Type="Double" />
+    <Property Name="Rate_Adjusted" Type="Double" />
+    <Property Name="Highest_Adjusted" Type="Double" />
+    <Property Name="Lowest_Adjusted" Type="Double" />
+    <Property Name="OpenPrice_Adjusted" Type="Double" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DatabaseLocalStoreContainer" CdmEntityContainer="KNDTLocalConnection">
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="DatabaseLocal.Comment">
+        <MappingFragment StoreEntitySet="Comments">
+          <ScalarProperty Name="PostedDate" ColumnName="PostedDate" />
+          <ScalarProperty Name="CommentBy" ColumnName="CommentBy" />
+          <ScalarProperty Name="PostedBy" ColumnName="PostedBy" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="CommentsId" ColumnName="CommentsId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserLogins">
+      <EntityTypeMapping TypeName="DatabaseLocal.UserLogin">
+        <MappingFragment StoreEntitySet="UserLogins">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="LockAccount" ColumnName="LockAccount" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="Verify" ColumnName="Verify" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="AvataCover" ColumnName="AvataCover" />
+          <ScalarProperty Name="AvataImage" ColumnName="AvataImage" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="UserNameCopy" ColumnName="UserNameCopy" />
+          <ScalarProperty Name="KeyLogin" ColumnName="KeyLogin" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RecommendStocks">
+      <EntityTypeMapping TypeName="DatabaseLocal.RecommendStock">
+        <MappingFragment StoreEntitySet="RecommendStock">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+          <ScalarProperty Name="CreatedModify" ColumnName="CreatedModify" />
+          <ScalarProperty Name="SumComment" ColumnName="SumComment" />
+          <ScalarProperty Name="PostBy" ColumnName="PostBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="TargetSell" ColumnName="TargetSell" />
+          <ScalarProperty Name="StockHoldingTime" ColumnName="StockHoldingTime" />
+          <ScalarProperty Name="BuyPrice" ColumnName="BuyPrice" />
+          <ScalarProperty Name="TYPERecommend" ColumnName="TYPERecommend" />
+          <ScalarProperty Name="StockCode" ColumnName="StockCode" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

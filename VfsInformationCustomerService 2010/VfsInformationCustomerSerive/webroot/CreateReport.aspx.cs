@@ -103,7 +103,7 @@ public partial class CreateReport : System.Web.UI.Page
         try
         {
             ImportService.CreateMessageWithEmail(data, ContentTemplateService.GetContentTemplate(ApplicationHelper.ReportContentTemplate), ref numberCustomerSent);
-            divNotification.InnerHtml = "Thành công: " + numberCustomerSent + " khách hàng";
+            divNotification.InnerHtml = "Gửi tin thành công: " + numberCustomerSent + " khách hàng VIP";
         }
         catch (Exception)
         {
@@ -123,7 +123,7 @@ public partial class CreateReport : System.Web.UI.Page
     [System.Web.Services.WebMethod]
     public static string SendSMSTest(string mobile)
     {
-        System.Threading.Thread.Sleep(2000);
+        System.Threading.Thread.Sleep(1000);
 
         return "Y";
     }
@@ -136,7 +136,7 @@ public partial class CreateReport : System.Web.UI.Page
     [System.Web.Services.WebMethod]
     public static string SaveTemplateAjax(string content)
     {
-        System.Threading.Thread.Sleep(2000);
+        System.Threading.Thread.Sleep(1000);
         //get template
         VfsCustomerService.Entities.ContentTemplate contentTemplate = ContentTemplateService.GetContentTemplate(ApplicationHelper.ReportContentTemplate);
         contentTemplate.BodyMessage = VfsCustomerService.Utility.HtmlRemoval.StripTagsRegexCompiled(content);

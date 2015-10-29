@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseLocal.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Comments">
+    <Key>
+      <PropertyRef Name="CommentsId" />
+    </Key>
+    <Property Name="CommentsId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Message" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="PostedBy" Type="int" Nullable="false" />
+    <Property Name="CommentBy" Type="int" Nullable="false" />
+    <Property Name="PostedDate" Type="datetime2" Precision="7" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RecommendStock">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StockCode" Type="varchar" MaxLength="16" Nullable="false" />
+    <Property Name="TYPERecommend" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="BuyPrice" Type="numeric" Precision="18" Scale="1" />
+    <Property Name="StockHoldingTime" Type="int" />
+    <Property Name="TargetSell" Type="numeric" Precision="18" Scale="1" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="PostBy" Type="int" />
+    <Property Name="SumComment" Type="int" />
+    <Property Name="CreatedModify" Type="datetime" Nullable="false" />
+    <Property Name="ImageUrl" Type="nvarchar" MaxLength="256" />
+    <Property Name="Description" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="UserLogins">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KeyLogin" Type="nvarchar(max)" />
+    <Property Name="UserNameCopy" Type="nvarchar" MaxLength="256" />
+    <Property Name="BirthDate" Type="datetime" />
+    <Property Name="AvataImage" Type="nvarchar" MaxLength="256" />
+    <Property Name="AvataCover" Type="nvarchar" MaxLength="256" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="256" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="Verify" Type="int" Nullable="false" />
+    <Property Name="AccountType" Type="int" Nullable="false" />
+    <Property Name="LockAccount" Type="int" Nullable="false" />
+    <Property Name="Status" Type="nvarchar" MaxLength="128" />
+  </EntityType>
+  <Association Name="FK_Comments_RecommendStock">
+    <End Role="RecommendStock" Type="Self.RecommendStock" Multiplicity="1" />
+    <End Role="Comments" Type="Self.Comments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RecommendStock">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="PostedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comments_UserLogins">
+    <End Role="UserLogins" Type="Self.UserLogins" Multiplicity="1" />
+    <End Role="Comments" Type="Self.Comments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserLogins">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="CommentBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RecommendStock_UserLogins">
+    <End Role="UserLogins" Type="Self.UserLogins" Multiplicity="0..1" />
+    <End Role="RecommendStock" Type="Self.RecommendStock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserLogins">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RecommendStock">
+        <PropertyRef Name="PostBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DatabaseLocalStoreContainer">
+    <EntitySet Name="Comments" EntityType="Self.Comments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RecommendStock" EntityType="Self.RecommendStock" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserLogins" EntityType="Self.UserLogins" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Comments_RecommendStock" Association="Self.FK_Comments_RecommendStock">
+      <End Role="RecommendStock" EntitySet="RecommendStock" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comments_UserLogins" Association="Self.FK_Comments_UserLogins">
+      <End Role="UserLogins" EntitySet="UserLogins" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RecommendStock_UserLogins" Association="Self.FK_RecommendStock_UserLogins">
+      <End Role="UserLogins" EntitySet="UserLogins" />
+      <End Role="RecommendStock" EntitySet="RecommendStock" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
