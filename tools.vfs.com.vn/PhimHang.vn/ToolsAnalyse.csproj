@@ -385,9 +385,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>StoxDataDB.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\stox_tb_Company.cs">
+      <DependentUpon>StoxDataDB.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\sysdiagram.cs">
       <DependentUpon>CustomerServicesModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\TickerSuggest.cs" />
     <Compile Include="Models\UserCustom.cs" />
     <Compile Include="Models\UserLogin.cs">
       <DependentUpon>CustomerServicesModel.tt</DependentUpon>
@@ -401,6 +405,7 @@
     </Compile>
     <Compile Include="Startup.cs" />
     <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\magicsuggest.custom.css" />
     <Content Include="css\research.css" />
     <Content Include="css\stylesheet.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -409,6 +414,7 @@
     <Content Include="images\footer.gif" />
     <Content Include="images\Icons_PDF.gif" />
     <Content Include="images\uploading.gif" />
+    <Content Include="Js\magicsuggest-min.js" />
     <Content Include="Js\ResearchJs.js" />
     <Content Include="Scripts\ExtentionJS.js" />
     <Content Include="Views\FrontAccount\Login.cshtml" />

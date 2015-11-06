@@ -64,6 +64,7 @@
     <Compile Include="CustomerLog.cs">
       <DependentUpon>CustomerServicesDB.tt</DependentUpon>
     </Compile>
+    <Compile Include="CustomerLogDAO.cs" />
     <Compile Include="CustomerServicesDB.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -82,6 +83,7 @@
     <Compile Include="CustomerType.cs">
       <DependentUpon>CustomerServicesDB.tt</DependentUpon>
     </Compile>
+    <Compile Include="DataReaderExtensions.cs" />
     <Compile Include="ExtensionMessage.cs">
       <DependentUpon>CustomerServicesDB.tt</DependentUpon>
     </Compile>

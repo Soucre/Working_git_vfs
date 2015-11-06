@@ -10,6 +10,7 @@ using PhimHang.Models;
 using PagedList;
 using System.Data.Entity;
 using System.Data.SqlClient;
+using System.Web.Http.Results;
 
 namespace PhimHang.Controllers
 {
@@ -118,6 +119,22 @@ namespace PhimHang.Controllers
                 }
               
                 return PartialView("_PartialListReport", listReport);
+            }
+        }
+        private StoxDataEntities Stoxdb;
+        public string GetStockSuggest(string ticker)
+        {
+            using (Stoxdb = new StoxDataEntities())
+            {
+                var result = (from tk in Stoxdb.stox_tb_Company
+                              select new TickerSuggest
+                              {
+                                  id = tk.Ticker,
+                                  name = tk.ShortName
+                              }).ToList();
+
+                return Newtonsoft.Json.JsonConvert.SerializeObject(result);
+                //return "[{name: 'Georges Washington',  email: 'georges.washington@whitehouse.gov'},{name: 'Theodore Roosevelt',email: 'theodore.roosevelt@whitehouse.gov'},{name: 'Benjamin Franklin',email: 'benjamin.franlin@whitehouse.gov'},{name: 'Abraham Lincoln',email: 'abraham.lincoln@whitehouse.gov'}]";
             }
         }
 

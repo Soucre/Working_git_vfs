@@ -154,5 +154,8 @@ ADD CreateDate [datetime2](7) NOT NULL default(getdate()) -- ngày t?o báo cáo
 
 -- kich thuoc file 
 
-  ALTER TABLE [dbo].[Report]
+ALTER TABLE [dbo].[Report]
 ALTER COLUMN FileSize int
+
+ALTER TABLE [dbo].[Report]
+ADD FileType varchar(5)

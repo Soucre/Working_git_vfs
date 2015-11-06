@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "Database", "Database.dbproj", "{44155652-4C63-4582-AF66-6795C278002D}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = Database.dbproj
+		SccProjectName0 = \u0022$/MSTechnology/VfsInformationCustomerService/CustomerServices/Database\u0022,\u0020VJDAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44155652-4C63-4582-AF66-6795C278002D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44155652-4C63-4582-AF66-6795C278002D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44155652-4C63-4582-AF66-6795C278002D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{44155652-4C63-4582-AF66-6795C278002D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44155652-4C63-4582-AF66-6795C278002D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44155652-4C63-4582-AF66-6795C278002D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

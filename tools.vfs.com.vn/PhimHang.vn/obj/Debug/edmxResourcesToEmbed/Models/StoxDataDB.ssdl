@@ -1,7 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="StoxDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="StoxDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="stox_tb_Company">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ticker" Type="nvarchar" MaxLength="255" />
+    <Property Name="ShortName" Type="nvarchar" MaxLength="500" />
+    <Property Name="TypeID" Type="smallint" />
+    <Property Name="EnglishName" Type="nvarchar" MaxLength="500" />
+    <Property Name="Name" Type="nvarchar" MaxLength="500" />
+    <Property Name="CompanyTypeBeforeListed" Type="nvarchar" MaxLength="255" />
+    <Property Name="IndustryParent" Type="nvarchar" MaxLength="255" />
+    <Property Name="IndustryID" Type="nvarchar" MaxLength="500" />
+    <Property Name="PrimaryProduct" Type="nvarchar" MaxLength="2000" />
+    <Property Name="ExchangeID" Type="smallint" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="Index" Type="nvarchar" MaxLength="255" />
+    <Property Name="ShareType" Type="nvarchar" MaxLength="255" />
+    <Property Name="ShareCirculate" Type="float" />
+    <Property Name="FirstListingDate" Type="datetime" />
+    <Property Name="ShareIssue" Type="float" />
+    <Property Name="CapitalFund" Type="float" />
+    <Property Name="ParValue" Type="float" />
+    <Property Name="PriceListed" Type="float" />
+    <Property Name="CTCKID" Type="nvarchar" MaxLength="255" />
+    <Property Name="NumberOfCDPT" Type="float" />
+    <Property Name="NumberOfEmployees" Type="float" />
+    <Property Name="WebsiteHomepage" Type="nvarchar" MaxLength="500" />
+    <Property Name="WebsiteCorporateAction" Type="nvarchar" MaxLength="500" />
+    <Property Name="WebsiteAboutCompany" Type="nvarchar" MaxLength="500" />
+    <Property Name="WebsiteInvesterRelation" Type="nvarchar" MaxLength="500" />
+    <Property Name="WebsiteProductServices" Type="nvarchar" MaxLength="500" />
+    <Property Name="WebsiteJobHunter" Type="nvarchar" MaxLength="500" />
+    <Property Name="RegistedOffice" Type="nvarchar" MaxLength="500" />
+    <Property Name="DistrictID" Type="nvarchar" MaxLength="255" />
+    <Property Name="CityID" Type="nvarchar" MaxLength="255" />
+    <Property Name="Telephone_CC" Type="nvarchar" MaxLength="255" />
+    <Property Name="Telephone_AC" Type="nvarchar" MaxLength="255" />
+    <Property Name="Telephone_Number" Type="nvarchar" MaxLength="255" />
+    <Property Name="Fax_CC" Type="nvarchar" MaxLength="255" />
+    <Property Name="Fax_AC" Type="nvarchar" MaxLength="255" />
+    <Property Name="Fax_Number" Type="nvarchar" MaxLength="255" />
+    <Property Name="NumberOfATM" Type="nvarchar" MaxLength="255" />
+    <Property Name="NumberOfSub1" Type="nvarchar" MaxLength="255" />
+    <Property Name="NumberOfTradeStation" Type="nvarchar" MaxLength="255" />
+    <Property Name="HistoryDev" Type="ntext" />
+    <Property Name="BusinessStrategies" Type="ntext" />
+    <Property Name="KeyDevelopments" Type="ntext" />
+    <Property Name="PosCompany" Type="ntext" />
+    <Property Name="CompanyProfile" Type="ntext" />
+    <Property Name="LargeInvestProject" Type="ntext" />
+    <Property Name="CompanyPromise" Type="ntext" />
+    <Property Name="BusinessRisk" Type="ntext" />
+    <Property Name="ePrimaryProduct" Type="nvarchar" MaxLength="2000" />
+    <Property Name="eRegistedOffice" Type="nvarchar" MaxLength="500" />
+    <Property Name="eDistrictID" Type="nvarchar" MaxLength="255" />
+    <Property Name="eCityID" Type="nvarchar" MaxLength="255" />
+    <Property Name="eHistoryDev" Type="ntext" />
+    <Property Name="eBusinessStrategies" Type="ntext" />
+    <Property Name="eKeyDevelopments" Type="ntext" />
+    <Property Name="ePosCompany" Type="ntext" />
+    <Property Name="eCompanyProfile" Type="ntext" />
+    <Property Name="eLargeInvestProject" Type="ntext" />
+    <Property Name="eCompanyPromise" Type="ntext" />
+    <Property Name="eBusinessRisk" Type="ntext" />
+    <Property Name="freefloat" Type="float" />
+  </EntityType>
   <Function Name="VFS_DIV" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="YearReport" Type="int" Mode="In" />
+    <Parameter Name="TotalRow" Type="int" Mode="In" />
   </Function>
-  <EntityContainer Name="StoxDataModelStoreContainer" />
+  <EntityContainer Name="StoxDataModelStoreContainer">
+    <EntitySet Name="stox_tb_Company" EntityType="Self.stox_tb_Company" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
 </Schema>

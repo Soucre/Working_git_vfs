@@ -184,6 +184,9 @@
     <Compile Include="RelatedMessagelog.cs" />
     <Compile Include="RelatedMessagelogBase.cs" />
     <Compile Include="RelatedMessagelogCollection.cs" />
+    <Compile Include="Report.cs" />
+    <Compile Include="ReportBase.cs" />
+    <Compile Include="ReportCollection.cs" />
     <Compile Include="ServiceType.cs">
       <SubType>Code</SubType>
     </Compile>

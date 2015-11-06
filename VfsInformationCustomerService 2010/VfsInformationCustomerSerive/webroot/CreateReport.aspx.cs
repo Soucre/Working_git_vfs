@@ -121,11 +121,37 @@ public partial class CreateReport : System.Web.UI.Page
     /// <param name="mobile"></param>
     /// <returns></returns>
     [System.Web.Services.WebMethod]
-    public static string SendSMSTest(string mobile)
+    public static string SendSMSTest(string  mobile)
     {
         System.Threading.Thread.Sleep(1000);
 
-        return "Y";
+        VfsCustomerService.Entities.ContentTemplate contentTemplate = ContentTemplateService.GetContentTemplate(ApplicationHelper.ReportContentTemplate);
+        if (contentTemplate != null)
+        {
+            VfsCustomerService.Entities.MessageContent messageContent = new VfsCustomerService.Entities.MessageContent();
+            messageContent.BodyContentType = contentTemplate.BodyContentType;
+            messageContent.BodyEncoding = contentTemplate.BodyEncoding;
+            messageContent.BodyMessage = contentTemplate.BodyMessage;
+            messageContent.ContentTemplateID = contentTemplate.ContentTemplateID;
+            messageContent.CreatedDate = DateTime.Now;
+            messageContent.ModifiedDate = DateTime.Now;
+            messageContent.Receiver = "0" + mobile;
+            messageContent.Sender = contentTemplate.Sender;
+            messageContent.ServiceTypeID = contentTemplate.ServiceTypeID;
+            messageContent.Subject = contentTemplate.Subject;
+            // send SMS test
+            SendSMS sendSMS = new SendSMS();
+            sendSMS.UserName = ApplicationHelper.SmsUserName;
+            sendSMS.Password = ApplicationHelper.SmsPassword;
+            sendSMS.Send(messageContent);
+
+            return "Y";
+        }
+        else
+        {
+            return "N";
+        }
+       
     }
 
     /// <summary>

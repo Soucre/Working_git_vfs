@@ -64,6 +64,7 @@
     <Folder Include="Data Generation Plans" />
     <Folder Include="Schema Comparisons" />
     <Folder Include="SP scripts\NewWebsite" />
+    <Folder Include="SP scripts\Report" />
   </ItemGroup>
   <ItemGroup>
     <PropertiesFile Include="Properties\Database.sqlsettings">
@@ -287,5 +288,10 @@
   </ItemGroup>
   <ItemGroup>
     <BuildContributorArgument Include="OutDir=$(OutDir)" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="SP scripts\Report\spReportGetList.proc.sql">
+      <SubType>Code</SubType>
+    </Build>
   </ItemGroup>
 </Project>

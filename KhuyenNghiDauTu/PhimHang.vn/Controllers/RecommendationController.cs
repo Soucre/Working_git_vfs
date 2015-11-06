@@ -380,7 +380,7 @@ namespace PhimHang.Controllers
 
             RecommendStock recommendstock = await db.RecommendStocks.FindAsync(idkn);
             recommendstock.SumComment = recommendstock.SumComment + 1;
-            db.Entry(recommendstock).State = EntityState.Modified;            
+            db.Entry(recommendstock).State = EntityState.Modified;
 
             try
             {

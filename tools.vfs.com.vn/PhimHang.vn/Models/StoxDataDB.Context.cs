@@ -27,14 +27,19 @@ namespace PhimHang.Models
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<stox_tb_Company> stox_tb_Company { get; set; }
     
-        public virtual int VFS_DIV(Nullable<int> yearReport)
+        public virtual int VFS_DIV(Nullable<int> yearReport, Nullable<int> totalRow)
         {
             var yearReportParameter = yearReport.HasValue ?
                 new ObjectParameter("YearReport", yearReport) :
                 new ObjectParameter("YearReport", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("VFS_DIV", yearReportParameter);
+            var totalRowParameter = totalRow.HasValue ?
+                new ObjectParameter("TotalRow", totalRow) :
+                new ObjectParameter("TotalRow", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("VFS_DIV", yearReportParameter, totalRowParameter);
         }
     }
 }

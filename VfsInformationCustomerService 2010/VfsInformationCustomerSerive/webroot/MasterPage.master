@@ -56,7 +56,7 @@
 			                
 		                </li>	
                         <li class="blue"><p><a href="CreateReport.aspx">Tạo báo cáo</a></p></li>	
-                       <li class="blue"><p><a href="GroupDetail.aspx">Danh mục báo cáo</a></p></li>
+                       <li class="blue"><p><a href="ReportList.aspx">Danh mục báo cáo</a></p></li>
                        <li class="blue"><p><a href="ReportCustomer.aspx">Thống kê</a></p></li>	
                        <%--Menu 2--%>
 		                <li class="green" style="margin-top:1px">

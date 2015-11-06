@@ -15,6 +15,10 @@
 <link href="~/css/research.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script src="~/Scripts/ExtentionJS.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="http://nicolasbize.com/magicsuggest/tutorial/5/lib/magicsuggest/magicsuggest.js"></script>
+<link href="~/css/magicsuggest.custom.css" rel="stylesheet" />
+@*<script src="~/Js/magicsuggest-min.js"></script>*@
 <script src="~/Js/ResearchJs.js"></script>
 @*<link href="~/css/tableStyle.css" rel="stylesheet" />*@
 <div id="div-table">
@@ -58,15 +62,15 @@
             <div class="search-box">
                 <!--<input class="form-control" id="auto-suggest" type="search" name="research_search" placeholder=" / company name / key word" />-->
                 
-                <div class="ms-ctn form-control  ms-ctn-focus" style="" id="auto-suggest">
+                <div class="ms-ctn form-control  ms-ctn-focus">
                     <span class="ms-helper " style="display: none;"></span>
                     <div class="ms-sel-ctn">
-                        <input type="text" placeholder="VNM, HAG, SSI..." title="tìm báo cáo" style="width: 400px; color: #0065BF; " maxlength="10" value='@ViewBag.Ticker' name="Ticker">
+                        <input type="text"  title="tìm báo cáo" style="width: 412px; color: #0065BF; " maxlength="10" value='@ViewBag.Ticker' name="ticker" id="auto-suggest">
                         <div style="display: none;"></div>
                     </div>
-                    <div class="ms-trigger">
+                    @*<div class="ms-trigger">
                         <div class="ms-trigger-ico"></div>
-                    </div>
+                    </div>*@
                 </div>
                 <button id="btn-submit" type="submit" style="cursor:pointer">
                     <i style="margin-left:-8px" class="fa fa-search"></i>
