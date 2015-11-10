@@ -65,7 +65,7 @@
                 <div class="ms-ctn form-control  ms-ctn-focus">
                     <span class="ms-helper " style="display: none;"></span>
                     <div class="ms-sel-ctn">
-                        <input type="text"  title="tìm báo cáo" style="width: 412px; color: #0065BF; " maxlength="10" value='@ViewBag.Ticker' name="ticker" id="auto-suggest">
+                        <input type="text"  title="tìm báo cáo" style="width: 412px; color: #0065BF; " maxlength="10" name="ticker[]" id="auto-suggest">
                         <div style="display: none;"></div>
                     </div>
                     @*<div class="ms-trigger">
@@ -96,4 +96,49 @@
 }
 </div> <!--end div-table -->
 
-
+@{
+    if (string.IsNullOrEmpty(@ViewBag.Ticker))
+    {
+        <script>
+            $(document).ready(function () {
+                $('#auto-suggest').magicSuggest({
+                    data: '/Research/GetStockSuggest',
+                    placeholder: 'Nhập mã cổ phiếu: HAG, VNM, KBC, ...',
+                    method: 'get',
+                    maxSelection: 1,
+                    name: 'ticker[]',
+                    allowFreeEntries: false,
+                    valueField: 'id',
+                    displayField: 'id',
+                    renderer: function (data) {
+                        return data.id + ' (<b>' + data.name + '</b>)';
+                    },                   
+                });
+            });
+        </script>
+    }
+    else
+    {
+        <script>
+            $(document).ready(function () {
+                $('#auto-suggest').magicSuggest({
+                    data: '/Research/GetStockSuggest',
+                    placeholder: 'Nhập mã cổ phiếu: HAG, VNM, KBC, ...',
+                    method: 'get',
+                    maxSelection: 1,
+                    name: 'ticker[]',
+                    allowFreeEntries: false,
+                    valueField: 'id',
+                    displayField: 'id',
+                    renderer: function (data) {
+                        return data.id + ' (<b>' + data.name + '</b>)';
+                    },                    value: [{
+                        'id': '@ViewBag.Ticker',
+                        'name': '@ViewBag.Ticker'
+                    }],
+
+                });
+            });
+        </script>
+    }
+}

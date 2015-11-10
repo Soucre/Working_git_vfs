@@ -45,19 +45,7 @@ $(document).ready(function () {
             }
         });
     }
-    $('#auto-suggest').magicSuggest({
-        data: '/Research/GetStockSuggest',
-        placeholder: 'Enter recipients...',
-        method: 'get',
-        maxSelection: 1,
-        name: 'ticker',
-        allowFreeEntries: false,       
-        valueField: 'id',
-        displayField:'id',
-        renderer: function (data) {
-            return data.id + ' (<b>' + data.name + '</b>)';
-        },
-    });    //$('#auto-suggest').magicSuggest({
+       //$('#auto-suggest').magicSuggest({
     //    data: '/Research/GetStockSuggest',
     //    method: 'get',
     //    maxSelection: 1,

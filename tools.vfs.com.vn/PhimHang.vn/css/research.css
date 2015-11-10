@@ -157,6 +157,7 @@ ul, ol {
     overflow: auto;
     line-height: 18px;
     padding-right: 25px;
+    background-color:white;
 }
 
 #research-center > .search-box > div input {

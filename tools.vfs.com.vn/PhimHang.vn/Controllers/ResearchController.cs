@@ -20,13 +20,14 @@ namespace PhimHang.Controllers
         //
         // GET: /Research/
         private VfsCustomerServiceEntities DbCustomerSV = new VfsCustomerServiceEntities();
-        public async Task<ActionResult> Index(string ticker, int[] CategoryIDs)
+        public async Task<ActionResult> Index( int[] CategoryIDs)
         {
             using (DbCustomerSV = new VfsCustomerServiceEntities())
-            {
-                ViewBag.DescriptionTile = Resources.VN_Resources.Research_Title;                
-                ViewBag.Ticker = ticker;
-                string tickerFilter = string.IsNullOrEmpty(ticker) ? "ALL" : ticker;
+            {                
+                string tickerArray = Request.QueryString["ticker[]"];
+                ViewBag.DescriptionTile = Resources.VN_Resources.Research_Title;
+                ViewBag.Ticker = tickerArray;
+                string tickerFilter = string.IsNullOrEmpty(tickerArray) ? "ALL" : tickerArray;
                 DateTime dateVIPFilter = DateTime.Now;
                 if (Request.Cookies["AccountType"] != null)
                 {
@@ -122,20 +123,29 @@ namespace PhimHang.Controllers
             }
         }
         private StoxDataEntities Stoxdb;
-        public string GetStockSuggest(string ticker)
+        public string GetStockSuggest(string query)
         {
-            using (Stoxdb = new StoxDataEntities())
+            if (!string.IsNullOrEmpty( query))
             {
-                var result = (from tk in Stoxdb.stox_tb_Company
-                              select new TickerSuggest
-                              {
-                                  id = tk.Ticker,
-                                  name = tk.ShortName
-                              }).ToList();
+                using (Stoxdb = new StoxDataEntities())
+                {
+                    var result = (from tk in Stoxdb.stox_tb_Company
+                                  where tk.Ticker.Contains(query)
+                                  select new TickerSuggest
+                                  {
+                                      id = tk.Ticker,
+                                      name = tk.ShortName
+                                  }).ToList();
 
-                return Newtonsoft.Json.JsonConvert.SerializeObject(result);
-                //return "[{name: 'Georges Washington',  email: 'georges.washington@whitehouse.gov'},{name: 'Theodore Roosevelt',email: 'theodore.roosevelt@whitehouse.gov'},{name: 'Benjamin Franklin',email: 'benjamin.franlin@whitehouse.gov'},{name: 'Abraham Lincoln',email: 'abraham.lincoln@whitehouse.gov'}]";
+                    return Newtonsoft.Json.JsonConvert.SerializeObject(result);
+                    //return "[{name: 'Georges Washington',  email: 'georges.washington@whitehouse.gov'},{name: 'Theodore Roosevelt',email: 'theodore.roosevelt@whitehouse.gov'},{name: 'Benjamin Franklin',email: 'benjamin.franlin@whitehouse.gov'},{name: 'Abraham Lincoln',email: 'abraham.lincoln@whitehouse.gov'}]";
+                }    
             }
+            else
+            {
+                return "[]"; 
+            }
+            
         }
 
 	}

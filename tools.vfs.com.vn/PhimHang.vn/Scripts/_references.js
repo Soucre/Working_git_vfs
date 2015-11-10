@@ -242,4 +242,3 @@
 /// <reference path="../detailtheme/js/jquery-ui/jquery.effects.clip.js" />
 /// <reference path="../detailtheme/js/jquery-ui/jquery.effects.core.js" />
 /// <reference path="../detailtheme/js/jquery-ui/jquery.effects.drop.js" />
-/// <reference path="../detailtheme/js/jquery-ui/jquery.effects.explode.js" />
