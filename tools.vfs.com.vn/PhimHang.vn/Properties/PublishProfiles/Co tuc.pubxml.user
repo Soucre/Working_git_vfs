@@ -85,7 +85,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2015 09:04:39</publishTime>
     </File>
     <File Include="bin/PhimHang.dll">
-      <publishTime>10/20/2015 15:46:49</publishTime>
+      <publishTime>11/13/2015 09:57:42</publishTime>
     </File>
     <File Include="bin/System.ComponentModel.DataAnnotations.dll">
       <publishTime>09/26/2012 03:16:08</publishTime>
@@ -525,8 +525,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="css/loginForm.css">
       <publishTime>10/20/2015 09:23:45</publishTime>
     </File>
+    <File Include="css/magicsuggest.custom.css">
+      <publishTime>11/06/2015 09:11:51</publishTime>
+    </File>
     <File Include="css/research.css">
-      <publishTime>10/20/2015 11:16:25</publishTime>
+      <publishTime>11/09/2015 14:28:07</publishTime>
     </File>
     <File Include="css/style.css">
       <publishTime>10/19/2015 14:58:48</publishTime>
@@ -2865,8 +2868,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="img/userDefault.jpg">
       <publishTime>07/13/2015 09:04:33</publishTime>
     </File>
+    <File Include="Js/magicsuggest-min.js">
+      <publishTime>11/06/2015 09:11:29</publishTime>
+    </File>
     <File Include="Js/ResearchJs.js">
-      <publishTime>10/20/2015 14:51:51</publishTime>
+      <publishTime>11/09/2015 11:02:59</publishTime>
     </File>
     <File Include="LoginTheme/css/datePicker.css">
       <publishTime>07/13/2015 09:04:28</publishTime>
@@ -3232,13 +3238,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2015 09:04:29</publishTime>
     </File>
     <File Include="Models/CustomerServicesModel.edmx.diagram">
-      <publishTime>10/16/2015 14:13:19</publishTime>
+      <publishTime>10/28/2015 11:07:01</publishTime>
     </File>
     <File Include="Models/OTFront.edmx.diagram">
       <publishTime>07/20/2015 08:24:36</publishTime>
     </File>
     <File Include="Models/StoxDataDB.edmx.diagram">
-      <publishTime>07/20/2015 08:24:36</publishTime>
+      <publishTime>11/06/2015 09:03:50</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>07/13/2015 09:04:34</publishTime>
@@ -3418,7 +3424,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2015 09:04:30</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>10/20/2015 13:27:37</publishTime>
+      <publishTime>11/09/2015 13:04:53</publishTime>
     </File>
     <File Include="upload/a4d5d1df4f1fd5f45d4sd5af465dsa6f.pdf">
       <publishTime>10/16/2015 14:39:32</publishTime>
@@ -3517,10 +3523,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2015 09:04:30</publishTime>
     </File>
     <File Include="Views/Research/Index.cshtml">
-      <publishTime>10/20/2015 15:49:30</publishTime>
+      <publishTime>11/11/2015 10:01:39</publishTime>
     </File>
     <File Include="Views/Research/_PartialListReport.cshtml">
-      <publishTime>10/20/2015 14:21:59</publishTime>
+      <publishTime>10/28/2015 10:56:20</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>07/13/2015 09:04:30</publishTime>
@@ -3550,7 +3556,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2015 09:04:30</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/20/2015 15:47:14</publishTime>
+      <publishTime>11/13/2015 09:57:03</publishTime>
     </File>
   </ItemGroup>
 </Project>

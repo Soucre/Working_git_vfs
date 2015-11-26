@@ -91,3 +91,4 @@ F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Release\PhimHang.dll
 F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Release\PhimHang.pdb
 F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Release\PhimHang.Resources.VN-Resources.resources
 F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Release\ToolsAnalyse.csproj.GenerateResource.Cache
+F:\Working_git_vfs\tools.vfs.com.vn\PhimHang.vn\obj\Release\ToolsAnalyse.csprojResolveAssemblyReference.cache

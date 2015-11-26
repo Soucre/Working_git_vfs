@@ -157,6 +157,7 @@ ul, ol {
     overflow: auto;
     line-height: 18px;
     padding-right: 25px;
+    background-color:white;
 }
 
 #research-center > .search-box > div input {
@@ -407,6 +408,10 @@ small[class^=btn] {
     cursor: pointer;
 }
 
-.readMore:disabled  {
+.readMore.loadding  {
     background:url('/images/uploading.gif') no-repeat 50% 40% #CCDFED;
+}
+.readMore.loadding a  {
+    background-color:transparent;
+    cursor:none;
 }

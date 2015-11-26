@@ -123,29 +123,29 @@ namespace PhimHang.Controllers
             }
         }
         private StoxDataEntities Stoxdb;
-        public string GetStockSuggest(string query)
+        public async Task<string> GetStockSuggest(string query)
         {
-            if (!string.IsNullOrEmpty( query))
+            if (!string.IsNullOrEmpty(query))
             {
                 using (Stoxdb = new StoxDataEntities())
                 {
-                    var result = (from tk in Stoxdb.stox_tb_Company
+                    var result = await (from tk in Stoxdb.stox_tb_Company
                                   where tk.Ticker.Contains(query)
                                   select new TickerSuggest
                                   {
                                       id = tk.Ticker,
                                       name = tk.ShortName
-                                  }).ToList();
+                                  }).ToListAsync();
 
                     return Newtonsoft.Json.JsonConvert.SerializeObject(result);
                     //return "[{name: 'Georges Washington',  email: 'georges.washington@whitehouse.gov'},{name: 'Theodore Roosevelt',email: 'theodore.roosevelt@whitehouse.gov'},{name: 'Benjamin Franklin',email: 'benjamin.franlin@whitehouse.gov'},{name: 'Abraham Lincoln',email: 'abraham.lincoln@whitehouse.gov'}]";
-                }    
+                }
             }
             else
             {
-                return "[]"; 
+                return "[]";
             }
-            
+
         }
 
 	}

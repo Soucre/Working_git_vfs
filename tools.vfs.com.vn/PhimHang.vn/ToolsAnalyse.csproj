@@ -422,7 +422,6 @@
     <Content Include="Views\Research\Index.cshtml" />
     <Content Include="Views\Shared\_PartialFooter.cshtml" />
     <Content Include="Views\Research\_PartialListReport.cshtml" />
-    <Content Include="upload\a4d5d1df4f1fd5f45d4sd5af465dsa6f.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -1596,6 +1595,7 @@
     <Folder Include="Chart\" />
     <Folder Include="DetailTheme\js\tiny-mce\plugins\spellchecker\classes\utils\" />
     <Folder Include="DetailTheme\js\tiny-mce\plugins\spellchecker\includes\" />
+    <Folder Include="upload\" />
     <Folder Include="Views\Upload\" />
   </ItemGroup>
   <ItemGroup>

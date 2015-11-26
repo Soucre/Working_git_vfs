@@ -4,7 +4,9 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="8ba93c73eea640bfb533723181fda8b5" Name="Diagram1" />
+      <Diagram DiagramId="8ba93c73eea640bfb533723181fda8b5" Name="Diagram1" >
+        <EntityTypeShape EntityType="StoxDataModel.stox_tb_Company" Width="1.5" PointX="0.75" PointY="0.75" />
+      </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>
