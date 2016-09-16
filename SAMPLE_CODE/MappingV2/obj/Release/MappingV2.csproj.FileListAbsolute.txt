@@ -1,0 +1,8 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\MappingV2\bin\Release\MappingV2.exe.config
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\MappingV2\bin\Release\MappingV2.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\MappingV2\bin\Release\MappingV2.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\MappingV2\bin\Release\Newtonsoft.Json.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\MappingV2\bin\Release\Newtonsoft.Json.xml
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\MappingV2\obj\Release\MappingV2.csprojResolveAssemblyReference.cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\MappingV2\obj\Release\MappingV2.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\MappingV2\obj\Release\MappingV2.pdb

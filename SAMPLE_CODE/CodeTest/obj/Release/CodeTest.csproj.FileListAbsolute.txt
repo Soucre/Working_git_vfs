@@ -1,0 +1,8 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\CodeTest\bin\Release\CodeTest.exe.config
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\CodeTest\bin\Release\CodeTest.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\CodeTest\bin\Release\CodeTest.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\CodeTest\bin\Release\Newtonsoft.Json.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\CodeTest\bin\Release\Newtonsoft.Json.xml
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\CodeTest\obj\Release\CodeTest.csprojResolveAssemblyReference.cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\CodeTest\obj\Release\CodeTest.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\CodeTest\obj\Release\CodeTest.pdb

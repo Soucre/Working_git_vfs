@@ -1,0 +1,8 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\AnhCop.AutoLib\bin\Release\AnhCop.AutoLib.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\AnhCop.AutoLib\bin\Release\AnhCop.AutoLib.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\AnhCop.AutoLib\obj\Release\AnhCop.AutoLib.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\AnhCop.AutoLib\obj\Release\AnhCop.AutoLib.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\AnhCop.AutoLib\obj\Release\AnhCop.AutoLib.csprojResolveAssemblyReference.cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\AnhCop.AutoLib\bin\Release\HtmlAgilityPack.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\AnhCop.AutoLib\bin\Release\HtmlAgilityPack.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\AnhCop.AutoLib\bin\Release\HtmlAgilityPack.xml

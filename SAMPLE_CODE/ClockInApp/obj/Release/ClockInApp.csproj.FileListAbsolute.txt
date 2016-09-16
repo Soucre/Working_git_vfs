@@ -1,0 +1,8 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ClockInApp\bin\Release\ClockInApp.exe.config
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ClockInApp\bin\Release\ClockInApp.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ClockInApp\bin\Release\ClockInApp.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ClockInApp\bin\Release\AnhCop.AutoLib.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ClockInApp\bin\Release\AnhCop.AutoLib.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ClockInApp\obj\Release\ClockInApp.csprojResolveAssemblyReference.cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ClockInApp\obj\Release\ClockInApp.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ClockInApp\obj\Release\ClockInApp.pdb

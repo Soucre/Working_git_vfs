@@ -1,0 +1,6 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SLTBalancer\bin\Release\SLTBalancer.exe.config
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SLTBalancer\bin\Release\SLTBalancer.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SLTBalancer\bin\Release\SLTBalancer.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SLTBalancer\obj\Release\SLTBalancer.csprojResolveAssemblyReference.cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SLTBalancer\obj\Release\SLTBalancer.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SLTBalancer\obj\Release\SLTBalancer.pdb

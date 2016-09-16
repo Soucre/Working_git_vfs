@@ -1,0 +1,7 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.exe.config
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\Newtonsoft.Json.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ConsoleApplication3\obj\Release\MetaStockData.csprojResolveAssemblyReference.cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ConsoleApplication3\obj\Release\ConsoleApplication3.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ConsoleApplication3\obj\Release\ConsoleApplication3.pdb

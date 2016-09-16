@@ -1,0 +1,8 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\RegexSample\bin\Release\RegexSample.exe.config
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\RegexSample\bin\Release\RegexSample.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\RegexSample\bin\Release\RegexSample.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\RegexSample\bin\Release\Newtonsoft.Json.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\RegexSample\bin\Release\Newtonsoft.Json.xml
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\RegexSample\obj\Release\RegexSample.csprojResolveAssemblyReference.cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\RegexSample\obj\Release\RegexSample.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\RegexSample\obj\Release\RegexSample.pdb

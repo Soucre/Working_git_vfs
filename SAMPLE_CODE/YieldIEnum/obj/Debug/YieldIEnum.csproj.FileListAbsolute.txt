@@ -1,0 +1,5 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\YieldIEnum\bin\Debug\YieldIEnum.exe.config
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\YieldIEnum\bin\Debug\YieldIEnum.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\YieldIEnum\bin\Debug\YieldIEnum.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\YieldIEnum\obj\Debug\YieldIEnum.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\YieldIEnum\obj\Debug\YieldIEnum.pdb

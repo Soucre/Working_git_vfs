@@ -1,0 +1,10 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\VBTESTCHAR\bin\Debug\VBTESTCHAR.exe.config
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\VBTESTCHAR\bin\Debug\VBTESTCHAR.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\VBTESTCHAR\bin\Debug\VBTESTCHAR.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\VBTESTCHAR\bin\Debug\VBTESTCHAR.xml
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\VBTESTCHAR\obj\Debug\VBTESTCHAR.Resources.resources
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\VBTESTCHAR\obj\Debug\VBTESTCHAR.vbproj.GenerateResource.Cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\VBTESTCHAR\obj\Debug\VBTESTCHAR.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\VBTESTCHAR\obj\Debug\VBTESTCHAR.xml
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\VBTESTCHAR\obj\Debug\VBTESTCHAR.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\VBTESTCHAR\obj\Debug\VBTESTCHAR.vbprojResolveAssemblyReference.cache

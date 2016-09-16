@@ -1,0 +1,6 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\EnumDefine\bin\Debug\EnumDefine.exe.config
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\EnumDefine\bin\Debug\EnumDefine.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\EnumDefine\bin\Debug\EnumDefine.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\EnumDefine\obj\Debug\EnumDefine.csprojResolveAssemblyReference.cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\EnumDefine\obj\Debug\EnumDefine.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\EnumDefine\obj\Debug\EnumDefine.pdb

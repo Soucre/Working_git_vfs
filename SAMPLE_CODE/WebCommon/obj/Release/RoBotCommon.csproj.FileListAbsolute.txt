@@ -1,0 +1,5 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WebCommon\obj\Release\RoBotCommon.csprojResolveAssemblyReference.cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WebCommon\bin\Release\WebCommon.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WebCommon\bin\Release\WebCommon.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WebCommon\obj\Release\WebCommon.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WebCommon\obj\Release\WebCommon.pdb

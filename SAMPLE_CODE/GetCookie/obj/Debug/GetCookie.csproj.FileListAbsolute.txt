@@ -1,0 +1,6 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\GetCookie\bin\Debug\GetCookie.exe.config
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\GetCookie\bin\Debug\GetCookie.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\GetCookie\bin\Debug\GetCookie.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\GetCookie\obj\Debug\GetCookie.csprojResolveAssemblyReference.cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\GetCookie\obj\Debug\GetCookie.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\GetCookie\obj\Debug\GetCookie.pdb

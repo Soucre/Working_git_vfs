@@ -1,0 +1,4 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ROBOTNEWS\03 Data\TinNhanhCK\bin\Release\TinNhanhCK.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ROBOTNEWS\03 Data\TinNhanhCK\bin\Release\TinNhanhCK.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ROBOTNEWS\03 Data\TinNhanhCK\obj\Release\TinNhanhCK.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ROBOTNEWS\03 Data\TinNhanhCK\obj\Release\TinNhanhCK.pdb

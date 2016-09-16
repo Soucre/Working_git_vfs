@@ -1,0 +1,4 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ROBOTNEWS\03 Data\CafeF\bin\Release\CafeF.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ROBOTNEWS\03 Data\CafeF\bin\Release\CafeF.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ROBOTNEWS\03 Data\CafeF\obj\Release\CafeF.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ROBOTNEWS\03 Data\CafeF\obj\Release\CafeF.pdb

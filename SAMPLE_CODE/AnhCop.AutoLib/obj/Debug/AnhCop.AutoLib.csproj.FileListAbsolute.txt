@@ -1,0 +1,5 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\AnhCop.AutoLib\bin\Debug\AnhCop.AutoLib.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\AnhCop.AutoLib\bin\Debug\AnhCop.AutoLib.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\AnhCop.AutoLib\obj\Debug\AnhCop.AutoLib.csprojResolveAssemblyReference.cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\AnhCop.AutoLib\obj\Debug\AnhCop.AutoLib.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\AnhCop.AutoLib\obj\Debug\AnhCop.AutoLib.pdb

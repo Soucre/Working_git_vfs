@@ -1,0 +1,10 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WindowsAutoClockIn\bin\Debug\WindowsAutoClockIn.exe.config
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WindowsAutoClockIn\bin\Debug\WindowsAutoClockIn.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WindowsAutoClockIn\bin\Debug\WindowsAutoClockIn.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WindowsAutoClockIn\obj\Debug\WindowsAutoClockIn.Service1.resources
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WindowsAutoClockIn\obj\Debug\WindowsAutoClockIn.csproj.GenerateResource.Cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WindowsAutoClockIn\obj\Debug\WindowsAutoClockIn.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WindowsAutoClockIn\obj\Debug\WindowsAutoClockIn.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WindowsAutoClockIn\obj\Debug\WindowsAutoClockIn.csprojResolveAssemblyReference.cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WindowsAutoClockIn\obj\Debug\WindowsAutoClockIn.Form1.resources
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WindowsAutoClockIn\obj\Debug\WindowsAutoClockIn.ProjectInstaller.resources

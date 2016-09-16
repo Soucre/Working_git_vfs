@@ -1,0 +1,12 @@
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SubmitToApi\bin\Release\SubmitToApi.exe.config
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SubmitToApi\bin\Release\SubmitToApi.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SubmitToApi\bin\Release\SubmitToApi.pdb
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SubmitToApi\bin\Release\HtmlAgilityPack.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SubmitToApi\bin\Release\Newtonsoft.Json.dll
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SubmitToApi\bin\Release\Newtonsoft.Json.xml
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SubmitToApi\obj\Release\SubmitToApi.csprojResolveAssemblyReference.cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SubmitToApi\obj\Release\SubmitToApi.Form1.resources
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SubmitToApi\obj\Release\SubmitToApi.Properties.Resources.resources
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SubmitToApi\obj\Release\SubmitToApi.csproj.GenerateResource.Cache
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SubmitToApi\obj\Release\SubmitToApi.exe
+C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\SubmitToApi\obj\Release\SubmitToApi.pdb
