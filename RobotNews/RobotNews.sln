@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Common", "01 Common", "{B0B4053E-5EA9-4F32-A98F-2A8AF7653DA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Entity", "02 Entity", "{87A6A888-1613-4407-9ED0-21F38EC3C53B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Data", "03 Data", "{BC38C2F8-2F10-443F-9B5F-C9AC52ECC410}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Biz", "04 Biz", "{C7123CB4-FCE9-49FB-87C2-2377E9DD05CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 UI", "05 UI", "{82C8FC4F-C3FB-4AB2-8106-D3454AA2CDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCommon", "01 Common\NCommon\NCommon.csproj", "{8F5FC818-00C0-41E1-906B-61F30D796FC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F5FC818-00C0-41E1-906B-61F30D796FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5FC818-00C0-41E1-906B-61F30D796FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5FC818-00C0-41E1-906B-61F30D796FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5FC818-00C0-41E1-906B-61F30D796FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F5FC818-00C0-41E1-906B-61F30D796FC9} = {B0B4053E-5EA9-4F32-A98F-2A8AF7653DA5}
+	EndGlobalSection
+EndGlobal

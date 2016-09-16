@@ -1,0 +1,5 @@
+D:\Working\Working_git_vfs\RobotNews\01 Common\NCommon\bin\Debug\NCommon.dll
+D:\Working\Working_git_vfs\RobotNews\01 Common\NCommon\bin\Debug\NCommon.pdb
+D:\Working\Working_git_vfs\RobotNews\01 Common\NCommon\obj\Debug\NCommon.csprojResolveAssemblyReference.cache
+D:\Working\Working_git_vfs\RobotNews\01 Common\NCommon\obj\Debug\NCommon.dll
+D:\Working\Working_git_vfs\RobotNews\01 Common\NCommon\obj\Debug\NCommon.pdb
