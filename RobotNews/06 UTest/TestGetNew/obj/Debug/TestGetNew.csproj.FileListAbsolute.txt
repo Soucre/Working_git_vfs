@@ -1,0 +1,5 @@
+D:\Working\Working_git_vfs\RobotNews\06 UTest\TestGetNew\bin\Debug\TestGetNew.dll
+D:\Working\Working_git_vfs\RobotNews\06 UTest\TestGetNew\bin\Debug\TestGetNew.pdb
+D:\Working\Working_git_vfs\RobotNews\06 UTest\TestGetNew\obj\Debug\TestGetNew.csprojResolveAssemblyReference.cache
+D:\Working\Working_git_vfs\RobotNews\06 UTest\TestGetNew\obj\Debug\TestGetNew.dll
+D:\Working\Working_git_vfs\RobotNews\06 UTest\TestGetNew\obj\Debug\TestGetNew.pdb

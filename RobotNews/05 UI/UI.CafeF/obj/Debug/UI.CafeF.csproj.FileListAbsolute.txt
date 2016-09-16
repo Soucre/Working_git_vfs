@@ -1,0 +1,5 @@
+D:\Working\Working_git_vfs\RobotNews\05 UI\UI.CafeF\bin\Debug\UI.CafeF.dll
+D:\Working\Working_git_vfs\RobotNews\05 UI\UI.CafeF\bin\Debug\UI.CafeF.pdb
+D:\Working\Working_git_vfs\RobotNews\05 UI\UI.CafeF\obj\Debug\UI.CafeF.csprojResolveAssemblyReference.cache
+D:\Working\Working_git_vfs\RobotNews\05 UI\UI.CafeF\obj\Debug\UI.CafeF.dll
+D:\Working\Working_git_vfs\RobotNews\05 UI\UI.CafeF\obj\Debug\UI.CafeF.pdb

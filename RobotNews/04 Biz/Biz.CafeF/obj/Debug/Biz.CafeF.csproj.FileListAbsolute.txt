@@ -1,0 +1,4 @@
+D:\Working\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\bin\Debug\Biz.CafeF.dll
+D:\Working\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\bin\Debug\Biz.CafeF.pdb
+D:\Working\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\obj\Debug\Biz.CafeF.dll
+D:\Working\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\obj\Debug\Biz.CafeF.pdb

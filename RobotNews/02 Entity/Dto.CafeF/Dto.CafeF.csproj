@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{38ECA151-07E4-4274-9280-3D7FAD098434}</ProjectGuid>
+    <ProjectGuid>{2E1C7706-9D39-49D3-89F0-14236AABBC1E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestGetNew</RootNamespace>
-    <AssemblyName>TestGetNew</AssemblyName>
+    <RootNamespace>Dto.CafeF</RootNamespace>
+    <AssemblyName>Dto.CafeF</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
