@@ -1,0 +1,8 @@
+/RobotNews/ConsoleApplication1/obj/Debug
+/RobotNews/ConsoleApplication1/bin/Debug
+/RobotNews/04 Biz/Biz.CafeF/obj/Debug/*.cache
+/RobotNews/04 Biz/Biz.CafeF/bin/Debug/*.pdb
+/RobotNews/06 UTest/TestGetNew/obj/Debug/*.cache
+/RobotNews/03 Data/Data.CafeF/bin/Debug/*.pdb
+/RobotNews/06 UTest/TestGetNew/bin/Debug/*.pdb
+*.pdb

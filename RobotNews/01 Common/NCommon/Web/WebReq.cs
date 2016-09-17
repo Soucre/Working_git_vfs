@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NCommon.Web
 {
-    class WebReq
+    public class WebReq
     {
         #region 웹서버에 데이터 요청
         /// <summary>

@@ -39,8 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="RssBiz.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\02 Entity\Dto.CafeF\Dto.CafeF.csproj">
+      <Project>{2e1c7706-9d39-49d3-89f0-14236aabbc1e}</Project>
+      <Name>Dto.CafeF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\03 Data\Data.CafeF\Data.CafeF.csproj">
+      <Project>{88dffeb7-e8b5-40ce-be84-66915419c01d}</Project>
+      <Name>Data.CafeF</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
