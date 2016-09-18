@@ -11,8 +11,14 @@ namespace Biz.CafeF
     {
         public static RssCafeFDto GetData()
         {
-            var rss = new Data.CafeF.RssData<RssCafeFDto>("http://cafef.vn/thi-truong-chung-khoan.rss");
-            return rss.GetRssData();
+            using (var rss = new Data.CafeF.CafeFRssData<RssCafeFDto>("http://cafef.vn/thi-truong-chung-khoan.rss")) {
+                rss.Method = "GET";
+                var rssBase = rss.GetRssData();
+
+                rss.GetContainDetail(rssBase.Channel.Item);
+
+                return rssBase;
+            };
         }
     }
 }

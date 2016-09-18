@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\..\packages\HtmlAgilityPack.1.4.9.5\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,6 +50,13 @@
       <Project>{8f5fc818-00c0-41e1-906b-61f30d796fc9}</Project>
       <Name>NCommon</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\02 Entity\Dto.CafeF\Dto.CafeF.csproj">
+      <Project>{2e1c7706-9d39-49d3-89f0-14236aabbc1e}</Project>
+      <Name>Dto.CafeF</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

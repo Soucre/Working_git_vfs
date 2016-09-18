@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UI.CafeF
+namespace NCommon.Web
 {
-    public class Class1
+    public class DisposableBase : IDisposable
     {
+        public void Dispose()
+        {
+
+        }
     }
 }

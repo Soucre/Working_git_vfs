@@ -10,6 +10,16 @@ namespace NCommon.Web
 {
     public class WebReq
     {
+        /// <summary>
+        /// Proxy IP
+        /// </summary>
+        public string ProxyIP { get; set; }
+
+        /// <summary>
+        /// Port of Proxy
+        /// </summary>
+        public int ProxyPort { get; set; }
+
         #region 웹서버에 데이터 요청
         /// <summary>
         /// 웹서버에 데이터 요청
@@ -18,7 +28,9 @@ namespace NCommon.Web
         /// <param name="strMethod">POST/GET</param>
         /// <param name="strPost">POST방식일 경우 값</param>
         /// <returns></returns>
-        public ApiResult GetWebRequest(string strUrl, string strMethod, string strPost, Encoding encoding, Dictionary<string, string> dicHeader, CookieContainer cookie, int timeout = 120000, string referer = "")
+        public static ApiResult GetWebRequest(string strUrl,
+            string strMethod, string strPost, Encoding encoding, Dictionary<string, string> dicHeader,
+            CookieContainer cookie, int timeout = 120000, string referer = "", string proxyIP = null, int proxyPort = 0)
         {
             ApiResult apiResponse = new ApiResult();
             Dictionary<string, string> dicResult = new Dictionary<string, string>();
@@ -28,7 +40,10 @@ namespace NCommon.Web
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
             request.Method = strMethod;
             request.Timeout = timeout;
-
+            if (string.IsNullOrEmpty(proxyIP) == false && proxyPort > 0) {
+                HttpWebRequest.DefaultWebProxy = new WebProxy(proxyIP, proxyPort);
+                ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+            }
             // Header
             if (dicHeader == null || dicHeader.Count() == 0) {
                 request.UserAgent = "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko";
@@ -72,7 +87,7 @@ namespace NCommon.Web
                 StreamReader reader = new StreamReader(response.GetResponseStream(), encoding);
 
                 apiResponse.Html = reader.ReadToEnd();
-                apiResponse.StatusCode = ((System.Net.HttpWebResponse)(response)).StatusCode;
+                apiResponse.StatusCode = "200";
                 apiResponse.headers = response.Headers;
                 apiResponse.cookieContainer = request.CookieContainer;
                 apiResponse.WebRequest = request;
@@ -80,11 +95,9 @@ namespace NCommon.Web
             }
             catch (WebException wex) {
                 // 결과 수신(에러)
-                StreamReader reader = new StreamReader(wex.Response.GetResponseStream(), encoding);
-
-                apiResponse.Html = reader.ReadToEnd();
-                apiResponse.StatusCode = ((System.Net.HttpWebResponse)(wex.Response)).StatusCode;
-                apiResponse.headers = wex.Response.Headers;
+                apiResponse.Html = wex.Message;
+                apiResponse.StatusCode = "500";
+                //apiResponse.headers = wex.Response.Headers;
             }
             finally {
                 if (response != null)
@@ -101,7 +114,7 @@ namespace NCommon.Web
         /// </summary>
         /// <param name="strUrl">API URL</param>
         /// <returns></returns>
-        public ApiResult GetWebRequest(string strUrl, string strMethod, string strPost, Encoding encoding, Dictionary<string, string> dicHeader)
+        public static ApiResult GetWebRequest(string strUrl, string strMethod, string strPost, Encoding encoding, Dictionary<string, string> dicHeader)
         {
             return GetWebRequest(strUrl, strMethod, strPost, encoding, dicHeader, null);
         }
@@ -111,7 +124,7 @@ namespace NCommon.Web
         /// </summary>
         /// <param name="strUrl">API URL</param>
         /// <returns></returns>
-        public ApiResult GetWebRequest(string strUrl, string strMethod, string strPost, Encoding encoding)
+        public static ApiResult GetWebRequest(string strUrl, string strMethod, string strPost, Encoding encoding)
         {
             return GetWebRequest(strUrl, strMethod, strPost, encoding, null, null);
         }
@@ -121,7 +134,7 @@ namespace NCommon.Web
         /// </summary>
         /// <param name="strUrl">API URL</param>
         /// <returns></returns>
-        public ApiResult GetWebRequest(string strUrl, string strMethod, string strPost)
+        public static ApiResult GetWebRequest(string strUrl, string strMethod, string strPost)
         {
             return GetWebRequest(strUrl, strMethod, strPost, Encoding.UTF8, null, null);
         }
@@ -131,7 +144,7 @@ namespace NCommon.Web
         /// </summary>
         /// <param name="strUrl">API URL</param>
         /// <returns></returns>
-        public ApiResult GetWebRequest(string strUrl)
+        public static ApiResult GetWebRequest(string strUrl)
         {
             return GetWebRequest(strUrl, "GET", null, Encoding.UTF8, null, null);
         }

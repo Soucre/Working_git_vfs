@@ -45,6 +45,8 @@ namespace Dto.CafeF
         [XmlElement(ElementName = "pubDate")]
         public string PubDate { get; set; }
 
+        public string ContainDetail { get; set; }
+
     }
 
     [XmlRoot(ElementName = "channel")]

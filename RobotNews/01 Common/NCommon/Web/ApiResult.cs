@@ -27,7 +27,7 @@ namespace NCommon.Web
         /// <summary>
         /// StatusCode
         /// </summary>
-        public HttpStatusCode StatusCode { get; set; }
+        public string StatusCode { get; set; }
 
         /// <summary>
         /// HTML

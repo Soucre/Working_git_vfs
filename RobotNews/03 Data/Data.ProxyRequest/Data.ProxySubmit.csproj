@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E4F1F9D4-5FCD-4BF6-8A7C-CE90A8998119}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{22ADAAD6-5A24-4C4A-8D5C-F6761883E102}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
-    <AssemblyName>ConsoleApplication1</AssemblyName>
+    <RootNamespace>Data.ProxySubmit</RootNamespace>
+    <AssemblyName>Data.ProxySubmit</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,24 +39,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProxySubmitData.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\02 Entity\Dto.CafeF\Dto.CafeF.csproj">
+    <ProjectReference Include="..\..\01 Common\NCommon\NCommon.csproj">
+      <Project>{8f5fc818-00c0-41e1-906b-61f30d796fc9}</Project>
+      <Name>NCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\02 Entity\Dto.CafeF\Dto.CafeF.csproj">
       <Project>{2e1c7706-9d39-49d3-89f0-14236aabbc1e}</Project>
       <Name>Dto.CafeF</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\03 Data\Data.CafeF\Data.CafeF.csproj">
-      <Project>{88dffeb7-e8b5-40ce-be84-66915419c01d}</Project>
-      <Name>Data.CafeF</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\04 Biz\Biz.CafeF\Biz.CafeF.csproj">
-      <Project>{218d4436-f048-4302-b264-2c5f3b060a01}</Project>
-      <Name>Biz.CafeF</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

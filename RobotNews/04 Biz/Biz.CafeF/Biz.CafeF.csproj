@@ -43,6 +43,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\01 Common\NCommon\NCommon.csproj">
+      <Project>{8f5fc818-00c0-41e1-906b-61f30d796fc9}</Project>
+      <Name>NCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\02 Entity\Dto.CafeF\Dto.CafeF.csproj">
       <Project>{2e1c7706-9d39-49d3-89f0-14236aabbc1e}</Project>
       <Name>Dto.CafeF</Name>

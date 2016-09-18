@@ -1,0 +1,11 @@
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.Proxy\obj\Debug\Biz.Proxy.csprojResolveAssemblyReference.cache
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.Proxy\bin\Debug\Biz.Proxy.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.Proxy\bin\Debug\Biz.Proxy.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.Proxy\bin\Debug\Data.ProxySubmit.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.Proxy\bin\Debug\Dto.CafeF.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.Proxy\bin\Debug\NCommon.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.Proxy\bin\Debug\NCommon.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.Proxy\bin\Debug\Dto.CafeF.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.Proxy\bin\Debug\Data.ProxySubmit.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.Proxy\obj\Debug\Biz.Proxy.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.Proxy\obj\Debug\Biz.Proxy.pdb

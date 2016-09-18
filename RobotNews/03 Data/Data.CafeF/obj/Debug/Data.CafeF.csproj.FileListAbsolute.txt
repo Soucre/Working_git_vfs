@@ -9,3 +9,8 @@ E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\NCommon.pd
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\obj\Debug\Data.CafeF.csprojResolveAssemblyReference.cache
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\obj\Debug\Data.CafeF.dll
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\obj\Debug\Data.CafeF.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dto.CafeF.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dto.CafeF.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.xml
