@@ -77,7 +77,7 @@ namespace Dto.CafeF
     }
 
     [XmlRoot(ElementName = "rss")]
-    public class RssCafeFDto
+    public class GetRssXMLDto
     {
         [XmlElement(ElementName = "channel")]
         public Channel Channel { get; set; }

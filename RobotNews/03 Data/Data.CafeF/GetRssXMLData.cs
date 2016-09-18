@@ -11,7 +11,7 @@ using System.Xml.Serialization;
 
 namespace Data.CafeF
 {
-    public class CafeFRssData<TEntity> : DisposableBase
+    public class GetRssXMLData : DisposableBase
     {
         #region [Property pulic]
         /// <summary>
@@ -29,6 +29,11 @@ namespace Data.CafeF
         /// </summary>
         public string PostData { get; set; }
 
+        /// <summary>
+        /// URL Request
+        /// </summary>
+        public string URLRequest { get; set; }
+
         #endregion
 
         #region [Varible Member]
@@ -39,24 +44,32 @@ namespace Data.CafeF
 
         #region [Contructor]
 
-        public CafeFRssData(string rssLink)
+        public GetRssXMLData()
         {
-            this.RssLink = rssLink;
+
         }
 
         #endregion
 
         #region [Extent]
 
-        public TEntity GetRssData()
+        public GetRssXMLDto GetRssData()
         {
             ApiResult apiData = WebReq.GetWebRequest(this.RssLink, this.Method, this.PostData, Encoding.UTF8, null, null);
+            if (apiData.StatusCode != "200")
+                return null;
+
             byte[] byteArray = Encoding.UTF8.GetBytes(apiData.Html);
             MemoryStream stream = new MemoryStream(byteArray);
             StreamReader reader = new StreamReader(stream);
 
-            XmlSerializer e = new XmlSerializer(typeof(TEntity));
-            var entity = (TEntity)e.Deserialize(reader);
+            XmlSerializer e = new XmlSerializer(typeof(GetRssXMLDto));
+            var entity = (GetRssXMLDto)e.Deserialize(reader);
+
+            if (entity != null) {
+                //Update contain detail from detail link
+                GetContainDetail(entity.Channel.Item);
+            }
 
             return entity;
         }
@@ -67,11 +80,11 @@ namespace Data.CafeF
             HtmlWeb web = new HtmlWeb();
             //Update Contain detail (include HTML)
             foreach (var item in items) {
-                item.ContainDetail = this.GetDataHtml(web, item.Link.Trim()); 
+                item.ContainDetail = this.GetDetailItemHtml(web, item.Link.Trim());
             }
         }
 
-        private string GetDataHtml(HtmlWeb web, string linkURL)
+        private string GetDetailItemHtml(HtmlWeb web, string linkURL)
         {
             HtmlDocument document = web.Load(linkURL);
             HtmlNode node = document.DocumentNode.SelectSingleNode("//div[@class='newsbody']");

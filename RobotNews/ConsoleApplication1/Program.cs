@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -14,25 +15,57 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            // Create Auto Theard with serveral Site News 
-            
+            #region [CafeF Test]
+            string bizName = "Biz.CafeF.GetDataBiz";
+            //var objected = Activator.CreateInstance(Type.GetType(bizName));
+            Type t = Type.GetType(bizName);
+            MethodInfo method = t.GetMethod("GetData", BindingFlags.Static | BindingFlags.Public);
+
+            method.Invoke(null, null);
+            //var response = instance.GetData();
+
+            //using (var biz = new Biz.CafeF.GetDataBiz()) {
+            //    biz.Methol = "GET";
+            //    biz.URLRequest = "http://cafef.vn/doanh-nghiep.rss";
+
+            //    var result = biz.GetData();
+            //    if (result != null) {
+            //        Console.WriteLine(string.Format("Get Sucessed: {0}", "http://cafef.vn/thi-truong-chung-khoan.rss"));
+            //    }
+            //}
+
+            #endregion
+
+            #region [Proxy Submit Test]
+            //Test_ProxySubmit();
+            #endregion
+
+        }
+
+        #region [CafeF Function]
+
+
+        #endregion
+
+        #region[Proxy Submit Function]
+        private static void Test_ProxySubmit()
+        {
+            // Proxy list got from http://proxylist.hidemyass.com/
             Dictionary<string, int> listProxy = new Dictionary<string, int>{
                 { "123.56.74.13", 8080 },
                 { "46.101.22.228", 8118 },
                 { "40.113.118.174", 8129 }
-
             };
             foreach (var item in listProxy) {
+                // Create Auto Theard with serveral Site News
                 //Thread tid = new Thread(() => DisplayAsync(item.Key, item.Value));
                 //tid.Name = "Thread: " + item.Key;
                 //tid.Start();
-
-                DisplayAsync(item.Key, item.Value);
-            }           
-
+                SumitViaProxy(item.Key, item.Value);
+            }
         }
 
-        public static void DisplayAsync(string proxyIP, int proxyPort)
+        public static void SumitViaProxy(string proxyIP, int proxyPort)
         {
             Thread thr = Thread.CurrentThread;
             using (var biz = new SubmitDataBiz()) {
@@ -46,5 +79,6 @@ namespace ConsoleApplication1
             }
 
         }
+        #endregion
     }
 }
