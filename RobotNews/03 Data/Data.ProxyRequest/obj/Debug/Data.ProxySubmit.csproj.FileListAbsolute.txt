@@ -7,3 +7,5 @@ E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.ProxyRequest\bin\Debug\Dto
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.ProxyRequest\obj\Debug\Data.ProxySubmit.csprojResolveAssemblyReference.cache
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.ProxyRequest\obj\Debug\Data.ProxySubmit.dll
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.ProxyRequest\obj\Debug\Data.ProxySubmit.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.ProxyRequest\bin\Debug\Dapper.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.ProxyRequest\bin\Debug\Dapper.xml

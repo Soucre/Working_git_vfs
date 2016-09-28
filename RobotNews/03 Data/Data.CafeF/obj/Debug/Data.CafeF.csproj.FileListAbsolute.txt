@@ -14,3 +14,5 @@ E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dto.CafeF.
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.dll
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.pdb
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.xml
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dapper.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dapper.xml

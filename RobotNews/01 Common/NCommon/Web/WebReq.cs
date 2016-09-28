@@ -84,7 +84,8 @@ namespace NCommon.Web
                 response = request.GetResponse();
 
                 // 결과 수신
-                StreamReader reader = new StreamReader(response.GetResponseStream(), encoding);
+                var responseResult = response.GetResponseStream();
+                StreamReader reader = new StreamReader(responseResult, encoding);
 
                 apiResponse.Html = reader.ReadToEnd();
                 apiResponse.StatusCode = "200";

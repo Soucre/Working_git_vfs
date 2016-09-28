@@ -23,23 +23,24 @@ namespace Biz.Proxy
         /// <summary>
         /// Methol
         /// </summary>
-        public string Methol { get; set; }
+        public string Method { get; set; }
 
         /// <summary>
         /// URL Request
         /// </summary>
         public string URLRequest { get; set; }
 
-        public string GetDataViaProxy()
+        public string PostData { get; set; }
+         
+        public ApiResult GetDataViaProxy()
         {
-            using (var data = new Data.ProxySubmit.ProxySubmitData()) {
-                data.ProxyIP = this.ProxyIP;
-                data.ProxyPort = this.ProxyPort;
-                data.Method = this.Methol;
-                data.URLRequest = this.URLRequest;
+            return RequestData();
+        }
 
-                return data.GetDataViaProxy();
-            }
+        public ApiResult RequestData()
+        {
+            return WebReq.GetWebRequest(this.URLRequest, this.Method, this.PostData, Encoding.UTF8, null, null, 120000, null, this.ProxyIP, this.ProxyPort);
+
         }
 
 

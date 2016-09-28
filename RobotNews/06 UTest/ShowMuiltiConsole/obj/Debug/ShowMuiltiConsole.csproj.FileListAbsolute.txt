@@ -3,3 +3,4 @@ E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\bin\Debug\Sh
 E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\bin\Debug\ShowMuiltiConsole.pdb
 E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\obj\Debug\ShowMuiltiConsole.exe
 E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\obj\Debug\ShowMuiltiConsole.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\obj\Debug\ShowMuiltiConsole.csprojResolveAssemblyReference.cache

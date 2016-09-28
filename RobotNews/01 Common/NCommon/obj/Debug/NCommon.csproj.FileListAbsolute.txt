@@ -7,3 +7,4 @@ E:\Working Vfs\Working_git_vfs\RobotNews\01 Common\NCommon\bin\Debug\NCommon.dll
 E:\Working Vfs\Working_git_vfs\RobotNews\01 Common\NCommon\bin\Debug\NCommon.pdb
 E:\Working Vfs\Working_git_vfs\RobotNews\01 Common\NCommon\obj\Debug\NCommon.dll
 E:\Working Vfs\Working_git_vfs\RobotNews\01 Common\NCommon\obj\Debug\NCommon.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\01 Common\NCommon\obj\Debug\NCommon.csprojResolveAssemblyReference.cache
