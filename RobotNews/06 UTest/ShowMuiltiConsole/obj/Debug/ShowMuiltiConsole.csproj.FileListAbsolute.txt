@@ -3,4 +3,13 @@ E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\bin\Debug\Sh
 E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\bin\Debug\ShowMuiltiConsole.pdb
 E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\obj\Debug\ShowMuiltiConsole.exe
 E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\obj\Debug\ShowMuiltiConsole.pdb
+<<<<<<< HEAD
 E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\obj\Debug\ShowMuiltiConsole.csprojResolveAssemblyReference.cache
+=======
+D:\Working\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\bin\Debug\ShowMuiltiConsole.exe.config
+D:\Working\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\bin\Debug\ShowMuiltiConsole.exe
+D:\Working\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\bin\Debug\ShowMuiltiConsole.pdb
+D:\Working\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\obj\Debug\ShowMuiltiConsole.csprojResolveAssemblyReference.cache
+D:\Working\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\obj\Debug\ShowMuiltiConsole.exe
+D:\Working\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\obj\Debug\ShowMuiltiConsole.pdb
+>>>>>>> fc09b24e18470248ccdf3b4af578bc5be636b734

@@ -36,7 +36,7 @@ namespace AnhCop.AutoLib
 
         public static string SelMin
         {
-            get { return new Random().Next(25, 30).ToString(); }
+            get { return DateTime.Now.Minute.ToString(); }
         }
 
 

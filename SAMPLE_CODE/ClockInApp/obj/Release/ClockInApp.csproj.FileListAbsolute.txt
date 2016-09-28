@@ -6,3 +6,11 @@ C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\Clo
 C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ClockInApp\obj\Release\ClockInApp.csprojResolveAssemblyReference.cache
 C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ClockInApp\obj\Release\ClockInApp.exe
 C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ClockInApp\obj\Release\ClockInApp.pdb
+D:\Working\Working_git_vfs\SAMPLE_CODE\ClockInApp\bin\Release\ClockInApp.exe.config
+D:\Working\Working_git_vfs\SAMPLE_CODE\ClockInApp\obj\Release\ClockInApp.exe
+D:\Working\Working_git_vfs\SAMPLE_CODE\ClockInApp\obj\Release\ClockInApp.pdb
+D:\Working\Working_git_vfs\SAMPLE_CODE\ClockInApp\bin\Release\ClockInApp.exe
+D:\Working\Working_git_vfs\SAMPLE_CODE\ClockInApp\bin\Release\ClockInApp.pdb
+D:\Working\Working_git_vfs\SAMPLE_CODE\ClockInApp\bin\Release\AnhCop.AutoLib.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\ClockInApp\bin\Release\AnhCop.AutoLib.pdb
+D:\Working\Working_git_vfs\SAMPLE_CODE\ClockInApp\obj\Release\ClockInApp.csprojResolveAssemblyReference.cache

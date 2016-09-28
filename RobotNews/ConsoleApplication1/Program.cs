@@ -2,6 +2,7 @@
 using Biz.Proxy;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net.Http;
 using System.Reflection;
@@ -16,11 +17,35 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             #region [CafeF Test]
+<<<<<<< HEAD
             //string bizName = "Biz.CafeF.GetDataBiz";
             ////var objected = Activator.CreateInstance(Type.GetType(bizName));
             //Type t = Type.GetType(bizName);
             //MethodInfo method = t.GetMethod("GetData", BindingFlags.Static | BindingFlags.Public);
 
+=======
+            int i = 1;
+            while (true) {
+                string serviceName = ConfigurationManager.AppSettings["Service" + i];
+                if (serviceName == null) {
+                    i = 1; // Reset services then 30 minutes
+                    Thread.Sleep(2 * 1000);
+                    continue;
+                }
+
+                ServiceStart(serviceName.Split('|'));
+                ++i;
+            };
+
+
+            #region [Temp]
+
+
+
+
+            //MethodInfo method = t.GetMethod("GetData", BindingFlags.Static | BindingFlags.Public);
+
+>>>>>>> fc09b24e18470248ccdf3b4af578bc5be636b734
             //method.Invoke(null, null);
             //var response = instance.GetData();
 
@@ -33,12 +58,23 @@ namespace ConsoleApplication1
             //        Console.WriteLine(string.Format("Get Sucessed: {0}", "http://cafef.vn/thi-truong-chung-khoan.rss"));
             //    }
             //}
-
+            #endregion
             #endregion
 
             #region [Proxy Submit Test]
             Test_ProxySubmit();
             #endregion
+
+        }
+
+        private static void ServiceStart(string[] serviceDetail)
+        {
+            string bizName = string.Format("{0}.GetDataBiz,{1}", serviceDetail[0], serviceDetail[0]);
+            Type type = Type.GetType(bizName);
+            var objectBiz = Activator.CreateInstance(type);
+
+            type.GetProperty("Methol").SetValue(objectBiz, "GET");
+            type.GetProperty("URLRequest").SetValue(objectBiz, serviceDetail[1]);
 
         }
 

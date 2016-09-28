@@ -6,3 +6,4 @@
 /RobotNews/03 Data/Data.CafeF/bin/Debug/*.pdb
 /RobotNews/06 UTest/TestGetNew/bin/Debug/*.pdb
 *.pdb
+*.cache

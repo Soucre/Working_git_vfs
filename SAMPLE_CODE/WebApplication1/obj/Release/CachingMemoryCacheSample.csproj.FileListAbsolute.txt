@@ -30,3 +30,35 @@ C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\Web
 C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WebApplication1\obj\Release\CachingMemoryCacheSample.csprojResolveAssemblyReference.cache
 C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WebApplication1\obj\Release\WebApplication1.dll
 C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\WebApplication1\obj\Release\WebApplication1.pdb
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\WebApplication1.dll.config
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\WebApplication1.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\WebApplication1.pdb
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\Antlr3.Runtime.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\Newtonsoft.Json.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Net.Http.Formatting.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.Helpers.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.Http.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.Http.WebHost.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.Mvc.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.Optimization.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.Razor.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.WebPages.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.WebPages.Razor.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\WebGrease.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\Newtonsoft.Json.xml
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Net.Http.Formatting.xml
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.Helpers.xml
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.Http.xml
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.Http.WebHost.xml
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.Mvc.xml
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.Optimization.xml
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.Razor.xml
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.WebPages.xml
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\System.Web.WebPages.Razor.xml
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\bin\Antlr3.Runtime.pdb
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\obj\Release\CachingMemoryCacheSample.csprojResolveAssemblyReference.cache
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\obj\Release\WebApplication1.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\WebApplication1\obj\Release\WebApplication1.pdb

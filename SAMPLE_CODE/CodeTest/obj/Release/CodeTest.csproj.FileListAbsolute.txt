@@ -6,3 +6,11 @@ C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\Cod
 C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\CodeTest\obj\Release\CodeTest.csprojResolveAssemblyReference.cache
 C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\CodeTest\obj\Release\CodeTest.exe
 C:\Users\16015hieu\Documents\Visual Studio 2013\Projects\ConsoleApplication3\CodeTest\obj\Release\CodeTest.pdb
+D:\Working\Working_git_vfs\SAMPLE_CODE\CodeTest\bin\Release\CodeTest.exe.config
+D:\Working\Working_git_vfs\SAMPLE_CODE\CodeTest\obj\Release\CodeTest.exe
+D:\Working\Working_git_vfs\SAMPLE_CODE\CodeTest\obj\Release\CodeTest.pdb
+D:\Working\Working_git_vfs\SAMPLE_CODE\CodeTest\bin\Release\CodeTest.exe
+D:\Working\Working_git_vfs\SAMPLE_CODE\CodeTest\bin\Release\CodeTest.pdb
+D:\Working\Working_git_vfs\SAMPLE_CODE\CodeTest\bin\Release\Newtonsoft.Json.dll
+D:\Working\Working_git_vfs\SAMPLE_CODE\CodeTest\bin\Release\Newtonsoft.Json.xml
+D:\Working\Working_git_vfs\SAMPLE_CODE\CodeTest\obj\Release\CodeTest.csprojResolveAssemblyReference.cache
