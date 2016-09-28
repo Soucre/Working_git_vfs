@@ -13,6 +13,9 @@ namespace CodeTest
     class Program
     {
         static void Main(string[] args) {
+            var string1 = "nguyen chi hieu {0} {1} {2}";
+            var string2 = string.Format(string1, "&", "va eeeee", "","");
+            Console.WriteLine(string2);
            //var date
         }
 
