@@ -1,0 +1,5 @@
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\bin\Release\ShowMuiltiConsole.exe.config
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\bin\Release\ShowMuiltiConsole.exe
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\bin\Release\ShowMuiltiConsole.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\obj\Release\ShowMuiltiConsole.exe
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\ShowMuiltiConsole\obj\Release\ShowMuiltiConsole.pdb

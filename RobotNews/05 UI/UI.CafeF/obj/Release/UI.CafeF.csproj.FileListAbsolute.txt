@@ -1,0 +1,4 @@
+E:\Working Vfs\Working_git_vfs\RobotNews\05 UI\UI.CafeF\bin\Release\UI.CafeF.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\05 UI\UI.CafeF\bin\Release\UI.CafeF.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\05 UI\UI.CafeF\obj\Release\UI.CafeF.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\05 UI\UI.CafeF\obj\Release\UI.CafeF.pdb

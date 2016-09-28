@@ -1,0 +1,13 @@
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\bin\Release\Biz.CafeF.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\bin\Release\Biz.CafeF.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\bin\Release\Data.CafeF.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\bin\Release\Dto.CafeF.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\bin\Release\NCommon.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\bin\Release\HtmlAgilityPack.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\bin\Release\NCommon.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\bin\Release\Dto.CafeF.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\bin\Release\Data.CafeF.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\bin\Release\HtmlAgilityPack.xml
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\obj\Release\Biz.CafeF.csprojResolveAssemblyReference.cache
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\obj\Release\Biz.CafeF.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.CafeF\obj\Release\Biz.CafeF.pdb

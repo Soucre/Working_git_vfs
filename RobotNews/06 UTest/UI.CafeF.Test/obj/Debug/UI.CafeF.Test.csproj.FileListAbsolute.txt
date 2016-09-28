@@ -1,0 +1,6 @@
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.CafeF.Test\obj\Debug\UI.CafeF.Test.csprojResolveAssemblyReference.cache
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.CafeF.Test\bin\Debug\UI.CafeF.Test.exe.config
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.CafeF.Test\bin\Debug\UI.CafeF.Test.exe
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.CafeF.Test\bin\Debug\UI.CafeF.Test.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.CafeF.Test\obj\Debug\UI.CafeF.Test.exe
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.CafeF.Test\obj\Debug\UI.CafeF.Test.pdb

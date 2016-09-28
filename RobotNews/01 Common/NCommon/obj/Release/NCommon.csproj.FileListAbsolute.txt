@@ -1,0 +1,4 @@
+E:\Working Vfs\Working_git_vfs\RobotNews\01 Common\NCommon\bin\Release\NCommon.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\01 Common\NCommon\bin\Release\NCommon.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\01 Common\NCommon\obj\Release\NCommon.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\01 Common\NCommon\obj\Release\NCommon.pdb
