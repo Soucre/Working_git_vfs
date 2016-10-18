@@ -1,0 +1,4 @@
+E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.ProxyList\bin\Release\Dto.ProxyList.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.ProxyList\bin\Release\Dto.ProxyList.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.ProxyList\obj\Release\Dto.ProxyList.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.ProxyList\obj\Release\Dto.ProxyList.pdb

@@ -1,28 +1,14 @@
-D:\Working\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Data.CafeF.dll
-D:\Working\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Data.CafeF.pdb
-D:\Working\Working_git_vfs\RobotNews\03 Data\Data.CafeF\obj\Debug\Data.CafeF.dll
-D:\Working\Working_git_vfs\RobotNews\03 Data\Data.CafeF\obj\Debug\Data.CafeF.pdb
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Data.CafeF.dll
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Data.CafeF.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dapper.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dto.CafeF.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.dll
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\NCommon.dll
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\NCommon.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dto.CafeF.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dapper.xml
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.xml
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\obj\Debug\Data.CafeF.csprojResolveAssemblyReference.cache
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\obj\Debug\Data.CafeF.dll
 E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\obj\Debug\Data.CafeF.pdb
-E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dto.CafeF.dll
-E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dto.CafeF.pdb
-E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.dll
-E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.pdb
-E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.xml
-<<<<<<< HEAD
-E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dapper.dll
-E:\Working Vfs\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dapper.xml
-=======
-D:\Working\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dto.CafeF.dll
-D:\Working\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.dll
-D:\Working\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\NCommon.dll
-D:\Working\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\NCommon.pdb
-D:\Working\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\Dto.CafeF.pdb
-D:\Working\Working_git_vfs\RobotNews\03 Data\Data.CafeF\bin\Debug\HtmlAgilityPack.xml
-D:\Working\Working_git_vfs\RobotNews\03 Data\Data.CafeF\obj\Debug\Data.CafeF.csprojResolveAssemblyReference.cache
->>>>>>> fc09b24e18470248ccdf3b4af578bc5be636b734

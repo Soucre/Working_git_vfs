@@ -1,5 +1,7 @@
 ﻿using Biz.CafeF;
 using Biz.Proxy;
+using Biz.ProxyList;
+using Dto.ProxyList;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -7,6 +9,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -24,24 +27,15 @@ namespace ConsoleApplication1
         #region[Proxy Submit Function]
         private static void Test_ProxySubmit()
         {
-
-            // Proxy list got from http://proxylist.hidemyass.com/
-            var listProxy = new Dictionary<string, int>{
-                { "123.56.74.13", 8080 },
-                { "46.101.22.228", 8118 },
-                { "40.113.118.174", 8129 }
-            };
+            var listProxy = getListProxy();
             while (true) {
-                foreach (var item in listProxy) {
-                    //Create Auto Theard with serveral Site News
-                    //Thread tid = new Thread(() => SumitViaProxy(item.Key, item.Value));
-                    //tid.Name = "Thread: " + item.Key;
-                    //tid.Start();
-                    //SumitViaProxy(item.Key, item.Value);
-                    CallSumitViaProxyAsyn(item.Key, item.Value);
-                    Console.WriteLine("Waiting ....." + item.Key);
+
+                foreach (var item in listProxy) {                 
+                    CallSumitViaProxyAsyn(item.IPAddress, item.IPPort);
+                    Console.WriteLine("Waiting ....." + item.IPAddress);
                 }
-                Thread.Sleep(1000);
+                // Ngủ 1 tí
+                Thread.Sleep(int.Parse(ConfigurationManager.AppSettings["TimeRequest"]) * 1000);
             }
 
         }
@@ -64,12 +58,24 @@ namespace ConsoleApplication1
                 biz.Method = "GET";
                 biz.ProxyPort = proxyPort;
                 biz.ProxyIP = proxyIP;
-                biz.URLRequest = "http://113.61.110.234/";
+                biz.URLRequest = ConfigurationManager.AppSettings["SiteSubmitTest"];
 
                 var result = biz.GetDataViaProxy();
                 return thr.Name + "= " + result.StatusCode;
             }
 
+        }
+
+        private static List<ProxyListDto> getListProxy()
+        {
+
+            using (var biz = new ProxyListBiz()) {
+                biz.URLRequest = ConfigurationManager.AppSettings["URLProxy"];
+                biz.HTMLPartenReg = new Regex(@"<tr><td>\w+.*");
+                biz.HTMLPartenSubReg = new Regex(@"<tr><td>|</td><td>|</td></tr>");
+
+                return biz.GetListProxy();
+            }
         }
         #endregion
     }

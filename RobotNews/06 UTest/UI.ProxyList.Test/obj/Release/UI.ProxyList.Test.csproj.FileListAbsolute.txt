@@ -1,0 +1,15 @@
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\bin\Release\UI.ProxyList.Test.exe.config
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\obj\Release\UI.ProxyList.Test.csprojResolveAssemblyReference.cache
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\bin\Release\UI.ProxyList.Test.exe
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\bin\Release\UI.ProxyList.Test.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\bin\Release\Biz.ProxyList.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\bin\Release\Dto.ProxyList.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\bin\Release\NCommon.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\bin\Release\HtmlAgilityPack.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\bin\Release\NCommon.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\bin\Release\Dto.ProxyList.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\bin\Release\Biz.ProxyList.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\bin\Release\HtmlAgilityPack.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\bin\Release\HtmlAgilityPack.xml
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\obj\Release\UI.ProxyList.Test.exe
+E:\Working Vfs\Working_git_vfs\RobotNews\06 UTest\UI.ProxyList.Test\obj\Release\UI.ProxyList.Test.pdb

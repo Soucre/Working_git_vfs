@@ -12,6 +12,7 @@
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,7 +50,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\01 Common\NCommon\NCommon.csproj">
@@ -60,6 +63,10 @@
       <Project>{2e1c7706-9d39-49d3-89f0-14236aabbc1e}</Project>
       <Name>Dto.CafeF</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\02 Entity\Dto.ProxyList\Dto.ProxyList.csproj">
+      <Project>{a4ecdf8c-4e4f-4921-a052-dda2adf9d1a9}</Project>
+      <Name>Dto.ProxyList</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\03 Data\Data.CafeF\Data.CafeF.csproj">
       <Project>{88dffeb7-e8b5-40ce-be84-66915419c01d}</Project>
       <Name>Data.CafeF</Name>
@@ -67,6 +74,10 @@
     <ProjectReference Include="..\..\04 Biz\Biz.CafeF\Biz.CafeF.csproj">
       <Project>{218d4436-f048-4302-b264-2c5f3b060a01}</Project>
       <Name>Biz.CafeF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\04 Biz\Biz.ProxyList\Biz.ProxyList.csproj">
+      <Project>{625344b7-b4d5-4ea3-af28-5210527432ef}</Project>
+      <Name>Biz.ProxyList</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\04 Biz\Biz.Proxy\Biz.ProxySubmit.csproj">
       <Project>{3cf9042d-04ef-47ce-aa6e-d6e7d7d51ee7}</Project>

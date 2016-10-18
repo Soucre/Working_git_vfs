@@ -5,6 +5,6 @@ D:\Working\Working_git_vfs\RobotNews\02 Entity\Dto.CafeF\obj\Debug\Dto.CafeF.dll
 D:\Working\Working_git_vfs\RobotNews\02 Entity\Dto.CafeF\obj\Debug\Dto.CafeF.pdb
 E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.CafeF\bin\Debug\Dto.CafeF.dll
 E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.CafeF\bin\Debug\Dto.CafeF.pdb
-E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.CafeF\obj\Debug\Dto.CafeF.csprojResolveAssemblyReference.cache
 E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.CafeF\obj\Debug\Dto.CafeF.dll
 E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.CafeF\obj\Debug\Dto.CafeF.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.CafeF\obj\Debug\Dto.CafeF.csprojResolveAssemblyReference.cache

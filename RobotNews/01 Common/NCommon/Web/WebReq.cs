@@ -94,7 +94,7 @@ namespace NCommon.Web
                 apiResponse.WebRequest = request;
 
             }
-            catch (WebException wex) {
+            catch (Exception wex) {
                 // 결과 수신(에러)
                 apiResponse.Html = wex.Message;
                 apiResponse.StatusCode = "500";

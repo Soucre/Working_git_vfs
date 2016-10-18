@@ -1,0 +1,5 @@
+E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.ProxyList\bin\Debug\Dto.ProxyList.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.ProxyList\bin\Debug\Dto.ProxyList.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.ProxyList\obj\Debug\Dto.ProxyList.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.ProxyList\obj\Debug\Dto.ProxyList.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\02 Entity\Dto.ProxyList\obj\Debug\Dto.ProxyList.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.ProxyList\bin\Release\Biz.ProxyList.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.ProxyList\bin\Release\Biz.ProxyList.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.ProxyList\bin\Release\Dto.ProxyList.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.ProxyList\bin\Release\NCommon.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.ProxyList\bin\Release\NCommon.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.ProxyList\bin\Release\Dto.ProxyList.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.ProxyList\obj\Release\Biz.ProxyList.csprojResolveAssemblyReference.cache
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.ProxyList\obj\Release\Biz.ProxyList.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.ProxyList\obj\Release\Biz.ProxyList.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.ProxyList\bin\Release\HtmlAgilityPack.dll
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.ProxyList\bin\Release\HtmlAgilityPack.pdb
+E:\Working Vfs\Working_git_vfs\RobotNews\04 Biz\Biz.ProxyList\bin\Release\HtmlAgilityPack.xml
