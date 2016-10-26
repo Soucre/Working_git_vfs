@@ -1,0 +1,157 @@
+﻿<div class="box-header">
+    <h2>
+        <i class="fa fa-credit-card-alt"></i> Company Info
+    </h2>
+    <a class="button-edit" ng-click="editCompanyInfo()"><i class="fa fa-edit"></i>Edit</a>
+</div>
+<div class="box-content">
+    <div ng-if="!isEditCompanyInfo" class="item">
+        <div class="row">
+            <div class="col-md-4 bold">
+                Company Name
+            </div>
+            <div class="col-md-8">
+                {{Model.Employer.CompanyName}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Company Registration Number
+            </div>
+            <div class="col-md-8">
+                {{Model.Employer.CompanyRegistrationNumber}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Address
+            </div>
+            <div class="col-md-8">
+                {{Model.Employer.Address}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Web Link
+            </div>
+            <div class="col-md-8">
+                {{Model.Employer.WebLink}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Contact Name
+            </div>
+            <div class="col-md-8">
+                {{Model.Employer.ContactName}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Phone Number
+            </div>
+            <div class="col-md-8">
+                {{Model.Employer.PhoneNumber}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Nature Of Business
+            </div>
+            <div class="col-md-8">
+                {{Model.Employer.NatureOfBusiness}}
+            </div>
+        </div>
+    </div>
+
+    <div ng-if="isEditCompanyInfo" class="item">
+        <form name="companyInfo">
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Company Name <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.Employer.CompanyName" name="companyName"
+                           uib-tooltip="{{(companyInfo.companyName.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.Employer.CompanyName"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Company Registration Number <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.Employer.CompanyRegistrationNumber" name="companyRegistrationNumber"
+                           uib-tooltip="{{(companyInfo.companyRegistrationNumber.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.Employer.CompanyRegistrationNumber"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Address <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.Employer.Address" name="address"
+                           uib-tooltip="{{(companyInfo.address.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.Employer.Address"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Web Link <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.Employer.WebLink" name="webLink"
+                           uib-tooltip="{{(companyInfo.webLink.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.Employer.WebLink"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Contact Name <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.Employer.ContactName" name="contactName"
+                           uib-tooltip="{{(companyInfo.contactName.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.Employer.ContactName"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Phone Number <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.Employer.PhoneNumber" name="phoneNumber"
+                           uib-tooltip="{{(companyInfo.phoneNumber.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.Employer.PhoneNumber"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Nature Of Business <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.Employer.NatureOfBusiness" name="natureOfBusiness"
+                           uib-tooltip="{{(companyInfo.natureOfBusiness.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.Employer.NatureOfBusiness"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <hr />
+            <ul class="action clearfix">
+                <li>
+                    <button ng-click="saveCompanyInfo(companyInfo)" class="btn-save">Save</button>
+                </li>
+                <li>
+                    <button ng-click="cancelCompanyInfo()" class="btn-cancel">Cancel</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>

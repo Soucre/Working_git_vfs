@@ -1,0 +1,231 @@
+﻿<div class="box-header">
+    <h2>
+        <i class="fa fa-credit-card-alt"></i> Experience Level
+    </h2>
+    <a class="button-edit" ng-click="editExperienceLevel()"><i class="fa fa-edit"></i>Edit</a>
+</div>
+<div class="box-content">
+
+    <div ng-if="!isEditExperienceLevel" class="item">
+        <div class="row">
+            <div class="col-md-4 bold">
+                Year of experience
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.ExperienceYearText}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Highest Education
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.HighestEducation}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Language
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.Language.Name}}
+            </div>
+        </div>
+        <h5>Company histories</h5>
+        <table class="company-history">
+            <thead>
+                <tr>
+                    <th>Company Name</th>
+                    <th>Position/Job Level</th>
+                    <th>From</th>
+                    <th>To</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="CompanyHistory in Model.JobSeeker.CompanyHistories">
+                    <td>{{CompanyHistory.CompanyName}}</td>
+                    <td>{{CompanyHistory.Position}}</td>
+                    <td>{{CompanyHistory.From?(CompanyHistory.From |date:'MM/dd/yyyy'):''}}</td>
+                    <td>{{CompanyHistory.To?(CompanyHistory.To|date:'MM/dd/yyyy'):''}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Expected Position
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.ExpectedPosition}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Expected Location
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.ExpectedLocation}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Expected Job Category
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.ExpectedJobCategory}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Expected Salary
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.ExpectedSalary}} - {{Model.JobSeeker.CanNegotiation?'Is Negotiation':'Is not Negotiation'}}
+            </div>
+        </div>
+    </div>
+    <div ng-if="isEditExperienceLevel" class="item">
+        <form name="experienceLevel" method="POST">
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Year of experience <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <label class="radio-inline col-md-6" ng-repeat="experienceYear in ExperienceYears">
+                        <input type="radio" name="experienceYear" ng-int="$parent.Model.JobSeeker.ExperienceYear" ng-model="$parent.Model.JobSeeker.ExperienceYear" ng-value="experienceYear.Name" />{{experienceYear.DisplayName}}
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Highest Education <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.JobSeeker.HighestEducation" name="highestEducation"
+                           uib-tooltip="{{(experienceLevel.highestEducation.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.JobSeeker.HighestEducation"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Language <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <select class="form-control" required ng-init="Model.JobSeeker.Language" ng-model="Model.JobSeeker.Language" ng-options="language as language.Name for language in Languages track by language.Id ">
+                        <option value="" disabled selected hidden>Choose language</option>
+                    </select>
+                </div>
+            </div>
+            <h5>Company histories</h5>
+            <div class="history-item" ng-repeat="CompanyHistory in Model.JobSeeker.CompanyHistories">
+                <div class="delete-item">
+                    <a ng-click="deleteCompanyHistory($index,CompanyHistory)"><i class="fa fa-close"></i>Remove</a>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 bold">
+                        Recent Company
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" name="RecentCompany" ng-model="CompanyHistory.CompanyName" class="form-control"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 bold">
+                        Position/Job Level
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" name="Position" ng-model="CompanyHistory.Position" class="form-control"/>
+                        <div class="row">
+                            <div class="col-md-1 bold">From</div>
+                            <div class="col-md-5">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" uib-datepicker-popup="{{format}}" 
+                                           ng-model="CompanyHistory.From"  is-open="$parent.isOpenFrom[$index]"
+                                           show-weeks="false" show-button-bar="false" placeholder="mm/dd/yyyy"/>
+                                    <span class="input-group-btn ">
+                                        <button type="button" class="btn btn-default" ng-click="openFrom($index)"><i class="fa fa-calendar"></i></button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-1 bold">To</div>
+                            <div class="col-md-5">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" uib-datepicker-popup="{{format}}"
+                                           ng-model="CompanyHistory.To" is-open="$parent.isOpenTo[$index]"
+                                           show-weeks="false" show-button-bar="false" placeholder="mm/dd/yyyy" />
+                                    <span class="input-group-btn ">
+                                        <button type="button" class="btn btn-default" ng-click="openTo($index)"><i class="fa fa-calendar"></i></button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+            </div>
+            <a class="button-add-new clearfix" ng-click="addNewCompanyHistory()">
+                <span><i class="fa fa-plus"></i>New item</span>
+            </a>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Expected Position <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.JobSeeker.ExpectedPosition" name="ExpectedPosition"
+                           uib-tooltip="{{(experienceLevel.ExpectedPosition.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.JobSeeker.ExpectedPosition"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Expected Location <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.JobSeeker.ExpectedLocation" name="ExpectedLocation"
+                           uib-tooltip="{{(experienceLevel.ExpectedLocation.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.JobSeeker.ExpectedLocation"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Expected Job Category <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.JobSeeker.ExpectedJobCategory" name="ExpectedJobCategory"
+                           uib-tooltip="{{(experienceLevel.ExpectedJobCategory.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.JobSeeker.ExpectedLocation"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Expected Salary <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" required ng-model="Model.JobSeeker.ExpectedSalary" name="ExpectedSalary"
+                                   uib-tooltip="{{(experienceLevel.ExpectedSalary.$error.required)?'This field is required.':''}}"
+                                   tooltip-enable="!Model.JobSeeker.ExpectedSalary"
+                                   tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                        </div>
+                        <div class="col-md-6">
+                            <label class="checkbox-inline"><input type="checkbox" ng-model="Model.JobSeeker.CanNegotiation" /> Negotiable</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <ul class="action clearfix">
+                <li>
+                    <button ng-click="saveExperienceLevel(experienceLevel)" class="btn-save">Save</button>
+                </li>
+                <li>
+                    <button ng-click="cancelExperienceLevel()" class="btn-cancel">Cancel</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>

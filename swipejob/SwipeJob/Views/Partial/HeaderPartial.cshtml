@@ -1,0 +1,98 @@
+﻿@using SwipeJob.Model.ApiRequset
+@using SwipeJob.Model.Extra
+@{
+    CurrentUser currentUser = ViewData["CurrentUser"] as CurrentUser;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <a href="/"><img class="logo" src="~/Content/images/logo.png" /></a>
+        </div>
+        <div class="col-md-9">
+            <ul class="main">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    if (currentUser != null)
+                    {
+                        if (currentUser.User.UserType == UserType.JobSeeker)
+                        {
+                            <li>
+                                <a class="dropdown-toggle button-menu" id="userProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    <span>@currentUser.User.JobSeeker.FullName</span>
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="userProfile">
+                                    <li>
+                                        <a href="@Url.Action("JobSeekerDashboad", "Account", new {id = currentUser.User.Id})"><i class="fa fa-dashboard"></i><span>My Dashboard</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("JobSeekerProfile", "Account", new {id = currentUser.User.Id})"><i class="fa fa-star"></i><span>My Profile</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("JobSeekerMyJob", "Account", new {applicantStatus = ApplicantStatus.Applied.ToString().ToLower()})"><i class="fa fa-check-circle"></i><span>Applied Job</span><span class="right">(@currentUser.AppliedJob)</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("JobSeekerMyJob", "Account", new {applicantStatus = ApplicantStatus.Saved.ToString().ToLower()})"><i class="fa fa-heart"></i><span>Saved Job</span><span class="right">(@currentUser.SavedJob)</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("JobSeekerMyJob", "Account", new {applicantStatus = ApplicantStatus.Deleted.ToString().ToLower()})"><i class="fa fa-times-circle"></i><span>Deleted Job</span><span class="right">(@currentUser.DeletedJob)</span></a>
+                                    </li>
+                                    @*<li>
+                                            <a href="/"><i class="fa fa-comment-o"></i><span>Message</span><span class="right">({{Profile.MessageCount}})</span></a>
+                                        </li>*@
+                                    <li>
+                                        <a href="@Url.Action("Setting", "Account")"><i class="fa fa-check-circle"></i><span>Settings</span><span class="right"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("Signout", "Account")"><i class="fa fa-cog"></i><span>Sign out</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a class="dropdown-toggle button-menu" id="userProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    <span>@currentUser.User.Employer.CompanyName</span>
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="userProfile">
+                                    <li>
+                                        <span ng-bind="Profile.ProfileStatus"></span>Employer status
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("EmployerProfile", "Account", new {id = currentUser.User.Id})"><i class="fa fa-star"></i><span>My Profile</span><span class="right"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("CreateEditJob", "Job")"><i class="fa fa-check-circle"></i><span>Create New Job</span><span class="right"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("EmployerJobs", "Job")"><i class="fa fa-check-circle"></i><span>Jobs</span><span class="right">(@currentUser.TotalPostJob)</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("Setting", "Account")"><i class="fa fa-check-circle"></i><span>Settings</span><span class="right"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("Signout", "Account")"><i class="fa fa-cog"></i><span>Sign out</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                    }
+                }
+                else
+                {
+                    <li ng-if="!isHomePage"><a ng-click="login()">Sign In</a></li>
+                    <li ng-if="!isHomePage">|</li>
+                    <li ng-if="!isHomePage"><a ng-click="register()">Register</a></li>
+                    <li ng-if="!isHomePage">|</li>
+                }
+                <li><a href="@Url.Action("ContactUs","Home")">Contact Us</a></li>
+                <li>|</li>
+                <li><a href="@Url.Action("AboutUs", "Home")" class="color898989">About Us</a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>

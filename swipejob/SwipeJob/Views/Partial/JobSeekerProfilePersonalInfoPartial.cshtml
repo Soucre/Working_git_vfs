@@ -1,0 +1,278 @@
+﻿<div class="box-header">
+    <h2>
+        <i class="fa fa-credit-card-alt"></i> Personal Info Update
+    </h2>
+    <a class="button-edit"ng-click="editPersonalInfo()"><i class="fa fa-edit"></i>Edit</a>
+</div>
+<div class="box-content">
+    <div ng-if="!isEditPersonalInfo" class="item">
+        <div class="row">
+            <div class="col-md-4 bold">
+                Full Name
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.FullName}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Gender
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.GenderText}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                National Service Status
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.NationalServiceStatusText}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Day Of Birth
+            </div>
+            <div class="col-md-8">
+                <span ng-bind="Model.JobSeeker.DateOfBirth|date:'MM/dd/yyyy'"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                NRIC Number
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.NRICNumber}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                NRIC Type
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.NRICTypeText}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Race
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.Race}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Religions
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.Religions}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Phone
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.PhoneNumber}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Mobile
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.MobileNumber}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Email
+            </div>
+            <div class="col-md-8">
+                {{Model.Email}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Portal Code
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.PostalCode}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Address
+            </div>
+            <div class="col-md-8">
+                {{Model.JobSeeker.Address}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Attacth File
+            </div>
+            <div class="col-md-8">
+                <a ng-if="Model.JobSeeker.MoreDocument" ng-click="dowloadMoreDocument(Model.JobSeeker.UserId)">Download this attacth file</a>
+                <span ng-if="!Model.JobSeeker.MoreDocument">No attacth file</span>
+            </div>
+        </div>
+    </div>
+    <div ng-if="isEditPersonalInfo" class="item">
+        <form name="personalInfo">
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Full Name <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.JobSeeker.FullName" name="fullName"
+                           uib-tooltip="{{(personalInfo.fullName.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.JobSeeker.FullName"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Gender <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <label class="radio-inline col-md-6" ng-repeat="gender in Genders">
+                        <input type="radio" name="gender" ng-init="$parent.Model.JobSeeker.Gender" ng-model="$parent.Model.JobSeeker.Gender" ng-value="gender.Name" />{{gender.DisplayName}}
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    National Service Status <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <select class="form-control" required ng-init="Model.JobSeeker.NationalServiceStatus" ng-model="Model.JobSeeker.NationalServiceStatus" ng-options="nationalServices.Name as nationalServices.DisplayName for nationalServices in NationalServices">
+                        <option value="" disabled selected hidden>Choose national service</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Day Of Birth <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <div class="input-group">
+                        <input type="text" class="form-control" required uib-datepicker-popup="{{format}}" ng-model="Model.JobSeeker.DateOfBirth" is-open="datetimeModel.isOpen" name="dayOfBirth"
+                               show-weeks="false" show-button-bar="false" placeholder="mm/dd/yyyy"
+                               uib-tooltip="{{(personalInfo.dayOfBirth.$error.required)?'This field is required.':''}}"
+                               tooltip-enable="!Model.JobSeeker.DateOfBirth"
+                               tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                        <span class="input-group-btn ">
+                            <button type="button" class="btn btn-default" ng-click="open($event, 'isOpen')"><i class="fa fa-calendar"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    NRIC Number <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.JobSeeker.NRICNumber" name="nRICNumber"
+                           uib-tooltip="{{(personalInfo.nRICNumber.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.JobSeeker.NRICNumber"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    NRIC Type <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <label class="radio-inline col-md-6" ng-repeat="nricType in NricTypes">
+                        <input type="radio" name="nricType" ng-init="$parent.Model.JobSeeker.NRICType" ng-model="$parent.Model.JobSeeker.NRICType" ng-value="nricType.Name" />{{nricType.DisplayName}}
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Race
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" ng-model="Model.JobSeeker.Race" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Religions
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" ng-model="Model.JobSeeker.Religions" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Phone <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.JobSeeker.PhoneNumber" name="phone"
+                           uib-tooltip="{{(personalInfo.phone.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.JobSeeker.PhoneNumber"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Mobile
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" ng-model="Model.JobSeeker.MobileNumber" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Email <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="email" class="form-control" name="email" ng-model="Model.Email" required
+                           uib-tooltip="{{(personalInfo.email.$error.required)?'This field is required.':(register.email.$error.email)?'Invalid email address.':''}}"
+                           tooltip-enable="!Model.Email"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Portal Code <span class="required">*</span>
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" required ng-model="Model.JobSeeker.PostalCode" name="portalCode"
+                           uib-tooltip="{{(personalInfo.portalCode.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.JobSeeker.PostalCode"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Address
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" ng-model="Model.JobSeeker.Address" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Attacth File
+                </div>
+                <div class="col-md-8">
+                    <input id="more-document" name="file" type="file" class="upload" onchange="angular.element(this).scope().uploadMoreDocument(this) " accept="application/pdf,application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                </div>
+            </div>
+            <hr/>
+            <ul class="action clearfix">
+                <li>
+                    <button ng-click="savePersonalInfo(personalInfo)" class="btn-save">Save</button>
+                </li>
+                <li>
+                    <button ng-click="cancelPersonalInfo()" class="btn-cancel">Cancel</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>

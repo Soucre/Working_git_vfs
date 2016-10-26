@@ -1,0 +1,66 @@
+﻿@using SwipeJob.Model.ApiRequset
+@using SwipeJob.Model.Extra
+@{
+    CurrentUser currentUser = ViewData["CurrentUser"] as CurrentUser;
+}
+<div class="list-job" ng-cloak>
+    <div ng-if="isHomePage" class="list-job-home-header">
+        RECENT JOBS
+    </div>
+    <div ng-if="!isHomePage" class="list-job-search-header">
+        <div class="row">
+            <div class="col-md-7">
+                <span> We found {{TotalItems}} jobs for you</span>
+            </div>
+            @*<div class="col-md-5">
+                <select class="form-control">
+                    <option> Date</option>
+                    <option> Name</option>
+                </select>
+            </div>*@
+        </div>
+    </div>
+    <div class="list-job-item">
+        <div class="job-item " ng-repeat="job in Jobs">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="company-logo">
+                        <img data-ng-src="{{getEmployerLogo(job.Employer.LogoImage)}}"/>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <a class="job-title clearfix" ng-click="goToJobDetail(job.Id)">
+                        <span ng-bind="job.JobName"></span>
+                    </a>
+                    <a class="company-name clearfix" ng-click="searchAllEmployerJob(job.Employer.CompanyName)">{{job.Employer.CompanyName}}</a>
+                    <ul class="more-info">
+                        <li>
+                            <i class="fa fa-map-marker"></i>
+                            <span>Location: {{job.Location.Name}}</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-usd"></i>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <span>Salary: ${{job.MinSalary}} - ${{job.MaxSalary}}</span>
+                            }
+                            else
+                            {
+                                <a class="colorf26522" ng-click="logInToViewSalary()">Login to view Salary</a>
+                            }
+                        </li>
+                        <li>
+                            <i class="fa fa-tags"></i>
+                            <span>Job type: {{job.JobTypeText}}</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-calendar"></i>
+                            <span>{{job.StartDate|date:'MM/dd/yyyy'}} - {{job.EndDate|date:'MM/dd/yyyy'}}</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <uib-pagination class="job-pagging" boundary-links="true" total-items="TotalItems" max-size="maxSize" items-per-page="itemPerPage" ng-model="currentPage" ng-change="pageChanged(currentPage)" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>
+    </div>
+</div>

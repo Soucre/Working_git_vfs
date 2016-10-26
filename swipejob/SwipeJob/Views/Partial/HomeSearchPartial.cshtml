@@ -1,0 +1,50 @@
+﻿<div class="home-banner">
+    <div class="container">
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <div class="login-button">
+                <div class="job-seeker">
+                    <a ng-click="jobSeekerLogin()">
+                        <img src="~/Content/images/job-seeker-logo.png"/>
+                    </a>
+                </div>
+                <div class="employer">
+                    <a ng-click="employerLogin()">
+                        <img src="~/Content/images/employer-logo.png"/>
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<div class="container">
+    <form name="homeSearch" class="search-home">
+        <ul>
+            <li class="job-name">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                    <input type="text" class="form-control" name="contactName" placeholder="Job title, opposition or company" ng-model="Search.JobTitle"/>
+                </div>
+            </li>
+            <li class="categories">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-bars"></i></span>
+                    <select class="form-control" ng-model="Search.Category" ng-options="category as category.Name for category in Categories track by category.Id">
+                        <option value="" selected>All Categories</option>
+                    </select>
+                </div>
+            </li>
+            <li class="location">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+                    <select class="form-control" ng-model="Search.Location" ng-options="location as location.Name for location in Locations track by location.Id">
+                        <option value="" selected>All Location</option>
+                    </select>
+                </div>
+            </li>
+            <li class="btn-search-home">
+                <button type="submit" class="button-search" ng-click="search()">Search</button>
+            </li>
+        </ul>
+    </form>
+</div>

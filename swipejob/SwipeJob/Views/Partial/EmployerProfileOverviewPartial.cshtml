@@ -1,0 +1,26 @@
+﻿<div class="box-header">
+    <h2>
+        <i class="fa fa-credit-card-alt"></i> Overview
+    </h2>
+    <a class="button-edit ng-disabled" ng-click="editOverView()"><i class="fa fa-edit"></i>Edit</a>
+</div>
+<div class="box-content">
+    <div ng-if="!isEditOverView" class="item">
+        <div ng-bind-html="Model.Employer.OverView |trust"></div>
+    </div>
+    <div ng-if="isEditOverView">
+        <form name="overview" novalidate method="POST">
+            <textarea ckeditor data-ng-model="Model.Employer.OverView"></textarea>
+            <div class="item">
+                <ul class="action clearfix">
+                    <li>
+                        <button ng-click="saveOverView()" class="btn-save">Save</button>
+                    </li>
+                    <li>
+                        <button ng-click="cancelOverView()" class="btn-cancel">Cancel</button>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>

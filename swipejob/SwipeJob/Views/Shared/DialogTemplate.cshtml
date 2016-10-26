@@ -1,0 +1,107 @@
+﻿<script type="text/ng-template" id="alert-subscribed">
+    <div id="modalSuccess" class="modal-block modal-block-success">
+        <section class="panel">
+            <div class="panel-heading">
+                <h2 class="panel-title">Thank you!</h2>
+            </div>
+            <div class="panel-body">
+                <div class="modal-wrapper">
+                    <div class="modal-text">
+                        <p ng-model="ngDialogData.message">{{ngDialogData.message}}</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="panel-footer">
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <button ng-click="closeThisDialog(0)" class="btn btn-success modal-dismiss">OK</button>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </div>
+</script>
+<script type="text/ng-template" id="alert-ok">
+    <div id="modalSuccess" class="modal-block modal-block-success">
+        <section class="panel">
+            <div class="panel-heading">
+                <h2 class="panel-title">Infomation!</h2>
+            </div>
+            <div class="panel-body">
+                <div class="modal-wrapper">
+                    <div class="modal-text">
+                        <p ng-model="ngDialogData.message">{{ngDialogData.message}}</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="panel-footer">
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <button ng-click="closeThisDialog(0)" class="btn btn-success modal-dismiss">OK</button>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </div>
+</script>
+<script type="text/ng-template" id="alert-error">
+    <div id="modalDanger" class="modal-block modal-block-danger">
+        <section class="panel">
+            <div class="panel-heading">
+                <h2 class="panel-title">Error!</h2>
+            </div>
+            <div class="panel-body">
+                <div class="modal-wrapper">
+                    <div class="modal-text">
+                        <p ng-model="ngDialogData.message">{{ngDialogData.message}}</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="panel-footer">
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <button ng-click="closeThisDialog(0)" class="btn btn-danger modal-dismiss">OK</button>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </div>
+</script>
+<script type="text/ng-template" id="login">
+    <div id="modalSuccess" class="modal-block modal-block-success modal-login">
+        <section class="panel">
+            <div class="panel-heading">
+                <h2 class="panel-title"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>SIGN IN as:</h2>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li>
+                        <a ng-click="loginEmployer()" class="btn button-employer">EMPLOYER</a>
+                    </li>
+                    <li>
+                        <a ng-click="loginJobSeeker()" class="btn button-job-seeker">JOB SEEKER</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</script>
+<script type="text/ng-template" id="register">
+    <div id="modalSuccess" class="modal-block modal-block-success modal-login">
+        <section class="panel">
+            <div class="panel-heading">
+                <h2 class="panel-title"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>REGISTER as</h2>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li>
+                        <a ng-click="loginEmployer()" class="btn button-employer">EMPLOYER</a>
+                    </li>
+                    <li>
+                        <a ng-click="loginJobSeeker()" class="btn button-job-seeker">JOB SEEKER</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</script>

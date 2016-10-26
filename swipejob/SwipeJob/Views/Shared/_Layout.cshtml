@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="~/Content/images/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/css/jquery.json-viewer.css" rel="stylesheet" />
+    <title>@ViewBag.Title - swipejob.com</title>
+    @Styles.Render("~/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body ng-app="app">
+    <div class="header" ng-controller="headerController" ng-cloak ng-init="Init()">
+        @Html.Partial("~/Views/Partial/HeaderPartial.cshtml")
+    </div>
+    <div class="loader" style="display: none">Loading...</div>
+    <div class="content">
+        @RenderBody()
+    </div>
+    <div class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-title">
+                            <h3>ABOUT SWIPE JOB</h3>
+                        </div>
+                        <ul class="about">
+                            <li>
+                                <ul>
+                                    <li>
+                                        <a href="#">About Swipe Job</a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("AboutUs","Home")">About Us</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li>
+                                        <a href="@Url.Action("FAQ","Home")">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms Of Use</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Privacy & Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="footer-title">
+                            <a href="@Url.Action("ContactUs", "Home")">
+                                <h3>CONTACT US</h3>
+                            </a>
+                        </div>
+                        <ul class="contact">
+                            <li>
+                                <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> One Microsoft Way Redmond, WA 98052-6399</a>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li>
+                                        <a href="tel:4255550100"><i class="fa fa-phone" aria-hidden="true"></i> 425.555.0100</a>
+                                    </li>
+                                    <li>
+                                        <a href="mailTo:"><i class="fa fa-envelope" aria-hidden="true"></i> support@example.com</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-title">
+                            <h3>SUBSCRIBE TO US</h3>
+                        </div>
+                        <ul class="social">
+                            <li>
+                                <a href="#" class="instagram"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="google"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="twitter"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="facebook"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="in"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                Copyright © @DateTime.Now.Year - SwipeJob. All rights reserved.
+            </div>
+        </div>
+    </div>
+    <script>
+        var _isHome =  @Html.Raw(Json.Encode(ViewData["IsHome"]!=null? ViewData["IsHome"]:false));
+    </script>
+    @Html.Partial("~/Views/Shared/DialogTemplate.cshtml")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/swipeJobBase")
+    @Scripts.Render("~/Content/js/ckeditor/ckeditor.js")
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

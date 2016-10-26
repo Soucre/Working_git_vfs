@@ -1,0 +1,27 @@
+﻿<div class="box-header">
+    <h2>
+        <i class="fa fa-credit-card-alt"></i> Interest in
+    </h2>
+    <a class="button-edit ng-disabled"ng-click="editInterestIn()"><i class="fa fa-edit"></i>Edit</a>
+</div>
+<div class="box-content">
+    <div ng-if="!isEditInterestIn" class="item">
+        <div ng-bind-html="Model.JobSeeker.InterestIn |trust"></div>
+    </div>
+    <div ng-if="isEditInterestIn"> 
+        <form name="interestIn" novalidate method="POST">
+            <textarea ckeditor data-ng-model="Model.JobSeeker.InterestIn"></textarea>
+            <div class="item">
+                <ul class="action clearfix">
+                    <li>
+                        <button ng-click="saveInterestIn()" class="btn-save">Save</button>
+                    </li>
+                    <li>
+                        <button ng-click="cancelInterestIn()" class="btn-cancel">Cancel</button>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>
+

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="~/Content/images/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/css/jquery.json-viewer.css" rel="stylesheet" />
+    <title>@ViewBag.Title - swipejob.com</title>
+    @Styles.Render("~/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body ng-app="app" class="comming-soon-body">
+    <div class="comming-soon-header">
+        <div class="container">
+            <a href="/">
+                <img src="~/Content/images/logo.png" />
+            </a>
+        </div>
+    </div>
+    <div class="loader" style="display: none">Loading...</div>
+
+    @RenderBody()
+
+    <div class="comming-soon-footer">
+        <div class="container">
+            Copyright © @DateTime.Now.Year - SwipeJob. All rights reserved.
+        </div>
+    </div>
+    @Html.Partial("~/Views/Shared/DialogTemplate.cshtml")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/swipeJobBase")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿<div class="box-header">
+    <h2>
+        <i class="fa fa-credit-card-alt"></i> Additional Info
+    </h2>
+    <a class="button-edit" ng-click="editAdditionalInfo()"><i class="fa fa-edit"></i>Edit</a>
+</div>
+<div class="box-content">
+    <div ng-if="!isEditAdditionalInfo" class="item">
+        <div ng-bind-html="Model.JobSeeker.AdditionalInfo |trust"></div>
+    </div>
+    <div ng-if="isEditAdditionalInfo">
+        <form name="interestIn" novalidate method="POST">
+            <textarea ckeditor data-ng-model="Model.JobSeeker.AdditionalInfo"></textarea>
+            <div class="item">
+                <ul class="action clearfix">
+                    <li>
+                        <button ng-click="saveAdditionalInfo()" class="btn-save">Save</button>
+                    </li>
+                    <li>
+                        <button ng-click="cancelAdditionalInfo()" class="btn-cancel">Cancel</button>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>
+
+
