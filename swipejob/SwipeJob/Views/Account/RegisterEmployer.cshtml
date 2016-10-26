@@ -1,0 +1,97 @@
+﻿@{
+    ViewBag.Title = "Register Employer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="register-employer" ng-controller="registerEmployerController">
+    <h1>Request an Account </h1>
+    <hr />
+    <div style="width: 20%">
+        <hr style="background: #04ACEA; height: 5px;" />
+    </div>
+    <form name="registerEmployer" class="form-content">
+        <div class="pnl-form-control">
+            <span class="text-header">Company Name*</span>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-home"></i></span>
+                <input type="text" class="form-control" placeholder="Enter Company Name" name="companyName" ng-model="Model.CompanyName" required
+                       uib-tooltip="{{(registerEmployer.companyName.$error.required)?'This field is required.':''}}"
+                       tooltip-enable="!Model.CompanyName"
+                       tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+            </div>
+        </div>
+        <div class="pnl-form-control">
+            <span class="text-header">Company Registration Number</span>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                <input type="text" class="form-control" placeholder="Enter Company Registration Number (if any)" name="companyregistrationnumber" ng-model="Model.CompanyRegistrationNumber" />
+            </div>
+        </div>
+        <div class="pnl-form-control">
+            <span class="text-header">Contact Name*</span>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                <input type="text" class="form-control" placeholder="Enter Contact Name" name="contactName" ng-model="Model.ContactName" required
+                       uib-tooltip="{{(registerEmployer.contactName.$error.required)?'This field is required.':''}}"
+                       tooltip-enable="!Model.ContactName"
+                       tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+            </div>
+        </div>
+        <div class="pnl-form-control">
+            <span class="text-header">Contact Number*</span>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                <input type="number" class="form-control" placeholder="Enter Contact Number" name="contactNumber" ng-model="Model.ContactNumber" required
+                       uib-tooltip="{{(registerEmployer.contactNumber.$error.required)?'This field is required.':''}}"
+                       tooltip-enable="!Model.ContactNumber"
+                       tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+            </div>
+        </div>
+        <div class="pnl-form-control">
+            <span class="text-header">Emai*</span>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                <input type="email" class="form-control" placeholder="Enter Email Address" name="email" ng-model="Model.Email" required
+                       uib-tooltip="{{(registerEmployer.email.$error.required)?'This field is required.':(registerEmployer.email.$error.email)?'Invalid email address.':''}}"
+                       tooltip-enable="!Model.Email"
+                       tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+            </div>
+        </div>
+        <div class="pnl-form-control">
+            <span class="text-header">Natural of Business*</span>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                <input type="text" class="form-control" placeholder="Enter Natural of Business" name="naturalOfBusiness" ng-model="Model.NaturalOfBusiness" required
+                       uib-tooltip="{{(registerEmployer.naturalOfBusiness.$error.required)?'This field is required.':''}}"
+                       tooltip-enable="!Model.NaturalOfBusiness"
+                       tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+            </div>
+        </div>
+        <div class="pnl-form-control">
+            <span class="text-header">Message*</span>
+             <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                 <textarea rows="8" class="form-control" placeholder="Message" name="message" ng-model="Model.Message" required
+                           uib-tooltip="{{(registerEmployer.message.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.Message"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="agree-text col-md-8">
+                <input type="checkbox" id="agreed"/> 
+                <label class="text1">"I agree to the T&C etc" for PDPA purposes </label>
+                <br>
+                <label class="text2">I will get my lawyer to settie</label>
+            </div>
+            <div class="col-md-4">
+                <button class="send-request" ng-click="createAccountEmployer()">Send Request</button>    
+            </div>
+        </div>
+    </form>
+   
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/Content/js/SwipeJob/Account/registerEmployerController.js")
+}

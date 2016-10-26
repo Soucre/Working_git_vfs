@@ -1,0 +1,281 @@
+﻿@{
+    ViewBag.Title = "Job detail page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="job-detail-banner">
+</div>
+<div class="container job-detail" ng-cloak ng-controller="jobDetailController" ng-init="Init()">
+    <div class="employer-info">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="img-thumbnail" data-ng-src="{{(Model.CompanyLogoPath)}}" />
+                    </div>
+                    <div class="col-md-9">
+                        <h3 class="job-title" ng-bind="Model.JobName"></h3>
+                        <a class="company-name clearfix" ng-click="goToEmployerProfile(Model.EmployerId)">
+                            <span ng-bind="Model.CompanyName"></span>
+                        </a>
+                        <ul class="more-info">
+                            <li class="location">
+                                <i class="fa fa-map-marker"></i>
+                                <span> {{Model.JobLocation}}</span>
+                            </li>
+                            <li class="phone">
+                                <i class="fa fa-phone"></i>
+                                <span>{{Model.EmployerPhone}}</span>
+                            </li>
+                            <li class="mail">
+                                <i class="fa fa-envelope"></i>
+                                <span>{{Model.EmployerMail}}</span>
+                            </li>
+                            <li class="web">
+                                <i class="fa fa-globe"></i>
+                                <span>{{Model.EmployerSite}}</span>
+                            </li>
+                            <li class="salary">
+                                <i class="fa fa-usd"></i>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <span>{{Model.MinSalary}} - {{Model.MaxSalary}}</span>
+                                }
+                                else
+                                {
+                                    <a class="colorf26522" ng-click="loginToViewSalary()">Login to view Salary</a>
+                                }
+
+                            </li>
+                            <li class="job-type">
+                                <i class="fa fa-tags"></i>
+                                <span>Job type: {{Model.JobType}}</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a ng-if="ApplicantStatus!=1" ng-click="ApplyJob(Model.JobId)" class="button-large">APPLY NOW</a>
+                    <span ng-if="ApplicantStatus==1" class="button-large">JOB APPLIED</span>
+                }
+                else
+                {
+                    <a ng-click="loginToApply(Model.JobId)" class="button-large">Login to Apply</a>
+                }
+
+                <ul class="more-info">
+                    <li>
+                        <i class="fa fa-calendar"></i>
+                        <span ng-bind="Model.StartDate|date:'MM/dd/yyyy'"></span>
+                        <span> - </span>
+                        <span ng-bind="Model.EndDate|date:'MM/dd/yyyy'"></span>
+                    </li>
+                    <li>
+                        <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="job-info">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="job-box job-decription">
+                    <div class="box-header">
+                        <h3>
+                            <i class="fa fa-tags"></i>
+                            Job Description
+                        </h3>
+                    </div>
+                    <p ng-bind="Model.JobDescription"></p>
+                </div>
+                <div class="job-box applicant-requirements">
+                    <div class="box-header">
+                        <h3>
+                            <i class="fa fa-archive"></i>
+                            Applicant Requirements
+                        </h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>
+                                        Education Level: {{Model.EducationLevel}}
+                                    </li>
+                                    <li>
+                                        Field of Study: {{Model.FieldOfStudy}}
+                                    </li>
+                                    <li>
+                                        Language: {{Model.Language}}
+                                    </li>
+                                    <li>
+                                        Certifications: {{Model.Certifications}}
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>
+                                        Minimum Grade: {{Model.MinimumGrade}}
+                                    </li>
+                                    <li>
+                                        Able to start work immediately: {{Model.AbleStartWorkNow}}
+                                    </li>
+                                    <li>
+                                        Work Experience: {{Model.ExperienceLevel}}
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-box working-hours">
+                    <div class="box-header">
+                        <h3>
+                            <i class="fa fa-clock-o"></i>
+                            Working Hours
+                        </h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>
+                                        From {{Model.StartAt}} AM to {{Model.EndAt}} PM
+                                    </li>
+                                    <li>
+                                        Job start: <span ng-bind="Model.JobStartDate|date:'MM/dd/yyyy'"></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>
+                                        {{Model.HourPerDay}} Hour/Day
+                                    </li>
+                                    <li>
+                                        {{Model.DayPerWeek}} Day/Week
+                                    </li>
+                                    <li>
+                                        {{Model.DayPerMonth}} Day/Month
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-box job-requirement">
+                    <div class="box-header">
+                        <h3>
+                            <i class="fa fa-list-alt"></i>
+                            Job Requirements
+                        </h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>
+                                        Gender Required: {{Model.GenderRequired}}
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-box job-benefits">
+                    <div class="box-header">
+                        <h3>
+                            <i class="fa fa-heart-o"></i>
+                            Job Benefits
+                        </h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>
+                                        Extra Salary: {{Model.ExtraSalary}}
+                                    </li>
+                                    <li>
+                                        Salary Include Meal/Break-time: {{Model.IsSalaryIncludeMealAndBreakTime}}
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="social">
+                            <li>
+                                <h3>Share:</h3>
+                            </li>
+                            <li>
+                                <a class="google" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="twitter" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="facebook" href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="row">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <div class="col-md-6">
+                                    <div ng-if="ApplicantStatus!=1">
+                                        <a ng-if="ApplicantStatus!=2" ng-click="SaveJob(Model.JobId)" class="button-large">SAVE NOW</a>
+                                        <span ng-if="ApplicantStatus==2" class="button-large">JOB SAVED</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <a ng-if="ApplicantStatus!=1" ng-click="ApplyJob(Model.JobId)" class="button-large">APPLY NOW</a>
+                                    <span ng-if="ApplicantStatus==1" class="button-large">JOB APPLIED</span>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="col-md-6"></div>
+                                <div class="col-md-6">
+                                    <a ng-click="loginToApply()" class="button-large">Login to Apply</a>
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="company-overview">
+                    <h3> Company Overview</h3>
+                    <p ng-bind-html="Model.CompanyOverview |trust"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    @Html.Partial("~/Views/Partial/BannerPartial.cshtml")
+</div>
+<div id="fb-root"></div>
+@section Scripts {
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=631624840312020";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        var _jobId = @Html.Raw(Json.Encode(ViewData["id"].ToString()));
+        var _isAuthenticated = @Html.Raw(Json.Encode(User.Identity.IsAuthenticated));
+    </script>
+    @Scripts.Render("~/Content/js/SwipeJob/Jobs/jobDetailController.js")
+}

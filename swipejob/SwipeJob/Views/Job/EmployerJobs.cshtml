@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Jobs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="employer-jobs" ng-controller="employerJobsController">
+    <div>
+        <button ng-click="createNewJob()" class="create-new-job-button">Create New Job</button>
+    </div>
+    <div class="panel">
+        <table class="table table-hover table-bordered table-employer-jobs">
+            <thead>
+                <tr>
+                    <th>Job Name</th>
+                    <th>Job Description</th>
+                    <th>Job Type</th>
+                    <th><a href="" ng-click="sortByDate()">Created Date</a> <span class="sortorder" ng-class="{reverse:reverse}"></span></th>
+                    <th width="50px"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="job in jobItems |orderBy:item.CreatedDateUtc:reverse">
+                    <td ng-bind="job.JobName"></td>
+                    <td ng-bind="job.JobDescription"></td>
+                    <td ng-bind="job.JobType"></td>
+                    <td ng-bind="job.CreatedDateUtc | date:'MM/dd/yyyy'"></td>
+                    <td><a ng-click="editJob(job.Id)">Edit</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="paginations">
+        <div class="col-md-6">
+            <uib-pagination boundary-links="true" total-items="TotalItems" ng-change="pageChanged(currentPage)" max-size="maxSize" items-per-page="itemPerPage" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>
+        </div>
+        <div class="col2 col-md-6">
+            <span>Total:</span>
+            <span ng-bind="TotalItems"></span>
+            <span> jobs</span>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+            var _jobDetailLink = "@Url.Action("CreateEditJob", "Job")";
+    </script>
+    @Scripts.Render("~/Content/js/SwipeJob/Jobs/employerJobsController.js")
+}

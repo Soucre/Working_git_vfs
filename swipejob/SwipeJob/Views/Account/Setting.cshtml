@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Setting";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="setting" ng-controller="settingController">
+    <h2>MY ACCOUNT</h2>
+    <div class="pnl-change-password">
+        <div class="title" >
+            <text>Change Password</text>
+        </div>
+        <form name="changePassword" class="form-content" >
+            <div class="row">
+                <div class="col-md-4">
+                    <text>Current Password</text>
+                </div>
+                <div class="col-md-8">
+                    <input type="password" class="form-control" placeholder="Current Password" name="currentPassword" ng-model="Model.CurrentPassword" required
+                           uib-tooltip="{{(resetPassword.currentPassword.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.CurrentPassword"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <text>New Password</text>
+                </div>
+                <div class="col-md-8">
+                    <input type="password" class="form-control" placeholder="New Password" name="newPassword" ng-model="Model.NewPassword" required
+                           uib-tooltip="{{(resetPassword.newPassword.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.NewPassword"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <text>Confirm New Password</text>
+                </div>
+                <div class="col-md-8">
+                    <input type="password" class="form-control" placeholder="Confirm New Password" name="confirmNewPassword" ng-model="Model.ConfirmNewPassword" required
+                           uib-tooltip="{{(resetPassword.confirmNewPassword.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.ConfirmNewPassword"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <button class="save-change-password" ng-click="submit()">Save</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+<script>
+        var _userId = @Html.Raw(Json.Encode(ViewData["UserId"].ToString()));
+</script>
+    @Scripts.Render("~/Content/js/SwipeJob/Account/settingController.js")
+}

@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Employer Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="job-seeker-profile" ng-cloak ng-controller="employerProfileController" ng-init="Init()">
+    <div class="container">
+        <div class="profile">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="avatar">
+                        <div class="image">
+                            <label for="file-upload" class="file-upload">
+                                <i class="fa fa-edit"></i> Change Logo
+                            </label>
+                            <input id="file-upload" name="file" type="file" class="upload" onchange=' angular.element(this).scope().fileChanged(this) ' accept="image/*">
+                            <img class="img-thumbnail" data-ng-src="{{getImage(Model.Employer.LogoImage)}}" />
+                        </div>
+                    </div>
+                    <div class="tab-profile">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#companyInfo" aria-controls="companyInfo" role="tab" data-toggle="tab">
+                                    <i class="fa fa-credit-card-alt"></i>Company Info
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">
+                                    <i class="fa fa-briefcase"></i>Overview
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="companyInfo">
+                            <div class="companyInfo">
+                                @Html.Partial("~/Views/Partial/EmployerProfileCompanyInfoPartial.cshtml")
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="overview">
+                            <div class="overview">
+                                @Html.Partial("~/Views/Partial/EmployerProfileOverviewPartial.cshtml")
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/Content/js/SwipeJob/Account/employerProfileController.js")
+}

@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="login-jobseeker" ng-cloak ng-controller="loginJobSeekerController">
+    <h1>SIGN IN</h1>
+    <hr />
+    <div style="width: 20%">
+        <hr style="background: #04ACEA; height: 5px;" />
+    </div>
+    <div class="row pnl-option-login-jobseeker">
+        <div class="col-md-6 ">
+            <button ng-click="loginWithFacebook()" class="button-large login-facebook"><i class="fa fa-facebook" aria-hidden="true"></i>Sign in with Facebook</button>
+        </div>
+        <div class="col-md-6">
+            <button ng-click="loginWithGoogle()" class="button-large login-google"><i class="fa fa-google-plus" aria-hidden="true"></i>Sign in with Google</button>
+        </div>
+    </div>
+    <div>
+        <span style="color: #f26522">*</span>
+        <span style="font-style: italic">It's fast and easy. We'll never post anything without your permission</span>
+    </div>
+    <div class="line-option">
+        <h2>OR</h2>
+    </div>
+    <form name="loginJobseeker" class="form-content">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+            <input type="email" class="form-control" placeholder="Email" name="email" ng-model="Model.Email" required
+                   uib-tooltip="{{(loginJobseeker.email.$error.required)?'This field is required.':(loginJobseeker.email.$error.email)?'Invalid email address.':''}}"
+                   tooltip-enable="!Model.Email"
+                   tooltip-placement="bottom" tooltip-trigger="mouseenter"/>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+            <input type="password" class="form-control" placeholder="Password" name="password" ng-model="Model.Token" required
+                   uib-tooltip="{{(loginJobseeker.password.$error.required)?'This field is required.':''}}"
+                   tooltip-enable="!Model.Token"
+                   tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+        </div>
+        <div>
+            <input type="checkbox" ng-model="Model.IsKeepSignIn" name="isKeepSignIn"/> <span>Keep me sign in?</span>
+            <a href="@Url.Action("ForgotPassword","Account")" class="forgot-password">Forgot your password?</a>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <button ng-click="login()" class="sign-in">Sign in</button>
+            </div>
+        </div>
+    </form>
+    <div class="pnl-create-new-account">
+        <span>Don't have an account yet?</span>
+        <a ng-click="signUp()" class="sign-up">SIGN UP NOW </a>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        var _returnUrl = @Html.Raw(Json.Encode(ViewData["ReturnURL"].ToString()));
+    </script>
+    @Scripts.Render("~/Content/js/SwipeJob/Account/loginJobSeekerController.js")
+}

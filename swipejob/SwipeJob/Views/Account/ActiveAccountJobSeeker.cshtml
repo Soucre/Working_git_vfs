@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Account Activation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="account-activation" ng-controller="activeAccountJobSeekerController">
+    <h3 ng-bind="Message"></h3>
+</div>
+
+@section Scripts {
+<script>
+        var _code = @Html.Raw(Json.Encode(ViewData["code"].ToString()));
+</script>
+    @Scripts.Render("~/Content/js/SwipeJob/Account/activeAccountJobSeekerController.js")
+}

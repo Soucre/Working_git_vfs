@@ -1,0 +1,122 @@
+﻿
+@{
+    ViewBag.Title = "JobSeeker dashboad";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="job-seeker-dashboad" ng-cloak ng-controller="jobSeekerDashboadController" ng-init="Init()">
+    <div class="container">
+        <h2>Personal Infomation</h2>
+        <div class="box personal-info">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="profile-image">
+                        <img class="img-thumbnail" data-ng-src="{{getImage(User.JobSeeker.AvartarImage)}}" />
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <h3>Job seeker name: {{User.JobSeeker.FullName}}</h3>
+                    <h4>
+                        <i class="fa fa-envelope"></i> Email: {{User.Email}}
+                    </h4>
+                    <ul>
+                        <li>Gender: {{User.JobSeeker.GenderText}}</li>
+                        <li>Day Of Birth: {{User.JobSeeker.DateOfBirth|date:'MM/dd/yyyy'}}</li>
+                        <li>Phone: {{User.JobSeeker.PhoneNumber}}</li>
+                        <li class="address">Address: {{User.JobSeeker.Address}}</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>National Service Status: {{User.JobSeeker.NationalServiceStatusText}}</p>
+                </div>
+                <div class="col-md-6">
+                    <p>NRIC Number: {{User.JobSeeker.NRICNumber}}</p>
+                </div>
+                <div class="col-md-6">
+                    <p>NRIC Type: {{User.JobSeeker.NRICTypeText}}</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Race: {{User.JobSeeker.Race}}</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Religions: {{User.JobSeeker.Religions}}</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Portal Code: {{User.JobSeeker.PostalCode}}</p>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        Attacth file: <a ng-if="User.JobSeeker.MoreDocument" ng-click="dowloadMoreDocument(Model.JobSeeker.UserId)">Download this attacth file</a>
+                        <span ng-if="!User.JobSeeker.MoreDocument">No attacth file</span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <h2>Experience Level</h2>
+        <div class="box experience-level">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Year of experience: {{User.JobSeeker.ExperienceYearText}}</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Highest Education: {{User.JobSeeker.HighestEducation}}</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Language: {{User.JobSeeker.Language.Name}}</p>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Company Name</th>
+                        <th>Position/Job Level</th>
+                        <th>From</th>
+                        <th>To</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="CompanyHistory in CompanyHistories">
+                        <td>{{CompanyHistory.CompanyName}}</td>
+                        <td>{{CompanyHistory.Position}}</td>
+                        <td>{{CompanyHistory.From |date:'MM/dd/yyyy'}}</td>
+                        <td>{{CompanyHistory.To|date:'MM/dd/yyyy'}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Expected Position: {{User.JobSeeker.ExpectedPosition}}</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Expected Location: {{User.JobSeeker.ExpectedLocation}}</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Expected Job Category: {{User.JobSeeker.ExpectedJobCategory}}</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Expected Salary: {{User.JobSeeker.ExpectedSalary}}</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Negotiable: {{User.JobSeeker.CanNegotiation?'Yes':'No'}}</p>
+                </div>
+            </div>
+        </div>
+        <h2>Interest In</h2>
+        <div class="box interest-in">
+            <div ng-bind-html="User.JobSeeker.InterestIn |trust"></div>
+        </div>
+        <h2>Additional Information</h2>
+        <div class="box additional-info">
+            <div ng-bind-html="User.JobSeeker.AdditionalInfo |trust"></div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        var _profileId = @Html.Raw(Json.Encode(ViewData["profileId"].ToString()));
+    </script>
+    @Scripts.Render("~/Content/js/SwipeJob/Account/jobSeekerDashboadController.js")
+}

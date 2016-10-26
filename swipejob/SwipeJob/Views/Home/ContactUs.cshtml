@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewBag.Title = "Contact Us";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="contact-us" ng-controller="contactUsController">
+    <div class="container">
+        <h2>CONTACT</h2>
+        <hr />
+        <div style="width: 20%">
+            <hr style="background: #04ACEA; height: 5px;" />
+        </div>
+
+        <div class="row pnl-contact">
+            <div class="col-md-4">
+                <div class="circle">
+                    <span ><i class="fa fa-map-marker"></i></span>
+                </div>
+                <text>1001 Milacian Crest Street, Behind Vitoria, Paris France</text>
+            </div>
+            <div class="col-md-4">
+                <div class="circle">
+                    <span><i class="fa fa-phone"></i></span>
+                </div>
+                <text>Phone 425.555.0100</text>
+            </div>
+            <div class="col-md-4">
+                <div class="circle">
+                    <span><i class="fa fa-envelope"></i></span>
+                </div>
+                <text>Support@example.com</text>
+                <text>Marketing@example.com</text>
+            </div>
+        </div>
+        
+        <h2>YOUR INFORMATION</h2>
+        <hr />
+        <div style="width: 20%">
+            <hr style="background: #04ACEA; height: 5px;" />
+        </div>
+
+        <form  name="contactUs" class="pnl-information">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Your Name" name="name" ng-model="Model.FullName" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Address" name="address" ng-model="Model.Address" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="number" class="form-control" placeholder="Phone*" name="phoneNumber" ng-model="Model.PhoneNumber" required
+                               uib-tooltip="{{(contactUs.phoneNumber.$error.required)?'This field is required.':''}}"
+                                  tooltip-enable="!Model.Message"
+                                  tooltip-placement="bottom" tooltip-trigger="mouseenter"/>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Email*" name="email" ng-model="Model.Email" required
+                               uib-tooltip="{{(contactUs.email.$error.required)?'This field is required.':(contactUs.email.$error.email)?'Invalid email address.':''}}"
+                               tooltip-enable="!Model.Email"
+                               tooltip-placement="bottom" tooltip-trigger="mouseenter"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="input-group">
+                        <textarea rows="8" class="form-control" placeholder="Message*" name="message" ng-model="Model.Message" required
+                                  uib-tooltip="{{(contactUs.message.$error.required)?'This field is required.':''}}"
+                                  tooltip-enable="!Model.Message"
+                                  tooltip-placement="bottom" tooltip-trigger="mouseenter"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div row">
+                <div class="pnl-send-message">
+                    <button ng-click="sendMessage()" class="send-message">Send Message</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/Content/js/SwipeJob/Home/contactUsController.js")
+}

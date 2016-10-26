@@ -1,0 +1,44 @@
+﻿<div class="list-employer" ng-cloak>
+    <div ng-show="isHomePage" class="list-employer-home-header">
+        FEATURED EMPLOYER
+    </div>
+    <div ng-show="!isHomePage" class="list-employer-search-header">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Enter employer name" ng-model="EmployerName"/>
+            <span class="input-group-btn ">
+                <button type="button" class="btn btn-default" ng-click="searchEmployer(0)"><i class="fa fa-search"></i></button>
+            </span>
+        </div>
+    </div>
+    <div class="list-employer-item clearfix">
+        <div class="employer-item" ng-repeat="item in employerItems">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="company-logo">
+                        <img data-ng-src="{{getEmployerLogo(item.Employer.LogoImage)}}" />
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <a class="job-title clearfix" ng-click="goToEmployerDashboard(item.Employer.UserId)">
+                        <span ng-bind="item.Employer.CompanyName"></span>
+                    </a>
+                    <ul class="more-info">
+                        <li>
+                            <i class="fa fa-map-marker"></i>
+                            <span>{{item.Employer.Address}}</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <span>{{item.Employer.PhoneNumber}}</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-globe"></i>
+                            <span>{{item.Employer.WebLink}}</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <uib-pagination class="job-pagging" boundary-links="true" total-items="TotalEmployerItems" max-size="maxSizeEmployer" items-per-page="itemEmployerPerPage" ng-model="currentEmployerPage" ng-change="pageEmployerChanged(currentEmployerPage)" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+﻿
+namespace SwipeJob.Model.Extra
+{
+    public enum ErrorCode
+    {
+        ACCOUNT_IS_LOCKED,
+        ACCOUNT_NOT_EXISTED,
+        CURRENT_PASSWORD_INCORRECT,
+        EMAIL_IN_USED,
+        EMAIL_INVALID,
+        FACEBOOK_INVALID,
+        GOOGLE_INVALID,
+        FAVORITE_LOCATION_INVALID,
+        INVALID,
+        INVALID_ADDRESS,
+        INVALID_SESSION,
+        NEW_PASSWORD_THE_SAME_WITH_OLD,
+        NO_PERMISSION,
+        NOT_STRONG_PASSWORD,
+        SYSTEM_ERROR,
+        USER_NOT_EXISTED,
+        USER_NOT_VERIFIED_YET,
+        EMAIL_EXISTED,
+        JOB_ALREADY_APPLIED,
+        JOB_ALREADY_SAVED,
+        FILE_NOT_FOUND
+    }
+}

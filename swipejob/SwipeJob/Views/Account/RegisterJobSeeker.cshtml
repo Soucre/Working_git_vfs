@@ -1,0 +1,102 @@
+﻿@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="register-jobseeker" ng-cloak ng-controller="registerJobSeekerController" ng-init="Init()">
+    <h1>SIGN UP</h1>
+    <hr/>
+    <div style="width: 20%">
+        <hr style="background: #04ACEA; height: 5px;" />    
+    </div>
+
+    <div class="row pnl-option-register-jobseeker">
+        <div class="col-md-6 ">
+            <button ng-click="signUpWithFacebook()" class="button-large login-facebook"><i class="fa fa-facebook" aria-hidden="true"></i>Sign up with Facebook</button>
+        </div>
+        <div class="col-md-6">
+            <button ng-click="signUpWithGoogle()" class="button-large login-google"><i class="fa fa-google-plus" aria-hidden="true"></i>Sign up with Google</button>
+        </div>
+    </div>
+    <div >
+        <span style="color: #f26522">*</span>
+        <span style="font-style: italic">It's fast and easy. We'll never post anything without your permission</span>
+    </div>
+    <div class="line-option">
+        <h2>OR</h2>
+    </div>
+    <form name="registerJobseeker" class="form-content">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+            <input type="text" class="form-control" placeholder="Full Name" name="fullName" ng-model="Model.FullName" required
+                   uib-tooltip="{{(registerJobseeker.fullName.$error.required)?'This field is required.':''}}"
+                   tooltip-enable="!Model.Token"
+                   tooltip-placement="bottom" tooltip-trigger="mouseenter"/>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+            <input type="text" class="form-control" placeholder="NRIC Number (Username)" name="nricNumber" ng-model="Model.NRICNumber" required
+                   uib-tooltip="{{(registerJobseeker.nricNumber.$error.required)?'This field is required.':''}}"
+                   tooltip-enable="!Model.Token"
+                   tooltip-placement="bottom" tooltip-trigger="mouseenter"/>
+        </div>
+        <div>
+            <div class="row">
+                <label class="radio-inline col-md-4" ng-repeat="nricType in NricTypes">
+                    <input type="radio" name="nricType" ng-model="Model.NRICType" ng-value="nricType.Name" />{{nricType.DisplayName}}
+                </label>
+            </div>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+            <input type="text" ng-click="open()" class="form-control" uib-datepicker-popup="{{format}}" ng-model="Model.DayOfBirthUtc" is-open="isOpen" name="dayOfBirth" required
+                   show-weeks="false" show-button-bar="false" placeholder="mm/dd/yyyy"/>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+            <input type="email" class="form-control" placeholder="Email" name="email" ng-model="Model.Email" required
+                   uib-tooltip="{{(registerJobseeker.email.$error.required)?'This field is required.':(registerJobseeker.email.$error.email)?'Invalid email address.':''}}"
+                   tooltip-enable="!Model.Email"
+                   tooltip-placement="bottom" tooltip-trigger="mouseenter"/>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+            <input type="password" class="form-control" placeholder="Password" name="password" ng-model="Model.Token" required
+                   uib-tooltip="{{(registerJobseeker.password.$error.required)?'This field is required.':''}}"
+                   tooltip-enable="!Model.Token"
+                   tooltip-placement="bottom" tooltip-trigger="mouseenter"/>
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+            <input type="password" class="form-control" placeholder="Confirm Password" name="confirmpassword" ng-model="Model.ConfirmToken" required
+                   uib-tooltip="{{(registerJobseeker.confirmpassword.$error.required)?'This field is required.':''}}"
+                   tooltip-enable="!Model.ConfirmToken"
+                   tooltip-placement="bottom" tooltip-trigger="mouseenter"/>
+        </div>
+        <div class="pnl-login-info">
+            <ul>
+                <li>I give my consent for the revelent companies to obtain and verify information from or with any source, as you deem appropirate for the assessment of my application for employment. I understand that any personal information, with the exception of the job applicant's name and contact detail (subject to applicant's consent), will not be view-able by potential employers / public and can not be used by potential employers to filter job candidates </li>
+                <li>I declar that all information given by me in this application for employment and any sheets attached hereto are true to best of my knowledge and I have not willfully suppressed any material fact.</li>
+            </ul>
+        </div>
+        <div class="pnl-sign-up row">
+                <div class="col-md-4">
+                    <button ng-click="signUp()" class="sign-up" id="signUp">Sign up</button>
+                </div>
+                <div class="privacy-info col-md-8">
+                    <text>
+                        By click on "Sign Up Now", I have read<br />
+                        and accept Privacy & Policy and Term of Use
+                    </text>
+                </div>
+        </div>
+        
+    </form>
+    <hr style="border-color: gray; margin-top: 10px"/>
+    <div class="pnl-already-user">
+        <span class="text-alerady-user">Already User?</span> <Button ng-click="signIn()" class="sign-in">SIGN IN</Button>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/Content/js/SwipeJob/Account/registerJobSeekerController.js")
+}

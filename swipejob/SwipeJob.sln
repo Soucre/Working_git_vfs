@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{FAA2F34B-8991-40EF-AC5E-481830B1F604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{8BFCB919-D638-43B8-B68F-735E47194692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{9356D5A8-F540-428C-AA07-C84047272718}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Suites", "Test Suites", "{C36A03EB-1422-43F2-BB3D-90796370203D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreTest", "Test Suites\CoreTest\CoreTest.csproj", "{4D245B8A-56D0-49EE-965B-81588B6917CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwipeJob", "SwipeJob\SwipeJob.csproj", "{A69835CA-3A13-4A5E-9FAA-308A58CB1650}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		Production|Any CPU = Production|Any CPU
+		QA|Any CPU = QA|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAA2F34B-8991-40EF-AC5E-481830B1F604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA2F34B-8991-40EF-AC5E-481830B1F604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA2F34B-8991-40EF-AC5E-481830B1F604}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{FAA2F34B-8991-40EF-AC5E-481830B1F604}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{FAA2F34B-8991-40EF-AC5E-481830B1F604}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{FAA2F34B-8991-40EF-AC5E-481830B1F604}.Production|Any CPU.Build.0 = Production|Any CPU
+		{FAA2F34B-8991-40EF-AC5E-481830B1F604}.QA|Any CPU.ActiveCfg = QA|Any CPU
+		{FAA2F34B-8991-40EF-AC5E-481830B1F604}.QA|Any CPU.Build.0 = QA|Any CPU
+		{8BFCB919-D638-43B8-B68F-735E47194692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFCB919-D638-43B8-B68F-735E47194692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFCB919-D638-43B8-B68F-735E47194692}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{8BFCB919-D638-43B8-B68F-735E47194692}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{8BFCB919-D638-43B8-B68F-735E47194692}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{8BFCB919-D638-43B8-B68F-735E47194692}.Production|Any CPU.Build.0 = Production|Any CPU
+		{8BFCB919-D638-43B8-B68F-735E47194692}.QA|Any CPU.ActiveCfg = QA|Any CPU
+		{8BFCB919-D638-43B8-B68F-735E47194692}.QA|Any CPU.Build.0 = QA|Any CPU
+		{9356D5A8-F540-428C-AA07-C84047272718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9356D5A8-F540-428C-AA07-C84047272718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9356D5A8-F540-428C-AA07-C84047272718}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{9356D5A8-F540-428C-AA07-C84047272718}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{9356D5A8-F540-428C-AA07-C84047272718}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{9356D5A8-F540-428C-AA07-C84047272718}.Production|Any CPU.Build.0 = Production|Any CPU
+		{9356D5A8-F540-428C-AA07-C84047272718}.QA|Any CPU.ActiveCfg = QA|Any CPU
+		{9356D5A8-F540-428C-AA07-C84047272718}.QA|Any CPU.Build.0 = QA|Any CPU
+		{4D245B8A-56D0-49EE-965B-81588B6917CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D245B8A-56D0-49EE-965B-81588B6917CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D245B8A-56D0-49EE-965B-81588B6917CB}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{4D245B8A-56D0-49EE-965B-81588B6917CB}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{4D245B8A-56D0-49EE-965B-81588B6917CB}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{4D245B8A-56D0-49EE-965B-81588B6917CB}.Production|Any CPU.Build.0 = Production|Any CPU
+		{4D245B8A-56D0-49EE-965B-81588B6917CB}.QA|Any CPU.ActiveCfg = QA|Any CPU
+		{4D245B8A-56D0-49EE-965B-81588B6917CB}.QA|Any CPU.Build.0 = QA|Any CPU
+		{A69835CA-3A13-4A5E-9FAA-308A58CB1650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69835CA-3A13-4A5E-9FAA-308A58CB1650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69835CA-3A13-4A5E-9FAA-308A58CB1650}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{A69835CA-3A13-4A5E-9FAA-308A58CB1650}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{A69835CA-3A13-4A5E-9FAA-308A58CB1650}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{A69835CA-3A13-4A5E-9FAA-308A58CB1650}.Production|Any CPU.Build.0 = Production|Any CPU
+		{A69835CA-3A13-4A5E-9FAA-308A58CB1650}.QA|Any CPU.ActiveCfg = QA|Any CPU
+		{A69835CA-3A13-4A5E-9FAA-308A58CB1650}.QA|Any CPU.Build.0 = QA|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D245B8A-56D0-49EE-965B-81588B6917CB} = {C36A03EB-1422-43F2-BB3D-90796370203D}
+	EndGlobalSection
+EndGlobal

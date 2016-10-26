@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <div class="jobs" ng-controller="jobsController" ng-init="Init()">
+        <div class="advanced-search">
+                        @Html.Partial("~/Views/Partial/AdvandedSearchPartial.cshtml")
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                @Html.Partial("~/Views/Partial/RecentJobPartial.cshtml")
+            </div>
+            <div class="col-md-4">
+                @Html.Partial("~/Views/Partial/EmployerPartial.cshtml")
+            </div>
+        </div>
+    </div>
+    <div class="compay-logo" ng-controller="companyLogoController" ng-init="Init()">
+        @Html.Partial("~/Views/Partial/CompanyLogoPartial.cshtml")
+    </div>
+    @Html.Partial("~/Views/Partial/BannerPartial.cshtml")
+    
+</div>
+@section Scripts {
+    @Scripts.Render("~/Content/js/SwipeJob/Jobs/jobsController.js")
+    @Scripts.Render("~/Content/js/SwipeJob/Home/companyLogoController.js")
+}

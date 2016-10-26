@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = "JobSeekerMyJob";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="my-job" ng-cloak ng-controller="jobSeekerMyJobController" ng-init="Init()">
+    <div class="container">
+        <div class="list-job-search-header">
+            <div class="row">
+                <div class="col-md-5">
+                    <span class="bold">You have {{TotalItems}} {{ApplicantStatus}} Jobs</span>
+                </div>
+                <div class="col-md-7">
+                    <select class="form-control" required ng-init="ApplicantStatus" ng-change="search(0)" ng-model="ApplicantStatus" ng-options="applicantStatus.Name as applicantStatus.DisplayName for applicantStatus in ApplicantStatuses"></select>
+                </div>
+            </div>
+        </div>
+        <div class="list-job-item">
+            <div class="job-item" ng-repeat="job in Jobs">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="company-logo">
+                            <img data-ng-src="{{getImage(job.LogoImage)}}" />
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <a class="job-title clearfix" ng-click="goToJobDetail(job.JobId)">
+                            <span ng-bind="job.JobName"></span>
+                        </a>
+                        <p class="company-name" ng-bind="job.CompanyName"></p>
+                        <ul class="more-info">
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                <span>Location: {{job.Location.Name}}</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-usd"></i>
+                                <span>Salary: ${{job.MinSalary}} - ${{job.MaxSalary}}</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-tags"></i>
+                                <span>Job type: {{job.JobTypeText}}</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-calendar"></i>
+                                <span>{{job.StartDate|date:'MM/dd/yyyy'}} - {{job.EndDate|date:'MM/dd/yyyy'}}</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <ul class="action">
+                            <li ng-if="job.ApplicantStatus=='Applied' || job.ApplicantStatus=='Saved'">
+                                <a ng-click="delete(job.Id)" class="btn-delete"><i class="fa fa-remove"></i> Delete</a>
+                            </li>
+                            <li ng-if="job.ApplicantStatus=='Saved'">
+                                <a ng-click="apply(job.Id)" class="btn-apply"><i class="fa fa-check"></i> Apply Now</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <uib-pagination class="job-pagging" boundary-links="true" total-items="TotalItems" max-size="maxSize" items-per-page="itemPerPage" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        var _applicantStatus = @Html.Raw(Json.Encode(ViewData["ApplicantStatus"].ToString()));
+
+    </script>
+    @Scripts.Render("~/Content/js/SwipeJob/Account/jobSeekerMyJobController.js")
+}

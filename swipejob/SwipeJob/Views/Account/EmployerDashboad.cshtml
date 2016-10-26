@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewBag.Title = "Employer Dashboad";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="employer-dashboad" ng-cloak ng-controller="employerDashboadController" ng-init="Init()">
+    <div class="container">
+        <div class="employer-info">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="company-logo">
+                        <img data-ng-src="{{getImage(User.Employer.LogoImage)}}" />
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <h1>{{User.Employer.CompanyName}}</h1>
+                    <ul>
+                        <li><i class="fa fa-envelope"></i>{{User.Email}}</li>
+                        <li><i class="fa fa-phone"></i>{{User.Employer.PhoneNumber}}</li>
+                        <li><i class="fa fa-graduation-cap"></i>{{User.Employer.NatureOfBusiness}}</li>
+                        <li><i class="fa fa-globe"></i>{{User.Employer.WebLink}}</li>
+                        <li><i class="fa fa-map-marker"></i>{{User.Employer.Address}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="employer-overview" ng-if="User.Employer.OverView">
+            <h3>Company Overview</h3>
+            <div ng-bind-html="User.Employer.OverView |trust"></div>
+        </div>
+        <br/>
+        <h3>Latest Jobs</h3>
+        <div class="lastest-job">
+            <div class="row">
+                <div class="col-md-6" ng-repeat="job in Jobs">
+                    <div class="item clearfix">
+                        <a class="job-title clearfix" ng-click="goToJobDetail(job.Id)">
+                            <span ng-bind="job.JobName"></span>
+                        </a>
+                        <a class="company-name clearfix" ng-click="searchAllEmployerJob(job.Employer.CompanyName)">{{job.Employer.CompanyName}}</a>
+                        <ul class="more-info">
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                <span>Location: {{job.Location.Name}}</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-usd"></i>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <span>Salary: ${{job.MinSalary}} - ${{job.MaxSalary}}</span>
+                                }
+                                else
+                                {
+                                    <a class="colorf26522" ng-click="loginToViewSalary()">Login to view Salary</a>
+                                }
+                            </li>
+                            <li>
+                                <i class="fa fa-tags"></i>
+                                <span>Job type: {{job.JobTypeText}}</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-calendar"></i>
+                                <span>{{job.StartDate|date:'MM/dd/yyyy'}} - {{job.EndDate|date:'MM/dd/yyyy'}}</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        var _profileId = @Html.Raw(Json.Encode(ViewData["profileId"].ToString()));
+    </script>
+    @Scripts.Render("~/Content/js/SwipeJob/Account/employerDashboadController.js")
+}

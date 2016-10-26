@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="login-employer" ng-controller="loginEmployerController">
+    <h1>SIGN IN</h1>
+    <hr />
+    <div style="width: 20%">
+        <hr style="background: #04ACEA; height: 5px;" />
+    </div>
+    <form name="loginEmployer" class="form-content">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+            <input type="email" class="form-control" placeholder="Email" name="email" ng-model="Model.Email" required
+                   uib-tooltip="{{(loginEmployer.email.$error.required)?'This field is required.':(loginEmployer.email.$error.email)?'Invalid email address.':''}}"
+                   tooltip-enable="!Model.Email"
+                   tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+            <input type="password" class="form-control" placeholder="Password" name="password" ng-model="Model.Token" required
+                   uib-tooltip="{{(loginEmployer.password.$error.required)?'This field is required.':''}}"
+                   tooltip-enable="!Model.Token"
+                   tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+        </div>
+        <div>
+            <input type="checkbox" ng-model="Model.IsKeepSignIn" name="isKeepSignIn" /> <span>Keep me sign in?</span>
+            <a href="@Url.Action("ForgotPassword","Account")" class="forgot-password">Forgot your password?</a>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <button ng-click="login()" class="sign-in">Sign in</button>
+            </div>
+        </div>
+
+    </form>
+    <div class="pnl-create-new-account">
+        <div class="pnl-create-new-account">
+            <span>Don't have an account yet?</span>
+            <a ng-click="createNewAccount()" class="create-account">REQUEST AN ACCOUNT</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        var _returnUrl = @Html.Raw(Json.Encode(ViewData["ReturnURL"].ToString()));
+    </script>
+    @Scripts.Render("~/Content/js/SwipeJob/Account/loginEmployerController.js")
+}

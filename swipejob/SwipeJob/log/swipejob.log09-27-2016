@@ -1,0 +1,29 @@
+09-27-2016 22:41:01 [ERROR] [13] - INVALID_SESSION
+SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in D:\2. Projects\Personal\SperanzaInc\SwipeJob\source\web\Core\BaseManager.cs:line 30
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.AccountManager.<GetCurrentUser>d__3.MoveNext() in D:\2. Projects\Personal\SperanzaInc\SwipeJob\source\web\Core\AccountManager.cs:line 45
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in D:\2. Projects\Personal\SperanzaInc\SwipeJob\source\web\SwipeJob\Controllers\BaseController.cs:line 40
+09-27-2016 22:42:41 [ERROR] [5] - INVALID
+SwipeJob.Utility.Exceptions.UserException: INVALID
+   at SwipeJob.Core.AccountManager.<Login>d__5.MoveNext() in D:\2. Projects\Personal\SperanzaInc\SwipeJob\source\web\Core\AccountManager.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiAccountController.<Login>d__0.MoveNext() in D:\2. Projects\Personal\SperanzaInc\SwipeJob\source\web\SwipeJob\ApiControllers\ApiAccountController.cs:line 22
+09-27-2016 22:42:54 [ERROR] [13] - INVALID
+SwipeJob.Utility.Exceptions.UserException: INVALID
+   at SwipeJob.Core.AccountManager.<Login>d__5.MoveNext() in D:\2. Projects\Personal\SperanzaInc\SwipeJob\source\web\Core\AccountManager.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiAccountController.<Login>d__0.MoveNext() in D:\2. Projects\Personal\SperanzaInc\SwipeJob\source\web\SwipeJob\ApiControllers\ApiAccountController.cs:line 22

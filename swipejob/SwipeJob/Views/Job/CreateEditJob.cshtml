@@ -1,0 +1,325 @@
+﻿@{
+    ViewBag.Title = "Create Job";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="create-new-job" ng-cloak ng-controller="createEditJobController" ng-init="Init()">
+    <form name="createNewJob" class="form-content">
+        <div class="job-box pnl-job-description">
+            <div class="box-header">
+                <h3>
+                    <i class="fa fa-tags"></i>
+                    Job Description
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Job Name
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" placeholder="Job Name" name="jobName" ng-model="Model.JobName" required
+                           uib-tooltip="{{(createNewJob.jobName.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.JobName"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Job Type
+                </div>
+                <div class="col-md-8">
+                    <select class="form-control" ng-model="Model.JobType" ng-init="Model.JobType" ng-options="jobType.Name as jobType.DisplayName for jobType in JobTypes" required>
+                        <option value="" disabled selected hidden>Job Type</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <textarea rows="8" class="form-control" placeholder="Job Description" name="message" ng-model="Model.JobDescription" required
+                              uib-tooltip="{{(createNewJob.message.$error.required)?'This field is required.':''}}"
+                              tooltip-enable="!Model.JobDescription"
+                              tooltip-placement="bottom" tooltip-trigger="mouseenter"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Start Date
+                </div>
+                <div class="col-md-8">
+                    <input type="text" ng-click="openStartDate()" class="form-control" uib-datepicker-popup="{{format}}" ng-model="Model.StartDate" is-open="isOpenStartDate" name="startDate" required
+                           show-weeks="false" show-button-bar="false" placeholder="mm/dd/yyyy"
+                           uib-tooltip="{{(createNewJob.startDate.$invalid)?'This field is required.':''}}"
+                           tooltip-enable="!Model.StartDate"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    EndDate
+                </div>
+                <div class="col-md-8">
+                    <input type="text" ng-click="openEndDate()" class="form-control" uib-datepicker-popup="{{format}}" ng-model="Model.EndDate" is-open="isOpenEndDate" name="endDate" required
+                           show-weeks="false" show-button-bar="false" placeholder="mm/dd/yyyy"
+                           uib-tooltip="{{(createNewJob.endDate.$invalid)?'This field is required.':''}}"
+                           tooltip-enable="!Model.EndDate"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+        </div>
+        <div class="job-box pnl-applicant-requirement">
+            <div class="box-header">
+                <h3>
+                    <i class="fa fa-archive"></i>
+                    Applicant Requirements
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Location
+                </div>
+                <div class="col-md-8">
+                    <select class="form-control" ng-model="Model.Location" ng-init="Model.Location" ng-options="location as location.Name for location in Locations track by location.Id" required>
+                        <option value="" disabled selected hidden>Location</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Education Level
+                </div>
+                <div class="col-md-8">
+                    <select class="form-control" ng-model="Model.EducationLevel" ng-init="Model.EducationLevel" ng-options="educationLevel.Value as educationLevel.Name for educationLevel in EducationLevels" required>
+                        <option value="" disabled selected hidden>Education Level</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Field of Study
+                </div>
+                <div class="col-md-8">
+                    <select class="form-control" ng-model="Model.FieldOfStudy" ng-init="Model.FieldOfStudy" ng-options="industry as industry.Name for industry in Industries track by industry.Id" required>
+                        <option value="" disabled selected hidden>Field of Study</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Languages
+                </div>
+                <div class="col-md-8">
+                    <select class="form-control" ng-model="Model.Language" ng-init="Model.Language" ng-options="language as language.Name for language in Languages track by language.Id" required>
+                            <option value="" disabled selected hidden>Languages</option>
+                        </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Certifications
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" placeholder="Certifications" name="certification" ng-model="Model.Certification" ng-init="Model.Certification" required
+                           uib-tooltip="{{(createNewJob.certification.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.Certification"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Minimum Grade
+                </div>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" placeholder="Minimum Grade" name="minimumGrade" ng-model="Model.MinimumGrade" ng-init="Model.MinimumGrade" required
+                           uib-tooltip="{{(createNewJob.minimumGrade.$error.required)?'This field is required.':''}}"
+                           tooltip-enable="!Model.MinimumGrade"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Able to start work immediately
+                </div>
+                <div class="col-md-8">
+                    <label class="checkbox-inline" >
+                        <input type="checkbox" ng-model="Model.IsStartWorkImmediately"  ng-init="Model.IsStartWorkImmediately" name="isStartWorkImmediately"/> <span ng-bind="Model.IsStartWorkImmediately? 'Yes':'No'"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Work Experience
+                </div>
+                <div class="col-md-8">
+                    <select class="form-control" ng-model="Model.ExperienceLevel"  ng-init="Model.ExperienceLevel" ng-options="experienceLevel.Value as experienceLevel.DisplayName for experienceLevel in ExperienceLevels" required>
+                        <option value="" disabled selected hidden>Work Experience</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="job-box pnl-working-hours">
+            <div class="box-header">
+                <h3>
+                    <i class="fa fa-clock-o"></i>
+                    Working Hours
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    From (AM)
+                </div>
+                <div class="col-md-8">
+                    <select class="form-control" ng-model="Model.StartWorkingAt" required>
+                        <option value="" disabled selected hidden>From</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    To (PM)
+                </div>
+                <div class="col-md-8">
+                    <select class="form-control" ng-model="Model.EndWorkingAt" required>
+                        <option value="" disabled selected hidden>To</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Job Start
+                </div>
+                <div class="col-md-8">
+                    <input type="text" ng-click="openJobStartDate()" class="form-control" uib-datepicker-popup="{{format}}" ng-model="Model.JobStartDate" is-open="isOpenJobStartDate" name="jobStartDate" required
+                           show-weeks="false" show-button-bar="false" placeholder="mm/dd/yyyy" 
+                            uib-tooltip="{{(createNewJob.jobStartDate.$invalid)?'This field is required.':''}}"
+                           tooltip-enable="!Model.JobStartDate"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Hours/day
+                </div>
+                <div class="col-md-8">
+                    <input type="number" ng-maxlength="2" name="hoursPerDay" class="form-control" ng-model="Model.HoursPerDay " required
+                           uib-tooltip="{{(createNewJob.hoursPerDay.$valid)?'' : 'This field is max 2 character.'}}"
+                           tooltip-enable="{{(createNewJob.hoursPerDay.$invalid)}}"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Days/week
+                </div>
+                <div class="col-md-8">
+                    <input type="number" ng-maxlength="2" name="dayPerWeek" class="form-control" ng-model="Model.DayPerWeek" required
+                           uib-tooltip="{{(createNewJob.dayPerWeek.$valid)?'' : 'This field is max 2 character.'}}"
+                           tooltip-enable="{{(createNewJob.dayPerWeek.$invalid)}}"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Days/months
+                </div>
+                <div class="col-md-8">
+                    <input type="number" ng-maxlength="2"  name="dayPerMonth" class="form-control" ng-model="Model.DayPerMonth" required
+                           uib-tooltip="{{(createNewJob.dayPerMonth.$valid)?'' : 'This field is max 2 character.'}}"
+                           tooltip-enable="{{(createNewJob.dayPerMonth.$invalid)}}"
+                           tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                </div>
+            </div>
+        </div>
+        <div class="job-box pnl-job-requirement">
+            <div class="box-header">
+                <h3>
+                    <i class="fa fa-list-alt"></i>
+                    Job Requirements
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4 bold">
+                    Gender Required
+                </div>
+                <div class="col-md-8">
+                    <select class="form-control" ng-model="Model.GenderRequired" ng-init="Model.GenderRequired" ng-options="genderRequired.Name as genderRequired.DisplayName for genderRequired in GenderRequireds" required>
+                        <option value="" disabled selected hidden>Gender</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="job-box pnl-job-benefits">
+        <div class="box-header">
+            <h3>
+                <i class="fa fa-heart-o"></i>
+                Job Benefits
+            </h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Min Salary
+            </div>
+            <div class="col-md-8">
+                <input type="number" class="form-control" placeholder="Min Salary" name="minSalary" ng-model="Model.MinSalary" required
+                       uib-tooltip="{{(createNewJob.minSalary.$error.required)?'This field is required.':''}}"
+                       tooltip-enable="!Model.MinSalary"
+                       tooltip-placement="bottom" tooltip-trigger="mouseenter"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Max Salary
+            </div>
+            <div class="col-md-8">
+                <input type="number" class="form-control" placeholder="Max Salary" name="maxSalary" ng-model="Model.MaxSalary" required
+                       uib-tooltip="{{(createNewJob.maxSalary.$error.required)?'This field is required.':''}}"
+                       tooltip-enable="!Model.MaxSalary"
+                       tooltip-placement="bottom" tooltip-trigger="mouseenter"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Extra Salary
+            </div>
+            <div class="col-md-8">
+                <input type="text" class="form-control" placeholder="Extra Salary" name="extraSalary" ng-model="Model.ExtraSalary" required
+                        uib-tooltip="{{(createNewJob.extraSalary.$error.required)?'This field is required.':''}}"
+                        tooltip-enable="!Model.ExtraSalary"
+                        tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bold">
+                Salary include meal/break time
+            </div>
+            <div class="col-md-8">
+                <label class="checkbox-inline">
+                    <input type="checkbox" ng-model="Model.IsSalaryIncludeMealAndBreakTime" ng-init="Model.IsSalaryIncludeMealAndBreakTime" name="isSalaryIncludeMealAndBreakTime" /> <span ng-bind="Model.IsSalaryIncludeMealAndBreakTime? 'Yes':'No'"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+        <button ng-click="createJob()" ng-if="!IsEdit" class="create-button">Create New Job</button>
+        <button ng-click="updateJob()" ng-if="IsEdit" class="create-button">Update Job</button>
+    </form>
+    
+</div>
+
+@section Scripts {
+    <script>
+            var _jobId = @Html.Raw(Json.Encode(ViewData["JobId"].ToString()));
+    </script>
+    @Scripts.Render("~/Content/js/SwipeJob/Jobs/createEditJobController.js")
+}

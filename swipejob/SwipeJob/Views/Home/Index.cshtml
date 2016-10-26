@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<div class="search-banner" ng-cloak ng-controller="homeSearchController" ng-init="Init()">
+        @Html.Partial("~/Views/Partial/HomeSearchPartial.cshtml")
+</div>
+@*<div class="container" ng-controller="companyLogoController">
+    @Html.Partial("~/Views/Partial/CompanyLogoPartial.cshtml")
+</div>
+<div class="container">
+    <div class="row ">
+        <div class="col-md-8" ng-controller="recentJobController">
+            @Html.Partial("~/Views/Partial/RecentJobPartial.cshtml")
+        </div>
+        <div class="col-md-4" ng-controller="homeEmployerController">
+            @Html.Partial("~/Views/Partial/EmployerPartial.cshtml")
+        </div>
+    </div>
+</div>
+<div class="container">
+    @Html.Partial("~/Views/Partial/BannerPartial.cshtml")
+</div>*@
+@section Scripts {
+    
+    @Scripts.Render("~/Content/js/SwipeJob/Home/homeSearchController.js")
+  
+      @*@Scripts.Render("~/Content/js/SwipeJob/Home/recentJobController.js")
+    @Scripts.Render("~/Content/js/SwipeJob/Home/homeEmployerController.js")
+    @Scripts.Render("~/Content/js/SwipeJob/Home/companyLogoController.js")*@
+}
+<script>
+        _isHome = true;
+</script>

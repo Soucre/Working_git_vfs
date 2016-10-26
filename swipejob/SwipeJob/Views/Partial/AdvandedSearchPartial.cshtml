@@ -1,0 +1,54 @@
+﻿<div class="row">
+    <div class="col-md-10">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="clearfix"><i class="fa fa-search"></i> I am looking for...</p>
+                <input type="text" ng-init="Search.JobTitle" ng-model="Search.JobTitle" class="form-control"  placeholder="Job title, opposition or company" />
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="clearfix"><i class="fa fa-map-marker"></i> Location</p>
+                        <select class="form-control" ng-model="Search.Location" ng-change="search(0)" ng-options="location as location.Name for location in Locations track by location.Id">
+                            <option value="" selected>All Locations</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="clearfix"><i class="fa fa-tags"></i> Category</p>
+                        <select class="form-control" ng-model="Search.Category" ng-change="search(0)" ng-options="category as category.Name for category in Categories track by category.Id">
+                            <option value="" selected>All Categories</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="clearfix"><i class="fa fa-cogs"></i> Job Type</p>
+                        <select class="form-control" ng-model="Search.JobType" ng-change="search(0)" ng-options="jobType.Name as jobType.DisplayName for jobType in JobTypes">
+                            <option value="" selected>All Job Type</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="clearfix"><i class="fa fa-sitemap"></i> Position Level</p>
+                        <input type="text" ng-model="Search.PositionLevel" class="form-control" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p class="clearfix"><i class="fa fa-usd"></i> Monthly Salary (USD)</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" ng-model="Search.MinSalary" class="form-control" />
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" ng-model="Search.MaxSalary" class="form-control" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <button class="button-search" ng-click="search()">SEARCH</button>
+    </div>
+</div>

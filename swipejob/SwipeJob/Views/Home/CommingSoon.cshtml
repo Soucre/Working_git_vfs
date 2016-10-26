@@ -1,0 +1,94 @@
+﻿@{
+    ViewBag.Title = "Home page";
+    Layout = "~/Views/Shared/_CommingSoon.cshtml";
+}
+<div class="comming-soon-content">
+    <div class="register-page container" ng-cloak ng-controller="commingSoonController" ng-init="Init()">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>CREATING A NEW</h1>
+                <h3>WORK EXPERIENCE IS JUST TEXT</h3>
+            </div>
+            <div class="col-md-4">
+                <div class="pnl-contact-information">
+                    <h3>CONTACT INFORMATION</h3>
+                    <hr />
+                    <form name="register" class="form-content clearfix">
+                        <span>Contact Name *</span>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                            <input type="text" class="form-control" name="contactName" placeholder="Enter Contact Name" ng-model="Model.FullName" required
+                                   uib-tooltip="{{(register.contactName.$error.required)?'This field is required.':''}}"
+                                   tooltip-enable="!Model.FullName"
+                                   tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                        </div>
+                        <span>Contact Number *</span>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                            <input type="text" class="form-control" name="phone" placeholder="Enter Phone Number" ng-model="Model.PhoneNumber" required
+                                   uib-tooltip="{{(register.phone.$error.required)?'This field is required.':''}}"
+                                   tooltip-enable="!Model.PhoneNumber"
+                                   tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                        </div>
+                        <span>Email *</span>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input type="email" class="form-control" placeholder="Enter Email" name="email" ng-model="Model.Email" required
+                                   uib-tooltip="{{(register.email.$error.required)?'This field is required.':(register.email.$error.email)?'Invalid email address.':''}}"
+                                   tooltip-enable="!Model.Email"
+                                   tooltip-placement="bottom" tooltip-trigger="mouseenter" />
+                        </div>
+                        <span>Date of birth</span>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                            <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="Model.DayOfBirthUtc" is-open="isOpen" name="dayOfBirth"
+                                 show-weeks="false" show-button-bar="false" placeholder="mm/dd/yyyy" />
+                            <span class="input-group-btn ">
+                                <button type="button" class="btn btn-default" ng-click="open()"><i class="fa fa-calendar"></i></button>
+                            </span>
+                        </div>
+                        <span>Work Experience</span>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
+                            <select class="form-control" ng-model="Model.ExperienceLevel" ng-options="experienceLevel.Value as experienceLevel.Name for experienceLevel in ExperienceLevels">
+                                <option value="" disabled selected hidden>Choose your experience</option>
+                            </select>
+                        </div>
+                        <span>Industry</span>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-graduation-cap"></i></span>
+                            <select class="form-control" ng-model="Model.Industry" ng-options="industry as industry.Name for industry in Industries track by industry.Id">
+                                <option value="" disabled selected hidden>Choose an industry</option>
+                            </select>
+                        </div>
+                        <button ng-click="submit()" class="btn-coming-soon clearfix">Submit</button>
+                    </form>
+                    <hr />
+                    <div class="social clearfix">
+                        <span>SUBSCRIBE TO US</span>
+                        <ul>
+                            <li>
+                                <a class="instagram" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="google" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="twitter" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="facebook" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="tumblr" href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/Content/js/SwipeJob/ComingSoon/commingSoonController.js")
+}

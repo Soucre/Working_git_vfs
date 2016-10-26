@@ -1,0 +1,8 @@
+﻿<ul class="company-logo clearfix">
+    <li  ng-repeat="item in Items">
+        <a ng-click="seachJob(item.Employer.CompanyName)">
+            <img class="img-thumbnail" data-ng-src="{{getEmployerLogo(item.Employer.LogoImage)}}" />
+            <h3 ng-bind="item.Employer.CompanyName"></h3>
+        </a>
+    </li>
+</ul>
