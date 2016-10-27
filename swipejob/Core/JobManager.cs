@@ -200,18 +200,22 @@ namespace SwipeJob.Core
                 {
                     query = query.Where(x => x.LocationId == param.Location.Id);
                 }
+
                 if (param.Category != null)
                 {
                     query = query.Where(x => x.Educations.Any(p => p.FieldOfStudyId == param.Category.Id));
                 }
+
                 if (param.JobType != 0)
                 {
                     query = query.Where(x => x.JobType == param.JobType);
                 }
+
                 if (param.MinSalary > 0)
                 {
                     query = query.Where(x => x.MinSalary >= param.MinSalary);
                 }
+
                 if (param.MaxSalary > 0)
                 {
                     query = query.Where(x => x.MaxSalary <= param.MaxSalary);
