@@ -1,6 +1,6 @@
-10-26-2016 21:45:12 [ERROR] [11] - INVALID_SESSION
+10-27-2016 07:12:52 [ERROR] [10] - INVALID_SESSION
 SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
-   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 30
 --- End of stack trace from previous location where exception was thrown ---
    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
@@ -11,9 +11,9 @@ SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
-10-26-2016 21:45:23 [ERROR] [10] - INVALID_SESSION
+10-27-2016 07:13:06 [ERROR] [12] - INVALID_SESSION
 SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
-   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 30
 --- End of stack trace from previous location where exception was thrown ---
    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
@@ -24,9 +24,245 @@ SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
-10-26-2016 21:53:09 [ERROR] [8] - INVALID_SESSION
+10-27-2016 07:19:32 [ERROR] [23] - The underlying provider failed on Open.
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Cannot open database "swipejob" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass4.<<ExecuteAsync>b__3>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<ProtectedExecuteAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<OpenAsync>d__8.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<OpenAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<EnsureConnectionAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__3d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<ProtectedExecuteAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<GetResultsAsync>d__e.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Internal.LazyAsyncEnumerator`1.<FirstMoveNextAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<SingleAsync>d__2d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.JobManager.<Search>d__8.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\JobManager.cs:line 224
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiJobController.<Search>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiJobController.cs:line 67
+10-27-2016 07:19:35 [ERROR] [19] - The underlying provider failed on Open.
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Cannot open database "swipejob" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass4.<<ExecuteAsync>b__3>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<ProtectedExecuteAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<OpenAsync>d__8.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<OpenAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<EnsureConnectionAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__3d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<ProtectedExecuteAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<GetResultsAsync>d__e.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Internal.LazyAsyncEnumerator`1.<FirstMoveNextAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<SingleAsync>d__2d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.JobManager.<Search>d__8.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\JobManager.cs:line 224
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiJobController.<Search>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiJobController.cs:line 67
+10-27-2016 07:19:51 [ERROR] [10] - The underlying provider failed on Open.
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Cannot open database "swipejob" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass4.<<ExecuteAsync>b__3>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<ProtectedExecuteAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<OpenAsync>d__8.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<OpenAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<EnsureConnectionAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__3d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<ProtectedExecuteAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<GetResultsAsync>d__e.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Internal.LazyAsyncEnumerator`1.<FirstMoveNextAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<SingleAsync>d__2d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.JobManager.<Search>d__8.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\JobManager.cs:line 224
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiJobController.<Search>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiJobController.cs:line 67
+10-27-2016 07:19:55 [ERROR] [19] - The underlying provider failed on Open.
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Cannot open database "swipejob" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass4.<<ExecuteAsync>b__3>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<ProtectedExecuteAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<OpenAsync>d__8.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<OpenAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<EnsureConnectionAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__3d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<ProtectedExecuteAsync>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<GetResultsAsync>d__e.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Internal.LazyAsyncEnumerator`1.<FirstMoveNextAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<SingleAsync>d__2d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.JobManager.<Search>d__8.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\JobManager.cs:line 224
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiJobController.<Search>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiJobController.cs:line 67
+10-27-2016 07:20:15 [ERROR] [19] - INVALID_SESSION
 SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
-   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 30
 --- End of stack trace from previous location where exception was thrown ---
    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
@@ -37,91 +273,41 @@ SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
-10-26-2016 21:58:14 [ERROR] [13] - INVALID
-SwipeJob.Utility.Exceptions.UserException: INVALID
-   at SwipeJob.Core.AccountManager.<Login>d__5.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 83
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at SwipeJob.Web.ApiControllers.ApiAccountController.<Login>d__0.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiAccountController.cs:line 22
-10-26-2016 21:59:39 [ERROR] [6] - INVALID_SESSION
-SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
-   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at SwipeJob.Core.AccountManager.<GetCurrentUser>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 43
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
-10-26-2016 22:03:14 [ERROR] [6] - INVALID_SESSION
-SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
-   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at SwipeJob.Core.AccountManager.<GetCurrentUser>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 43
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
-10-26-2016 22:03:38 [ERROR] [9] - INVALID_SESSION
-SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
-   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at SwipeJob.Core.AccountManager.<GetCurrentUser>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 43
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
-10-26-2016 22:14:30 [ERROR] [24] - EMAIL_INVALID
-SwipeJob.Utility.Exceptions.UserException: EMAIL_INVALID
-   at SwipeJob.Core.AccountManager.<ForgotPassword>d__9.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 326
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at SwipeJob.Web.ApiControllers.ApiAccountController.<ForgotPassword>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiAccountController.cs:line 38
-10-26-2016 22:14:42 [ERROR] [25] - EMAIL_INVALID
-SwipeJob.Utility.Exceptions.UserException: EMAIL_INVALID
-   at SwipeJob.Core.AccountManager.<ForgotPassword>d__9.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 326
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at SwipeJob.Web.ApiControllers.ApiAccountController.<ForgotPassword>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiAccountController.cs:line 38
-10-26-2016 22:15:17 [ERROR] [33] - Bad Request Check `Errors` for a list of errors returned by the API.
-Exceptions.InvalidApiRequestException: Bad Request Check `Errors` for a list of errors returned by the API.
-   at SendGrid.ErrorChecker.CheckForErrors(HttpResponseMessage response, Stream stream)
-   at SendGrid.ErrorChecker.<CheckForErrorsAsync>d__1.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at SendGrid.Web.<DeliverAsync>d__7.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at SwipeJob.Core.EmailDelivery.<SendGridMail>d__9.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\EmailDelivery.cs:line 172
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
-   at SwipeJob.Core.EmailDelivery.<SendEmail>d__7.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\EmailDelivery.cs:line 111
-10-26-2016 22:15:22 [ERROR] [34] - INVALID_SESSION
-SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
-   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+10-27-2016 07:21:12 [ERROR] [31] - Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatementsInternal(IEnumerable`1 migrationStatements, DbConnection connection)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatements(IEnumerable`1 migrationStatements, DbTransaction existingTransaction)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteOperations(String migrationId, VersionedModel targetModel, IEnumerable`1 operations, IEnumerable`1 systemOperations, Boolean downgrading, Boolean auto)
+   at System.Data.Entity.Migrations.DbMigrator.ApplyMigration(DbMigration migration, DbMigration lastMigration)
+   at System.Data.Entity.Migrations.DbMigrator.Upgrade(IEnumerable`1 pendingMigrations, String targetMigrationId, String lastMigrationId)
+   at System.Data.Entity.Migrations.DbMigrator.UpdateInternal(String targetMigration)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.MigrateDatabaseToLatestVersion`2.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 24
 --- End of stack trace from previous location where exception was thrown ---
    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
@@ -132,9 +318,253 @@ SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
-10-26-2016 22:15:53 [ERROR] [29] - INVALID_SESSION
-SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
-   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+ClientConnectionId:5223d001-3615-4ff8-a941-896eea2c72fa
+Error Number:4060,State:1,Class:11
+10-27-2016 07:21:14 [ERROR] [30] - Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatementsInternal(IEnumerable`1 migrationStatements, DbConnection connection)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatements(IEnumerable`1 migrationStatements, DbTransaction existingTransaction)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteOperations(String migrationId, VersionedModel targetModel, IEnumerable`1 operations, IEnumerable`1 systemOperations, Boolean downgrading, Boolean auto)
+   at System.Data.Entity.Migrations.DbMigrator.ApplyMigration(DbMigration migration, DbMigration lastMigration)
+   at System.Data.Entity.Migrations.DbMigrator.Upgrade(IEnumerable`1 pendingMigrations, String targetMigrationId, String lastMigrationId)
+   at System.Data.Entity.Migrations.DbMigrator.UpdateInternal(String targetMigration)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.MigrateDatabaseToLatestVersion`2.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at SwipeJob.Core.CommonManager.<GetAllLocation>d__7.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\CommonManager.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiCommonController.<GetAllLocation>d__14.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiCommonController.cs:line 176
+ClientConnectionId:5223d001-3615-4ff8-a941-896eea2c72fa
+Error Number:4060,State:1,Class:11
+10-27-2016 07:21:14 [ERROR] [25] - Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatementsInternal(IEnumerable`1 migrationStatements, DbConnection connection)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatements(IEnumerable`1 migrationStatements, DbTransaction existingTransaction)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteOperations(String migrationId, VersionedModel targetModel, IEnumerable`1 operations, IEnumerable`1 systemOperations, Boolean downgrading, Boolean auto)
+   at System.Data.Entity.Migrations.DbMigrator.ApplyMigration(DbMigration migration, DbMigration lastMigration)
+   at System.Data.Entity.Migrations.DbMigrator.Upgrade(IEnumerable`1 pendingMigrations, String targetMigrationId, String lastMigrationId)
+   at System.Data.Entity.Migrations.DbMigrator.UpdateInternal(String targetMigration)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.MigrateDatabaseToLatestVersion`2.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at SwipeJob.Core.CommonManager.<GetAllIndustry>d__6.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\CommonManager.cs:line 93
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiCommonController.<GetAllIndustries>d__13.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiCommonController.cs:line 161
+ClientConnectionId:5223d001-3615-4ff8-a941-896eea2c72fa
+Error Number:4060,State:1,Class:11
+10-27-2016 07:21:15 [ERROR] [10] - Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatementsInternal(IEnumerable`1 migrationStatements, DbConnection connection)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatements(IEnumerable`1 migrationStatements, DbTransaction existingTransaction)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteOperations(String migrationId, VersionedModel targetModel, IEnumerable`1 operations, IEnumerable`1 systemOperations, Boolean downgrading, Boolean auto)
+   at System.Data.Entity.Migrations.DbMigrator.ApplyMigration(DbMigration migration, DbMigration lastMigration)
+   at System.Data.Entity.Migrations.DbMigrator.Upgrade(IEnumerable`1 pendingMigrations, String targetMigrationId, String lastMigrationId)
+   at System.Data.Entity.Migrations.DbMigrator.UpdateInternal(String targetMigration)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.MigrateDatabaseToLatestVersion`2.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   at System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   at System.Data.Entity.QueryableExtensions.Include[T,TProperty](IQueryable`1 source, Expression`1 path)
+   at SwipeJob.Core.EmployerManager.<GetTopEmployer>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\EmployerManager.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiEmployerController.<GetTopEmployer>d__0.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiEmployerController.cs:line 21
+ClientConnectionId:5223d001-3615-4ff8-a941-896eea2c72fa
+Error Number:4060,State:1,Class:11
+10-27-2016 07:21:15 [ERROR] [23] - Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatementsInternal(IEnumerable`1 migrationStatements, DbConnection connection)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatements(IEnumerable`1 migrationStatements, DbTransaction existingTransaction)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteOperations(String migrationId, VersionedModel targetModel, IEnumerable`1 operations, IEnumerable`1 systemOperations, Boolean downgrading, Boolean auto)
+   at System.Data.Entity.Migrations.DbMigrator.ApplyMigration(DbMigration migration, DbMigration lastMigration)
+   at System.Data.Entity.Migrations.DbMigrator.Upgrade(IEnumerable`1 pendingMigrations, String targetMigrationId, String lastMigrationId)
+   at System.Data.Entity.Migrations.DbMigrator.UpdateInternal(String targetMigration)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.MigrateDatabaseToLatestVersion`2.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   at System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   at System.Data.Entity.QueryableExtensions.Include[T,TProperty](IQueryable`1 source, Expression`1 path)
+   at SwipeJob.Core.EmployerManager.<Search>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\EmployerManager.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiEmployerController.<Search>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiEmployerController.cs:line 36
+ClientConnectionId:28680c01-5fbe-4ad4-9a5f-7eca2cd7308f
+Error Number:4060,State:1,Class:11
+10-27-2016 07:21:15 [ERROR] [24] - Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatementsInternal(IEnumerable`1 migrationStatements, DbConnection connection)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatements(IEnumerable`1 migrationStatements, DbTransaction existingTransaction)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteOperations(String migrationId, VersionedModel targetModel, IEnumerable`1 operations, IEnumerable`1 systemOperations, Boolean downgrading, Boolean auto)
+   at System.Data.Entity.Migrations.DbMigrator.ApplyMigration(DbMigration migration, DbMigration lastMigration)
+   at System.Data.Entity.Migrations.DbMigrator.Upgrade(IEnumerable`1 pendingMigrations, String targetMigrationId, String lastMigrationId)
+   at System.Data.Entity.Migrations.DbMigrator.UpdateInternal(String targetMigration)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.MigrateDatabaseToLatestVersion`2.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   at System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   at System.Data.Entity.QueryableExtensions.Include[T,TProperty](IQueryable`1 source, Expression`1 path)
+   at SwipeJob.Core.JobManager.<Search>d__8.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\JobManager.cs:line 192
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiJobController.<Search>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiJobController.cs:line 67
+ClientConnectionId:28680c01-5fbe-4ad4-9a5f-7eca2cd7308f
+Error Number:4060,State:1,Class:11
+10-27-2016 07:21:19 [ERROR] [31] - Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatementsInternal(IEnumerable`1 migrationStatements, DbConnection connection)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatements(IEnumerable`1 migrationStatements, DbTransaction existingTransaction)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteOperations(String migrationId, VersionedModel targetModel, IEnumerable`1 operations, IEnumerable`1 systemOperations, Boolean downgrading, Boolean auto)
+   at System.Data.Entity.Migrations.DbMigrator.ApplyMigration(DbMigration migration, DbMigration lastMigration)
+   at System.Data.Entity.Migrations.DbMigrator.Upgrade(IEnumerable`1 pendingMigrations, String targetMigrationId, String lastMigrationId)
+   at System.Data.Entity.Migrations.DbMigrator.UpdateInternal(String targetMigration)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.MigrateDatabaseToLatestVersion`2.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 24
 --- End of stack trace from previous location where exception was thrown ---
    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
@@ -145,17 +575,216 @@ SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
-10-26-2016 22:15:59 [ERROR] [33] - USER_NOT_VERIFIED_YET
-SwipeJob.Utility.Exceptions.UserException: USER_NOT_VERIFIED_YET
-   at SwipeJob.Core.AccountManager.<Login>d__5.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 88
+ClientConnectionId:28680c01-5fbe-4ad4-9a5f-7eca2cd7308f
+Error Number:4060,State:1,Class:11
+10-27-2016 07:21:19 [ERROR] [23] - Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatementsInternal(IEnumerable`1 migrationStatements, DbConnection connection)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatements(IEnumerable`1 migrationStatements, DbTransaction existingTransaction)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteOperations(String migrationId, VersionedModel targetModel, IEnumerable`1 operations, IEnumerable`1 systemOperations, Boolean downgrading, Boolean auto)
+   at System.Data.Entity.Migrations.DbMigrator.ApplyMigration(DbMigration migration, DbMigration lastMigration)
+   at System.Data.Entity.Migrations.DbMigrator.Upgrade(IEnumerable`1 pendingMigrations, String targetMigrationId, String lastMigrationId)
+   at System.Data.Entity.Migrations.DbMigrator.UpdateInternal(String targetMigration)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.MigrateDatabaseToLatestVersion`2.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at SwipeJob.Core.CommonManager.<GetAllIndustry>d__6.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\CommonManager.cs:line 93
 --- End of stack trace from previous location where exception was thrown ---
    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at SwipeJob.Web.ApiControllers.ApiAccountController.<Login>d__0.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiAccountController.cs:line 22
-10-26-2016 22:20:04 [ERROR] [9] - INVALID_SESSION
+   at SwipeJob.Web.ApiControllers.ApiCommonController.<GetAllIndustries>d__13.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiCommonController.cs:line 161
+ClientConnectionId:28680c01-5fbe-4ad4-9a5f-7eca2cd7308f
+Error Number:4060,State:1,Class:11
+10-27-2016 07:21:19 [ERROR] [19] - Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatementsInternal(IEnumerable`1 migrationStatements, DbConnection connection)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatements(IEnumerable`1 migrationStatements, DbTransaction existingTransaction)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteOperations(String migrationId, VersionedModel targetModel, IEnumerable`1 operations, IEnumerable`1 systemOperations, Boolean downgrading, Boolean auto)
+   at System.Data.Entity.Migrations.DbMigrator.ApplyMigration(DbMigration migration, DbMigration lastMigration)
+   at System.Data.Entity.Migrations.DbMigrator.Upgrade(IEnumerable`1 pendingMigrations, String targetMigrationId, String lastMigrationId)
+   at System.Data.Entity.Migrations.DbMigrator.UpdateInternal(String targetMigration)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.MigrateDatabaseToLatestVersion`2.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at SwipeJob.Core.CommonManager.<GetAllLocation>d__7.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\CommonManager.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiCommonController.<GetAllLocation>d__14.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiCommonController.cs:line 176
+ClientConnectionId:28680c01-5fbe-4ad4-9a5f-7eca2cd7308f
+Error Number:4060,State:1,Class:11
+10-27-2016 07:21:19 [ERROR] [10] - Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatementsInternal(IEnumerable`1 migrationStatements, DbConnection connection)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatements(IEnumerable`1 migrationStatements, DbTransaction existingTransaction)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteOperations(String migrationId, VersionedModel targetModel, IEnumerable`1 operations, IEnumerable`1 systemOperations, Boolean downgrading, Boolean auto)
+   at System.Data.Entity.Migrations.DbMigrator.ApplyMigration(DbMigration migration, DbMigration lastMigration)
+   at System.Data.Entity.Migrations.DbMigrator.Upgrade(IEnumerable`1 pendingMigrations, String targetMigrationId, String lastMigrationId)
+   at System.Data.Entity.Migrations.DbMigrator.UpdateInternal(String targetMigration)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.MigrateDatabaseToLatestVersion`2.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   at System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   at System.Data.Entity.QueryableExtensions.Include[T,TProperty](IQueryable`1 source, Expression`1 path)
+   at SwipeJob.Core.EmployerManager.<GetTopEmployer>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\EmployerManager.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiEmployerController.<GetTopEmployer>d__0.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiEmployerController.cs:line 21
+ClientConnectionId:28680c01-5fbe-4ad4-9a5f-7eca2cd7308f
+Error Number:4060,State:1,Class:11
+10-27-2016 07:21:19 [ERROR] [31] - Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatementsInternal(IEnumerable`1 migrationStatements, DbConnection connection)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatements(IEnumerable`1 migrationStatements, DbTransaction existingTransaction)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteOperations(String migrationId, VersionedModel targetModel, IEnumerable`1 operations, IEnumerable`1 systemOperations, Boolean downgrading, Boolean auto)
+   at System.Data.Entity.Migrations.DbMigrator.ApplyMigration(DbMigration migration, DbMigration lastMigration)
+   at System.Data.Entity.Migrations.DbMigrator.Upgrade(IEnumerable`1 pendingMigrations, String targetMigrationId, String lastMigrationId)
+   at System.Data.Entity.Migrations.DbMigrator.UpdateInternal(String targetMigration)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.MigrateDatabaseToLatestVersion`2.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   at System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   at System.Data.Entity.QueryableExtensions.Include[T,TProperty](IQueryable`1 source, Expression`1 path)
+   at SwipeJob.Core.EmployerManager.<Search>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\EmployerManager.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiEmployerController.<Search>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiEmployerController.cs:line 36
+ClientConnectionId:28680c01-5fbe-4ad4-9a5f-7eca2cd7308f
+Error Number:4060,State:1,Class:11
+10-27-2016 07:21:20 [ERROR] [24] - Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "swipejob_beta" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatementsInternal(IEnumerable`1 migrationStatements, DbConnection connection)
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.Infrastructure.DbExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteStatements(IEnumerable`1 migrationStatements, DbTransaction existingTransaction)
+   at System.Data.Entity.Migrations.DbMigrator.ExecuteOperations(String migrationId, VersionedModel targetModel, IEnumerable`1 operations, IEnumerable`1 systemOperations, Boolean downgrading, Boolean auto)
+   at System.Data.Entity.Migrations.DbMigrator.ApplyMigration(DbMigration migration, DbMigration lastMigration)
+   at System.Data.Entity.Migrations.DbMigrator.Upgrade(IEnumerable`1 pendingMigrations, String targetMigrationId, String lastMigrationId)
+   at System.Data.Entity.Migrations.DbMigrator.UpdateInternal(String targetMigration)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.MigrateDatabaseToLatestVersion`2.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   at System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   at System.Data.Entity.QueryableExtensions.Include[T,TProperty](IQueryable`1 source, Expression`1 path)
+   at SwipeJob.Core.JobManager.<Search>d__8.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\JobManager.cs:line 192
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiJobController.<Search>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiJobController.cs:line 67
+ClientConnectionId:28680c01-5fbe-4ad4-9a5f-7eca2cd7308f
+Error Number:4060,State:1,Class:11
+10-27-2016 07:21:43 [ERROR] [19] - INVALID_SESSION
 SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
-   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 30
 --- End of stack trace from previous location where exception was thrown ---
    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
@@ -166,19 +795,3 @@ SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
-10-26-2016 22:20:04 [ERROR] [7] - EMAIL_IN_USED
-SwipeJob.Utility.Exceptions.UserException: EMAIL_IN_USED
-   at SwipeJob.Core.AccountManager.<RegisterJobseeker>d__6.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 141
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at SwipeJob.Web.ApiControllers.ApiAccountController.<Register>d__4.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiAccountController.cs:line 83
-10-26-2016 22:20:09 [ERROR] [8] - EMAIL_IN_USED
-SwipeJob.Utility.Exceptions.UserException: EMAIL_IN_USED
-   at SwipeJob.Core.AccountManager.<RegisterJobseeker>d__6.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 141
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at SwipeJob.Web.ApiControllers.ApiAccountController.<Register>d__4.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiAccountController.cs:line 83

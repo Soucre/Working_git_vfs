@@ -1,0 +1,184 @@
+10-26-2016 21:45:12 [ERROR] [11] - INVALID_SESSION
+SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.AccountManager.<GetCurrentUser>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
+10-26-2016 21:45:23 [ERROR] [10] - INVALID_SESSION
+SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.AccountManager.<GetCurrentUser>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
+10-26-2016 21:53:09 [ERROR] [8] - INVALID_SESSION
+SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.AccountManager.<GetCurrentUser>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
+10-26-2016 21:58:14 [ERROR] [13] - INVALID
+SwipeJob.Utility.Exceptions.UserException: INVALID
+   at SwipeJob.Core.AccountManager.<Login>d__5.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiAccountController.<Login>d__0.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiAccountController.cs:line 22
+10-26-2016 21:59:39 [ERROR] [6] - INVALID_SESSION
+SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.AccountManager.<GetCurrentUser>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
+10-26-2016 22:03:14 [ERROR] [6] - INVALID_SESSION
+SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.AccountManager.<GetCurrentUser>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
+10-26-2016 22:03:38 [ERROR] [9] - INVALID_SESSION
+SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.AccountManager.<GetCurrentUser>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
+10-26-2016 22:14:30 [ERROR] [24] - EMAIL_INVALID
+SwipeJob.Utility.Exceptions.UserException: EMAIL_INVALID
+   at SwipeJob.Core.AccountManager.<ForgotPassword>d__9.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 326
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiAccountController.<ForgotPassword>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiAccountController.cs:line 38
+10-26-2016 22:14:42 [ERROR] [25] - EMAIL_INVALID
+SwipeJob.Utility.Exceptions.UserException: EMAIL_INVALID
+   at SwipeJob.Core.AccountManager.<ForgotPassword>d__9.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 326
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiAccountController.<ForgotPassword>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiAccountController.cs:line 38
+10-26-2016 22:15:17 [ERROR] [33] - Bad Request Check `Errors` for a list of errors returned by the API.
+Exceptions.InvalidApiRequestException: Bad Request Check `Errors` for a list of errors returned by the API.
+   at SendGrid.ErrorChecker.CheckForErrors(HttpResponseMessage response, Stream stream)
+   at SendGrid.ErrorChecker.<CheckForErrorsAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at SendGrid.Web.<DeliverAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at SwipeJob.Core.EmailDelivery.<SendGridMail>d__9.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\EmailDelivery.cs:line 172
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at SwipeJob.Core.EmailDelivery.<SendEmail>d__7.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\EmailDelivery.cs:line 111
+10-26-2016 22:15:22 [ERROR] [34] - INVALID_SESSION
+SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.AccountManager.<GetCurrentUser>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
+10-26-2016 22:15:53 [ERROR] [29] - INVALID_SESSION
+SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.AccountManager.<GetCurrentUser>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
+10-26-2016 22:15:59 [ERROR] [33] - USER_NOT_VERIFIED_YET
+SwipeJob.Utility.Exceptions.UserException: USER_NOT_VERIFIED_YET
+   at SwipeJob.Core.AccountManager.<Login>d__5.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiAccountController.<Login>d__0.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiAccountController.cs:line 22
+10-26-2016 22:20:04 [ERROR] [9] - INVALID_SESSION
+SwipeJob.Utility.Exceptions.UserException: INVALID_SESSION
+   at SwipeJob.Core.BaseManager.<GetCurrentUser>d__2.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\BaseManager.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Core.AccountManager.<GetCurrentUser>d__3.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.Controllers.BaseController.<GetCurrentUser>d__1.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\Controllers\BaseController.cs:line 40
+10-26-2016 22:20:04 [ERROR] [7] - EMAIL_IN_USED
+SwipeJob.Utility.Exceptions.UserException: EMAIL_IN_USED
+   at SwipeJob.Core.AccountManager.<RegisterJobseeker>d__6.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 141
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiAccountController.<Register>d__4.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiAccountController.cs:line 83
+10-26-2016 22:20:09 [ERROR] [8] - EMAIL_IN_USED
+SwipeJob.Utility.Exceptions.UserException: EMAIL_IN_USED
+   at SwipeJob.Core.AccountManager.<RegisterJobseeker>d__6.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\Core\AccountManager.cs:line 141
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SwipeJob.Web.ApiControllers.ApiAccountController.<Register>d__4.MoveNext() in E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\ApiControllers\ApiAccountController.cs:line 83
