@@ -1,0 +1,10 @@
+E:\Working Vfs\Working_git_vfs\swipejob\Test Suites\CoreTest\bin\Debug\CoreTest.dll.config
+E:\Working Vfs\Working_git_vfs\swipejob\Test Suites\CoreTest\bin\Debug\CoreTest.dll
+E:\Working Vfs\Working_git_vfs\swipejob\Test Suites\CoreTest\bin\Debug\CoreTest.pdb
+E:\Working Vfs\Working_git_vfs\swipejob\Test Suites\CoreTest\bin\Debug\EntityFramework.dll
+E:\Working Vfs\Working_git_vfs\swipejob\Test Suites\CoreTest\bin\Debug\EntityFramework.SqlServer.dll
+E:\Working Vfs\Working_git_vfs\swipejob\Test Suites\CoreTest\bin\Debug\EntityFramework.xml
+E:\Working Vfs\Working_git_vfs\swipejob\Test Suites\CoreTest\bin\Debug\EntityFramework.SqlServer.xml
+E:\Working Vfs\Working_git_vfs\swipejob\Test Suites\CoreTest\obj\Debug\CoreTest.csprojResolveAssemblyReference.cache
+E:\Working Vfs\Working_git_vfs\swipejob\Test Suites\CoreTest\obj\Debug\CoreTest.dll
+E:\Working Vfs\Working_git_vfs\swipejob\Test Suites\CoreTest\obj\Debug\CoreTest.pdb

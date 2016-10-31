@@ -5,5 +5,6 @@ namespace SwipeJob.Model.EF
 {
     public class DbInitializer : MigrateDatabaseToLatestVersion<AppDbContext, Configuration>
     {
+       
     }
 }

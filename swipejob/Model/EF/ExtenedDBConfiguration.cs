@@ -8,7 +8,7 @@ namespace SwipeJob.Model.EF
     {
         public ExtenedDBConfiguration()
         {
-            SetExecutionStrategy("System.Data.SqlClient", () => new SqlAzureExecutionStrategy(3, TimeSpan.FromSeconds(30)));
+            //SetExecutionStrategy("System.Data.SqlClient", () => new SqlAzureExecutionStrategy(3, TimeSpan.FromSeconds(30)));
         }
     }
 }

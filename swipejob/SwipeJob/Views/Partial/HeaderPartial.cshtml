@@ -15,8 +15,9 @@
                 {
                     if (currentUser != null)
                     {
+                        var userId = currentUser.User.Id;
                         if (currentUser.User.UserType == UserType.JobSeeker)
-                        {
+                            {
                             <li>
                                 <a class="dropdown-toggle button-menu" id="userProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                     <span>@currentUser.User.JobSeeker.FullName</span>
@@ -24,23 +25,25 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="userProfile">
                                     <li>
-                                        <a href="@Url.Action("JobSeekerDashboad", "Account", new {id = currentUser.User.Id})"><i class="fa fa-dashboard"></i><span>My Dashboard</span></a>
+                                        <a href="/job-seeker/@userId/dashboad"><i class="fa fa-dashboard"></i><span>My Dashboard</span></a>
+
+                                        @*<a href="@Url.Action("JobSeekerDashboad", "Account", new {id = currentUser.User.Id})"><i class="fa fa-dashboard"></i><span>My Dashboard</span></a>*@
                                     </li>
                                     <li>
-                                        <a href="@Url.Action("JobSeekerProfile", "Account", new {id = currentUser.User.Id})"><i class="fa fa-star"></i><span>My Profile</span></a>
+                                        <a href="/job-seeker/@userId/profile"><i class="fa fa-star"></i><span>My Profile</span></a>
+
+                                        @*<a href="@Url.Action("JobSeekerProfile", "Account", new {id = currentUser.User.Id})"><i class="fa fa-star"></i><span>My Profile</span></a>*@
                                     </li>
                                     <li>
-                                        <a href="@Url.Action("JobSeekerMyJob", "Account", new {applicantStatus = ApplicantStatus.Applied.ToString().ToLower()})"><i class="fa fa-check-circle"></i><span>Applied Job</span><span class="right">(@currentUser.AppliedJob)</span></a>
+                                        <a href="/job-seeker/my-job/@ApplicantStatus.Applied.ToString().ToLower()"><i class="fa fa-check-circle"></i><span>Applied Job</span><span class="right">(@currentUser.AppliedJob)</span></a>
                                     </li>
                                     <li>
-                                        <a href="@Url.Action("JobSeekerMyJob", "Account", new {applicantStatus = ApplicantStatus.Saved.ToString().ToLower()})"><i class="fa fa-heart"></i><span>Saved Job</span><span class="right">(@currentUser.SavedJob)</span></a>
+                                        <a href="/job-seeker/my-job/@ApplicantStatus.Saved.ToString().ToLower()"><i class="fa fa-heart"></i><span>Saved Job</span><span class="right">(@currentUser.SavedJob)</span></a>
                                     </li>
                                     <li>
-                                        <a href="@Url.Action("JobSeekerMyJob", "Account", new {applicantStatus = ApplicantStatus.Deleted.ToString().ToLower()})"><i class="fa fa-times-circle"></i><span>Deleted Job</span><span class="right">(@currentUser.DeletedJob)</span></a>
+                                        <a href="/job-seeker/my-job/@ApplicantStatus.Deleted.ToString().ToLower()"><i class="fa fa-times-circle"></i><span>Deleted Job</span><span class="right">(@currentUser.DeletedJob)</span></a>
                                     </li>
-                                    @*<li>
-                                            <a href="/"><i class="fa fa-comment-o"></i><span>Message</span><span class="right">({{Profile.MessageCount}})</span></a>
-                                        </li>*@
+                                   
                                     <li>
                                         <a href="@Url.Action("Setting", "Account")"><i class="fa fa-check-circle"></i><span>Settings</span><span class="right"></span></a>
                                     </li>
@@ -62,7 +65,7 @@
                                         <span ng-bind="Profile.ProfileStatus"></span>Employer status
                                     </li>
                                     <li>
-                                        <a href="@Url.Action("EmployerProfile", "Account", new {id = currentUser.User.Id})"><i class="fa fa-star"></i><span>My Profile</span><span class="right"></span></a>
+                                        <a href="/employer/@userId/profile"><i class="fa fa-star"></i><span>My Profile</span><span class="right"></span></a>
                                     </li>
                                     <li>
                                         <a href="@Url.Action("CreateEditJob", "Job")"><i class="fa fa-check-circle"></i><span>Create New Job</span><span class="right"></span></a>

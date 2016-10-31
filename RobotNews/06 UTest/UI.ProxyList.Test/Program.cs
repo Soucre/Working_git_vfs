@@ -15,14 +15,20 @@ namespace UI.ProxyList.Test
         static void Main(string[] args)
         {
             using (var biz = new ProxyListBiz()) {
+                GetListProxy();
+            }
+
+        }
+
+        public static void GetListProxy()
+        {
+            using (var biz = new ProxyListBiz()) {
                 biz.URLRequest = ConfigurationManager.AppSettings["URLProxy"];
                 biz.HTMLPartenReg = new Regex(@"<tr><td>\w+.*");
                 biz.HTMLPartenSubReg = new Regex(@"<tr><td>|</td><td>|</td></tr>");
 
-                var proxyList = biz.GetListProxy();
-
+                Base.Execute(biz.GetListProxy());
             }
-
         }
     }
 }

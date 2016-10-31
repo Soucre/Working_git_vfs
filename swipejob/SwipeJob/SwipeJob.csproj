@@ -106,6 +106,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -618,9 +619,9 @@
     <Content Include="Views\Shared\_CommingSoon.cshtml" />
     <Content Include="Views\Shared\DialogTemplate.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Account\LoginJobSeeker.cshtml" />
-    <Content Include="Views\Account\RegisterJobSeeker.cshtml" />
-    <Content Include="Views\Account\EmployerProfile.cshtml" />
+    <Content Include="Views\JobSeeker\LoginJobSeeker.cshtml" />
+    <Content Include="Views\JobSeeker\RegisterJobSeeker.cshtml" />
+    <Content Include="Views\Employer\EmployerProfile.cshtml" />
     <Content Include="Views\Partial\HomeSearchPartial.cshtml" />
     <Content Include="Views\Partial\CompanyLogoPartial.cshtml" />
     <Content Include="Views\Partial\RecentJobPartial.cshtml" />
@@ -630,28 +631,28 @@
     <Content Include="Views\Partial\AdvandedSearchPartial.cshtml" />
     <Content Include="Views\Job\JobDetail.cshtml" />
     <Content Include="Views\Job\CreateEditJob.cshtml" />
-    <Content Include="Views\Account\JobSeekerProfile.cshtml" />
-    <Content Include="Views\Partial\JobSeekerProfilePersonalInfoPartial.cshtml" />
-    <Content Include="Views\Partial\JobSeekerProfileExperienceLevelPartial.cshtml" />
-    <Content Include="Views\Partial\JobSeekerProfileInterestInPartial.cshtml" />
-    <Content Include="Views\Partial\JobSeekerProfileAdditionalInfoPartial.cshtml" />
+    <Content Include="Views\JobSeeker\JobSeekerProfile.cshtml" />
+    <Content Include="Views\JobSeeker\JobSeekerProfilePersonalInfoPartial.cshtml" />
+    <Content Include="Views\JobSeeker\JobSeekerProfileExperienceLevelPartial.cshtml" />
+    <Content Include="Views\JobSeeker\JobSeekerProfileInterestInPartial.cshtml" />
+    <Content Include="Views\JobSeeker\JobSeekerProfileAdditionalInfoPartial.cshtml" />
     <Content Include="Views\Home\SubscribeSuccess.cshtml" />
-    <Content Include="Views\Account\LoginEmployer.cshtml" />
-    <Content Include="Views\Account\RegisterEmployer.cshtml" />
+    <Content Include="Views\Employer\LoginEmployer.cshtml" />
+    <Content Include="Views\Employer\RegisterEmployer.cshtml" />
     <None Include="Properties\PublishProfiles\Production.pubxml" />
     <None Include="Properties\PublishProfiles\QA.pubxml" />
     <None Include="Properties\PublishProfiles\swiftjob - Web Deploy.pubxml" />
     <Content Include="Views\Partial\HeaderPartial.cshtml" />
-    <Content Include="Views\Account\ActiveAccountJobSeeker.cshtml" />
+    <Content Include="Views\JobSeeker\ActiveAccountJobSeeker.cshtml" />
     <Content Include="Views\Account\ForgotPassword.cshtml" />
     <Content Include="Views\Account\ResetPassword.cshtml" />
-    <Content Include="Views\Account\JobSeekerMyJob.cshtml" />
+    <Content Include="Views\JobSeeker\JobSeekerMyJob.cshtml" />
     <Content Include="Views\Partial\EmployerProfileCompanyInfoPartial.cshtml" />
     <Content Include="Views\Partial\EmployerProfileOverviewPartial.cshtml" />
     <Content Include="Views\Job\EmployerJobs.cshtml" />
     <Content Include="Views\Account\Setting.cshtml" />
-    <Content Include="Views\Account\EmployerDashboad.cshtml" />
-    <Content Include="Views\Account\JobSeekerDashboad.cshtml" />
+    <Content Include="Views\Employer\EmployerDashboad.cshtml" />
+    <Content Include="Views\JobSeeker\JobSeekerDashboad.cshtml" />
     <Content Include="Views\Home\AboutUs.cshtml" />
     <Content Include="Views\Home\ContactUs.cshtml" />
     <Content Include="Views\Home\FAQ.cshtml" />
@@ -687,8 +688,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\EmployerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JobController.cs" />
+    <Compile Include="Controllers\JobSeekerController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -707,6 +710,9 @@
       <Project>{9356d5a8-f540-428c-aa07-c84047272718}</Project>
       <Name>Utility</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

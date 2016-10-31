@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="swipejob_betaModelStoreContainer" CdmEntityContainer="swipejob_betaEntities">
+    <EntitySetMapping Name="Applicants">
+      <EntityTypeMapping TypeName="swipejob_betaModel.Applicant">
+        <MappingFragment StoreEntitySet="Applicant">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="JobSeekerId" ColumnName="JobSeekerId" />
+          <ScalarProperty Name="JobId" ColumnName="JobId" />
+          <ScalarProperty Name="ApplicantStatus" ColumnName="ApplicantStatus" />
+          <ScalarProperty Name="CreatedDateUtc" ColumnName="CreatedDateUtc" />
+          <ScalarProperty Name="UpdatedDateUtc" ColumnName="UpdatedDateUtc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyHisotries">
+      <EntityTypeMapping TypeName="swipejob_betaModel.CompanyHisotry">
+        <MappingFragment StoreEntitySet="CompanyHisotry">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="JobSeekerId" ColumnName="JobSeekerId" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="From" ColumnName="From" />
+          <ScalarProperty Name="To" ColumnName="To" />
+          <ScalarProperty Name="CreatedDateUtc" ColumnName="CreatedDateUtc" />
+          <ScalarProperty Name="UpdatedDateUtc" ColumnName="UpdatedDateUtc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Educations">
+      <EntityTypeMapping TypeName="swipejob_betaModel.Education">
+        <MappingFragment StoreEntitySet="Education">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EducationLevel" ColumnName="EducationLevel" />
+          <ScalarProperty Name="FieldOfStudyId" ColumnName="FieldOfStudyId" />
+          <ScalarProperty Name="Certification" ColumnName="Certification" />
+          <ScalarProperty Name="MinimumGrade" ColumnName="MinimumGrade" />
+          <ScalarProperty Name="ExperienceLevel" ColumnName="ExperienceLevel" />
+          <ScalarProperty Name="JobId" ColumnName="JobId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employers">
+      <EntityTypeMapping TypeName="swipejob_betaModel.Employer">
+        <MappingFragment StoreEntitySet="Employer">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyRegistrationNumber" ColumnName="CompanyRegistrationNumber" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="WebLink" ColumnName="WebLink" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="NatureOfBusiness" ColumnName="NatureOfBusiness" />
+          <ScalarProperty Name="OverView" ColumnName="OverView" />
+          <ScalarProperty Name="CreatedDateUtc" ColumnName="CreatedDateUtc" />
+          <ScalarProperty Name="UpdatedDateUtc" ColumnName="UpdatedDateUtc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Feedbacks">
+      <EntityTypeMapping TypeName="swipejob_betaModel.Feedback">
+        <MappingFragment StoreEntitySet="Feedback">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="CreatedDateUtc" ColumnName="CreatedDateUtc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inboxes">
+      <EntityTypeMapping TypeName="swipejob_betaModel.Inbox">
+        <MappingFragment StoreEntitySet="Inbox">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="RecipientId" ColumnName="RecipientId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="CreatedDateUtc" ColumnName="CreatedDateUtc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Industries">
+      <EntityTypeMapping TypeName="swipejob_betaModel.Industry">
+        <MappingFragment StoreEntitySet="Industry">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jobs">
+      <EntityTypeMapping TypeName="swipejob_betaModel.Job">
+        <MappingFragment StoreEntitySet="Job">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmployerId" ColumnName="EmployerId" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="JobType" ColumnName="JobType" />
+          <ScalarProperty Name="JobName" ColumnName="JobName" />
+          <ScalarProperty Name="MinSalary" ColumnName="MinSalary" />
+          <ScalarProperty Name="MaxSalary" ColumnName="MaxSalary" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="JobStartDate" ColumnName="JobStartDate" />
+          <ScalarProperty Name="JobDescription" ColumnName="JobDescription" />
+          <ScalarProperty Name="IsStartWorkImmediately" ColumnName="IsStartWorkImmediately" />
+          <ScalarProperty Name="StartWorkingAt" ColumnName="StartWorkingAt" />
+          <ScalarProperty Name="EndWorkingAt" ColumnName="EndWorkingAt" />
+          <ScalarProperty Name="AvailableDate" ColumnName="AvailableDate" />
+          <ScalarProperty Name="HoursPerDay" ColumnName="HoursPerDay" />
+          <ScalarProperty Name="DayPerWeek" ColumnName="DayPerWeek" />
+          <ScalarProperty Name="DayPerMonth" ColumnName="DayPerMonth" />
+          <ScalarProperty Name="GenderRequired" ColumnName="GenderRequired" />
+          <ScalarProperty Name="ExtraSalary" ColumnName="ExtraSalary" />
+          <ScalarProperty Name="IsSalaryIncludeMealAndBreakTime" ColumnName="IsSalaryIncludeMealAndBreakTime" />
+          <ScalarProperty Name="ViewCount" ColumnName="ViewCount" />
+          <ScalarProperty Name="CreatedDateUtc" ColumnName="CreatedDateUtc" />
+          <ScalarProperty Name="UpdatedDateUtc" ColumnName="UpdatedDateUtc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobSeekers">
+      <EntityTypeMapping TypeName="swipejob_betaModel.JobSeeker">
+        <MappingFragment StoreEntitySet="JobSeeker">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Avartar" ColumnName="Avartar" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="NationalServiceStatus" ColumnName="NationalServiceStatus" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="NRICNumber" ColumnName="NRICNumber" />
+          <ScalarProperty Name="NRICType" ColumnName="NRICType" />
+          <ScalarProperty Name="Race" ColumnName="Race" />
+          <ScalarProperty Name="Religions" ColumnName="Religions" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="MoreDocument" ColumnName="MoreDocument" />
+          <ScalarProperty Name="Extension" ColumnName="Extension" />
+          <ScalarProperty Name="ExperienceYear" ColumnName="ExperienceYear" />
+          <ScalarProperty Name="HighestEducation" ColumnName="HighestEducation" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="ExpectedPosition" ColumnName="ExpectedPosition" />
+          <ScalarProperty Name="ExpectedLocation" ColumnName="ExpectedLocation" />
+          <ScalarProperty Name="ExpectedJobCategory" ColumnName="ExpectedJobCategory" />
+          <ScalarProperty Name="ExpectedSalary" ColumnName="ExpectedSalary" />
+          <ScalarProperty Name="CanNegotiation" ColumnName="CanNegotiation" />
+          <ScalarProperty Name="InterestIn" ColumnName="InterestIn" />
+          <ScalarProperty Name="AdditionalInfo" ColumnName="AdditionalInfo" />
+          <ScalarProperty Name="CreatedDateUtc" ColumnName="CreatedDateUtc" />
+          <ScalarProperty Name="UpdatedDateUtc" ColumnName="UpdatedDateUtc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobSeekerTempProfiles">
+      <EntityTypeMapping TypeName="swipejob_betaModel.JobSeekerTempProfile">
+        <MappingFragment StoreEntitySet="JobSeekerTempProfile">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IndustryId" ColumnName="IndustryId" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="DayOfBirthUtc" ColumnName="DayOfBirthUtc" />
+          <ScalarProperty Name="ExperienceLevel" ColumnName="ExperienceLevel" />
+          <ScalarProperty Name="RegisteredDateUtc" ColumnName="RegisteredDateUtc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JOBTITLEs">
+      <EntityTypeMapping TypeName="swipejob_betaModel.JOBTITLE">
+        <MappingFragment StoreEntitySet="JOBTITLE">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="JOB_TITLE_NAME" ColumnName="JOB_TITLE_NAME" />
+          <ScalarProperty Name="JOB_TITLE_PARENT" ColumnName="JOB_TITLE_PARENT" />
+          <ScalarProperty Name="JOB_TITLE_LEVEL" ColumnName="JOB_TITLE_LEVEL" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+          <ScalarProperty Name="CREATE_DATE" ColumnName="CREATE_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Languages">
+      <EntityTypeMapping TypeName="swipejob_betaModel.Language">
+        <MappingFragment StoreEntitySet="Language">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CultureName" ColumnName="CultureName" />
+          <ScalarProperty Name="CreatedDateUtc" ColumnName="CreatedDateUtc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="swipejob_betaModel.Location">
+        <MappingFragment StoreEntitySet="Location">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="swipejob_betaModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="RegisteredDateUtc" ColumnName="RegisteredDateUtc" />
+          <ScalarProperty Name="IsActivated" ColumnName="IsActivated" />
+          <ScalarProperty Name="IsLocked" ColumnName="IsLocked" />
+          <ScalarProperty Name="LockedDateUtc" ColumnName="LockedDateUtc" />
+          <ScalarProperty Name="ConfirmationCode" ColumnName="ConfirmationCode" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="AccountLevelParent" ColumnName="AccountLevelParent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="swipejob_betaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Applicant">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="JobSeekerId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="JobId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ApplicantStatus" Type="int" Nullable="false" />
+    <Property Name="CreatedDateUtc" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDateUtc" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CompanyHisotry">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="JobSeekerId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar(max)" />
+    <Property Name="Position" Type="nvarchar(max)" />
+    <Property Name="From" Type="datetime" />
+    <Property Name="To" Type="datetime" />
+    <Property Name="CreatedDateUtc" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDateUtc" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Education">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="EducationLevel" Type="int" Nullable="false" />
+    <Property Name="FieldOfStudyId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Certification" Type="nvarchar(max)" />
+    <Property Name="MinimumGrade" Type="nvarchar(max)" />
+    <Property Name="ExperienceLevel" Type="int" Nullable="false" />
+    <Property Name="JobId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employer">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CompanyRegistrationNumber" Type="nvarchar(max)" />
+    <Property Name="Logo" Type="varbinary(max)" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="WebLink" Type="nvarchar(max)" />
+    <Property Name="ContactName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="NatureOfBusiness" Type="nvarchar(max)" />
+    <Property Name="OverView" Type="ntext" />
+    <Property Name="CreatedDateUtc" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDateUtc" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Feedback">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar(max)" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar" MaxLength="225" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="Message" Type="nvarchar(max)" />
+    <Property Name="CreatedDateUtc" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Inbox">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RecipientId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="Message" Type="nvarchar(max)" />
+    <Property Name="CreatedDateUtc" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Industry">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Job">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="EmployerId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="LanguageId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="LocationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="JobType" Type="int" Nullable="false" />
+    <Property Name="JobName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MinSalary" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="MaxSalary" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="StartDate" Type="datetime" Nullable="false" />
+    <Property Name="EndDate" Type="datetime" Nullable="false" />
+    <Property Name="JobStartDate" Type="datetime" Nullable="false" />
+    <Property Name="JobDescription" Type="nvarchar(max)" />
+    <Property Name="IsStartWorkImmediately" Type="bit" Nullable="false" />
+    <Property Name="StartWorkingAt" Type="nvarchar(max)" />
+    <Property Name="EndWorkingAt" Type="nvarchar(max)" />
+    <Property Name="AvailableDate" Type="datetime" Nullable="false" />
+    <Property Name="HoursPerDay" Type="int" Nullable="false" />
+    <Property Name="DayPerWeek" Type="int" Nullable="false" />
+    <Property Name="DayPerMonth" Type="int" Nullable="false" />
+    <Property Name="GenderRequired" Type="int" Nullable="false" />
+    <Property Name="ExtraSalary" Type="nvarchar(max)" />
+    <Property Name="IsSalaryIncludeMealAndBreakTime" Type="bit" Nullable="false" />
+    <Property Name="ViewCount" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDateUtc" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDateUtc" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="JobSeeker">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Avartar" Type="varbinary(max)" />
+    <Property Name="FullName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Gender" Type="int" Nullable="false" />
+    <Property Name="NationalServiceStatus" Type="int" Nullable="false" />
+    <Property Name="DateOfBirth" Type="datetime" />
+    <Property Name="NRICNumber" Type="nvarchar(max)" />
+    <Property Name="NRICType" Type="int" Nullable="false" />
+    <Property Name="Race" Type="nvarchar(max)" />
+    <Property Name="Religions" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="MobileNumber" Type="nvarchar(max)" />
+    <Property Name="PostalCode" Type="nvarchar(max)" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="MoreDocument" Type="varbinary(max)" />
+    <Property Name="Extension" Type="nvarchar(max)" />
+    <Property Name="ExperienceYear" Type="int" Nullable="false" />
+    <Property Name="HighestEducation" Type="nvarchar(max)" />
+    <Property Name="LanguageId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ExpectedPosition" Type="nvarchar(max)" />
+    <Property Name="ExpectedLocation" Type="nvarchar(max)" />
+    <Property Name="ExpectedJobCategory" Type="nvarchar(max)" />
+    <Property Name="ExpectedSalary" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="CanNegotiation" Type="bit" Nullable="false" />
+    <Property Name="InterestIn" Type="ntext" />
+    <Property Name="AdditionalInfo" Type="ntext" />
+    <Property Name="CreatedDateUtc" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDateUtc" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="JobSeekerTempProfile">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="IndustryId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Email" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DayOfBirthUtc" Type="datetime" />
+    <Property Name="ExperienceLevel" Type="int" />
+    <Property Name="RegisteredDateUtc" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="JOBTITLE">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="JOB_TITLE_NAME" Type="nvarchar" MaxLength="255" />
+    <Property Name="JOB_TITLE_PARENT" Type="int" />
+    <Property Name="JOB_TITLE_LEVEL" Type="tinyint" />
+    <Property Name="USERID" Type="varchar" MaxLength="255" />
+    <Property Name="CREATE_DATE" Type="datetime2" Precision="7" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Language">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="CultureName" Type="nvarchar(max)" />
+    <Property Name="CreatedDateUtc" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="225" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" />
+    <Property Name="AccountType" Type="int" Nullable="false" />
+    <Property Name="UserType" Type="int" Nullable="false" />
+    <Property Name="RegisteredDateUtc" Type="datetime" Nullable="false" />
+    <Property Name="IsActivated" Type="bit" Nullable="false" />
+    <Property Name="IsLocked" Type="bit" Nullable="false" />
+    <Property Name="LockedDateUtc" Type="datetime" />
+    <Property Name="ConfirmationCode" Type="nvarchar(max)" />
+    <Property Name="ParentId" Type="uniqueidentifier" />
+    <Property Name="AccountLevelParent" Type="tinyint" />
+  </EntityType>
+  <Association Name="FK_dbo_Applicant_dbo_Job_JobId">
+    <End Role="Job" Type="Self.Job" Multiplicity="1" />
+    <End Role="Applicant" Type="Self.Applicant" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Job">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Applicant">
+        <PropertyRef Name="JobId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Applicant_dbo_JobSeeker_JobSeekerId">
+    <End Role="JobSeeker" Type="Self.JobSeeker" Multiplicity="1" />
+    <End Role="Applicant" Type="Self.Applicant" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JobSeeker">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Applicant">
+        <PropertyRef Name="JobSeekerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_CompanyHisotry_dbo_JobSeeker_JobSeekerId">
+    <End Role="JobSeeker" Type="Self.JobSeeker" Multiplicity="1" />
+    <End Role="CompanyHisotry" Type="Self.CompanyHisotry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JobSeeker">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="CompanyHisotry">
+        <PropertyRef Name="JobSeekerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Education_dbo_Industry_FieldOfStudyId">
+    <End Role="Industry" Type="Self.Industry" Multiplicity="1" />
+    <End Role="Education" Type="Self.Education" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Industry">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Education">
+        <PropertyRef Name="FieldOfStudyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Education_dbo_Job_JobId">
+    <End Role="Job" Type="Self.Job" Multiplicity="1" />
+    <End Role="Education" Type="Self.Education" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Job">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Education">
+        <PropertyRef Name="JobId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Employer_dbo_User_UserId">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Employer" Type="Self.Employer" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employer">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Inbox_dbo_JobSeeker_UserId">
+    <End Role="JobSeeker" Type="Self.JobSeeker" Multiplicity="1" />
+    <End Role="Inbox" Type="Self.Inbox" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JobSeeker">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Inbox">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Inbox_dbo_User_RecipientId">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Inbox" Type="Self.Inbox" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Inbox">
+        <PropertyRef Name="RecipientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Inbox_dbo_User_UserId">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Inbox" Type="Self.Inbox" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Inbox">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Job_dbo_Employer_EmployerId">
+    <End Role="Employer" Type="Self.Employer" Multiplicity="1" />
+    <End Role="Job" Type="Self.Job" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employer">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Job">
+        <PropertyRef Name="EmployerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Job_dbo_Language_LanguageId">
+    <End Role="Language" Type="Self.Language" Multiplicity="1" />
+    <End Role="Job" Type="Self.Job" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Language">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Job">
+        <PropertyRef Name="LanguageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Job_dbo_Location_LocationId">
+    <End Role="Location" Type="Self.Location" Multiplicity="1" />
+    <End Role="Job" Type="Self.Job" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Job">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_JobSeeker_dbo_Language_LanguageId">
+    <End Role="Language" Type="Self.Language" Multiplicity="1" />
+    <End Role="JobSeeker" Type="Self.JobSeeker" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Language">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="JobSeeker">
+        <PropertyRef Name="LanguageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_JobSeeker_dbo_User_UserId">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="JobSeeker" Type="Self.JobSeeker" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="JobSeeker">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_JobSeekerTempProfile_dbo_Industry_IndustryId">
+    <End Role="Industry" Type="Self.Industry" Multiplicity="1" />
+    <End Role="JobSeekerTempProfile" Type="Self.JobSeekerTempProfile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Industry">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="JobSeekerTempProfile">
+        <PropertyRef Name="IndustryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="swipejob_betaModelStoreContainer">
+    <EntitySet Name="Applicant" EntityType="Self.Applicant" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CompanyHisotry" EntityType="Self.CompanyHisotry" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Education" EntityType="Self.Education" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employer" EntityType="Self.Employer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Feedback" EntityType="Self.Feedback" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Inbox" EntityType="Self.Inbox" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Industry" EntityType="Self.Industry" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Job" EntityType="Self.Job" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="JobSeeker" EntityType="Self.JobSeeker" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="JobSeekerTempProfile" EntityType="Self.JobSeekerTempProfile" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="JOBTITLE" EntityType="Self.JOBTITLE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Language" EntityType="Self.Language" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Location" EntityType="Self.Location" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_Applicant_dbo_Job_JobId" Association="Self.FK_dbo_Applicant_dbo_Job_JobId">
+      <End Role="Job" EntitySet="Job" />
+      <End Role="Applicant" EntitySet="Applicant" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Applicant_dbo_JobSeeker_JobSeekerId" Association="Self.FK_dbo_Applicant_dbo_JobSeeker_JobSeekerId">
+      <End Role="JobSeeker" EntitySet="JobSeeker" />
+      <End Role="Applicant" EntitySet="Applicant" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_CompanyHisotry_dbo_JobSeeker_JobSeekerId" Association="Self.FK_dbo_CompanyHisotry_dbo_JobSeeker_JobSeekerId">
+      <End Role="JobSeeker" EntitySet="JobSeeker" />
+      <End Role="CompanyHisotry" EntitySet="CompanyHisotry" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Education_dbo_Industry_FieldOfStudyId" Association="Self.FK_dbo_Education_dbo_Industry_FieldOfStudyId">
+      <End Role="Industry" EntitySet="Industry" />
+      <End Role="Education" EntitySet="Education" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Education_dbo_Job_JobId" Association="Self.FK_dbo_Education_dbo_Job_JobId">
+      <End Role="Job" EntitySet="Job" />
+      <End Role="Education" EntitySet="Education" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Employer_dbo_User_UserId" Association="Self.FK_dbo_Employer_dbo_User_UserId">
+      <End Role="User" EntitySet="User" />
+      <End Role="Employer" EntitySet="Employer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Inbox_dbo_JobSeeker_UserId" Association="Self.FK_dbo_Inbox_dbo_JobSeeker_UserId">
+      <End Role="JobSeeker" EntitySet="JobSeeker" />
+      <End Role="Inbox" EntitySet="Inbox" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Inbox_dbo_User_RecipientId" Association="Self.FK_dbo_Inbox_dbo_User_RecipientId">
+      <End Role="User" EntitySet="User" />
+      <End Role="Inbox" EntitySet="Inbox" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Inbox_dbo_User_UserId" Association="Self.FK_dbo_Inbox_dbo_User_UserId">
+      <End Role="User" EntitySet="User" />
+      <End Role="Inbox" EntitySet="Inbox" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Job_dbo_Employer_EmployerId" Association="Self.FK_dbo_Job_dbo_Employer_EmployerId">
+      <End Role="Employer" EntitySet="Employer" />
+      <End Role="Job" EntitySet="Job" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Job_dbo_Language_LanguageId" Association="Self.FK_dbo_Job_dbo_Language_LanguageId">
+      <End Role="Language" EntitySet="Language" />
+      <End Role="Job" EntitySet="Job" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Job_dbo_Location_LocationId" Association="Self.FK_dbo_Job_dbo_Location_LocationId">
+      <End Role="Location" EntitySet="Location" />
+      <End Role="Job" EntitySet="Job" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_JobSeeker_dbo_Language_LanguageId" Association="Self.FK_dbo_JobSeeker_dbo_Language_LanguageId">
+      <End Role="Language" EntitySet="Language" />
+      <End Role="JobSeeker" EntitySet="JobSeeker" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_JobSeeker_dbo_User_UserId" Association="Self.FK_dbo_JobSeeker_dbo_User_UserId">
+      <End Role="User" EntitySet="User" />
+      <End Role="JobSeeker" EntitySet="JobSeeker" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_JobSeekerTempProfile_dbo_Industry_IndustryId" Association="Self.FK_dbo_JobSeekerTempProfile_dbo_Industry_IndustryId">
+      <End Role="Industry" EntitySet="Industry" />
+      <End Role="JobSeekerTempProfile" EntitySet="JobSeekerTempProfile" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

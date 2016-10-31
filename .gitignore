@@ -7,3 +7,5 @@
 /RobotNews/06 UTest/TestGetNew/bin/Debug/*.pdb
 *.pdb
 *.cache
+obj
+bin

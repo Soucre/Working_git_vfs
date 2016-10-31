@@ -11,8 +11,9 @@ namespace SwipeJob.Model.EF
         public AppDbContext()
             : base("name=DBConnectionString")
         {
-            Configuration.LazyLoadingEnabled = false;
-            Configuration.ProxyCreationEnabled = false;
+            //Configuration.LazyLoadingEnabled = false;
+            //Configuration.ProxyCreationEnabled = false;
+            Database.SetInitializer<AppDbContext>(new CreateDatabaseIfNotExists<AppDbContext>());
         }
 
         public virtual DbSet<JobSeekerTempProfile> JobSeekerTempProfiles { get; set; }
@@ -41,56 +42,58 @@ namespace SwipeJob.Model.EF
 
         public virtual DbSet<Education> Educations { get; set; }
 
+        public virtual DbSet<JOBTITLE> JOBTITLES { get; set; }
+
         // ----------------------------------------------------------------------------------------------------
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
-            modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
-        }
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+        //    modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+        //}
 
-        public override int SaveChanges()
-        {
-            try
-            {
-                return base.SaveChanges();
-            }
-            catch (DbEntityValidationException ex)
-            {
-                // Retrieve the error messages as a list of strings.
-                var exceptionMessage = GetValidationExceptionMessage(ex);
+        //public override int SaveChanges()
+        //{
+        //    try
+        //    {
+        //        return base.SaveChanges();
+        //    }
+        //    catch (DbEntityValidationException ex)
+        //    {
+        //        // Retrieve the error messages as a list of strings.
+        //        var exceptionMessage = GetValidationExceptionMessage(ex);
 
-                // Throw a new DbEntityValidationException with the improved exception message.
-                throw new DbEntityValidationException(exceptionMessage, ex.EntityValidationErrors);
-            }
-        }
+        //        // Throw a new DbEntityValidationException with the improved exception message.
+        //        throw new DbEntityValidationException(exceptionMessage, ex.EntityValidationErrors);
+        //    }
+        //}
 
-        public override Task<int> SaveChangesAsync()
-        {
-            try
-            {
-                return base.SaveChangesAsync();
-            }
-            catch (DbEntityValidationException ex)
-            {
-                // Retrieve the error messages as a list of strings.
-                var exceptionMessage = GetValidationExceptionMessage(ex);
+        //public override Task<int> SaveChangesAsync()
+        //{
+        //    try
+        //    {
+        //        return base.SaveChangesAsync();
+        //    }
+        //    catch (DbEntityValidationException ex)
+        //    {
+        //        // Retrieve the error messages as a list of strings.
+        //        var exceptionMessage = GetValidationExceptionMessage(ex);
 
-                // Throw a new DbEntityValidationException with the improved exception message.
-                throw new DbEntityValidationException(exceptionMessage, ex.EntityValidationErrors);
-            }
-        }
+        //        // Throw a new DbEntityValidationException with the improved exception message.
+        //        throw new DbEntityValidationException(exceptionMessage, ex.EntityValidationErrors);
+        //    }
+        //}
 
-        private string GetValidationExceptionMessage(DbEntityValidationException ex)
-        {
-            var errorMessages = ex.EntityValidationErrors.SelectMany(x => x.ValidationErrors)
-                                                         .Select(x => x.ErrorMessage);
-            // Join the list to a single string.
-            var fullErrorMessage = string.Join("; ", errorMessages);
+        //private string GetValidationExceptionMessage(DbEntityValidationException ex)
+        //{
+        //    var errorMessages = ex.EntityValidationErrors.SelectMany(x => x.ValidationErrors)
+        //                                                 .Select(x => x.ErrorMessage);
+        //    // Join the list to a single string.
+        //    var fullErrorMessage = string.Join("; ", errorMessages);
 
-            // Combine the original exception message with the new one.
-            var exceptionMessage = string.Concat(ex.Message, " The validation errors are: ", fullErrorMessage);
-            return exceptionMessage;
-        }
+        //    // Combine the original exception message with the new one.
+        //    var exceptionMessage = string.Concat(ex.Message, " The validation errors are: ", fullErrorMessage);
+        //    return exceptionMessage;
+        //}
     }
 }

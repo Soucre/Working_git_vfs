@@ -40,7 +40,7 @@
         $scope.progressbar.complete();
         var cw = $('.img-thumbnail').width();
         $('.img-thumbnail').css({ 'height': cw + 'px' });
-    }
+    };
 
     var getData = function () {
         $http.get('/api/account/get-current-user').success(function (result) {
@@ -93,7 +93,7 @@
                 }
             }
         });
-    }
+    };
 
     //AVATAR
     $scope.getImage = function (data) {
@@ -102,7 +102,7 @@
         } else {
             return "/Content/images/no-person.jpg";
         }
-    }
+    };
 
     $scope.fileChanged = function (elm) {
         $scope.progressbar.start();
@@ -280,12 +280,12 @@
                     }
                 });
         }
-    }
+    };
 
     $scope.cancelPersonalInfo = function () {
         getData();
         $scope.isEditPersonalInfo = false;
-    }
+    };
     //EXPERIENCE LEVEL
     $scope.addNewCompanyHistory = function () {
         $scope.Model.JobSeeker.CompanyHistories.push({
@@ -295,7 +295,7 @@
             From: "",
             To: ""
         });
-    }
+    };
 
     $scope.deleteCompanyHistory = function (index, companyHistory) {
         if (companyHistory.Id === "") {
@@ -337,11 +337,11 @@
                     }
                 });
         }
-    }
+    };
 
     $scope.editExperienceLevel = function () {
         $scope.isEditExperienceLevel = true;
-    }
+    };
 
     $scope.saveExperienceLevel = function (experienceLevel) {
         if (experienceLevel.$valid) {
@@ -395,16 +395,16 @@
                     }
                 });
         }
-    }
+    };
 
     $scope.cancelExperienceLevel = function () {
         getData();
         $scope.isEditExperienceLevel = false;
-    }
+    };
     //INTEREST IN
     $scope.editInterestIn = function () {
         $scope.isEditInterestIn = true;
-    }
+    };
 
     $scope.saveInterestIn = function () {
         var model = {
@@ -448,17 +448,17 @@
                 }
             });
 
-    }
+    };
 
     $scope.cancelInterestIn = function () {
         getData();
         $scope.isEditInterestIn = false;
-    }
+    };
     //ADDITIONAL
     $scope.editAdditionalInfo = function () {
         $scope.isEditAdditionalInfo = true;
-    }
-
+    };
+    
     $scope.saveAdditionalInfo = function () {
         var model = {
             UserId: $scope.Model.Id,
@@ -499,7 +499,7 @@
                     }
                 }
             });
-    }
+    };
 
     $scope.cancelAdditionalInfo = function () {
         getData();

@@ -24,7 +24,6 @@ E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\System.Net.Http.Formattin
 E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\System.Spatial.dll
 E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\System.Web.Razor.dll
 E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\Utility.dll
-E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\CsvHelper.dll
 E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\BCrypt.Net.dll
 E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\Model.pdb
 E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\Utility.pdb
@@ -46,8 +45,6 @@ E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\RazorEngine.xml
 E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\System.Net.Http.Formatting.xml
 E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\System.Spatial.xml
 E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\System.Web.Razor.xml
-E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\CsvHelper.pdb
-E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\CsvHelper.xml
 E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\BCrypt.Net.pdb
 E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\BCrypt.Net.xml
 E:\Working Vfs\Working_git_vfs\swipejob\Core\bin\Debug\de\Microsoft.Data.Edm.resources.dll

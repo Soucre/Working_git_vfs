@@ -23,7 +23,5 @@ E:\Working Vfs\Working_git_vfs\swipejob\Model\bin\Debug\log4net.xml
 E:\Working Vfs\Working_git_vfs\swipejob\Model\bin\Debug\BCrypt.Net.pdb
 E:\Working Vfs\Working_git_vfs\swipejob\Model\bin\Debug\BCrypt.Net.xml
 E:\Working Vfs\Working_git_vfs\swipejob\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
-E:\Working Vfs\Working_git_vfs\swipejob\Model\obj\Debug\SwipeJob.Model.Migrations.InitDB.resources
-E:\Working Vfs\Working_git_vfs\swipejob\Model\obj\Debug\Model.csproj.GenerateResource.Cache
 E:\Working Vfs\Working_git_vfs\swipejob\Model\obj\Debug\Model.dll
 E:\Working Vfs\Working_git_vfs\swipejob\Model\obj\Debug\Model.pdb

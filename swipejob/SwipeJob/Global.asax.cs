@@ -4,6 +4,8 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using log4net.Config;
 using SwipeJob.Core;
+using System.Data.Entity;
+using SwipeJob.Model.EF;
 
 namespace SwipeJob.Web
 {
@@ -11,6 +13,7 @@ namespace SwipeJob.Web
     {
         protected void Application_Start()
         {
+            //Database.SetInitializer<AppDbContext>(null); // khi model thay doi, khong lam gì hết, 
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteTable.Routes.MapMvcAttributeRoutes();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
