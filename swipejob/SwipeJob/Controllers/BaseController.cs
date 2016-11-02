@@ -32,12 +32,15 @@ namespace SwipeJob.Web.Controllers
             return Guid.Empty;
         }
 
-        protected async Task<CurrentUser> GetCurrentUser()
+        protected CurrentUser GetCurrentUser()
         {
             try
             {
+                if (!User.Identity.IsAuthenticated) {
+                    return null;
+                }
                 Guid userId = GetCurrentUserId();
-                CurrentUser currentUser = await new AccountManager(userId).GetCurrentUser(userId);
+                CurrentUser currentUser = new AccountManager(userId).GetCurrentUser(userId);
                 ViewData["CurrentUser"] = currentUser;
                 return currentUser;
             }

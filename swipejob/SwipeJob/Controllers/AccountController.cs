@@ -35,7 +35,7 @@ namespace SwipeJob.Web.Controllers
         [HttpGet]
         public async Task<ActionResult> Setting()
         {
-            await GetCurrentUser();
+             GetCurrentUser();
             ViewData["UserId"] = GetCurrentUserId();
             return View();
         }

@@ -69,3 +69,7 @@ E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\bin\BCrypt.Net.xml
 E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\obj\Debug\SwipeJob.csprojResolveAssemblyReference.cache
 E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\obj\Debug\SwipeJob.dll
 E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\obj\Debug\SwipeJob.pdb
+E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\bin\SwipeJob.Data.dll
+E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\bin\Dapper.dll
+E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\bin\SwipeJob.Data.pdb
+E:\Working Vfs\Working_git_vfs\swipejob\SwipeJob\bin\Dapper.xml

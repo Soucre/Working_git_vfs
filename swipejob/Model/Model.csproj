@@ -134,9 +134,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Migrations\Seed\Industries.csv" />
-    <None Include="Migrations\Seed\Language.csv" />
-    <None Include="Migrations\Seed\Location.csv" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

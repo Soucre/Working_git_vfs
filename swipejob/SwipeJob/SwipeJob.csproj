@@ -706,6 +706,10 @@
       <Project>{faa2f34b-8991-40ef-ac5e-481830b1f604}</Project>
       <Name>Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SwipeJob.Data\SwipeJob.Data.csproj">
+      <Project>{6ed12a27-19bc-40e7-8eb4-bfcf438d8b5f}</Project>
+      <Name>SwipeJob.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Utility\Utility.csproj">
       <Project>{9356d5a8-f540-428c-aa07-c84047272718}</Project>
       <Name>Utility</Name>

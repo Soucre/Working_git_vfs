@@ -11,7 +11,7 @@ namespace SwipeJob.Web.Controllers
         [HttpGet]
         public async  Task<ActionResult> Search()
         {
-            await GetCurrentUser();
+             GetCurrentUser();
             return View();
         }
 
@@ -19,7 +19,7 @@ namespace SwipeJob.Web.Controllers
         [HttpGet]
         public async Task<ActionResult> JobDetail(Guid id)
         {
-            await GetCurrentUser();
+             GetCurrentUser();
             ViewData["id"] = id;
             return View();
         }
@@ -29,7 +29,7 @@ namespace SwipeJob.Web.Controllers
         [Authorize]
         public async Task<ActionResult> CreateEditJob(Guid? jobId)
         {
-            await GetCurrentUser();
+             GetCurrentUser();
             if (jobId.HasValue)
             {
                 ViewData["JobId"] = jobId;
@@ -46,7 +46,7 @@ namespace SwipeJob.Web.Controllers
         [Authorize]
         public async Task<ActionResult> EmployerJobs()
         {
-            await GetCurrentUser();
+             GetCurrentUser();
             return View();
         }
     }

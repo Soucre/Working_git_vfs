@@ -14,9 +14,9 @@ namespace SwipeJob.Web.Controllers
     {
         [Route("employer/{id}/profile")]
         [HttpGet]
-        public async Task<ActionResult> EmployerProfile(Guid id)
+        public ActionResult EmployerProfile(Guid id)
         {
-            await GetCurrentUser();
+            GetCurrentUser();
             ViewData["profileId"] = id;
             return View();
         }
@@ -25,7 +25,7 @@ namespace SwipeJob.Web.Controllers
         [HttpGet]
         public async Task<ActionResult> EmployerDashboad(Guid id)
         {
-            await GetCurrentUser();
+            GetCurrentUser();
             ViewData["profileId"] = id;
             return View();
         }

@@ -1,32 +1,26 @@
-﻿using SwipeJob.Data.Base;
+﻿using Dapper;
+using SwipeJob.Data.Base;
+using SwipeJob.Data.DB_Manager;
+using SwipeJob.Model;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SwipeJob.Data
 {
     public class UserDac: Disposable
     {
-        #region [Properties]
+        #region Properties
         /// <summary>
-        /// Query select
+        /// 
         /// </summary>
-        public string QueryString { get; set; }
-        
-        /// <summary>
-        /// SP Name 
-        /// </summary>
-        public string SPName { get; set; }
-
+        public Guid Id { get; set; }
         #endregion
 
-        #region Constructor
-
-        #endregion  
-
-
-
+        public User GetUserById()
+        {            
+            return DbManager.QuerySingle<User>("SJ_UserSelect", new DbQueryOption {
+                ConnectionID = DB_Swipe_Job.GetConnectionId(),
+                ParameterModel = new DynamicParameters(this)
+            });
+        }
     }
 }

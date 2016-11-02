@@ -12,7 +12,7 @@ namespace SwipeJob.Web.Controllers
         [HttpGet]
         public async Task<ActionResult> Index()
         {
-            await GetCurrentUser();
+            GetCurrentUser();
             ViewData["IsHome"] = true;
             //return RedirectToAction("CommingSoon");
             return View();
@@ -37,7 +37,7 @@ namespace SwipeJob.Web.Controllers
         [HttpGet]
         public async Task<ActionResult> AboutUs()
         {
-            await GetCurrentUser();
+             GetCurrentUser();
             return View();
         }
 
@@ -45,7 +45,7 @@ namespace SwipeJob.Web.Controllers
         [HttpGet]
         public async Task<ActionResult> ContactUs()
         {
-            await GetCurrentUser();
+             GetCurrentUser();
             return View();
         }
 
@@ -53,7 +53,7 @@ namespace SwipeJob.Web.Controllers
         [HttpGet]
         public async Task<ActionResult> FAQ()
         {
-            await GetCurrentUser();
+             GetCurrentUser();
             return View();
         }
 

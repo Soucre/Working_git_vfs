@@ -41,7 +41,7 @@ namespace SwipeJob.Web.Controllers
         [Authorize]
         public async Task<ActionResult> JobSeekerProfile(Guid id)
         {
-            await GetCurrentUser();
+             GetCurrentUser();
             ViewData["profileId"] = id;
             return View();
         }
@@ -50,7 +50,7 @@ namespace SwipeJob.Web.Controllers
         [HttpGet]
         public async Task<ActionResult> JobSeekerDashboad(Guid id)
         {
-            await GetCurrentUser();
+             GetCurrentUser();
             ViewData["profileId"] = id;
             return View();
         }
@@ -60,7 +60,7 @@ namespace SwipeJob.Web.Controllers
         [Authorize]
         public async Task<ActionResult> JobSeekerMyJob(ApplicantStatus applicantStatus)
         {
-            await GetCurrentUser();
+             GetCurrentUser();
             ViewData["ApplicantStatus"] = applicantStatus;
             return View();
         }

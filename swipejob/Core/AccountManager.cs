@@ -12,6 +12,7 @@ using SwipeJob.Model.Extra;
 using SwipeJob.Utility;
 using SwipeJob.Utility.Exceptions;
 using System.Net;
+using SwipeJob.Data;
 
 namespace SwipeJob.Core
 {
@@ -36,24 +37,28 @@ namespace SwipeJob.Core
                 return user;
             }
         }
-        public async Task<CurrentUser> GetCurrentUser(Guid id)
+        public CurrentUser GetCurrentUser(Guid id)
         {
-            using (AppDbContext context = new AppDbContext())
+            using (var dac = new UserDac())
             {
-                await GetCurrentUser(context);
-                User user = await context.Users.Include(x => x.JobSeeker).Include(x => x.Employer).FirstOrDefaultAsync(p => p.Id == id);
+                //await GetCurrentUser(context);
+                if (id == null) {
+                    return null;
+                }
+                dac.Id = id;
+                User user = dac.GetUserById();
 
-                int appliedJob = await context.Applicants.Where(p => p.ApplicantStatus == ApplicantStatus.Applied&& p.JobSeekerId==id).CountAsync();
-                int deletedJob = await context.Applicants.Where(p => p.ApplicantStatus == ApplicantStatus.Deleted && p.JobSeekerId == id).CountAsync();
-                int savedJob = await context.Applicants.Where(p => p.ApplicantStatus == ApplicantStatus.Saved && p.JobSeekerId == id).CountAsync();
-                int totalPostJob = await context.Jobs.Where(p => p.EmployerId == user.Id).CountAsync();
+                //int appliedJob = await context.Applicants.Where(p => p.ApplicantStatus == ApplicantStatus.Applied&& p.JobSeekerId==id).CountAsync();
+                //int deletedJob = await context.Applicants.Where(p => p.ApplicantStatus == ApplicantStatus.Deleted && p.JobSeekerId == id).CountAsync();
+                //int savedJob = await context.Applicants.Where(p => p.ApplicantStatus == ApplicantStatus.Saved && p.JobSeekerId == id).CountAsync();
+                //int totalPostJob = await context.Jobs.Where(p => p.EmployerId == user.Id).CountAsync();
                 return new CurrentUser
                 {
                     User = user,
-                    AppliedJob = appliedJob,
-                    DeletedJob = deletedJob,
-                    SavedJob = savedJob,
-                    TotalPostJob = totalPostJob
+                    AppliedJob = 1,
+                    DeletedJob = 1,
+                    SavedJob = 1,
+                    TotalPostJob = 1
                 };
             }
         }
